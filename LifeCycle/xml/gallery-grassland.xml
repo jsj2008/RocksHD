@@ -1,0 +1,27 @@
+<gallery>
+    <uid>grassland</uid>
+    <title>Ecosystem  Grassland</title>
+    <version>1</version>
+    <item>
+        <uid>1</uid>
+        <title>Zebra</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm4.staticflickr.com/3005/2896079731_2629bafb67_z_d.jpg?zz=1</url>
+        <description>Beautiful Zebras</description>
+        <attribution>Jack Nicohlas</attribution>
+        <status>A</status>
+        <version>1</version>
+    </item>
+    <item>
+        <uid>2</uid>
+        <title>Girrafes</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm5.staticflickr.com/4134/4820938759_c51348563c_z_d.jpg</url>
+        <description>Girrafes in grasslands</description>
+        <attribution>Duke Parker</attribution>
+        <status>A</status>
+        <version>1</version>
+    </item>
+  </gallery>

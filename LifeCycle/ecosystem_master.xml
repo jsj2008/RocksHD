@@ -1,0 +1,4044 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<app version="1" uid="1">
+    <name>
+        Ecosystems
+    </name>
+    <numberOfTopics>
+        3
+    </numberOfTopics>
+    <backgroundImage>home_background.png</backgroundImage>
+    <info>
+        Sprout Labs - Learning Reimagined!\n\nEcosystems HD is a visually engaging and fun exploration of the major biomes of the Earth.\n\nEver wondered why plants and animals have specific adaptations. Why do plants in the rainforest have drip tip leaves? Why do conifers have needle leaves? Why does the jackrabbit have large ears? How has the camel adapted to the desert? What are some adaptations of marine organisms?\n\nThe Ecosystems HD app will be a treat for the curious learner.\n\nPhotos and videos describe the characteristics of the biomes and their inhabitants. The Did You Know section has "WOW" facts related to each biome. The text to speech function allows the text to be narrated.\n\nThe ecosystems matching game is a fun matching game for the various ecosystems and their inhabitants. The quiz is based on Bloom's taxonomy and is designed to test not only remembering and understanding but also applying, evaluating, and analyzing the concepts.\n\nThe content correlates to State Science Standards in the USA.\n\nFeatures:\n\n- Curated photos and videos with descriptive text with free periodic refresh of photos and videos.\n\n- Did You Know section with WOW facts about each topic.\n\n- Easy, Intermediate and Advanced level questions based on Bloom's Taxonomy to test knowledge about the various topics.\n\n- Fun, matching game refreshed periodically with new content.\n\n\n*****\n\n For more information on news and updates, like us on Facebook and follow us on Twitter @SproutLabs.\n\n*****\n\nFor feature requests, feedback or support, send email to support@sproutlabs.net
+    </info>
+    <curriculum>
+        Ecosystems  App\n\nCorrelation to California State Science Standards\n\nGrade K\n*******\nLife Sciences:\n\t2a – The student will describe similarities and differences in the appearance and behavior of insects.\n\t2c – The student will identify major structures of common animals.\n\nGrade 1\n*******\nLife Sciences:\n\t2a – The student knows plants and animals inhabit different kinds of environments and have external features that help them thrive in different kinds of places.\n\t2b – The student knows that animals need food.\n\t2c – The student knows animals use plants for food.\n\t2d – The student knows how to infer what animals eat from the shape of their teeth.\n\nGrade 2\n*******\nLife Sciences:\n\t2a – The student knows organisms reproduce offspring of their own kind and that the offspring resemble the parents and each other.\n\t2b – The student knows the sequential stages of life cycle of animals.\n\t2c – The student knows many characteristics of organisms are inherited from parents.\n\nGrade 3\n*******\nLife Sciences:\n\t2a – The student knows animals have structures that serve different functions in growth, survival, and reproduction.\n\t2d – The student knows when the environment changes, some animals survive while others die or move to new locations.\n\n_______\n\nButterfly Life Cycle Common Core Correlations\n\nReading Standards for Informational Text K-5\n\nKey Ideas and Details\n*********************\n\nGrade K – Standards 1, 2, and 3\n\nGrade 1 – Standards 1, 2, and 3\n\nGrade 2 – Standards 1, 2, and 3\n\nGrade 3 – Standards 1, 2, and 3\n\nGrade 4 – Standards 1, 2, and 3\n\nGrade 5 – Standards 1, 2, and 3\n\n*Life Cycle app meets all standards in this area for grades K-5\n\nCraft and Structure\n*****************\n\nGrade K – Standard 4\n\nGrade 1 – Standards 4, 5, and 6\n\nGrade 2 – Standards 4, 5, and 6\n\nGrade 3 – Standard 4\n\nGrade 4 – no correlation\n\nGrade 5 – no correlation\n\nIntegration of Knowledge and Ideas\n******************************\n\nGrade K – Standards 7 and 8\n\nGrade 1 – Standards 7 and 8\n\nGrade 2 – Standards 7 and 8\n\nGrade 3 – Standards 7 and 8\n\nGrade 4 – Standards 7 and 8\n\nGrade 5 – Standard 8\n\nRange of Reading and Level of Text Complexity\n************************************\n\nGrade K – Standard 10\n\nGrade 1 – Standard 10\n\nGrade 2 – Standard 10\n\nGrade 3 – Standard 10\n\nGrade 4 – no correlation\n\nGrade 5 – no correlation\n\n
+    </curriculum>
+    <introTexts version="1">
+        <backgroundImage>info_background_strip.png</backgroundImage>
+        <item uid="0">
+            Every living thing, plant or animal, has a home. It's natural home is called its habitat.
+        </item>
+        <item uid="1">
+            These living things or biotic components, live in balance and interact with each other and with the non-living or abiotic components.
+        </item>
+        <item uid="2">
+            Abiotic components include light, air, water, soil and temperature. Together with the biotic components, they make up an ecosystem.
+        </item>
+        <item uid="3">
+            A biome is a large region that has plants, animals, and other living things that have adapted to the environmental conditions.
+        </item>
+        <item uid="4">
+            A biome can have many different ecosystems.
+        </item>
+        <item uid="5">
+            Plants and animals survive in their environment because of how they behave and how they are created. This is called adaptation.
+        </item>
+        <item uid="6">
+            When the environment changes too quickly for living things to adapt, they can die, and entire species may become extinct.
+        </item>
+        <item uid="7">
+            Thus, protecting the earth’s biomes, ecosystems, and habitats is very important!
+        </item>
+        <item uid="8">
+            Go ahead and start exploring the major biomes and ecosystems of the world!
+        </item>
+    </introTexts>
+    
+    <topic version="1" uid="1">
+        <number>1</number>
+        <name>glassland</name>
+        <topicImageName>ecosystem_stage1.png</topicImageName>
+        <topicBiggerImageName>ecosystem_stage1_bigger.png</topicBiggerImageName>
+        <mainText>
+            \n Grassland ecosystems mostly contain grasses and non-woody plants rather than large shrubs or trees and are found in areas of the earth where it is too wet for deserts, but too dry for forests.
+            \n There are two main types of grasslands: tropical grasslands that are close to the equator and are warm throughout the year, and have a rainy and a dry season and temperate grasslands that have a growing season and a season when it’s too cold for anything to grow.
+            \n Examples of the tropical grasslands are the Savannas and Veldts of Africa. The Steppes of Eurasia, the Pampas and Campos of South America and the Prairies of North America are examples of temperate grasslands.
+            \n Plants and animals that live in grasslands have adapted to the dry, windy conditions. Grasses have deep and extensive root systems to absorb moisture and to prevent the grazing animals from pulling the roots out of the ground.
+            \n Animals use camouflage to hide them from the carnivores (meat eaters). They have also developed the ability to run fast to escape predators and to migrate large distances to find water during the dry season. Since grasses are difficult to digest, the herbivores (grass eaters) have developed a digestive system with multiple stomachs.
+            \n Grasslands are very important to humans. They have deep soil which is rich in nutrients. They provide food for livestock, help prevent soil erosion, and act as a filter to cleanse water.
+        </mainText>
+        <optionalText>I am optional text</optionalText>
+        <mainTextTitleImageName>
+            grasslands_button.png
+        </mainTextTitleImageName>
+        <backgroundTrackName>
+            ecosystem_stage1bgtrack.mp3
+        </backgroundTrackName>
+        <voiceoverTrackName>Grasslands.mp3</voiceoverTrackName>
+        <images>
+            <item version="1" uid="0">
+                <name>Grassland-P1.png</name>
+                <title>Tropical Grasslands (Savanna)</title>
+                <attribution>Picture taken by Woodlouse</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="1">
+                <name>Grassland-P2.png</name>
+                <title>Temperate Grassland (Steppe)</title>
+                <attribution>Picture taken by bdearth</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="2">
+                <name>Grassland-P3.png</name>
+                <title>Winter in the Steppe</title>
+                <attribution>Picture taken by Einar Freriksen</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="3">
+                <name>Grassland-P4.png</name>
+                <title>Fires are common in grasslands</title>
+                <attribution>Picture taken by ercwttmn</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="4">
+                <name>Grassland-P5.png</name>
+                <title>Fertile grasslands are used for agriculture</title>
+                <attribution>Picture taken by CamPixie</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="5">
+                <name>Grassland-P6.png</name>
+                <title>New Zealand farm on a grassland</title>
+                <attribution>Picture taken by Donna Rutherford</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="6">
+                <name>Grassland-P7.png</name>
+                <title>Precious water in the Serengeti</title>
+                <attribution>Picture taken by amanderson2</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="7">
+                <name>Grassland-P8.png</name>
+                <title>Camouflaged giraffe in the African Bush</title>
+                <attribution>Picture taken by Violator1</attribution>
+                <scale>1.0</scale>
+            </item>
+        </images>
+        
+        <didYouKnows>
+            <didYouKnowTitleImage></didYouKnowTitleImage>
+            <didYouKnowLeftImage>grasslands_arrow_left.png</didYouKnowLeftImage>
+            <didYouKnowRightImage>grasslands_arrow_right.png</didYouKnowRightImage>
+            <item uid="0">
+                <text>About 25% of the total land area on earth is covered by grasslands</text>
+            </item>
+            <item uid="1">
+                <text>All major food grains like corn, wheat, oats, barley, rye, millet, and sorghum come from grasslands</text>
+            </item>
+            <item uid="2">
+                <text>Grasslands occur on every continent except Antarctica</text>
+            </item>
+            <item uid="3">
+                <text>Fire is important in maintaining grasslands because it recycles nutrients and prevents trees from growing</text>
+            </item>
+            <item uid="4">
+                <text>The amount of rainfall determines the height of grasses in the grassland</text>
+            </item>
+            <item uid="5">
+                <text>Grasslands have some of the world’s richest loam soil. This rich soil is ideal for farming and grazing</text>
+            </item>
+            <item uid="6">
+                <text>Temperate grasslands typically occur between deserts and forests</text>
+            </item>
+            <item uid="7">
+                <text>If there is less 10 inches of precipitation a desert will form and if there is at least 40 inches, a forest will form</text>
+            </item>
+            <item uid="8">
+                <text>Prairies formed about 8000 years ago</text>
+            </item>
+            <item uid="9">
+                <text>Animals in the savanna have evolved long legs to help them migrate during drought</text>
+            </item>
+            <item uid="10">
+                <text>Pine, acacia and palm are trees found in the savanna since they are resistant to drought and poor soil</text>
+            </item>
+            <item uid="11">
+                <text>Mountain ranges maintain grasslands by blocking rainfall</text>
+            </item>
+            <item uid="12">
+                <text>Perennial plants are dominant in temperate grasslands while annuals are dominant in tropical grasslands</text>
+            </item>
+            <item uid="13">
+                <text>Water is so scarce in the arid regions of China that people use yak's milk to wash their faces</text>
+            </item>
+            <item uid="14">
+                <text>Fire helps many plants by germinating their seeds</text>
+            </item>
+            <item uid="15">
+                <text>50% of Africa is made of grasslands</text>
+            </item>
+            <item uid="16">
+                <text>Over 30% of the grasses in the Prairies are non-native grasses</text>
+            </item>
+            <item uid="17">
+                <text>Over half of the animals in the temperate grasslands burrow underground</text>
+            </item>
+            <item uid="18">
+                <text>A majority of the grasslands are found near the tropics</text>
+            </item>
+            <item uid="19">
+                <text>Temperate grasslands have more organic material in the soil than tropical grasslands</text>
+            </item>
+        </didYouKnows>
+        <voiceoverPacings>
+            <voiceoverPacingsTime>
+                3.783,3.851,3.650,2.133,3.951,3.549,3.568,3.532,3.167,3.650,3.601,3.716,3.0,2.024,3.204,3.101,3.1,3.1,1.60,3.10,3.10,3.60,3.10,3.10,3.10,3.50,3.8,3.0,2.0
+            </voiceoverPacingsTime>
+            <voiceoverPacingsSpace>                -40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40,-80-40.0,-40.0,-40.0,-40
+            </voiceoverPacingsSpace>
+        </voiceoverPacings>
+        <youtubeVideos>
+            <item uid="0">
+                <videoId>INcW26-iyqU</videoId>
+                <title>The Life cycle of a Butterfly</title>
+                <attribution>kendal0923</attribution>
+            </item>
+            <item uid="1">
+                <videoId>iuhv6FJBYck</videoId>
+                <title>Butterfly laying eggs in a garden</title>
+                <attribution>attribution</attribution>
+            </item>
+            <item uid="2">
+                <videoId>dzgveXh00gc</videoId>
+                <title>Monarch butterfly laying eggs</title>
+                <attribution>psong100</attribution>
+            </item>
+            <item uid="3">
+                <videoId>ikWzJ2rGxiM</videoId>
+                <title>Polydamas Swallowtail butterfly laying eggs</title>
+                <attribution>meiralfasi</attribution>
+            </item>
+            <item uid="4">
+                <videoId>pQKwzhEXLEo</videoId>
+                <title>A Monarch butterfly egg hatches</title>
+                <attribution>scw1217</attribution>
+            </item>
+            <item uid="5">
+                <videoId>ID0h30gHVdw</videoId>
+                <title>Title</title>
+                <attribution>naturedisc</attribution>
+            </item>
+            <item uid="6">
+                <videoId>VBb0ZdmfYQc</videoId>
+                <title>Title</title>
+                <attribution>attribution</attribution>
+            </item>
+        </youtubeVideos>
+        <flickrPhotos>
+            <galleryId>76237694-72157629628909383</galleryId>
+        </flickrPhotos>
+        <backgroundImage>grasslands_bg.png</backgroundImage>
+        <starterImages>
+            <item uid="0">
+                1128860064
+            </item>
+            <item uid="1">
+                2896079731
+            </item>
+        </starterImages>
+        
+        <gallery version="12" uid="grassland">
+            <title>Ecosystem Grassland</title>
+            <item version="1" uid="4">
+                <title>Grassland</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2607/4120008935_a7fe197e43_z.jpg</url>
+                <description>Grasslands have mostly grasses and non-woody plants instead of shrubs and trees</description>
+                <attribution>cm195902</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="5">
+                <title>Savanna</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm5.staticflickr.com/4134/4940255253_8a6bd45c81_z.jpg</url>
+                <description>The Savanna of Africa is a tropical grassland with shrubs and some trees</description>
+                <attribution>West Zest</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="6">
+                <title>Steppes</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm5.staticflickr.com/4137/4881182877_e4da86258e_z.jpg</url>
+                <description>The Steppes of Eurasia are temperate grasslands and have a growing season and cold winters</description>
+                <attribution>bdearth</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="7">
+                <title>Grassland soil</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm5.staticflickr.com/4001/4253295948_210d5362b9_z.jpg</url>
+                <description>Grasslands have some of the worlds richest loam soil. The rich soil is ideal for farming and grazing</description>
+                <attribution>jewell willett</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="8">
+                <title>Pampas grass</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm5.staticflickr.com/4039/4253609324_de0a05ba95_z.jpg</url>
+                <description>The Pampas grass has deep roots to find water and can grow in almost any habitat</description>
+                <attribution>Tamago Moffle</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="9">
+                <title>Baobab</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm5.staticflickr.com/4117/4954709441_08a8113b29_z.jpg</url>
+                <description>The baobab tree uses its stems like a funnel to collect water</description>
+                <attribution>abi.bhattachan</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="10">
+                <title>Elephants</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2411/5760241683_c2052d0295_z.jpg</url>
+                <description>Elephants in the savanna use camouflage to protect them from predators</description>
+                <attribution>Chrissy Olson</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="11">
+                <title>Kudu</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm1.staticflickr.com/115/264868235_27b6335b5e_z.jpg</url>
+                <description>The grasslands vegetation provides shelter and camouflage for antelopes like the kudu</description>
+                <attribution>oddsock</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="12">
+                <title>Springbok</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm1.staticflickr.com/68/191025177_575192f04f_z.jpg?zz=1</url>
+                <description>Springboks can jump 13 feet high and long jump to 50 feet to escape from predators</description>
+                <attribution>coda</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="13">
+                <title>Lioness</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm4.staticflickr.com/3470/3905492430_d548c7d399_z.jpg</url>
+                <description>Predators in the grasslands also use camouflage to help them when hunting</description>
+                <attribution>saragoldsmith</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="14">
+                <title>Wildebeest</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm5.staticflickr.com/4075/4942052520_0cce139384_z.jpg</url>
+                <description>Animals like the wildebeest migrate large distances to find water during the dry season</description>
+                <attribution>Gabriel White</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="15">
+                <title>Prairie dogs</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2784/5802183416_daee7b0f66_z.jpg</url>
+                <description>Prairie dogs get their water from the plants and hibernate in the burrows during winter</description>
+                <attribution>iluvcocacola</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="16">
+                <title>Bird migration</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm7.staticflickr.com/6163/6182300171_66afe70055_z.jpg</url>
+                <description>Birds migrate to warmer climates during the cold winter</description>
+                <attribution>richardrichard</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="17">
+                <title>Bison</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm4.staticflickr.com/3448/3904654237_88f07573d0_z.jpg</url>
+                <description>The American bison has thick fur that keeps it warm in winter and can be shed in summer to cool the animal</description>
+                <attribution>Lee Coursey</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="18">
+                <title>Vultures</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm1.staticflickr.com/8/10197749_9ad3daf8ce_z.jpg</url>
+                <description>Vultures have keen eyesight and strong beaks and help clean up the carcass of dead animals</description>
+                <attribution>kevinzim</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="19">
+                <title>Kangaroo</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm4.staticflickr.com/3382/3334741664_c8770c07e6_z.jpg</url>
+                <description>Kangaroos can travel long distances by hopping. They have four pairs of chewing teeth to eat the grasses</description>
+                <attribution>Ryan Wick</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="20">
+                <title>Fires</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm7.staticflickr.com/6157/6194551803_d364840029_z.jpg</url>
+                <description>Natural causes like fires and human activities can impact and alter grassland ecosystems</description>
+                <attribution>USFWS Mountain Prairie</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="21">
+                <title>Humans</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm2.staticflickr.com/1174/873475737_d326bbca66_z.jpg?zz=1</url>
+                <description>Human activities can have a lasting impact on the ecosystem in the grasslands</description>
+                <attribution>steven.buss</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="22">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=9WuLjqydz_w</url>
+                <description></description>
+                <attribution>FloraFaunNL</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="2" uid="23">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=VBb0ZdmfYQc</url>
+                <description></description>
+                <attribution>DucksUnlimitedInc</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="24">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=oi3bDdBDmRk</url>
+                <description></description>
+                <attribution>greentvgreentv</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="25">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=ikWzJ2rGxiM</url>
+                <description></description>
+                <attribution>HinterlandWW</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="26">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=ezHcyIq5Xgw</url>
+                <description></description>
+                <attribution>PrairieWildlifeRes</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="27">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=4G8Gfz1hn-A</url>
+                <description></description>
+                <attribution>moconservation</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="28">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=xY5CJAZchxE</url>
+                <description></description>
+                <attribution>Allegrosjf</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+        </gallery>
+        
+        <questions version="1">
+            <item uid="0">
+                <question>
+                    Grasslands have grasses and
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Trees</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Shrubs</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Non-woody plants or forbs</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Cactus</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="1">
+                <question>
+                    What is the name for the grasslands in Europe and Asia?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Pampas</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Prairie</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Savanna</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Steppes</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="2">
+                <question>
+                    There are two types of grasslands: Tropical and
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Savanna</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Prairie</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Temperate</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Steppes</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="3">
+                <question>
+                    Plants have adapted to the grasslands by developing
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Leaves</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Deep roots</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Thick stems</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Beautiful flowers</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="4">
+                <question>
+                    Tropical grasslands are found near
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Equator</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Deserts</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Water bodies</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Temperate grasslands</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+
+            <item uid="5">
+                <question>
+                    A tropical grassland has the following growing seasons
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Warm and a cold</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Rainy and a dry</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+
+            <item uid="6">
+                <question>
+                    The amount of rainfall in the grassland determines the
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Thickness of the grass</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Shape of the leaf</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Height of the grass</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Number of leaves</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="7">
+                <question>
+                    When plants and animals die, the process by which they are added to the soil is called
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Evaporation</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Decomposition</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Digestion</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Pollination</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="8">
+                <question>
+                    Which of the following is NOT an example of animal adaptation in the grasslands?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Migration</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Camouflage</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Running fast</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Decomposition</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="9">
+                <question>
+                    The Antarctic is the only continent which does not have a grassland. True or False?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>True</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>False</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="10">
+                <question>
+                    If you had more than 40 inches of rainfall in a grassland what kind of biome would it become?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Desert</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Forest</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Tropical grassland</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Aquatic</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="11">
+                <question>
+                    Lions, zebras, antelope, wildebeest and other animals live in Africa. The grassland is called
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Savanna</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Campos</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Steppes</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Illanos</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+
+            <item uid="12">
+                <question>
+                    A desert is unlike a grassland because
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>It gets very little rainfall</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>It has its own ecosystem</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>It has carnivores and herbivores</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>It occurs in different continents</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="13">
+                <question>
+                    All animals that live in the grasslands eat only grasses. True or False?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>True</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>False</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="14">
+                <question>
+                    What do you call an animal that eats other living creatures?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Insectivore</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Omnivore</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Herbivore</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Carnivore</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="15">
+                <question>
+                    Mountain ranges help form grasslands by
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Adding beauty to the landscape</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Preventing the animals from migrating</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Blocking rainfall</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Having a competing ecosystem</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="16">
+                <question>
+                    Why is fire important to the grasslands?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Makes the grass easier to digest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Prevent carnivores from eating all the herbivores</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Helps germinate the seeds and prevents trees from spreading</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Warns humans about destroying grasslands</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="17">
+                <question>
+                    Why are grasslands important to humans?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>They have rich soil for cultivation</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>They are home to plants and animals</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>They are found in almost all continents</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>They don't have a lot of trees</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="18">
+                <question>
+                    Since it is dry and windy in the grasslands, grasses are mostly pollinated by
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Water</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Soil</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Wind</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Insects</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="19">
+                <question>
+                    Since grasses are difficult to digest, how have herbivores adapted to this?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Adapted by developing a complex digestive process</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Stopped eating grasses</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Moved to newer areas</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>They do not digest the grass</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="20">
+                <question>
+                    If you were a herbivore in a grassland and there was drought, you would
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Do nothing</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Eat more grasses</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Migrate to a place with water and food</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Become a carnivore</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="21">
+                <question>
+                    In order for grasslands to have tall grasses what is needed?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Fertilizer</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>More seeds</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>More sunshine</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>More rain</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="22">
+                <question>
+                    If you had to convert a grassland into a desert what would you need to do?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Drive all the animals away</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Reduce the amount of rainfall to less than 10 inches per year</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Begin planting cacti</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Add sand to the grassland</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+
+            <item uid="23">
+                <question>
+                    Perennial plants are the dominants species in
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Tropical grasslands</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Temperate grasslands</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Deserts</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Antarctica</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="24">
+                <question>
+                    If you were an animal in the grassland that could not run fast what could you do?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Develop wings to fly</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Burrow and hide underground</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Get help from animals that could run fast</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>From large groups to confuse predators</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="25">
+                <question>
+                    Why are grasslands located between deserts and forests?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>They had no other place to form</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>They get more rainfall than forests and less than deserts</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>They get more rainfall than deserts and less than forests</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>They have grasses and some trees</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="26">
+                <question>
+                    If a grassland had no fires, what could happen?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Humans could use it for more options</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>It would become very cold</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>The grasses would die due to too much water</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>It could become a forest over time</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="27">
+                <question>
+                    If a plant had broad leaves and shallow roots, what changes would it need to make to survive in a grassland
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Develop narrow leaves and deep extensive roots</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Shed all its leaves</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Create attractive and good smelling flowers</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Go into dormancy during the winter</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+
+            <item uid="28">
+                <question>
+                    Why do soils of temperate grasslands have more organic matter?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>There are more animals and plants in this grassland</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Humans use this grassland more and add organic material</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Rainwater brings organic material to this grassland</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>They have less rainfall and hence less leaching of organic material</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="29">
+                <question>
+                    Why does the acacia tree survive in grasslands?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>It has no leaves</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Elephants like the tree</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>It grows well in poor soil and drought conditions</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>It grows to be a tall tree with a thick stem</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+        </questions>
+        
+    </topic>
+    
+    <topic version="1" uid="2">
+        <number>2</number>
+        <name>desert</name>
+        <topicImageName>ecosystem_stage2.png</topicImageName>
+        <topicBiggerImageName>ecosystem_stage2_bigger.png</topicBiggerImageName>
+        <mainText>
+            \n Deserts are very dry or arid regions of the world that receive fewer than ten inches of rain a year. Some deserts don’t receive rainfall for four, five, or even more years in a row!
+            \n There are four kinds of deserts: subtropical or hot and dry deserts, semi-arid deserts, coastal deserts and polar or cold deserts. Both the Arctic and Antarctic regions are polar deserts. Semi-arid deserts like Patagonia and Gobi have dry summers and cold winters and are often in the rain shadow region of a mountain range. The subtropical deserts that most people think about are places like the Sahara and Kalahari deserts of Africa, while the Atacama and the Namib are examples of coastal deserts that have long warm summers and cool winters.
+            \n Plants and animals must adapt to be able to survive the desert’s tough conditions. Desert plants like cactus have thick and fleshy stems to store water. They also have spiny leaves to prevent loss of water through transpiration, which is similar to sweating.
+            \n Camels have a hump (or two if it is a Bactrian camel) to store fat, which can be metabolized for energy. This allows the camel to go without food or water for long periods of time. Camels also have broad, leathery pads at the bottom of their hooves which prevents them from sinking in the sand. Camels have two rows of long eyelashes and nostrils that can be closed to keep the sand out.
+            \n Most desert animals are nocturnal. They stay cool, hiding during daytime, and come out at night.
+        </mainText>
+        <mainTextTitleImageName>deserts_button.png</mainTextTitleImageName>
+        <backgroundTrackName>ecosystem_stage2bgtrack.mp3</backgroundTrackName>
+        <voiceoverTrackName>Deserts.mp3</voiceoverTrackName>
+        <images>
+            <item uid="0">
+                <name>Desert-P1.png</name>
+                <title>Kalahari sub-tropical desert</title>
+                <attribution>Picture taken by Jeppestown</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="1">
+                <name>Desert-P2.png</name>
+                <title>Atacama desert</title>
+                <attribution>Picture taken by Danielle Pereira</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="2">
+                <name>Desert-P3.png</name>
+                <title>Antarctic desert</title>
+                <attribution>Picture taken by Victor</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="3">
+                <name>Desert-P4.png</name>
+                <title>Cactus with fleshy stem</title>
+                <attribution>Picture taken by Phil Whitehouse</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="4">
+                <name>Desert-P5.png</name>
+                <title>Bactrian camel with two humps</title>
+                <attribution>Picture taken by Jeff Kubina</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="5">
+                <name>Desert-P6.png</name>
+                <title>Mojave rattlesnake</title>
+                <attribution>Picture taken by David~O</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="6">
+                <name>Desert-P7.png</name>
+                <title>Sahara desert sand dunes</title>
+                <attribution>Picture taken by Raul Santos de la Camara</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="7">
+                <name>Desert-P8.png</name>
+                <title>Desert sunset</title>
+                <attribution>Picture taken by Alan Huett</attribution>
+                <scale>1.0</scale>
+            </item>
+        </images>
+        
+        <didYouKnows>
+            <didYouKnowTitleImage></didYouKnowTitleImage>
+            <didYouKnowLeftImage>deserts_arrow_left.png</didYouKnowLeftImage>
+            <didYouKnowRightImage>deserts_arrow_right.png</didYouKnowRightImage>
+            <item uid="0">
+                <text>A camel can drink as much as 30 gallons of water at one time</text>
+            </item>
+            <item uid="1">
+                <text>Deserts can be found on every continent on the earth</text>
+            </item>
+            <item uid="2">
+                <text>The Resurrection tree looks brown and dead until it rains, when it turns green</text>
+            </item>
+            <item uid="3">
+                <text>The Kangaroo rat and Addax get water from their food</text>
+            </item>
+            <item uid="4">
+                <text>The first dinosaur eggs were discovered in the Gobi desert (a cold desert)</text>
+            </item>
+            <item uid="5">
+                <text>Cave paintings from the Sahara desert show that at one time it was a green, tropical region</text>
+            </item>
+            <item uid="6">
+                <text>The Sahara desert can reach temperatures up to 122 F    (50 C) in the daytime</text>
+            </item>
+            <item uid="7">
+                <text>The jackrabbit has large ears to help cool off when it is resting in the shade</text>
+            </item>
+            <item uid="8">
+                <text>The African fringe toad lizard keeps cool by dancing</text>
+            </item>
+            <item uid="9">
+                <text>Antarctica is the world’s largest cold desert</text>
+            </item>
+            <item uid="10">
+                <text>The Atacama Desert in Chile is the driest place on earth</text>
+            </item>
+            <item uid="11">
+                <text>Most hot and dry deserts are near the Tropic of Cancer or the Tropic of Capricorn</text>
+            </item>
+            <item uid="12">
+                <text>Some sand dunes in the Sahara can reach 180 meters or 590 feet</text>
+            </item>
+            <item uid="13">
+                <text>The Namib desert is considered the world’s oldest desert</text>
+            </item>
+            <item uid="14">
+                <text>The Arabian desert has the world’s largest expanse of continuous sand</text>
+            </item>
+            <item uid="15">
+                <text>The soil of the Atacama desert is similar to the Martian soil. It has chemicals like nitrates and perchlorates</text>
+            </item>
+            <item uid="16">
+                <text>Most desert plants flower and produce seeds right after rains</text>
+            </item>
+            <item uid="17">
+                <text>The Sahara desert has 30% sand and 70% gravel</text>
+            </item>
+            <item uid="18">
+                <text>Some mosses and lichens get water by soaking up dew</text>
+            </item>
+            <item uid="19">
+                <text>Deserts cover a fifth of the earth’s surface</text>
+            </item>
+        </didYouKnows>
+
+        <voiceoverPacings>
+            <voiceoverPacingsTime>
+                4,4,4,1,4.2,4.4,4.4,4.2,4.1,3.7,3.7,3.5,3.5,3.6,1.3,4,4,3,3,3.6,3.6,3.6,3.8,3.6,3.4,3.4,3.5,3.0,3
+            </voiceoverPacingsTime>
+            <voiceoverPacingsSpace>
+                -40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0
+            </voiceoverPacingsSpace>
+        </voiceoverPacings>
+        
+        <youtubeVideos>
+            <item uid="0">
+                <videoId>-St-I3qRFQE</videoId>
+                <title>Title</title>
+                <attribution>Amphibiansunrise</attribution>
+            </item>
+            <item uid="1">
+                <videoId>2jX9SgtRTgE</videoId>
+                <title>Newly hatched Monarch caterpillar</title>
+                <attribution>horace2264</attribution>
+            </item>
+            <item uid="2">
+                <videoId>stc7QSKVSn4</videoId>
+                <title>Newly hatched caterpillar eating its egg shells</title>
+                <attribution>triggermouse</attribution>
+            </item>
+            <item uid="3">
+                <videoId>BVkdwQQ-yqQ</videoId>
+                <title>Swallow tail caterpillar feeding</title>
+                <attribution>timeismemory</attribution>
+            </item>
+            <item uid="4">
+                <videoId>OHVLIRv7ecA</videoId>
+                <title>Monarch caterpillar molting its skin</title>
+                <attribution>cuttermedia</attribution>
+            </item>
+            <item uid="5">
+                <videoId>P6M5hw2eTWY</videoId>
+                <title>Monarch caterpillar to Chrysalis time lapse</title>
+                <attribution>attribution</attribution>
+            </item>
+            <item uid="6">
+                <videoId>9Aly8AgbdwI</videoId>
+                <title>Caterpillar spinning a cocoon</title>
+                <attribution>attribution</attribution>
+            </item>
+        </youtubeVideos>
+        <flickrPhotos>
+            <galleryId>76269833-72157629493368142</galleryId>
+        </flickrPhotos>
+        <backgroundImage>deserts_bg.png</backgroundImage>
+        
+        <starterImages>
+            <item uid="0">
+                6830443026
+            </item>
+            <item uid="1">
+                523710222
+            </item>
+        </starterImages>
+        
+        <gallery version="10" uid="desert">
+            <title>Ecosystem Desert</title>
+            <item version="1" uid="4">
+                <title>Sahara</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm6.staticflickr.com/5221/5630241115_7ea76d6290_z.jpg</url>
+                <description>The Sahara is the world's largest hot desert with temperatures reaching 122F or 50C </description>
+                <attribution>TREEAID</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="5">
+                <title>Antarctica</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm6.staticflickr.com/5044/5239470296_a0c68118d5_z.jpg</url>
+                <description>The Antarctic region is a polar or cold desert. It is the coldest and windiest place on earth</description>
+                <attribution>US Embassy New Zealand</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="6">
+                <title>Atacama</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2146/2043918256_fe5e1897d2_z.jpg</url>
+                <description>The Atacama desert in Chile is a coastal desert that is considered the driest place on earth</description>
+                <attribution>rewbs.soal</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="7">
+                <title>Gobi Desert</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm1.staticflickr.com/26/59510135_e80bf39839_z.jpg</url>
+                <description>The Gobi desert in Mongolia, a semi-arid desert, is in the rainshadow region of the Himalayas</description>
+                <attribution>Andrzej W</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="8">
+                <title>Palm tree</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2244/2505094335_d860a43034_z.jpg</url>
+                <description>Palm trees have deep fibrous roots to reach the water</description>
+                <attribution>http2007</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="9">
+                <title>Cacti</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm4.staticflickr.com/3539/3387880841_8082a0483b_z.jpg</url>
+                <description>Cacti have long roots and use their thick, fleshy stems to store water</description>
+                <attribution>wallygrom</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="10">
+                <title>Cactus leaf</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm2.staticflickr.com/1130/1450514807_c9ba6dee5e_z.jpg</url>
+                <description>The cactus has spiny leaves to prevent loss of water through transpiration</description>
+                <attribution>jetsandzeppelins</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="11">
+                <title>Desert plants</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm6.staticflickr.com/5028/5878838306_ffc4e6ccf2_z.jpg</url>
+                <description>Drought tolerant plants reduce their metabolism during dry seasons and resume growth after rains</description>
+                <attribution>Jams Byrum</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="2" uid="12">
+                <title>Mulga</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm4.staticflickr.com/3204/3154711843_261ca7ac03_z.jpg</url>
+                <description>The Australian mulga tree has leaves that grow in the shape of funnels and direct rainwater to the roots</description>
+                <attribution>djpmapleferryman</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="13">
+                <title>Acacia</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm4.staticflickr.com/3134/2732161814_124fd5dfde_z.jpg</url>
+                <description>The whitethorn acacia loses its leaves during severe droughts and has thorns to keep animals away</description>
+                <attribution>kretyen</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="14">
+                <title>Camel</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm7.staticflickr.com/6097/6222768425_b87e62a8d0_z.jpg</url>
+                <description>Camels have a hump to store fat that can be metabolized for energy when needed</description>
+                <attribution>isapisa</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="15">
+                <title>Camel eyes</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2214/2456081119_ca2b7b98c8_z.jpg?zz=1</url>
+                <description>Camels have two rows of long eyelashes and nostrils that can be closed to keep the sand out</description>
+                <attribution>indigoprime</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="16">
+                <title>Camel legs</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm8.staticflickr.com/7134/7080604451_43edae074b_z.jpg</url>
+                <description>Camels have two toes on each foot and a pad that connects them and helps spread the weight so that they can walk on sand</description>
+                <attribution>geographyalltheway.com</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="17">
+                <title>Jackrabbit</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2328/1560877428_707a221040_z.jpg?zz=1</url>
+                <description>The large ears of a jackrabbit with a network of blood vessels help dissipate heat when resting in the shade</description>
+                <attribution>eschipul</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item>
+                <uid>18</uid>
+                <title>Kangaroo rat</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm8.staticflickr.com/7021/6554996147_cd586b1eae_z.jpg</url>
+                <description>The kangaroo rat gets its water from the food it eats</description>
+                <attribution>USFWS Pacific Southwest Region</attribution>
+                <status>A</status>
+                <version>1</version>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="19">
+                <title>Desert Tortoise</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm7.staticflickr.com/6140/6012502158_50fbfb61b3_z.jpg</url>
+                <description>Desert tortoises stay cool by burrowing into the ground. They can live without water for a year</description>
+                <attribution>USFWS Pacific Southwest Region</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="20">
+                <title>Thorny Devil Lizard</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm4.staticflickr.com/3150/3048162566_0f894a7c31_z.jpg?zz=1</url>
+                <description>The thorny devil lizard's body is made of ridges that allow it to collect water from any part of the body and send it to its mouth</description>
+                <attribution>chem7</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="21">
+                <title>San people</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2514/3998700658_726a792106_z.jpg</url>
+                <description>The San people create sip wells to get water from the sand and eat animals and plants found in the Kalahari</description>
+                <attribution>Frank.Vassen</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="22">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=-St-I3qRFQE</url>
+                <description></description>
+                <attribution>natureconservancy</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="26">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=VwADGPfjerI</url>
+                <description></description>
+                <attribution>dhgpj</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="23">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=7Ifk9IJl0A0</url>
+                <description></description>
+                <attribution>dizzo95</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="24">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=BVkdwQQ-yqQ</url>
+                <description></description>
+                <attribution>audubonguides</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="27">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=6yaSkpKdj3E</url>
+                <description></description>
+                <attribution>rosyboas</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="25">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=ZV8cO70fz7o</url>
+                <description></description>
+                <attribution>magnusgrafex</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="28">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=Xn1h0Oy82Xo</url>
+                <description></description>
+                <attribution>DiscoveryNetworks</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+        </gallery>
+
+        <questions version="1">
+            <item uid="0">
+                <question>
+                    How much rainfall does a typical desert receive per year?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>1 inch</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>15 inch</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>10 inches</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>20 inches</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="1">
+                <question>
+                    What kind of desert is the Antarctic Ice Sheet?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Hot, dry desert</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>High desert</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Cold desert</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Warn desert</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="2">
+                <question>
+                    Loss of water through the leaves is called
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Transpiration</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Pollination</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Desertification</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Evaporation</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="3">
+                <question>
+                    Deserts always have sand. True or False?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>True</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>False</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="4">
+                <question>
+                    Most deserts are found near
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Tropic of Cancer and Tropic of Capricorn</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Equator</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Arctic</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Mountains</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="5">
+                <question>
+                    How much of the earth's surface area is covered with deserts?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>10%</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>20%</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>30%</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>40%</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="6">
+                <question>
+                    How many humps does a Bactrian camel have?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>One</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Two</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Three</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Four</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="7">
+                <question>
+                    Most desert animals are
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Diurnal or active during the day</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Nocturnal or active at night</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Crepuscular or active at dawn or dusk</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Cathemeral or have random intervals of activity</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="8">
+                <question>
+                    How do some mammals keep cool in the desert?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Eating cacti</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Digging an underground den</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Sleep at night</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Drinking water</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="9">
+                <question>
+                    What adaptation of the cactus allows it to prevent loss of water?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Green color</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Thick and fleshy stems</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Spiny leaves</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Shallow roots</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="10">
+                <question>
+                    All deserts have similar plants and animals. True or False?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>True</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>False</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="11">
+                <question>
+                    How does the camel benefit from being able to close its nostrils?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>It keeps the sand out</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>It keeps the insects out</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>It helps the camel stay cool</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>It keeps away bad odor</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="12">
+                <question>
+                    Which of the following is true about cold deserts?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>They have no plants or animals</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>They are hot and dry</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Humans don't live there</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>They have water</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="13">
+                <question>
+                    The Sahara and Kalahari are 
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Examples of cold deserts</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Types of camels</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Types of cactus</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Examples of subtropical deserts</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="14">
+                <question>
+                    Where do camels store the fat they need for energy?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>In their stomach</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>In their humps</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>In their skin</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>In their legs</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="15">
+                <question>
+                    Why do most desert animals come out at night
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>They can see better at night</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Other animals come out at night</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>It is cooler at night</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>It is quieter at night</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="16">
+                <question>
+                    Some animals have adapted by not needing water to survive. How do they get the water?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>From the food they eat</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>From underground wells</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>From the air</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>From other animals</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="17">
+                <question>
+                    Very often frost and snow can be seen on the dunes of Gobi desert. What type of desert is it
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>High desert</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Cold desert</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Hot and dry desert</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>It is not a desert</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="18">
+                <question>
+                    When plants and animals evolve to live in their habitat what is it called?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Selection</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Evolution</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Symbiosis</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Adaptation</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="19">
+                <question>
+                    If a camel goes long enough without food, what will happen to its hump?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>It will remain the same</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>It will reduce in size</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>It will grow</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>It will split into two humps</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="20">
+                <question>
+                    If the amount of rainfall increased what biome would the desert become?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Tundra</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Grassland</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Aquatic</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="21">
+                <question>
+                    Which of the following can contribute to Desertification or the process of desert formation?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Overgrazing</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Deforestation or removal of trees</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Depletion or loss of water resources</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>All the above</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="22">
+                <question>
+                    Which of the following is not an example of adaptation to the desert habitat?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Large ears of the jackrabbit</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Spiny leaves of the cactus</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>The hump of a camel</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Sand dunes in the desert</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="23">
+                <question>
+                    If you were an animal living in the desert when should you be active?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>During the day</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>During the night</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>All throughout the day</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>None of the above</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="24">
+                <question>
+                    Why are camels known as the "Ships of the desert"
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>They have the same color as large ships</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Their adaptation allows them to travel long distances without food while carrying heavy loads</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>There are no ships in the desert</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>They travel in groups called caravans</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="25">
+                <question>
+                    How are polar and semi-arid deserts similar?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>They are found in the same regions of the earth</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>The have warm summers</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>They have no water</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>They have very cold winters</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="26">
+                <question>
+                    How do semi-arid deserts form?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>By a mountain range blocking moisture from reaching the area</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Winds off the coast blow easterly and prevent moisture from reaching the land</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>There is a lot of snowfall</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Due to earthquakes</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="27">
+                <question>
+                    How do desert plants survive long dry periods?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>By growing deep roots</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>By shedding their leaves</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>By remaining dormant</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>By growing taller</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="28">
+                <question>
+                    Which of the following is NOT an adaptation of a nocturnal animal?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Large ears</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Big eyes</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Dark in color</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Long legs</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+        </questions>
+    </topic>
+    
+    <topic version="1" uid="3">
+        <number>3</number>
+        <name>forest</name>
+        <topicImageName>ecosystem_stage3.png</topicImageName>
+        <topicBiggerImageName>ecosystem_stage3_bigger.png</topicBiggerImageName>
+        <mainText>
+            \n Forests occupy about one third of Earth’s land area. There are three types of forests: tropical forests that occur near the equator, temperate forests that occur between the tropics and polar regions in both hemispheres, and the boreal forests or Taiga that are found between the temperate forest and tundra in the northern hemisphere.
+            \n Tropical rainforests have a lot of rainfall, and remain hot and humid throughout the year. Temperate forests have moderate climate and four seasons with a distinct winter. The Taiga (Russian word for forest) has short summers and long, severe winters.
+            \n Rainforest trees have thin barks and drip tip leaves to let rainwater runoff quickly. Trees also have buttress roots, prop roots, and stilt roots to provide support. Epiphytes (plants that grow on other plants) and lianas (climbing woody vines) are found in the rainforest.
+            \n Plants in the temperate forest have thick barks to prevent moisture loss. Temperate forests have coniferous (evergreen trees like pine, fir, cedar), deciduous (trees lose leaves in the fall and grow back in summer like maple, chestnut, oak) or broad leaved evergreens (like eucalyptus, holly, tea). Needle leaves of the conifers reduce evaporation during winter. Besides evergreen trees with needle leaves, lichens and mosses survive in the taiga.
+            \n Forest animals adapt to the weather in their forest and to the food that is available. Animals in the rainforest have adapted to living in trees. They also have bright colors and patterns, make loud sounds, and eat mostly fruits. In temperate forests, animals survive the cold winters by hibernating or migrating to warmer regions in the winter and returning in the summer.
+        </mainText>
+        <mainTextTitleImageName>forests_button.png</mainTextTitleImageName>
+        <backgroundTrackName>ecosystem_stage3bgtrack.mp3</backgroundTrackName>
+        <voiceoverTrackName>Forests.mp3</voiceoverTrackName>
+        <images>
+            <item uid="0">
+                <name>Forests-P1.png</name>
+                <title>Rainforest canopy</title>
+                <attribution>Picture taken by Terry</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="1">
+                <name>Forests-P2.png</name>
+                <title>Temperate forest</title>
+                <attribution>Picture taken by Miguel Vieira</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="2">
+                <name>Forests-P3.png</name>
+                <title>Taiga landscape</title>
+                <attribution>Picture taken by peupleoup</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="3">
+                <name>Forests-P4.png</name>
+                <title>Deciduous trees lose leaves in the Fall</title>
+                <attribution>Picture taken by Michael Barkowski</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="4">
+                <name>Forests-P5.png</name>
+                <title>Lichens and moss share a habitat</title>
+                <attribution>Picture taken by Hazel</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="5">
+                <name>Forests-P6.png</name>
+                <title>Poison dart frog</title>
+                <attribution>Picture taken by Bill Bouton</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="6">
+                <name>Forests-P7.png</name>
+                <title>Colorful macaws are found in the tropical rain forests</title>
+                <attribution>Picture taken by elPadawan</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item uid="7">
+                <name>Forests-P8.png</name>
+                <title>Deforestation leads to environmental problems</title>
+                <attribution>Picture taken by Crustmania</attribution>
+                <scale>1.0</scale>
+            </item>
+        </images>
+        
+        <didYouKnows>
+            <didYouKnowTitleImage></didYouKnowTitleImage>
+            <didYouKnowLeftImage>forests_arrow_left.png</didYouKnowLeftImage>
+            <didYouKnowRightImage>forests_arrow_right.png</didYouKnowRightImage>
+            <item uid="0">
+                <text>Rainforests have four layers: emergent, canopy, understory, and forest floor</text>
+            </item>
+            <item uid="1">
+                <text>More than 2,000 species of butterflies can be found in the rainforests of South America</text>
+            </item>
+            <item uid="2">
+                <text>Deciduous means falling off or out in a certain season</text>
+            </item>
+            <item uid="3">
+                <text>The tiny poison arrow frog may be pretty, but its bright colors act as a warning not to touch</text>
+            </item>
+            <item uid="4">
+                <text>Amazon rainforests produce about 40% of the world’s oxygen</text>
+            </item>
+            <item uid="5">
+                <text>Cool temperate rainforests are also called Moss Forests</text>
+            </item>
+            <item uid="6">
+                <text>Sloths move so slowly in the rainforests that algae are able to grow in their fur</text>
+            </item>
+            <item uid="7">
+                <text>One out of four ingredients in medicines comes from rainforests</text>
+            </item>
+            <item uid="8">
+                <text>Bats pollinate bananas and mangoes</text>
+            </item>
+            <item uid="9">
+                <text>30 million species of plants and animals live in tropical rainforests</text>
+            </item>
+            <item uid="10">
+                <text>In tropical countries, only 1 tree is planted for every 10 trees cut. About 2000 trees are cut per minute</text>
+            </item>
+            <item uid="11">
+                <text>Fall colors are due to plants withdrawing chlorophyll from their leaves during shortening days of fall</text>
+            </item>
+            <item uid="12">
+                <text>Temperate deciduous forests have fertile soil unlike the Taiga</text>
+            </item>
+            <item uid="13">
+                <text>The Taiga represents 29% of the world’s forests</text>
+            </item>
+            <item uid="14">
+                <text>The Taigana (taiga men) or Tsaatan are nomads of Mongolia supporting themselves on reindeer rearing</text>
+            </item>
+            <item uid="15">
+                <text>Drunken or tilted trees are found in the Taiga and are formed due to frost heaving or raising of the soil due to ice underneath</text>
+            </item>
+            <item uid="16">
+                <text>Animals in a deciduous forest are camouflaged to look like the ground of the forest</text>
+            </item>
+            <item uid="17">
+                <text>80% of all insect species live in the tropical rainforest</text>
+            </item>
+            <item uid="18">
+                <text>The taiga has the fewest animal and plants species of all biomes</text>
+            </item>
+            <item uid="19">
+                <text>A cloud forest or fog forest is a tropical forest that has a persistent mist or cloud</text>
+            </item>
+        </didYouKnows>
+        
+        <voiceoverPacings>
+            <voiceoverPacingsTime>3.5,3.5,3.5,3.5,3.5,3.5,1.5,3.5,3.5,3.5,3.5,4.5,4.2,4.3,4.2,4.3,4.1,4.1,5,4.5,4.5,4.5,4.1,4.2,4.2,1.5,3.5,3.5,3.5,3.5,3.5,3.5</voiceoverPacingsTime>
+            <voiceoverPacingsSpace>-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0</voiceoverPacingsSpace>
+            
+        </voiceoverPacings>
+        
+        <youtubeVideos>
+            <item uid="0">
+                <videoId>C1Ib0-BlBKU</videoId>
+                <title>Metamorphosis</title>
+                <attribution>ncmls</attribution>
+            </item>
+            <item uid="1">
+                <videoId>7HfeBP3vaEI</videoId>
+                <title>Monarch caterpillar going into chrysalis</title>
+                <attribution>watcher010</attribution>
+            </item>
+            <item uid="2">
+                <videoId>oAnDo_LqYRg</videoId>
+                <title>Black Swallowtail butterfly chrysalis</title>
+                <attribution>NancyB50</attribution>
+            </item>
+            <item uid="3">
+                <videoId>OyS7_fE1LvI</videoId>
+                <title>Monarch caterpillar turning into a cocoon</title>
+                <attribution>triggermouse</attribution>
+            </item>
+            <item uid="4">
+                <videoId>OS2VrgRFCzc</videoId>
+                <title>Butterfly chrysalis warding off predators</title>
+                <attribution>mdupraw</attribution>
+            </item>
+            <item uid="5">
+                <videoId>h-oVNeqFHww</videoId>
+                <title>Monarch caterpillar metamorphosis</title>
+                <attribution>TrapperVT</attribution>
+            </item>
+            <item uid="6">
+                <videoId>6PgKS1dGrx0</videoId>
+                <title>Title</title>
+                <attribution>attribution</attribution>
+            </item>
+            <item uid="7">
+                <videoId>tq6N9bKwG5o</videoId>
+                <title>Title</title>
+                <attribution>attribution</attribution>
+            </item>
+        </youtubeVideos>
+        <flickrPhotos>
+            <galleryId>76269833-72157629857733201</galleryId>
+        </flickrPhotos>
+        <backgroundImage>forests_bg.png</backgroundImage>
+        <starterImages>
+            <item uid="0">
+                3373162395
+            </item>
+            <item uid="1">
+                5433484245
+            </item>
+        </starterImages>
+        
+        <gallery version="10" uid="forest">
+            <title>Ecosystem  Forest</title>
+            <item version="1" uid="4">
+                <title>Tropical rainforest</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2647/4132244038_76b9e6d2fe_z.jpg</url>
+                <description>Tropical rainforests get a lot of rainfall and remain hot and have thick, dense vegetation</description>
+                <attribution>Victoria Reay</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="5">
+                <title>Emergent layer</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2626/4103217926_53a9e8d004_z.jpg</url>
+                <description>The tall trees that rise above the rainforest canopy make up the emergent layer.The canopy forms a roof over the understory and the forest floor layers</description>
+                <attribution>HBarrison</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="6">
+                <title>Epiphyte</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm5.staticflickr.com/4030/5163531322_99ab1e4dbf_z.jpg</url>
+                <description>Epiphytes are plants that grow on other plants. They are not parasites, but use the host plant for support</description>
+                <attribution>MiguelVieira</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="7">
+                <title>Buttress roots</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm6.staticflickr.com/5008/5301337763_1f73a38dcf_z.jpg</url>
+                <description>Buttress or stilt or prop roots are large roots on the side of a tree with shallow roots</description>
+                <attribution>Comrogues</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="8">
+                <title>Drip tip leaves</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm2.staticflickr.com/1222/5156257428_07b6cff68a_z.jpg</url>
+                <description>Due to the heavy rainfall, plants have developed drip tip leaves to prevent growth of parasitic fungi </description>
+                <attribution>Brisbane City Council</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="9">
+                <title>Howler monkey</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2231/2618802724_e961932244_z.jpg</url>
+                <description>Howler monkeys feed on leaves and fresh fruits found in the canopy layer. They use their loud howls to communicate and have a long tail that they keep wrapped around a branch even when walking</description>
+                <attribution>maveric2003</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="10">
+                <title>Scarlet macaw</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2457/3632782699_9a6a0ab32b_z.jpg</url>
+                <description>Scarlet macaws have strong beaks to break the hard nuts found in the rainforest. They also use their beaks to dig for insects and can use them to pinch predators</description>
+                <attribution>Christian Haugen</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="11">
+                <title>Temperate forest</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm2.staticflickr.com/1270/531020157_2c7de3a9b5_z.jpg</url>
+                <description>Temperate forests have moderate climate and have either coniferous, or deciduous, or broad leaved evergreen trees</description>
+                <attribution>Nicholas_T</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="12">
+                <title>Fall colors</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm1.staticflickr.com/107/276905866_94df0bebd1_z.jpg</url>
+                <description>As days get shorter in fall, deciduous trees begin withdrawing chlorophyll from the leaves to prepare for winter, creating the orange and yellow fall colors</description>
+                <attribution>Nicholas_T</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="13">
+                <title>Deciduous in winter</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm1.staticflickr.com/143/380119039_cf0aba5180_z.jpg</url>
+                <description>A deciduous, temperate forest in winter after the trees have shed all their leaves</description>
+                <attribution>Nicholas_T</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="14">
+                <title>Bird migration</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2335/2063746235_c549d494d5_z.jpg</url>
+                <description>60-70 percent of the birds in the temperate rainforest migrate to the tropics during the cold, winter months</description>
+                <attribution>ibm4381</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="15">
+                <title>Monarch butterfly</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm4.staticflickr.com/3465/3178203185_3db3a07c83_z.jpg</url>
+                <description>Insects like the Monarch butterfly migrate from Canada starting in August and spend the winters in parts of Mexico or California before returning in spring</description>
+                <attribution>hspauldi</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="16">
+                <title>Taiga</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm4.staticflickr.com/3216/2717470525_783f25f19e_z.jpg</url>
+                <description>Taiga forests have coniferous evergreens trees. Taiga trees have shallow roots and most plants are small and grow closer to the ground</description>
+                <attribution>peupleloup</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="17">
+                <title>Taiga plants</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm6.staticflickr.com/5245/5366901205_ee8be5b3a3_z.jpg</url>
+                <description>The poor soil of the taiga prevents the growth of large trees</description>
+                <attribution>Efenstor</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="18">
+                <title>Taiga winter</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm4.staticflickr.com/3271/3096188660_b2ebbe466e_z.jpg</url>
+                <description>Winters are extremely cold and last for 5-7 months</description>
+                <attribution>peupleloup</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="19">
+                <title>Lynx</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm5.staticflickr.com/4039/4465380932_fcac7770e7_z.jpg</url>
+                <description>The lynx is well adapted for the taiga. It has a thick, furry coat with fur covered pads. The paws are wide and allow it to walk on the snow</description>
+                <attribution>kdee64</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="20">
+                <title>Caribou</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm4.staticflickr.com/3398/3221791453_220002930a_z.jpg</url>
+                <description>Caribous have small tails and short ears to reduce heat loss. Their legs are well suited for plodding through deep snow and for swimming. They have two layers of fur for keeping warm</description>
+                <attribution>peupleloup</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="21">
+                <title>Grizzly bear</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm5.staticflickr.com/4148/4947113475_562cdbb862_z.jpg</url>
+                <description>Grizzly bears survive the cold winters by hibernating. They spend the fall season eating a lot of food to store energy. They are omnivores and eat whatever is available</description>
+                <attribution>whaledancer99</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="27">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=1MAPTT7VReU</url>
+                <description></description>
+                <attribution>DucksUnlimitedInc</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="24">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=7HfeBP3vaEI</url>
+                <description></description>
+                <attribution>ezza9999</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="25">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=oAnDo_LqYRg</url>
+                <description></description>
+                <attribution>ezza9999</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="26">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=OyS7_fE1LvI</url>
+                <description></description>
+                <attribution>greentalenttv</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="23">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=UfEjPcFwTuE</url>
+                <description></description>
+                <attribution>MyCuipo</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="28">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=AeXUDQp9UG4</url>
+                <description></description>
+                <attribution>Pew</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="22">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=gpzuVt_mkKs</url>
+                <description></description>
+                <attribution>WWFunitedkingdom</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="29">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=h4tQ5jGJ9cQ</url>
+                <description></description>
+                <attribution>phoenixfilmandvideo</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+        </gallery>
+        
+        <questions version="1">
+            <item uid="0">
+                <question>
+                    A coniferous forest has
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Trees that have needles and cones</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Small bushy trees with leaves</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Tall trees with leaves</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Small plants with leaves</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="1">
+                <question>
+                    What do deciduous trees do in the cold season?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Start producing flowers</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Produce more chlorophyll</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Shed their leaves</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>None of the above</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="2">
+                <question>
+                    What is a rainforest?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>A forest where there is no rain</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>A forest where there is lots of rain</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Any forest, when it rains</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>None of the above</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="3">
+                <question>
+                    How much of Earth's land area do forests occupy?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>One fourth</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>One third</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>One half</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>One tenth</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="4">
+                <question>
+                    Forests found near the equator are called
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Tropic of Cancer and Tropic of Capricorn</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Boreal forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Tropical forest</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Moss Forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="5">
+                <question>
+                    Which of the following is an animal adaptation in the temperate forest?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Being nocturnal</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Symbiosis</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Scavenging</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Hibernation</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="6">
+                <question>
+                    What adaptation of the conifers reduces evaporation during winter?
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Green leaves</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Needle leaves</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Formation of cones</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>None of the above</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="7">
+                <question>
+                    Mosses and lichens are typically found in
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Tundra</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Taiga</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Temperate forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Tropical forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="8">
+                <question>
+                    Animals in the rainforest have adapted to
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Living in trees</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Living on the ground</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Living with people</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Living alone</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="9">
+                <question>
+                    Buttress roots, prop roots or stilt roots are plant adaptations in
+                </question>
+                <level>Easy</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Tundra</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Boreal or taiga</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>All forests</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Tropical rainforest</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="10">
+                <question>
+                    How does a coniferous tree spread its seed?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>By wind</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>By dropping seed cones</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>By bug pollination</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>By animal carrier</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="11">
+                <question>
+                    Plants that grow on other plants are found in
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Temperate forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Tropical rainforest</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Taiga</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Grasslands</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="12">
+                <question>
+                    What is the other scientific name for a coniferous tree?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Christmas tree</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Evergreen tree</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Cone tree</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Teepee tree</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="13">
+                <question>
+                    What is similar between the boreal forests and the temperate forests?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Both are located between the tundra and the taiga</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Both have the same trees</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Both have cold, harsh winters</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Both have the same amount of rainfall</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="14">
+                <question>
+                    Fall colors are associated with which pigment in plants?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Algae</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Chlorophyll</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Carotenoid</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Yellow pigment</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="15">
+                <question>
+                    What is similar between pine and fir and maple and oak?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>They are trees with similar types of leaves</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>They are trees with similar adaptations</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>They are trees found in the temperate forest</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>They are trees with a thin bark</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="16">
+                <question>
+                    Drip tip leaves is a plant adaptation that helps
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Produce more chlorophyll</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Keep animals away</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Helps produce more fruit</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Lets rainwater runoff quickly</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="17">
+                <question>
+                    Which forest has the most fertile soil?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Boreal</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Taiga</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Temperate forest</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Tropical rainforest</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="18">
+                <question>
+                    Which of the following is NOT true of the Tsaatan people of Mongolia?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>They are nomads</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>They live in the taiga</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>They rear reindeer</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>They live near big cities</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="19">
+                <question>
+                    Animals that have bright colors and make loud sounds are found in
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Boreal forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Any forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Temperate forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Tropical forest|Ys</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="20">
+                <question>
+                    Identify the correct sequence of ecosystems found from the polar region to the equator
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Tundra, Taiga, Tropical rainforest, temperate deciduous forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Taiga, Tundra, Temperate deciduous forest, tropical rainforest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Tropical rainforest, taiga, temperate deciduous forest, tundra</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Tundra, taiga, temperate deciduous forest, tropical rainforest</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="21">
+                <question>
+                    Ghost redwood trees have white leaves because
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>They lack chlorophyll</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>They absorb more sunlight</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>The soil lacks minerals and nutrients</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>All of the above</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="22">
+                <question>
+                    Which ecosystem can hold a large amount of heat that helps to regulate the earth's temperature?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Oceans</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Tundras</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Tropical Rainforest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Taiga</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="23">
+                <question>
+                    In which countries does the Taiga exist?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Russian Federation, Greenland, Iceland</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Greenland, Canada, Russian Federation</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Canada, United States, Russian Federation</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Canada, Greenland, Iceland</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="24">
+                <question>
+                    What kind of forest is the Taiga?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Mixed forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Coniferous forest</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Deciduous forest</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Rainforest</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="25">
+                <question>
+                    Where is the world's largest tropical rainforest (by area)?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Africa</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Japan</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>India</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>South America</answer>
+                        <truth>Y</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="26">
+                <question>
+                    There are two types of rainforests, what are they?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Tropical and polar</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Tropical and temperate</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Tropical and topical</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Temperate and temperature</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="27">
+                <question>
+                    If you were an animal in the temperate forest and could not hibernate during winter what else could you do?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Migrate to a warmer place</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Stay inside a burrow or den</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="28">
+                <question>
+                    Why is the color of most animals in the temperate forest matched to the color of the ground?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>It enables them to hibernate</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>It helps them find food easily</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>It provides camouflage and protects them from predators</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Oak, ash, hawthorn, apple, walnut</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="29">
+                <question>
+                    Why is the taiga soil not fertile?
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>The falling leaves from the conifers make it acidic</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>Long and cold winters</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Moss and lichen consume all the nutrients in the soil</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Due to deforestation</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+        </questions>
+        
+        <hotspotsOnBackground version="1" uid="1">
+            <backgroundImage>worldmap.png</backgroundImage>
+            <backgroundText>World Map showing all the major type of ecosystems</backgroundText>
+            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <hotspot version="1" uid="1" type="defaultContent">
+                
+                <title>Africa, Desert</title>
+                <text>\tDeserts are very dry or arid regions of the world that receive fewer than ten inches of rain a year. Some deserts don't receive rainfall for four, five, or even more years in a row!\n There are four kinds of deserts: subtropical or hot and dry deserts, semi-arid deserts, coastal deserts and polar or cold deserts. Both the Arctic and Antarctic regions are polar deserts. Semi-arid deserts like Patagonia and Gobi have dry summers and cold winters and are often in the rain shadow region of a mountain range. The subtropical deserts that most people think about are places like the Sahara and Kalahari deserts of Africa, while the Atacama and the Namib are examples of coastal deserts that have long warm summers and cool winters.\n Plants and animals must adapt to be able to survive the desert’s tough conditions. Desert plants like cactus have thick and fleshy stems to store water. They also have spiny leaves to prevent loss of water through transpiration, which is similar to sweating.\n Camels have a hump (or two if it is a Bactrian camel) to store fat, which can be metabolized for energy. This allows the camel to go without food or water for long periods of time. Camels also have broad, leathery pads at the bottom of their hooves which prevents them from sinking in the sand. Camels have two rows of long eyelashes and nostrils that can be closed to keep the sand out.\n Most desert animals are nocturnal. They stay cool, hiding during daytime, and come out at night.</text>
+                <fontSize>15.0</fontSize>
+                <!-- backgroundColor></backgroundColor -->
+                <!-- textColor></textColor -->
+                <!-- alpha></alpha -->
+                <flippable>YES</flippable>
+                <keyImage>desert.png</keyImage>
+                <keyImageTitle>Desert</keyImageTitle>
+                <bound>
+                    <x>423.0</x>
+                    <y>187.0</y>
+                    <width>200.0</width>
+                    <height>200.0</height>
+                </bound>
+                <frame>
+                    <x>423.0</x>
+                    <y>187.0</y>
+                    <width>200.0</width>
+                    <height>200.0</height>
+                </frame>
+                <largerFrame>
+                    <x>423.0</x>
+                    <y>87.0</y>
+                    <width>200.0</width>
+                    <height>300.0</height>
+                </largerFrame>
+                <!-- /popup -->
+            </hotspot>
+            <hotspot version="1" uid="2" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Australia, Desert</title>
+                <text>Austrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage>kangaroo.png</keyImage>
+                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <bound>
+                    <x>830.0</x>
+                    <y>153.0</y>
+                    <width>140.0</width>
+                    <height>112.0</height>
+                </bound>
+                <frame>
+                    <x>830.0</x>
+                    <y>153.0</y>
+                    <width>140.0</width>
+                    <height>112.0</height>
+                </frame>
+                <largerFrame>
+                    <x>50</x>
+                    <y>50</y>
+                    <width>924.0</width>
+                    <height>668.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>Desert-P1.png</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="2">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>Desert-P2.png</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>Desert-P3.png</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>Desert-P4.png</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>Desert-P5.png</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>Desert-P6.png</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="7">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>Desert-P7.png</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="8">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>Desert-P8.png</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    
+                    <item version="1" uid="9">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="10">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="11">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="12">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/BVkdwQQ-yqQ/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/BVkdwQQ-yqQ</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="13">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/6yaSkpKdj3E/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/6yaSkpKdj3E</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="14">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/ZV8cO70fz7o/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/ZV8cO70fz7o</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="15">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/Xn1h0Oy82Xo/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/Xn1h0Oy82Xo</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                </gallery>
+                
+                <!-- /popup -->
+            </hotspot>
+            <hotspot version="1" uid="3" type="defaultContent">
+                <!-- popup type="defaultContent" -->
+                <title>North America, grassland</title>
+                <text>North America, grassland</text>
+                <fontSize>15.0</fontSize>
+                <!-- backgroundColor>white=0.0, alpha=0.3</backgroundColor -->
+                <!-- textColor>white</textColor -->
+                <!-- alpha></alpha -->
+                <flippable>YES</flippable>
+                <keyImage>desert.png</keyImage>
+                <keyImageTitle>Glassland</keyImageTitle>
+                <bound>
+                    <x>67.00</x>
+                    <y>331.00</y>
+                    <width>200</width>
+                    <height>300</height>
+                </bound>
+                <frame>
+                    <x>67.00</x>
+                    <y>331.00</y>
+                    <width>200</width>
+                    <height>300</height>
+                </frame>
+                <largerFrame>
+                    <x>67.00</x>
+                    <y>331.00</y>
+                    <width>200</width>
+                    <height>300</height>
+                </largerFrame>
+                <!-- /popup -->
+            </hotspot>
+            <hotspot version="1" uid="4" type="defaultContent">
+                <!-- popup type="defaultContent" -->
+                <title>South America, rain forest</title>
+                <text>South America, rain forest</text>
+                <fontSize>15.0</fontSize>
+                <!-- background_color>white=0.0, alpha=0.3</background_color -->
+                <!-- text_color>white</text_color -->
+                <!-- alpha></alpha -->
+                <flippable>YES</flippable>
+                <keyImage>desert.png</keyImage>
+                <keyImageTitle>Rain Forest</keyImageTitle>
+                <bound>
+                    <x>211.00</x>
+                    <y>121.00</y>
+                    <width>150</width>
+                    <height>200</height>
+                </bound>
+                <frame>
+                    <x>211.00</x>
+                    <y>121.00</y>
+                    <width>150</width>
+                    <height>200</height>
+                </frame>
+                <largerFrame>
+                    <x>211.00</x>
+                    <y>121.00</y>
+                    <width>150</width>
+                    <height>200</height>
+                </largerFrame>
+                <!-- /popup -->
+            </hotspot>
+            <hotspot version="1" uid="5" type="defaultContent">
+                <!-- popup type="defaultContent" -->
+                <title>Asia, all kinds of habitats</title>
+                <text>Asia, all kinds of habitats</text>
+                <fontSize>15.0</fontSize>
+                <!-- background_color>white=0.0, alpha=0.3</background_color -->
+                <!-- text_color>white</text_color -->
+                <!-- alpha></alpha -->
+                <flippable>YES</flippable>
+                <keyImage>desert.png</keyImage>
+                <keyImageTitle>All kinds of habitats</keyImageTitle>
+                <bound>
+                    <x>627.00</x>
+                    <y>337.00</y>
+                    <width>390</width>
+                    <height>325</height>
+                </bound>
+                <frame>
+                    <x>627.00</x>
+                    <y>337.00</y>
+                    <width>390</width>
+                    <height>325</height>
+                </frame>
+                <largerFrame>
+                    <x>627.00</x>
+                    <y>337.00</y>
+                    <width>390</width>
+                    <height>325</height>
+                </largerFrame>
+                <!-- /popup -->
+            </hotspot>
+            <hotspot version="1" uid="6" type="defaultContent">
+                <!-- popup type="defaultContent" -->
+                <title>South Pacific, ocean</title>
+                <text>South Pacific, ocean</text>
+                <fontSize>15.0</fontSize>
+                <!-- background_color>white=0.0, alpha=0.3</background_color -->
+                <!-- text_color>white</text_color -->
+                <!-- alpha></alpha -->
+                <flippable>YES</flippable>
+                <keyImage>desert.png</keyImage>
+                <keyImageTitle>Ocean</keyImageTitle>
+                <bound>
+                    <x>7.0</x>
+                    <y>122.0</y>
+                    <width>200.0</width>
+                    <height>281</height>
+                </bound>
+                <frame>
+                    <x>7.0</x>
+                    <y>122.0</y>
+                    <width>200.0</width>
+                    <height>281</height>
+                </frame>
+                <largerFrame>
+                    <x>7.0</x>
+                    <y>122.0</y>
+                    <width>200.0</width>
+                    <height>281</height>
+                </largerFrame>
+                <!-- /popup -->
+            </hotspot>
+        </hotspotsOnBackground>
+        
+        <hotspotsOnBackground version="1" uid="2">
+            <backgroundImage>rainforest_background.png</backgroundImage>
+            <backgroundText>Rain Forest 1</backgroundText>
+            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <hotspot version="1" uid="1" type="largeContent">
+                <title>Ferns</title>
+                <text>
+                    Ferns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\n
+                </text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <flippable>NO</flippable>
+                <keyImage>fern.png</keyImage>
+                <keyImageTitle>Ferns</keyImageTitle>
+                <bound>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </bound>
+                <frame>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </frame>
+                <largerFrame>
+                    <x>50</x>
+                    <y>50</y>
+                    <width>924.0</width>
+                    <height>668.0</height>
+                </largerFrame>
+            </hotspot>
+        </hotspotsOnBackground>
+        
+        <hotspotsOnBackground version="1" uid="3">
+            <backgroundImage>rainforest_background2.png</backgroundImage>
+            <backgroundText>Rain Forest 2</backgroundText>
+            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <hotspot version="1" uid="1" type="largeContent">
+                <title>Stream</title>
+                <text>
+                    Stream in a rainforest is an important habitat for many species.
+                </text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <flippable>NO</flippable>
+                <keyImage>stream.png</keyImage>
+                <keyImageTitle>Stream</keyImageTitle>
+                <bound>
+                    <x>382.0</x>
+                    <y>51.0</y>
+                    <width>245.5</width>
+                    <height>264.5</height>
+                </bound>
+                <frame>
+                    <x>382.0</x>
+                    <y>51.0</y>
+                    <width>245.5</width>
+                    <height>264.5</height>
+                </frame>
+                <largerFrame>
+                    <x>50</x>
+                    <y>50</y>
+                    <width>924.0</width>
+                    <height>668.0</height>
+                </largerFrame>
+            </hotspot>
+        </hotspotsOnBackground>
+    </topic>
+    
+    <navigation>
+        
+        <navigationItem uid="Start">
+            <destination>GenericHomeLayer</destination>
+        </navigationItem>
+        
+        <navigationItem uid="Home">
+            <destination>GenericHomeLayer</destination>
+        </navigationItem>
+        
+        <navigationItem uid="Main Text">
+            <destination>MainTextLayer</destination>
+        </navigationItem>
+        
+        <navigationItem uid="Play Game">
+            <destination>DummyLayer</destination>
+        </navigationItem>
+        
+        <navigationItem uid="Topic Detail With Interactive Background">
+            <destination>TopicInteractiveBackgroundLayer</destination>
+        </navigationItem>
+        
+        <navigationItem uid="Cross Marketing Page">
+            <destination>OtherAppsLayer</destination>
+        </navigationItem>
+        
+        <navigationItem uid="Info">
+            <destination>InfoLayer</destination>
+        </navigationItem>
+        
+        <navigationItem uid="Curriculum">
+            <destination>CurriculumLayer</destination>
+        </navigationItem>
+        
+    </navigation>
+    
+</app>

@@ -1,0 +1,419 @@
+<gallery>
+    <uid>precipitation</uid>
+    <title>precipitation</title>
+    <version>1</version>
+    <item>
+        <uid>4</uid>
+        <title>Water splash</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm1.staticflickr.com/133/358189266_5360c4d9d6_z.jpg?zz=1</url>
+        <description>A fallen drop of water is caught in slow motion.</description>
+        <attribution>Fox Kiyo</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+        <question answer="2">
+            <text></text>
+            <answers>
+                <option value="1"></option>
+                <option value="2"></option>
+            </answers>
+        </question>        
+    </item>
+    <item>
+        <uid>5</uid>
+        <title>Saturation</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm4.staticflickr.com/3160/2495428352_fbfa319248_z.jpg</url>
+        <description>Water condenses to form clouds. Water accumulates until the clouds are full or saturated with water.</description>
+        <attribution>Wolfgang Staut</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Are clouds formed when water condenses?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+    <item>
+        <uid>6</uid>
+        <title>Precipitation</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm9.staticflickr.com/8446/7780610700_bc8b70d379_z.jpg</url>
+        <description>When the cloud is full, or saturated, it cannot hold the water and the water starts to fall.</description>
+        <attribution>Roberto Verzo</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Does precipitation occur when the clouds are saturated and cannot hold any more water?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	    <item>
+        <uid>7</uid>
+        <title>Forms of precipitation</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm4.staticflickr.com/3425/3394219226_5a05576cb2_z.jpg</url>
+        <description>The most common types of precipitation are rain, snow, hail and sleet.</description>
+        <attribution>EdRoberts</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Are rain, snow, hail, and sleet types of precipitation?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+		<item>
+        <uid>8</uid>
+        <title>Temperature</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm4.staticflickr.com/3059/2983779842_13f0452a32_z.jpg</url>
+        <description>Clouds become saturated as the temperature falls.</description>
+        <attribution>OliBac</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="2">
+            <text>Does an increase in temperature increase saturation?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	    <item>
+        <uid>9</uid>
+        <title>Rain</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm6.staticflickr.com/5243/5235550428_b70ec41a75_z.jpg</url>
+        <description>Mount Waialeale on the Hawaiian island of Kauai is one of the rainiest places on Earth.</description>
+        <attribution>John M</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+        <question answer="1">
+            <text></text>
+            <answers>
+                <option value="1"></option>
+                <option value="2"></option>
+            </answers>
+        </question>                
+    </item>    
+	<item>
+        <uid>10</uid>
+        <title>Windy side</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm5.staticflickr.com/4102/4768781280_897a456329_z.jpg</url>
+        <description>Usually the windiest side of a mountain has the most precipitation.</description>
+        <attribution>OHellMichelle</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Does wind affect precipitation?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>    
+	<item>
+        <uid>11</uid>
+        <title>Fresh water</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm4.staticflickr.com/3013/5720197640_b57f998e95_z.jpg</url>
+        <description>Precipitation is responsible for depositing fresh water on our planet.</description>
+        <attribution>Elliott Brown</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Does most fresh water on the planet come from precipitation?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+		<item>
+        <uid>12</uid>
+        <title>Acid rain</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm7.staticflickr.com/6008/5879848337_329554c941_z.jpg</url>
+        <description>Acid rain is created when sulfur dioxide and nitrogen oxides from air pollution react with water.</description>
+        <attribution>mxgirl85</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Is acid rain, rain consisting of pollutants?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+		<item>
+        <uid>13</uid>
+        <title>Effects of acid rain</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm1.staticflickr.com/16/21865208_b33ba90b30_z.jpg?zz=1</url>
+        <description>Acid rain has been corroding statues and other artwork since the 1700s.</description>
+        <attribution>Joe Boyce</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="2">
+            <text>Is acid rain good for the environment?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>14</uid>
+        <title>NRDC</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm2.staticflickr.com/1246/5120390677_418c5506cb_z.jpg</url>
+        <description>Pollution laws have helped to reduce acid rain since the 1970s.</description>
+        <attribution>NRDC Media</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+        <question answer="1">
+            <text></text>
+            <answers>
+                <option value="1"></option>
+                <option value="2"></option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>15</uid>
+        <title>Virga</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm2.staticflickr.com/1044/4726631738_b1954616d3_z.jpg</url>
+        <description>Virga is precipitation that evaporates before it hits the ground.</description>
+        <attribution>brownpau</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="2">
+            <text>Is Virga a type of constellation that has a shape like the water molecule?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>16</uid>
+        <title>Fog</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm3.staticflickr.com/2418/2245309248_dc22bd1359_z.jpg?zz=1</url>
+        <description>Fog is a suspension. It's not precipitation because it doesn't fall.</description>
+        <attribution>John Walker</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="2">
+            <text>Is Fog a type of precipitation?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>17</uid>
+        <title>Water transport</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm4.staticflickr.com/3082/3125529405_89cdbb9b7c_z.jpg</url>
+        <description>Water droplets combine into raindrops or frozen precipitation such as snow.</description>
+        <attribution>thisreidwrites</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+        <question answer="1">
+            <text></text>
+            <answers>
+                <option value="1"></option>
+                <option value="2"></option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>18</uid>
+        <title>Raindrops</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm8.staticflickr.com/7232/7340697730_d96f155fcc_z.jpg</url>
+        <description>Raindrops flatten as they fall and can make crown-shaped splashes.</description>
+        <attribution>Shaer Ahmed</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+        <question answer="1">
+            <text></text>
+            <answers>
+                <option value="1"></option>
+                <option value="2"></option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>19</uid>
+        <title>Sleet</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm3.staticflickr.com/2778/4310208125_6641a65ff1_z.jpg?zz=1</url>
+        <description>Sleet bounces off the ground.</description>
+        <attribution>xoque</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+        <question answer="2">
+            <text></text>
+            <answers>
+                <option value="1"></option>
+                <option value="2"></option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>20</uid>
+        <title>Hailstones</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm8.staticflickr.com/7040/6946710827_7a8620cc3c_z.jpg</url>
+        <description>Hailstones can weigh more than a pound each.</description>
+        <attribution>Ellen5e</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+        <question answer="1">
+            <text></text>
+            <answers>
+                <option value="1"></option>
+                <option value="2"></option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>21</uid>
+        <title>Volcanoes</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm3.staticflickr.com/2485/3911266957_80cdd43524_z.jpg</url>
+        <description>Volcanoes are a natural cause of acid rain.</description>
+        <attribution>Guano</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match, gallery</tags>
+        <question answer="1">
+            <text>Are volcanoes a natural source of acid rain?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+    <item>
+        <uid>22</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=5iN352idLks</url>
+        <description></description>
+        <attribution>NextMedia</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+	    <item>
+        <uid>23</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=DdAGIigvrfg</url>
+        <description></description>
+        <attribution>KOCO</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+	    <item>
+        <uid>24</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=vPC5i6w3yDI</url>
+        <description></description>
+        <attribution>MathezarT</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+	<item>
+        <uid>25</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=HE6Y0iEuXMQ</url>
+        <description></description>
+        <attribution>Britannica</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+	<item>
+        <uid>26</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=oaDkph9yQBs</url>
+        <description></description>
+        <attribution>NASA</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+		<item>
+        <uid>27</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=0S_4V8LGG2o</url>
+        <description></description>
+        <attribution>NASA</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+</gallery>

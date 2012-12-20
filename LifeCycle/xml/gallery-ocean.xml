@@ -1,0 +1,27 @@
+<gallery>
+    <uid>ocean</uid>
+    <title>Ecosystem  Ocean</title>
+    <version>1</version>
+    <item>
+        <uid>1</uid>
+        <title>Sea Horse</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm3.staticflickr.com/2616/5732289375_716ee0ee9b_z_d.jpg</url>
+        <description>SeaHorse in Ocean</description>
+        <attribution>Tammy Ducans</attribution>
+        <status>A</status>
+        <version>1</version>
+    </item>
+    <item>
+        <uid>2</uid>
+        <title>The Kelp</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://creativecommons.org/licenses/by-sa/2.0/</url>
+        <description>Kelp in Deep Sea</description>
+        <attribution>Jack Nicohlas</attribution>
+        <status>A</status>
+        <version>1</version>
+    </item>
+</gallery>

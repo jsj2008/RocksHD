@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<integer>1</integer>
+	<key>topic_number</key>
+	<string>2</string>
+	<key>maintext</key>
+	<string>\n Condensation is the opposite of evaporation. During evaporation, liquid water molecules move apart and become vapor – but during condensation, vapor molecules move closer together and become liquid. However, they do not return to the Earth’s surface just yet. In the condensation stage of the water cycle, water molecules form clouds.
+\n Condensation may happen when air cools. As heat energy leaves the air, water molecules have less space between them. They move closer together. Meanwhile, they latch onto dust, pollen, bacteria and other tiny bits of matter. Together, billions of water molecules and particulates become clouds.
+\n However, a temperature change and particulates aren’t enough to cause condensation. Enough water vapor must be present. When the air becomes more humid or wet, condensation becomes more likely. 
+\n Clouds can float near the ground or rise to more than 50,000 feet (15,000 meters) above Earth. As a cloud rises, its water molecules become colder and colder. Its liquid water might become ice crystals. The cloud’s name will depend on its height and shape. A few well-known cloud types are wispy cirrus clouds, puffy cumulus clouds, and sheet-like stratus clouds. When “nimbus” is added to a cloud name, it means that the cloud produces precipitation.
+\n Clouds serve many important functions. One important function is shielding the Earth from the Sun’s ultraviolet rays. Clouds also act as blankets; they form when the temperature falls and prevent heat from escaping the atmosphere. The most obvious functions of clouds, though, are storing and transporting water.
+</string>
+	<key>main_text_title_image_name</key>
+	<string>condensation_icon</string>
+	<key>background_track_name</key>
+	<string>stage2bgtrack.mp3</string>
+	<key>voiceover_track_name</key>
+	<string>condensation.mp3</string>
+	<key>images</key>
+	<array>
+		<string>condensation-P1.png,1.0</string>
+		<string>condensation-P2.png,1.0</string>
+		<string>condensation-P3.png,1.0</string>
+		<string>condensation-P4.png,1.0</string>
+		<string>condensation-P5.png,1.0</string>
+		<string>condensation-P6.png,1.0</string>
+		<string>condensation-P7.png,1.0</string>
+		<string>condensation-P8.png,1.0</string>
+	</array>
+	<key>titles</key>
+	<array>
+		<string>Clouds help blocking harmful ultraviolet rays from the sun</string>
+		<string>Clouds store and transport water</string>
+		<string>Thin and wispy Cirrus clouds</string>
+		<string>Nimbus clouds carry a lot of water and are dark colored</string>
+		<string>Clouds in planet Venus are made of poisonous sulphuric acid</string>
+		<string>Condensation trails are long thin artificial clouds that sometimes form behind aircraft</string>
+		<string>If temperature dips below dew point water vapor condenses on leaves and grass </string>
+		<string>Smog is made of air pollutants and fog</string>
+	</array>
+	<key>attributions</key>
+	<array>
+		<string>Picture taken by Lee Jordan</string>
+		<string>Picture taken by timsamoff</string>
+		<string>Picture taken by Nicholas_T</string>
+		<string>Picture taken by AvidlyAbide</string>
+		<string>Picture taken by ridingwithrobots</string>
+		<string>Picture taken by Andreas</string>
+		<string>Picture taken by Mat Interact</string>
+		<string>Picture taken by kevin dooley</string>
+	</array>
+	<key>didyouknows</key>
+	<array>
+		<string>The temperature at which condensation will occur is called the “dew point.”</string>
+		<string>Condensation can occur on eyeglasses. When the temperature changes dramatically, a tiny cloud or fog forms.</string>
+		<string>Condensation inside of buildings is often the cause of mold and mildew. </string>
+		<string>Cloud droplets vary in size from 10 microns (that’s 10 millionths of a meter) to 5 mm.</string>
+		<string>Trails behind airplanes are condensation. Water vapor from the airplane’s exhaust meets cold air and forms a cirrus cloud!  </string>
+		<string>Fog is a type of stratus cloud.</string>
+		<string>Water vapor can freeze in mid-air. This frozen fog is only common in and near the Earth’s poles.</string>
+		<string>A modest-sized cloud is about 100 meters thick and two kilometers long.</string>
+		<string>A typical cumulus cloud weighs more than two billion pounds.</string>
+		<string>Cumulus is Latin for “pile” or “heap.”</string>
+		<string>A cloud doesn’t fall because it’s supported by the denser air beneath it.</string>
+		<string>Air pollution can affect clouds. When more particles are present, clouds form more quickly.</string>
+		<string>Cirrus clouds do not produce rain. They are usually a sign of good weather.</string>
+		<string>Cirrus clouds may rise up to 20,000 feet (6,000 meters) and are usually made of ice crystals.</string>
+		<string>When water condenses, the heat energy that’s released can help produce high winds, tornadoes and other dramatic weather.</string>
+		<string>A cloud can form in just a few minutes or over several hours.</string>
+		<string>Any planet or moon with an atmosphere has clouds, but the clouds might contain chemicals besides water.</string>
+		<string>A pilot once ejected from his plane inside a cumulonimbus cloud. He survived hail and frostbite. </string>
+		<string>Some clouds are high enough to reflect the Sun at night. They’re called noctilucent clouds.</string>
+		<string>Salt particles and iodine released from sea kelp help clouds form along coastlines. </string>
+	</array>
+	<key>voiceoverpacings</key>
+	<dict>
+		<key>time</key>
+		<string>4,4,4,1,4.2,4.4,4.4,4.2,4.1,3.7,3.7,3.5,3.5,3.6,1.3,4,4,3,3,3.6,3.6,3.6,3.8,3.6,3.4,3.4,3.5,3.0,3</string>
+		<key>space</key>
+		<string>-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0</string>
+		<key>New item</key>
+		<string></string>
+	</dict>
+	<key>youtubevideos</key>
+	<array>
+		<string>-St-I3qRFQE</string>
+		<string>2jX9SgtRTgE</string>
+		<string>stc7QSKVSn4</string>
+		<string>BVkdwQQ-yqQ</string>
+		<string>OHVLIRv7ecA</string>
+		<string>P6M5hw2eTWY</string>
+		<string>9Aly8AgbdwI</string>
+	</array>
+	<key>youtubetitles</key>
+	<array>
+		<string>Title</string>
+		<string>Newly hatched Monarch caterpillar</string>
+		<string>Newly hatched caterpillar eating its egg shells</string>
+		<string>Swallow tail caterpillar feeding</string>
+		<string>Monarch caterpillar molting its skin</string>
+		<string>Monarch caterpillar to Chrysalis time lapse</string>
+		<string>Caterpillar spinning a cocoon</string>
+	</array>
+	<key>youtubeattributions</key>
+	<array>
+		<string>Amphibiansunrise</string>
+		<string>horace2264</string>
+		<string>triggermouse</string>
+		<string>timeismemory</string>
+		<string>cuttermedia</string>
+		<string>attribution</string>
+		<string>attribution</string>
+	</array>
+	<key>flickrphotos</key>
+	<string>76269833-72157629493368142</string>
+	<key>background_image</key>
+	<string>main_text_bg.png</string>
+	<key>didyouknow_arrow_left_image</key>
+	<string>main_text_arrow_left.png</string>
+	<key>didyouknow_arrow_right_image</key>
+	<string>main_text_arrow_right.png</string>
+	<key>starter_images</key>
+	<array>
+		<string>6830443026</string>
+		<string>523710222</string>
+	</array>
+	<key>gallery_id</key>
+	<string>condensation</string>
+</dict>
+</plist>

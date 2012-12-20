@@ -1,0 +1,400 @@
+<gallery>
+    <uid>runoff</uid>
+    <title>runoff</title>
+    <version>1</version>
+    <item>
+        <uid>4</uid>
+        <title>Runoff</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm8.staticflickr.com/7232/7325576614_2f9faba3c7_z.jpg</url>
+        <description>The runoff stage of the water cycle involves water moving from land to the ocean.</description>
+        <attribution>fotografar</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="2">
+            <text>Does the runoff stage involve water moving from the ocean to land?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>        
+    </item>
+    <item>
+        <uid>5</uid>
+        <title>Melting glaciers</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm1.staticflickr.com/1/442008_a2293e20a4_z.jpg?zz=1</url>
+        <description>Melting glaciers contribute a small amount to runoff.</description>
+        <attribution>Ilya Haykinson</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Do melting glaciers contribute to runoff?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+    <item>
+        <uid>6</uid>
+        <title>Runoff from precipitation</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm1.staticflickr.com/116/286512050_5c1c00dd53_z.jpg?zz=1</url>
+        <description>Most runoff comes from precipitation.</description>
+        <attribution>nighthree</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="2">
+            <text>Does most runoff come from evaporation?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	    <item>
+        <uid>7</uid>
+        <title>Freshwater bodies</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm7.staticflickr.com/6162/6155789179_39aee6b218_z.jpg</url>
+        <description>About a third of precipitation over the continents lands in freshwater bodies.</description>
+        <attribution>Mats Eye</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="2">
+            <text>Do freshwater bodies get their water from rivers?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+		<item>
+        <uid>8</uid>
+        <title>Seeping through rocks</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm1.staticflickr.com/103/265819041_5259600884_z.jpg</url>
+        <description>Water seeps through rock and returns to the ocean.</description>
+        <attribution>qf8</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Is water seeping through the rocks an example of runoff?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	    <item>
+        <uid>9</uid>
+        <title>Storm sewers</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm5.staticflickr.com/4086/5017778795_b2ff1fd65e_z.jpg</url>
+        <description>Storm sewers help to channel precipitation.</description>
+        <attribution>sub-urban.com</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+        <question answer="1">
+            <text></text>
+            <answers>
+                <option value="1"></option>
+                <option value="2"></option>
+            </answers>
+        </question>                
+    </item>    
+	<item>
+        <uid>10</uid>
+        <title>Wooded area</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm9.staticflickr.com/8151/7430874638_e9962c7ba7_z.jpg</url>
+        <description>A wooded area can absorb much more rainfall than a paved area can.</description>
+        <attribution>Ruben Holthuijsen</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="2">
+            <text>Can a paved area absorb rainwater compared to a wooded area?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>    
+	<item>
+        <uid>11</uid>
+        <title>Wetlands</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm4.staticflickr.com/3152/5863526265_316baf7ca5_z.jpg</url>
+        <description>Wetlands can absorb heavy rainfall.</description>
+        <attribution>Doug Beckers</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Do wetlands act as a sponge and absorb excess water?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+		<item>
+        <uid>12</uid>
+        <title>Flooding</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm1.staticflickr.com/70/207112533_454f78e215_z.jpg</url>
+        <description>Water from a rainstorm floods city streets.</description>
+        <attribution>Novica</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+        <question answer="1">
+            <text></text>
+            <answers>
+                <option value="1"></option>
+                <option value="2"></option>
+            </answers>
+        </question>                
+    </item>
+		<item>
+        <uid>13</uid>
+        <title>Water runoff to oceans</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm6.staticflickr.com/5081/5194962611_b8bca4d2f4_z.jpg</url>
+        <description>Water often flows into the ocean untreated.</description>
+        <attribution>Keoni Cabral</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="2">
+            <text>Is the water that flows into the ocean treated and free of pollutants?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>14</uid>
+        <title>Runoff movement</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm5.staticflickr.com/4108/4956664216_e24b37d014_z.jpg</url>
+        <description>Runoff can move soil, land, pollutants and trash to different areas.</description>
+        <attribution>StanleyMorrisonUK</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Can runoff move soil and pollutants from one area to another?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>15</uid>
+        <title>Dead zones</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm3.staticflickr.com/2781/4464986156_ec0c4e9784_z.jpg</url>
+        <description>Fertilizers from farming cause algae overgrowth and then dead zones in many lakes, rivers and oceans.</description>
+        <attribution>eutrophicationandhypoxia</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Are dead zones in lakes and rivers due to algal blooms?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>16</uid>
+        <title>Dead fish</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm5.staticflickr.com/4049/4523305415_9572e04f9a_z.jpg</url>
+        <description>Fish died from low-oxygen water in Maryland.</description>
+        <attribution>eutrophicationandhypoxia</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+        <question answer="2">
+            <text></text>
+            <answers>
+                <option value="1"></option>
+                <option value="2"></option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>17</uid>
+        <title>Safe water</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm3.staticflickr.com/2457/3863191054_0d31061fb0_z.jpg</url>
+        <description>Tests show that many bodies of water are not safe for humans, plants or animals.</description>
+        <attribution>MattBuck4950</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="2">
+            <text>Is it safe to drink water from any water body?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>18</uid>
+        <title>Continental divide</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm8.staticflickr.com/7186/6898389071_33b44f4c1f_z.jpg</url>
+        <description>Water on either side of a continental divide will flow in different directions.</description>
+        <attribution>Pascal</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+        <question answer="1">
+            <text></text>
+            <answers>
+                <option value="1"></option>
+                <option value="2"></option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>19</uid>
+        <title>Dense roots</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm4.staticflickr.com/3132/3249616410_c753a40a40_z.jpg</url>
+        <description>Dense root systems of a tree or plant can help land absorb water.</description>
+        <attribution>AnyaLogic</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Can dense roots of a tree or a plant help land retain water?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+	<item>
+        <uid>20</uid>
+        <title>Green rooftops</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm1.staticflickr.com/165/429831152_b7ccaf1b68_z.jpg</url>
+        <description>Government policies such as requiring "green" rooftops can help reduce runoff.</description>
+        <attribution>pnwra</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>match,gallery</tags>
+        <question answer="1">
+            <text>Do green rooftops help reduce runoff?</text>
+            <answers>
+                <option value="1">True</option>
+                <option value="2">False</option>
+            </answers>
+        </question>                
+    </item>
+    <item>
+        <uid>21</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=CgndOG7K1aE</url>
+        <description></description>
+        <attribution>EPA</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+	    <item>
+        <uid>22</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=baYzyknaUVs</url>
+        <description></description>
+        <attribution>EPA</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+	    <item>
+        <uid>23</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=GYMK9U57j0w</url>
+        <description></description>
+        <attribution>Green Observers</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+	<item>
+        <uid>24</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=Ba97nG2Bvyg</url>
+        <description></description>
+        <attribution>Troubled Waters</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+	<item>
+        <uid>25</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=FXCa1C65mJs</url>
+        <description></description>
+        <attribution>envirodefensefund</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+		<item>
+        <uid>26</uid>
+        <title></title>
+        <type>video</type>
+        <thumbnail></thumbnail>
+        <url>http://www.youtube.com/watch?v=h_dK56AavbQ</url>
+        <description></description>
+        <attribution>Common Ground</attribution>
+        <status>A</status>
+        <version>1</version>
+        <tags>gallery</tags>
+    </item>
+</gallery>

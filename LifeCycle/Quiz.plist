@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>topic1</key>
+	<dict>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Which word has the same meaning as vapor?</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>Liquid|N</string>
+					<string>Solid|N</string>
+					<string>Gas|Y</string>
+					<string>Rain|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>During evaporation, water moves mostly</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>From air to land|N</string>
+					<string>From air to the ocean|N</string>
+					<string>From land to the ocean|N</string>
+					<string>From the ocean to the air|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Evaporation helps oceans</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>become larger|N</string>
+					<string>lose salt |N</string>
+					<string>hold on to heat|N</string>
+					<string>lose heat|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>About how much of the Earth’s water is fresh?</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>1%|N</string>
+					<string>2%|N</string>
+					<string>3%|Y</string>
+					<string>97%|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>About how much of an adult’s body is water?</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>35%|N</string>
+					<string>66%|Y</string>
+					<string>92%|N</string>
+					<string>96%|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>On an especially dry and windy day, how quickly will evaporation probably happen?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>Faster than usual|Y</string>
+					<string>More slowly than usual|N</string>
+					<string>At the same speed as usual|N</string>
+					<string>We cannot predict|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>On a cold day, evaporation will probably be</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>Faster than usual|N</string>
+					<string>Slower than usual|Y</string>
+					<string>The same as usual|N</string>
+					<string>We cannot predict|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>If ocean water evaporates, why don’t oceans disappear?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>Evaporation is invisible|N</string>
+					<string>They are disappearing, but evaporation happens too slowly to detect|N</string>
+					<string>Water that evaporates is replaced with other water molecules|Y</string>
+					<string>Melting icebergs replace all of the evaporated water|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How does the Sun promote evaporation?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>It supplies energy to water molecules|Y</string>
+					<string>It helps ocean salt crystallize|N</string>
+					<string>It removes heat from the atmosphere|N</string>
+					<string>It prevents transpiration|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>If the Sun stopped shining, what would happen to Earth’s oceans?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>They would stay the same|N</string>
+					<string>They would become vapor|N</string>
+					<string>They would become icy|Y</string>
+					<string>They would evaporate more quickly|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What is a benefit of transpiration?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>Water is returned to the atmosphere|N</string>
+					<string>Plants avoid overheating|N</string>
+					<string>Water molecules are filtered and cleaned through plants|N</string>
+					<string>All of the above|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Which of the following is influenced by water vapor?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>Thunderstorms|N</string>
+					<string>Hurricanes|N</string>
+					<string>Tornadoes|N</string>
+					<string>All of the above|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Where is sublimation more abundant?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>In deserts|N</string>
+					<string>In tropical climates|N</string>
+					<string>At the poles|Y</string>
+					<string>In the ocean|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How does fracking impact the water cycle?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>It reduces the rate of evaporation|N</string>
+					<string>It speeds up evaporation|N</string>
+					<string>It removes water from the water cycle|Y</string>
+					<string>It adds water to the water cycle|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Water has been found on Mars! Mars is colder than Earth. Which of the following is probably true?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>Most water on Mars is vapor|N</string>
+					<string>Mars does not have a water cycle|N</string>
+					<string>Transpiration could not happen on Mars|N</string>
+					<string>Sublimation happens on Mars|Y</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<key>topic2</key>
+	<dict>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Condensation is the opposite of </string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>Cloud formation|N</string>
+					<string>Precipitation|N</string>
+					<string>Evaporation|Y</string>
+					<string>Transpiration|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>During condensation, water molecules </string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>Evaporate|N</string>
+					<string>Become warmer|N</string>
+					<string>Freeze|N</string>
+					<string>Attach to small particles|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Condensation happens when </string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>The air cools|Y</string>
+					<string>Molecules move further apart|N</string>
+					<string>Liquid becomes gas|N</string>
+					<string>Liquid becomes solid|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>A cloud is named for</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>Its height and weight|N</string>
+					<string>Its shape and color|N</string>
+					<string>Its height and shape|Y</string>
+					<string>Its weight and shape|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Which job can a cloud accomplish?</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>Shield the planet from solar rays|N</string>
+					<string>Prevent heat from escaping the atmosphere|N</string>
+					<string>Transport water|N</string>
+					<string>All of the above|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How does an airplane generally create a cloudy trail?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>It burns a fuel that creates white smoke|N </string>
+					<string>It releases pollen and other particulates|N </string>
+					<string>It releases cold water vapor, which mixes with warm air|N</string>
+					<string>It releases warm water vapor, which mixes with cold air|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Which idea best helps explain why sunglasses could become foggy? </string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>Sunglasses reflect ultraviolet rays|N </string>
+					<string>The sunglasses are moist|N </string>
+					<string>The person wearing glasses is moving quickly|N </string>
+					<string>The person wearing glasses moved from cold air to warm air|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>One desert has clouds at night. One desert does not. What is most likely true?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>The desert without clouds has no particulates|N</string>
+					<string>The cloudy desert is colder at night|N</string>
+					<string>The cloudy desert is warmer at night|Y</string>
+					<string>The deserts have the same temperature|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>One cloud contains ice. Another cloud contains liquid water. Which of the following statements is most likely true?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>The cloud with liquid water is above a desert|N</string>
+					<string>The cloud with ice crystals is above a desert|N </string>
+					<string>The cloud with liquid water is higher in the sky|N</string>
+					<string>The cloud with ice crystals is higher in the sky|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>According to the lesson, how can pollution from automobile traffic affect clouds?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>Particulates from pollution can change the shape of clouds|N</string>
+					<string>Pollution can change the height of clouds|N </string>
+					<string>Pollution can prevent clouds from forming|N</string>
+					<string>Particulates from pollution can make cloud formation more likely|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>If evaporation sped up, how would it influence condensation?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>Faster evaporation would not influence condensation|N </string>
+					<string>With faster evaporation there would be less chance for condensation|N</string>
+					<string>With faster evaporation there would be more chance for condensation|Y</string>
+					<string>All of the above are equally likely|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How is condensation similar to evaporation?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>Both require the presence of particulates|N</string>
+					<string>Both are characterized by water molecules moving further apart|N</string>
+					<string>Both can only happen with pure water|N</string>
+					<string>Both involve water changing its state|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Which of these events would make condensation more likely?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>A dry wind arrives|N</string>
+					<string>A forest is planted|Y</string>
+					<string>The air temperature rises|N</string>
+					<string>None of the above|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>When condensation happens indoors, it can help mold and mildew grow. How can this be prevented?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>Closing all of your windows|N</string>
+					<string>Lowering the indoor temperature|N</string>
+					<string>Running a fan|Y</string>
+					<string>Using a humidifier|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Window A has condensation on the outside. Window B does not. Which window will keep the house warmer?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>The window without condensation|N</string>
+					<string>The window with condensation|Y</string>
+					<string>Condensation doesn’t matter|N</string>
+					<string>More information is needed|N</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<key>topic3</key>
+	<dict>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>Which word best describes a cloud that is full?</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>Precipitated|N</string>
+					<string>Saturated|Y </string>
+					<string>Solid|N</string>
+					<string>Cumulus|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What must happen for water to properly be called precipitation? </string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>It must move from ocean to land|N</string>
+					<string>It must fall over land|N</string>
+					<string>It must fall|Y </string>
+					<string>It cannot be acidic|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What makes precipitation more likely?</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>The air temperature falling|Y </string>
+					<string>The air temperature rising|N</string>
+					<string>The air temperature staying constant|N </string>
+					<string>The likeliness of precipitation never changes|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Which role does precipitation play in the water cycle? Choose the best answer.</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>It causes clouds to form|N</string>
+					<string>It deposits fresh water on Earth|Y</string>
+					<string>It filters pollutants from water|N</string>
+					<string>It removes carbon dioxide from water|N
+</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Fill in the blank. Acid rain _________________.</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>Does not occur naturally|N</string>
+					<string>Can be caused by pollution|Y</string>
+					<string>Was first noticed in the 1970s|N</string>
+					<string>Is better known as Virga|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What triggers water to fall from a cloud? Choose the best answer.</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>Enough wind arrives to push the cloud|N</string>
+					<string>The cloud becomes saturated|Y</string>
+					<string>The temperature is above freezing|N</string>
+					<string>The temperature is below freezing|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Which of the following does not belong?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>Virga|N</string>
+					<string>Fog|Y</string>
+					<string>Snow|N</string>
+					<string>Sleet|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Why is the windy sign of a mountain usually the rainiest?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>Temperatures are higher on the windy side|N</string>
+					<string>The windy side has a faster rate of evaporation|N</string>
+					<string> Wind moves up the mountain’s side and causes condensation|Y</string>
+					<string>All of the above|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What can happen to a snowflake as it falls? Choose the best answer.</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>It can evaporate before it hits the ground|N</string>
+					<string>It can melt, refreeze and become sleet|N</string>
+					<string>It can fuse to water and become graupel|N</string>
+					<string>All of the above|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Which is a way to classify precipitation?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>By pH or acid level|N</string>
+					<string>By where it lands |N</string>
+					<string>By size|Y</string>
+					<string>All of the above|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Which action could best help to reduce acid rain?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>Prohibit the dumping of oil into oceans|N</string>
+					<string>Require higher smokestacks on factories that pollute|N</string>
+					<string>Restore wetlands to filter rainwater|N</string>
+					<string>Use solar power plants instead of coal power plants|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Why might a cloud “unform” without precipitating?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>The atmospheric humidity level rises|N</string>
+					<string>The atmospheric temperature rises|Y </string>
+					<string>A cold wind causes it to break|N</string>
+					<string>Acidic water droplets cannot condense|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Scientists have forced clouds to precipitate. Which strategy to force precipitation makes sense scientifically?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>Remove particulates from the atmosphere|N </string>
+					<string>Inject a cloud with warm air|N</string>
+					<string>Inject a cloud with ice crystals|Y</string>
+					<string>None of the above|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Sometimes silver iodide is used to force precipitation to occur. What would be a logical consequence?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>More silver iodide is found in lakes|N</string>
+					<string>More silver iodide is found in plants|N</string>
+					<string>More silver iodide is found in animals|N</string>
+					<string>All of the above|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Some parts of the world rarely have rain. What explains this best?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>Water vapor is not present|N</string>
+					<string>The temperature rarely changes|N</string>
+					<string>The condensation rate is faster than the evaporation rate|N</string>
+					<string>Condensation and evaporation are in balance|Y</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<key>topic4</key>
+	<dict>
+		<key>questions</key>
+		<array>
+			<dict>
+				<key>question</key>
+				<string>In the runoff stage of the water cycle, water moves primarily</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>from a liquid to solid form|N</string>
+					<string>from the ocean to land|N</string>
+					<string>from land to the ocean|Y</string>
+					<string>from the ocean to the sky|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>When water lands on the continents, how much of it enters a body of water right away? </string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>None|N</string>
+					<string>About 33%|Y</string>
+					<string>About half|N</string>
+					<string>100%|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What is a consequence of paving land with asphalt?</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>Water cannot evaporate|N</string>
+					<string>Storm waters can cause floods|Y</string>
+					<string>Water is absorbed too quickly|N</string>
+					<string>Water can’t return to the ocean|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What is a main cause of dead zones in the Gulf of Mexico?
+</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>Power plant pollution|N</string>
+					<string>Engine oil runoff|N</string>
+					<string>Fertilizer|Y</string>
+					<string>Road salt|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Why are wetlands important?</string>
+				<key>level</key>
+				<string>Easy</string>
+				<key>answers</key>
+				<array>
+					<string>They absorb rainwater|N</string>
+					<string>They provide homes to rare species|N</string>
+					<string>They filter water|N</string>
+					<string>All of the above|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How do people make storms more dangerous?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>They fill in wetlands to make land more firm|Y</string>
+					<string>They rotate crops to reduce erosion|N</string>
+					<string>They channel water into aquifers|N</string>
+					<string>They add water to the water cycle|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Why can ancient soil help prevent floods? </string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>It makes land less permeable|N</string>
+					<string>It contains a spongy layer of roots|Y</string>
+					<string>It prevents transpiration|N</string>
+					<string>It doesn’t contain fertilizers|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Why doesn’t some water run off?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>It melted from a glacier|N</string>
+					<string>It evaporates|Y</string>
+					<string>It enters a dead zone|N</string>
+					<string>It pulls pollutants from the atmosphere and ground|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>What is a consequence of runoff?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>Natural aquifers receive less water|Y</string>
+					<string>Water transpires at a faster rate|N</string>
+					<string>Water can’t return to the ocean|N</string>
+					<string>Less fertilizer is needed on farms|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How can water runoff from farms affect the ocean?</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>It can raise the ocean’s oxygen level|N</string>
+					<string>It cannot affect the ocean because the same amount of water always circulates|N</string>
+					<string>It can reduce the ocean’s evaporation rate|N</string>
+					<string>It can add pollutants to the ocean|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How could runoff affect a farm? Choose the best answer</string>
+				<key>level</key>
+				<string>Medium</string>
+				<key>answers</key>
+				<array>
+					<string>It carries fertilizer away|N</string>
+					<string>It carries soil away|N</string>
+					<string>Land becomes polluted by factory waste|N</string>
+					<string>All of the above|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>How could communities help prevent farm runoff?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>Remove fences and other barriers from around farms|N</string>
+					<string>Fill in unstable wetlands|N</string>
+					<string>Convert paved areas to their natural state|Y</string>
+					<string>All of the above|N</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Which of the following could be created by runoff?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>A dead zone|N</string>
+					<string>A shallower river|N</string>
+					<string>A widened river|N</string>
+					<string>All of the above|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>Which argument(s) would be appropriate to convince a local government to preserve their wetlands?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>“You will help make storms less damaging”|N</string>
+					<string>“You will help prevent drought by restoring your water table”|N</string>
+					<string>“You can offer eco-tourism”|N</string>
+					<string>All of the above|Y</string>
+				</array>
+			</dict>
+			<dict>
+				<key>question</key>
+				<string>On an imaginary continent, where would a continental divide be the most likely?</string>
+				<key>level</key>
+				<string>Hard</string>
+				<key>answers</key>
+				<array>
+					<string>In wetlands|N</string>
+					<string>In a mountainous area|Y</string>
+					<string>On a flat plain|N</string>
+					<string>In an urban area|N</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

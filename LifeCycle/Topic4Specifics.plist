@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<integer>1</integer>
+	<key>topic_number</key>
+	<string>4</string>
+	<key>maintext</key>
+	<string>\n The runoff stage of the water cycle involves water moving from land to the ocean. Some of this water comes from melting glaciers, but most of it comes from precipitation. Runoff is the precipitation that falls on land and doesn’t evaporate, transpire, or soak into the ground right away. 
+\n When water falls onto an island or continent, about one-third of it collects in a stream, lake or river. Then it finds its way to the ocean. The other two-thirds of precipitation evaporates, transpires or soaks into the ground. When water seeps deep into the ground it helps to replenish aquifers (an underground layer of water-bearing permeable rock). However, because of human activity, water is sometimes unable to infiltrate the ground.
+\n When land becomes covered with asphalt, clay or concrete, it loses much of its ability to absorb water. The excess water must flow along the ground instead. There it can pick up contaminants such as engine oil and pesticides before it reaches the ocean. 
+\n People have created storm drains to counteract the effect of paving over land. Still, sometimes these storm drains cannot accept enough water. Floods can result. 
+\n Floods may be more likely in areas where people have substantially altered the landscape. For example, wetlands naturally absorb heavy rainfall. If wetlands have been filled in to create sturdy ground for buildings, the land can no longer absorb the same amount of water. This can make hurricanes and other storms more dangerous.</string>
+	<key>main_text_title_image_name</key>
+	<string>runoff_icon</string>
+	<key>background_track_name</key>
+	<string>stage1bgtrack.mp3</string>
+	<key>voiceover_track_name</key>
+	<string>runoff.mp3</string>
+	<key>images</key>
+	<array>
+		<string>runoff-P1.png,1.0</string>
+		<string>runoff-P2.png,1.0</string>
+		<string>runoff-P3.png,1.0</string>
+		<string>runoff-P4.png,1.0</string>
+		<string>runoff-P5.png,1.0</string>
+		<string>runoff-P6.png,1.0</string>
+		<string>runoff-P7.png,1.0</string>
+		<string>runoff-P8.png,1.0</string>
+	</array>
+	<key>titles</key>
+	<array>
+		<string>Runoff can shape landscapes and waterways by eroding land and depositing sediment</string>
+		<string>Water from storm drains flows into streams, lakes and oceans untreated</string>
+		<string>Floods are more likely where people have altered the landscape substantially</string>
+		<string>Wooded areas can absorb five times more rainfall than a paved area</string>
+		<string>Common contaminants of runoff water are oil, grease, fertilizer and road salt</string>
+		<string>Deforestation leads to increased runoff and top soil erosion</string>
+		<string>Chemicals contained in coastal runoff is destroying the coral reef</string>
+		<string>Wetlands can naturally absorb heavy rain and prevent flooding</string>
+	</array>
+	<key>attributions</key>
+	<array>
+		<string>Picture taken by Wolfgang Staudt</string>
+		<string>Picture taken by mr.bmonroe</string>
+		<string>Picture taken by US Geological Survey</string>
+		<string>Picture taken by paul bica</string>
+		<string>Picture taken by eggrole</string>
+		<string>Picture taken by crustmania</string>
+		<string>Picture taken by Jessy Eykendor</string>
+		<string>Picture taken by Nicholas_T</string>
+	</array>
+	<key>didyouknows</key>
+	<array>
+		<string>If the world were left natural, about 10% of precipitation would run off. Today about 55% runs off.</string>
+		<string>A wooded area can generally absorb five to ten times more rainfall than a paved area.</string>
+		<string>Water from storm drains generally flows directly to streams, lakes and oceans without being treated.</string>
+		<string>Since colonial times more than half the wetlands in the continental United States have been destroyed. </string>
+		<string>Some common contaminants of runoff water are oil, grease, lawn fertilizer and road salt.</string>
+		<string>Fertilizers used on farmland along the Mississippi River create low oxygen levels and “dead zones” in the Gulf of Mexico.</string>
+		<string>Scientists have identified more than 400 dead zones around coastal areas worldwide.</string>
+		<string>The Baltic Sea has the world’s largest dead zone. It covers 70,000 square kilometers or 27,000 square miles.</string>
+		<string>The Environmental Protection Agency reports that only 28% of US streams have healthy biological communities.</string>
+		<string>More than half the lake waters tested by the EPA are not safe for swimming or fishing.</string>
+		<string>When storm water leaves a sewer and quickly enters a stream or river, it can erode the banks.</string>
+		<string>Healthy wetlands are the most biologically diverse ecosystems on our planet.</string>
+		<string>Wetlands help to filter water, recharge freshwater aquifers, and pull carbon dioxide from the atmosphere.</string>
+		<string>Runoff can shape landscapes and waterways by eroding land or depositing sediment.</string>
+		<string>Erosion from runoff usually leads to smaller crops. More than half the topsoil in the US grain belt has eroded.</string>
+		<string>Rotating crops can help keep soil rich and resist erosion.</string>
+		<string>Ancient soils of Australia and Southern Africa contain extensive underground root networks that help prevent floods.</string>
+		<string>In order to minimize runoff, many governments are now passing laws to prevent unnecessary paving. </string>
+		<string>In the US, water on one side of the Continental Divide flows to the Atlantic. On the other side, it flows to the Pacific.</string>
+		<string>More than a third of the threatened and endangered species in the US live only in wetlands.</string>
+	</array>
+	<key>voiceoverpacings</key>
+	<dict>
+		<key>time</key>
+		<string>3.783,3.851,3.650,2.133,3.951,3.549,3.568,3.532,3.167,3.650,3.601,3.716,3.0,2.024,3.204,3.101,3.1,3.1,1.60,3.10,3.10,3.60,3.10,3.10,3.10,3.50,3.8,3.0,2.0</string>
+		<key>space</key>
+		<string>-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40,-80-40.0,-40.0,-40.0,-40</string>
+	</dict>
+	<key>youtubevideos</key>
+	<array>
+		<string>INcW26-iyqU</string>
+		<string>iuhv6FJBYck</string>
+		<string>dzgveXh00gc</string>
+		<string>ikWzJ2rGxiM</string>
+		<string>pQKwzhEXLEo</string>
+		<string>ID0h30gHVdw</string>
+		<string>VBb0ZdmfYQc</string>
+	</array>
+	<key>youtubetitles</key>
+	<array>
+		<string>The Life cycle of a Butterfly</string>
+		<string>Butterfly laying eggs in a garden</string>
+		<string>Monarch butterfly laying eggs</string>
+		<string>Polydamas Swallowtail butterfly laying eggs</string>
+		<string>A Monarch butterfly egg hatches</string>
+		<string>Title</string>
+		<string>Title</string>
+	</array>
+	<key>youtubeattributions</key>
+	<array>
+		<string>kendal0923</string>
+		<string>attribution</string>
+		<string>psong100</string>
+		<string>meiralfasi</string>
+		<string>scw1217</string>
+		<string>naturedisc</string>
+		<string>attribution</string>
+	</array>
+	<key>flickrphotos</key>
+	<string>76269833-72157629493443354</string>
+	<key>background_image</key>
+	<string>main_text_bg.png</string>
+	<key>starter_images</key>
+	<array>
+		<string>1128860064</string>
+		<string>2896079731</string>
+	</array>
+	<key>didyouknow_arrow_left_image</key>
+	<string>main_text_arrow_left.png</string>
+	<key>didyouknow_arrow_right_image</key>
+	<string>main_text_arrow_right.png</string>
+	<key>gallery_id</key>
+	<string>runoff</string>
+</dict>
+</plist>

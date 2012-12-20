@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<integer>1</integer>
+	<key>topic_number</key>
+	<string>1</string>
+	<key>maintext</key>
+	<string>\n In the water cycle, evaporation is the main way that water becomes part of the atmosphere. Evaporation describes water changing from a liquid to an invisible gas or vapor. Almost 90% of the moisture in our air comes from water that evaporated from oceans.    
+\n But how does water change its form? Water changes with help from the Sun. Heat is a form of energy. When water molecules absorb solar heat, they move more quickly. With their extra speed, they escape from the surface of the ocean or wherever they might be. As water molecules move further apart, they become steam and then invisible vapor. 
+\n Evaporation has the important job of removing heat from the earth. Without it, the oceans would become too hot under the Sun. 
+\n Evaporation influences every weather pattern. For example, the heat of moving water vapor gives hurricanes much of their energy and helps tornadoes form. 
+\n Some water in our air, about 10%, comes from plants. When they release water vapor it’s called transpiration. 
+\n Also, a tiny percentage of water enters the atmosphere through sublimation. Sublimation is when water changes from a solid directly to a gas, without becoming a liquid first. Sublimation happens when ice or snow turns to vapor. 
+\n How much evaporation, transpiration and sublimation take place? Altogether these equal precipitation. What goes up must come down – and go back up again. That’s the water cycle.</string>
+	<key>main_text_title_image_name</key>
+	<string>evaporation_icon</string>
+	<key>background_track_name</key>
+	<string>stage1bgtrack.mp3</string>
+	<key>voiceover_track_name</key>
+	<string>evaporation.mp3</string>
+	<key>images</key>
+	<array>
+		<string>evaporation-P5.png,1.0</string>
+		<string>evaporation-P1.png,1.0</string>
+		<string>evaporation-P2.png,1.0</string>
+		<string>evaporation-P3.png,1.0</string>
+		<string>evaporation-P4.png,1.0</string>
+		<string>evaporation-P6.png,1.0</string>
+		<string>evaporation-P7.png,1.0</string>
+		<string>evaporation-P8.png,1.0</string>
+	</array>
+	<key>titles</key>
+	<array>
+		<string>Evaporation influences every weather pattern</string>
+		<string>Evaporation is the main way that water becomes part of the atmosphere</string>
+		<string>10% of the water in air comes from transpisation from plants</string>
+		<string>A tiny portion of water in the air enters through sublimation</string>
+		<string>Evaporation slows down when humidity is high</string>
+		<string>Most water pollution comes from factories, farms and sewage systems</string>
+		<string>Drought causing lakes to dry up</string>
+		<string>Water evaporation leaves behind an abundance of evaporitic salts</string>
+	</array>
+	<key>attributions</key>
+	<array>
+		<string>Picture taken by NASA Goddard Flight Center</string>
+		<string>Picture taken by krossbow</string>
+		<string>Picture taken by brewbooks</string>
+		<string>Picture taken by brendagayle</string>
+		<string>Picture taken by Cristóbal Alvarado Minic</string>
+		<string>Picture taken by pierre-alain dorange</string>
+		<string>Picture taken by Kansas Poetry (Patrick)</string>
+		<string>Picture taken by Fikret Onal</string>
+	</array>
+	<key>didyouknows</key>
+	<array>
+		<string>The water that we have today has existed since our planet was first formed.</string>
+		<string>A water molecule is made of two hydrogen atoms and one oxygen atom.</string>
+		<string>Our planet holds about 326 million cubic miles of water.</string>
+		<string>Water has three states: liquid, solid and gas.</string>
+		<string>Over 100 years, the average water molecule will spend 98 years in the ocean.</string>
+		<string>About 97% of all water on Earth is salty ocean water. Only a precious 3% is fresh water. </string>
+		<string>Most of our planet’s fresh water is stored underground. Water wells hold groundwater. </string>
+		<string>Worldwide, polluted drinking water causes millions of deaths every year.</string>
+		<string>Most water pollution comes from factories, farms and sewage systems.</string>
+		<string>Every day more than two million tons of human waste are added to waterways. </string>
+		<string>Every year industries pollute water with more than 200 million pounds of chemicals.</string>
+		<string>Pure water has neither a taste nor a smell. </string>
+		<string>When you were born, about 80% of your body weight was from water.</string>
+		<string>When you feel thirsty, you have lost at least 1% of your body’s ideal water level. </string>
+		<string>Almost every food and drink provides water to the body.</string>
+		<string>A watermelon is 92% water. A cucumber is 96% water. Baked bread is about 35% water.</string>
+		<string>Wind helps speed up evaporation.</string>
+		<string>Humidity is the amount of water vapor in the air. Evaporation slows down when humidity is high.</string>
+		<string>The average US household uses more than 100,000 gallons of water per year. </string>
+		<string>About 66% of an adult’s body weight comes from water.</string>
+	</array>
+	<key>voiceoverpacings</key>
+	<dict>
+		<key>time</key>
+		<string>3.783,3.851,3.550,3.833,3.851,4.1,4.1,3.832,3.867,3.850,3.8,3.1,4.1,3.5,2.5,4.101,3.7,3.5,1.0,4.10,4.10,3.70,4.10,3.5,3.95,2.0,4.15,4.1,4.0,2.0</string>
+		<key>space</key>
+		<string>-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-80.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-0.0,-0.0</string>
+	</dict>
+	<key>youtubevideos</key>
+	<array>
+		<string>INcW26-iyqU</string>
+		<string>iuhv6FJBYck</string>
+		<string>dzgveXh00gc</string>
+		<string>ikWzJ2rGxiM</string>
+		<string>pQKwzhEXLEo</string>
+		<string>ID0h30gHVdw</string>
+		<string>VBb0ZdmfYQc</string>
+	</array>
+	<key>youtubetitles</key>
+	<array>
+		<string>The Life cycle of a Butterfly</string>
+		<string>Butterfly laying eggs in a garden</string>
+		<string>Monarch butterfly laying eggs</string>
+		<string>Polydamas Swallowtail butterfly laying eggs</string>
+		<string>A Monarch butterfly egg hatches</string>
+		<string>Title</string>
+		<string>Title</string>
+	</array>
+	<key>youtubeattributions</key>
+	<array>
+		<string>kendal0923</string>
+		<string>attribution</string>
+		<string>psong100</string>
+		<string>meiralfasi</string>
+		<string>scw1217</string>
+		<string>naturedisc</string>
+		<string>attribution</string>
+	</array>
+	<key>flickrphotos</key>
+	<string>76269833-72157629493443354</string>
+	<key>background_image</key>
+	<string>main_text_bg.png</string>
+	<key>starter_images</key>
+	<array>
+		<string>1128860064</string>
+		<string>2896079731</string>
+	</array>
+	<key>didyouknow_arrow_left_image</key>
+	<string>main_text_arrow_left.png</string>
+	<key>didyouknow_arrow_right_image</key>
+	<string>main_text_arrow_right.png</string>
+	<key>gallery_id</key>
+	<string>evaporation</string>
+</dict>
+</plist>

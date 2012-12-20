@@ -1,0 +1,28 @@
+<gallery>
+    <uid>wetland</uid>
+    <title>Ecosystem  Wetland</title>
+    <version>1</version>
+    <item>
+        <uid>1</uid>
+        <title>Duck in Wild</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm3.staticflickr.com/2182/2303432911_9d93cb2227_z_d.jpg</url>
+        <description>Great Duck</description>
+        <attribution>Jack Nicohlas</attribution>
+        <status>A</status>
+        <version>1</version>
+    </item>
+    <item>
+        <uid>2</uid>
+        <title>The Turtle</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm3.staticflickr.com/2314/2510308969_5b728b5e49_z_d.jpg?zz=1</url>
+        <description>Turtle Swimmer</description>
+        <attribution>Matt Dotson</attribution>
+        <status>A</status>
+        <version>1</version>
+    </item>
+
+</gallery>

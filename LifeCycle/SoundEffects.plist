@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kPlayScene</key>
+	<dict>
+		<key>WATER_RAINING_1</key>
+		<string>rain-medium-01.wav</string>
+		<key>SEED_LANDING_1</key>
+		<string>rain-medium-01.wav</string>
+	</dict>
+	<key>kIntroScene</key>
+	<dict>
+		<key>INTRO_CLICK_1</key>
+		<string>Click.mp3</string>
+		<key>INTRO_GREAT_JOB</key>
+		<string>Great job.mp3</string>
+		<key>INTRO_TRYAGAIN</key>
+		<string>tryagain.mp3</string>
+	</dict>
+	<key>kHomeScene</key>
+	<dict>
+		<key>INTRO_CLICK_1</key>
+		<string>Click.mp3</string>
+		<key>INTRO_GREAT_JOB</key>
+		<string>Great job.mp3</string>
+		<key>INTRO_TRYAGAIN</key>
+		<string>tryagain.mp3</string>
+		<key>SCROLL_TEXT</key>
+		<string>Forward.mp3</string>
+	</dict>
+	<key>kTopic2Scene</key>
+	<dict>
+		<key>GREAT_JOB_TOPIC2</key>
+		<string>Great job.mp3</string>
+		<key>OOPS_TOPIC2</key>
+		<string>Oops.mp3</string>
+		<key>KA_CHING_TOPIC2</key>
+		<string>Coin sound.mp3</string>
+		<key>BACKWARD_TOPIC2</key>
+		<string>Backward.mp3</string>
+		<key>FORWARD_TOPIC2</key>
+		<string>Forward.mp3</string>
+	</dict>
+	<key>kTopic3Scene</key>
+	<dict>
+		<key>GREAT_JOB_TOPIC3</key>
+		<string>Great job.mp3</string>
+		<key>OOPS_TOPIC3</key>
+		<string>Oops.mp3</string>
+		<key>KA_CHING_TOPIC3</key>
+		<string>Coin sound.mp3</string>
+		<key>BACKWARD_TOPIC3</key>
+		<string>Backward.mp3</string>
+		<key>FORWARD_TOPIC3</key>
+		<string>Forward.mp3</string>
+	</dict>
+	<key>kTopic4Scene</key>
+	<dict>
+		<key>GREAT_JOB_TOPIC4</key>
+		<string>Great job.mp3</string>
+		<key>OOPS_TOPIC4</key>
+		<string>Oops.mp3</string>
+		<key>KA_CHING_TOPIC4</key>
+		<string>Coin sound.mp3</string>
+		<key>BACKWARD_TOPIC4</key>
+		<string>Backward.mp3</string>
+		<key>FORWARD_TOPIC4</key>
+		<string>Forward.mp3</string>
+	</dict>
+	<key>kTopic5Scene</key>
+	<dict>
+		<key>GREAT_JOB_TOPIC5</key>
+		<string>Great job.mp3</string>
+		<key>OOPS_TOPIC5</key>
+		<string>Oops.mp3</string>
+		<key>KA_CHING_TOPIC5</key>
+		<string>Coin sound.mp3</string>
+		<key>BACKWARD_TOPIC5</key>
+		<string>Backward.mp3</string>
+		<key>FORWARD_TOPIC5</key>
+		<string>Forward.mp3</string>
+	</dict>
+	<key>kTopic6Scene</key>
+	<dict>
+		<key>GREAT_JOB_TOPIC6</key>
+		<string>Great job.mp3</string>
+		<key>OOPS_TOPIC6</key>
+		<string>Oops.mp3</string>
+		<key>KA_CHING_TOPIC6</key>
+		<string>Coin sound.mp3</string>
+		<key>BACKWARD_TOPIC6</key>
+		<string>Backward.mp3</string>
+		<key>FORWARD_TOPIC6</key>
+		<string>Forward.mp3</string>
+	</dict>
+	<key>kTopic7Scene</key>
+	<dict>
+		<key>GREAT_JOB_TOPIC7</key>
+		<string>Great job.mp3</string>
+		<key>OOPS_TOPIC7</key>
+		<string>Oops.mp3</string>
+		<key>KA_CHING_TOPIC7</key>
+		<string>Coin sound.mp3</string>
+		<key>BACKWARD_TOPIC7</key>
+		<string>Backward.mp3</string>
+		<key>FORWARD_TOPIC7</key>
+		<string>Forward.mp3</string>
+	</dict>
+	<key>kTopic1Scene</key>
+	<dict>
+		<key>GREAT_JOB_TOPIC1</key>
+		<string>Great job.mp3</string>
+		<key>OOPS_TOPIC1</key>
+		<string>Oops.mp3</string>
+		<key>KA_CHING_TOPIC1</key>
+		<string>Coin sound.mp3</string>
+		<key>BACKWARD_TOPIC1</key>
+		<string>Backward.mp3</string>
+		<key>FORWARD_TOPIC1</key>
+		<string>Forward.mp3</string>
+	</dict>
+	<key>kInfoScene</key>
+	<dict>
+		<key>INFO_CLICK_1</key>
+		<string>Click.mp3</string>
+	</dict>
+	<key>kTestScene</key>
+	<dict>
+		<key>TEST_CLICK_1</key>
+		<string>Click.mp3</string>
+	</dict>
+	<key>kCurrScene</key>
+	<dict>
+		<key>CURR_CLICK_1</key>
+		<string>Click.mp3</string>
+	</dict>
+	<key>kMatchingGameScene</key>
+	<dict>
+		<key>CLICK</key>
+		<string>Click.mp3</string>
+		<key>GREAT_JOB</key>
+		<string>Great job.mp3</string>
+		<key>OOPS</key>
+		<string>Oops.mp3</string>
+		<key>KA_CHING</key>
+		<string>Coin sound.mp3</string>
+	</dict>
+	<key>kOtherAppsScene</key>
+	<dict>
+	 <key>APPS_CLICK_1</key>
+	 <string>Click.mp3</string>
+	</dict>
+</dict>
+</plist>

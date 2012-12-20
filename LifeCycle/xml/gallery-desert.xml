@@ -1,0 +1,27 @@
+<gallery>
+    <uid>desert</uid>
+    <title>Ecosystem  Desert</title>
+    <version>1</version>
+    <item>
+        <uid>1</uid>
+        <title>Might Desert</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm5.staticflickr.com/4067/4337577836_71afd9a9e2_z_d.jpg?zz=1</url>
+        <description></description>
+        <attribution>Jack Nicohlas</attribution>
+        <status>A</status>
+        <version>1</version>
+    </item>
+    <item>
+        <uid>2</uid>
+        <title>The Valley</title>
+        <type>photo</type>
+        <thumbnail></thumbnail>
+        <url>http://farm1.staticflickr.com/245/523710222_0758d0efda_z_d.jpg</url>
+        <description>Beautiful View of the depths</description>
+        <attribution>Jack Nicohlas</attribution>
+        <status>A</status>
+        <version>1</version>
+    </item>
+</gallery>
