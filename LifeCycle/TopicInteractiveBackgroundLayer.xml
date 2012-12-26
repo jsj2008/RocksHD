@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ccLayer version="1.0">
+    
+    <ccNode class="SLCCUIPageControl" tag="1013" parentTag="-1">
+        <position type="global" isNormalized="true">
+            <x>0.4609</x>
+            <y>0.1042</y>
+        </position>
+        <scale>1.0000</scale>
+        <angle type="global">0.0000</angle>
+    </ccNode>
+    
+    <ccNode class="CCMenuItemImage" tag="1014" parentTag="-1">
+        <position type="relative" isNormalized="true">
+            <x>0.4521</x>
+            <y>0.0104</y>
+        </position>
+        <scale>1.0000</scale>
+        <angle type="global">0.0000</angle>
+    </ccNode>
+    
+    <ccNode class="CCLabelTTF" tag="1016" parentTag="-1">
+        <position type="global" isNormalized="true">
+            <x>0.5176</x>
+            <y>0.0750</y>
+        </position>
+        <angle type="global">0.0000</angle>
+        <scale>1.0000</scale>
+    </ccNode>
+    
+    <ccNode class="CCSprite" tag="1017" parentTag="-1">
+        <position type="global" isNormalized="true">
+            <x>0.5</x>
+            <y>0.06510</y>
+        </position>
+        <angle type="global">0.0000</angle>
+        <scale>1.0000</scale>
+    </ccNode>
+
+</ccLayer>

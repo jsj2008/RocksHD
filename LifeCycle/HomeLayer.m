@@ -312,9 +312,11 @@
     CCLOG(@"Topic %d clicked",sender.tag);
     switch (sender.tag) {
         case kHomeTopic1ButtonTag:
-            [AppConfigManager  getInstance].currentTopic = 1;
+            
             [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
-            [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopic1Scene withTranstion:kCCTransitionPageTurnForward];
+            
+            
+         [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopic1Scene withTranstion:kCCTransitionPageTurnForward];
             break;
         case kHomeTopic2ButtonTag:
             [AppConfigManager  getInstance].currentTopic = 2;
@@ -324,7 +326,7 @@
         case kHomeTopic3ButtonTag:
             [AppConfigManager  getInstance].currentTopic = 3;
             [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
-            [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopic3Scene withTranstion:kCCTransitionPageTurnForward];
+            [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageFlip];
             break;
         case kHomeTopic4ButtonTag:
             [AppConfigManager  getInstance].currentTopic = 4;

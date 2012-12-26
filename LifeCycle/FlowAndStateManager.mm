@@ -8,6 +8,7 @@
 
 #import "FlowAndStateManager.h"
 #import "HomeScene.h"
+#import "AppConfigManager.h"
 #import "PlistManager.h"
 #import "IntroScene.h"
 #import "Topic2Scene.h"
@@ -21,9 +22,11 @@
 #import "PhotoScene.h"
 #import "VideoScene.h"
 #import "CurrScene.h"
+#import "TopicInteractiveBackgroundLayer.h"
 
 #import "MatchingGameScene.h"
 #import "OtherAppsScene.h"
+#import "ModelManager.h"
 
 @implementation FlowAndStateManager
 static FlowAndStateManager* _sharedFlowAndStateManager = nil;
@@ -125,6 +128,18 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
             }
         }
             break;
+        case kTopicInteractiveScene:
+        {
+            
+            TopicInteractiveBackgroundLayer *l = [TopicInteractiveBackgroundLayer node];
+            CCScene *c = (CCScene*) l;
+            ModelManager *mm = [ModelManager sharedModelManger];
+            
+            l.info = mm.appInfo.topics[[AppConfigManager  getInstance].currentTopic -1];
+            sceneToRun = c;
+            
+            break;
+        }
         default:
             CCLOG(@"Unknown ID, cannot switch scenes");
             return;
@@ -491,6 +506,9 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
             break;
         case kOtherAppsScene:
             result = @"kOtherAppsScene";
+            break;
+        case kTopicInteractiveScene:
+            result = @"kTopicInteractiveScene";
             break;
    
             
