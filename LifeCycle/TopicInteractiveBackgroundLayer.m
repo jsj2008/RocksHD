@@ -46,6 +46,7 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
 -(id) init {
     if (self = [super init]) {
         currentHotspotsFilledBackgroundIndex = 0;
+        globalCenter = CGPointMake(512, 383);
         CCLOG(@"init");
     }
     return self;
@@ -88,7 +89,8 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
         bgSprite = [CCSprite spriteWithFile:bgInfo.textBackgroundImage];
         bgSprite.tag = kBackgroundTextBgTag;
      //   [self assignPositionFromXMLForNode:bgSprite];
-        bgSprite.position = CGPointMake(512, 384);
+//        bgSprite.position = CGPointMake(512, 384);
+                bgSprite.position = CGPointMake(512,0);
         [self addChild:bgSprite z:10];
     }
     
@@ -97,11 +99,13 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
         textLabel = [CCLabelTTF labelWithString:bgInfo.backgroundText fontName:@"ArialRoundedMTBold" fontSize:25.0];
         textLabel.tag = kBackgroundTextTag;
 //        [self assignPositionFromXMLForNode:textLabel];
-                bgSprite.position = CGPointMake(10, 600);
+                textLabel.position = CGPointMake(512, 0);
         [self addChild:textLabel z:1000];
     }
     
     textLabel.string = bgInfo.backgroundText;
+    
+    debugLog(@"Bg Text %@",textLabel.string);
 
 }
 
@@ -237,7 +241,9 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
     
     SLCCUIPageControl *pageCtrl = [SLCCUIPageControl slCCUIPageControlWithParentNode:self withGlFrame:glFrame];
     pageCtrl.tag = kUIPageControlTag;
-    [self assignPositionFromXMLForNode:pageCtrl];
+    //[self assignPositionFromXMLForNode:pageCtrl];
+    pageCtrl.position = CGPointMake(471, 80);
+
     pageCtrl.numberOfPages = self.info.hotspotsOnBackgrounds.count;
     pageCtrl.currentPage = 0;
 }
@@ -249,7 +255,8 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
                                                    disabledImage:@"pageArrow.png"
                                                                target:self selector:@selector(handlePageArrow:)];
     pageArrow.tag = kPageArrowMenuItem;
-    [self assignPositionFromXMLForNode:pageArrow];
+    //[self assignPositionFromXMLForNode:pageArrow];
+    pageArrow.position = CGPointMake(512, 50);
     
     CCMenu *menu = [CCMenu menuWithItems:pageArrow, nil];
     menu.tag = kPageArrowMenu;

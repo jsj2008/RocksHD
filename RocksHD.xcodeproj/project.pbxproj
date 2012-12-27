@@ -363,6 +363,11 @@
 		04A082F515468DBF007A86D5 /* stage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A082EF15468DBE007A86D5 /* stage1.png */; };
 		04ADE06E1637D20C006E7B03 /* InfoTextPane.png in Resources */ = {isa = PBXBuildFile; fileRef = 04ADE06D1637D20C006E7B03 /* InfoTextPane.png */; };
 		04B382A515A55798005BF7AB /* Music-Matching-Game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04B382A415A55798005BF7AB /* Music-Matching-Game.mp3 */; };
+		04DE6EA4168C46340055B07A /* SLCCUICompositeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE6EA3168C46340055B07A /* SLCCUICompositeNode.m */; };
+		04DE6EAA168C488B0055B07A /* rainforest_background-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE6EA6168C488B0055B07A /* rainforest_background-ipad.png */; };
+		04DE6EAB168C488B0055B07A /* rainforest_background-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE6EA7168C488B0055B07A /* rainforest_background-ipadhd.png */; };
+		04DE6EAC168C488B0055B07A /* rainforest_background2-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE6EA8168C488B0055B07A /* rainforest_background2-ipadhd.png */; };
+		04DE6EAD168C488B0055B07A /* rainforest_background2-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE6EA9168C488B0055B07A /* rainforest_background2-ipad.png */; };
 		04DF6B3D162A98E400F828E0 /* info_right_arrow_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DF6B3C162A98E300F828E0 /* info_right_arrow_selected.png */; };
 		04F3D60D162BF161001733F6 /* evaporation_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F3D60B162BF160001733F6 /* evaporation_icon.png */; };
 		04F3D60E162BF161001733F6 /* evaporation_icon_bigger.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F3D60C162BF160001733F6 /* evaporation_icon_bigger.png */; };
@@ -1176,6 +1181,12 @@
 		04A082EF15468DBE007A86D5 /* stage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage1.png; sourceTree = "<group>"; };
 		04ADE06D1637D20C006E7B03 /* InfoTextPane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoTextPane.png; sourceTree = "<group>"; };
 		04B382A415A55798005BF7AB /* Music-Matching-Game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Music-Matching-Game.mp3"; sourceTree = "<group>"; };
+		04DE6EA2168C46340055B07A /* SLCCUICompositeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCCUICompositeNode.h; sourceTree = "<group>"; };
+		04DE6EA3168C46340055B07A /* SLCCUICompositeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCCUICompositeNode.m; sourceTree = "<group>"; };
+		04DE6EA6168C488B0055B07A /* rainforest_background-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainforest_background-ipad.png"; sourceTree = "<group>"; };
+		04DE6EA7168C488B0055B07A /* rainforest_background-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainforest_background-ipadhd.png"; sourceTree = "<group>"; };
+		04DE6EA8168C488B0055B07A /* rainforest_background2-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainforest_background2-ipadhd.png"; sourceTree = "<group>"; };
+		04DE6EA9168C488B0055B07A /* rainforest_background2-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainforest_background2-ipad.png"; sourceTree = "<group>"; };
 		04DF6B3C162A98E300F828E0 /* info_right_arrow_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_right_arrow_selected.png; sourceTree = "<group>"; };
 		04F3D60B162BF160001733F6 /* evaporation_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evaporation_icon.png; sourceTree = "<group>"; };
 		04F3D60C162BF160001733F6 /* evaporation_icon_bigger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evaporation_icon_bigger.png; sourceTree = "<group>"; };
@@ -2561,6 +2572,10 @@
 				04785F5D168AFD8D0077520F /* edit-button-ipadhd.png */,
 				04785F8A168AFDBE0077520F /* glow-ipadhd.png */,
 				04785F8B168AFDBE0077520F /* glow-ipad.png */,
+				04DE6EA6168C488B0055B07A /* rainforest_background-ipad.png */,
+				04DE6EA7168C488B0055B07A /* rainforest_background-ipadhd.png */,
+				04DE6EA8168C488B0055B07A /* rainforest_background2-ipadhd.png */,
+				04DE6EA9168C488B0055B07A /* rainforest_background2-ipad.png */,
 				04785F8C168AFDBE0077520F /* pullout-tab-rightarrow-ipad.png */,
 				04785F8D168AFDBE0077520F /* pullout-tab-rightarrow-ipadhd.png */,
 				04785F8E168AFDBE0077520F /* pullout-tab-leftarrow-ipad.png */,
@@ -2725,6 +2740,8 @@
 				1BFE30C315E0B90400513F65 /* CCImageStack.m */,
 				1BFE30C415E0B90400513F65 /* CCImageStack.h */,
 				1BFE30C615E0B92600513F65 /* ScrollableCCLabelTTF.h */,
+				04DE6EA2168C46340055B07A /* SLCCUICompositeNode.h */,
+				04DE6EA3168C46340055B07A /* SLCCUICompositeNode.m */,
 				1BFE30C715E0B92600513F65 /* ScrollableCCLabelTTF.m */,
 				1BFE30C915E0B93B00513F65 /* SizeSmartCCLabelTTF.h */,
 				1BFE30CA15E0B93B00513F65 /* SizeSmartCCLabelTTF.m */,
@@ -3454,6 +3471,10 @@
 				04785F93168AFDBE0077520F /* pullout-tab-rightarrow-ipadhd.png in Resources */,
 				04785F94168AFDBE0077520F /* pullout-tab-leftarrow-ipad.png in Resources */,
 				04785F95168AFDBE0077520F /* pullout-tab-leftarrow-ipadhd.png in Resources */,
+				04DE6EAA168C488B0055B07A /* rainforest_background-ipad.png in Resources */,
+				04DE6EAB168C488B0055B07A /* rainforest_background-ipadhd.png in Resources */,
+				04DE6EAC168C488B0055B07A /* rainforest_background2-ipadhd.png in Resources */,
+				04DE6EAD168C488B0055B07A /* rainforest_background2-ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3742,6 +3763,7 @@
 				04785F4A168AE97D0077520F /* SLCCMenu.m in Sources */,
 				04785F4E168AE9A40077520F /* SLCCTextTickerTape.m in Sources */,
 				04785F51168AE9C00077520F /* SLCCCompositeNode.m in Sources */,
+				04DE6EA4168C46340055B07A /* SLCCUICompositeNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

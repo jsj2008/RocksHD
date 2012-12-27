@@ -8,7 +8,11 @@
 
 #import "SLCCUIPageControl.h"
 
-@implementation SLCCUIPageControl
+@implementation SLCCUIPageControl {
+    CGSize adjustedContentSize;
+    
+    UIPageControl *pageControl;
+}
 
 @synthesize numberOfPages, currentPage;
 
@@ -17,38 +21,66 @@
     if (pageControl != nil)
         [pageControl release];
     
-    [self removeChild:wrapper cleanup:YES];
-    wrapper = nil;
-    
     [super dealloc];
 }
 
-+(id) slCCUIPageControlWithParentNode:(CCNode *)parentNode {
-    return [[[self alloc] initWithParentNode:parentNode] autorelease];
++(id) slCCUIPageControlWithParentNode:(CCNode *)parentNode withGlFrame:(CGRect)glFrame {
+    return [[[self alloc] initWithParentNode:parentNode withGlFrame:glFrame] autorelease];
 }
 
--(id) initWithParentNode:(CCNode *)parentNode {
+-(id) initWithParentNode:(CCNode *)parentNode withGlFrame:(CGRect)glFrame {
     self = [super init];
     if (self) {
         [parentNode addChild:self];
         
-        screenSize = [CCDirector sharedDirector].winSize;
+        if (CGRectIsNull(glFrame)) {
+            CGPoint o = ccp(screenSize.width*0.5, screenSize.height*0.5 + 280.0);
+            CGSize s = CGSizeMake(10.0, 10.0);
+            glFrame = CGRectMake(o.x, o.y, s.width, s.height);
+        }
         
-        CGPoint position = [[CCDirector sharedDirector] convertToUI:ccp(screenSize.width*0.5, screenSize.height*0.5 + 280.0)];
-        
-        CGRect frame = CGRectMake(position.x, position.y, 10.0, 10.0);
+        CGRect fr = [self obtainUIKitFrameForGLOrigin:glFrame.origin andSize:glFrame.size];
+        _frame = fr;
         
         pageControl = [[UIPageControl alloc] init];
-        pageControl.frame = frame;
         pageControl.numberOfPages = 1;
         pageControl.currentPage = 0;
         pageControl.defersCurrentPageDisplay = NO;
-    
-        wrapper = [CCUIViewWrapper wrapperForUIView:pageControl bringGLViewToFront:NO defaultViewHierStruct:YES];
-        [self addChild:wrapper];
         
+        if ([pageControl respondsToSelector:@selector(setCurrentPageIndicatorTintColor:)]) {
+            pageControl.currentPageIndicatorTintColor = [UIColor redColor];
+            pageControl.pageIndicatorTintColor = [UIColor whiteColor];
+        }
+        
+        pageControl.frame = fr;
+        [self embedUIView:pageControl];
+        
+        adjustedContentSize = glFrame.size;
+        position_ = glFrame.origin;
     }
     return self;
+}
+
+-(CGSize)adjustedContentSize {
+    return adjustedContentSize;
+}
+
+-(CGRect)adjustedBoundingBox {
+    // return this in GL Coord and convention for rectangle
+    return CGRectMake(position_.x, position_.y, adjustedContentSize.width, adjustedContentSize.height);
+}
+
+#pragma mark - Getters & Setters
+-(void) setPosition:(CGPoint)position {
+    [super setPosition:position];
+    
+    // If this node's position is changed externally, readjust the UIKit frame
+    // to be consistent with that.
+    
+    CGRect f = [self obtainUIKitFrameForGLOrigin:position andSize:self.frame.size];
+    
+    pageControl.frame = f;
+    self.frame = f;
 }
 
 -(void) setNumberOfPages:(NSInteger)numOfPages {

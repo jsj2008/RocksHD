@@ -8,22 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
-#import "CCNode.h"
-#import "CCUIViewWrapper.h"
+#import "SLCCUICompositeNode.h"
 
-@interface SLCCUIPageControl : CCNode {
-    
-    CGSize screenSize;
-
-    CCUIViewWrapper *wrapper;
-    UIPageControl *pageControl;
-}
+@interface SLCCUIPageControl : SLCCUICompositeNode
 
 @property(nonatomic) NSInteger numberOfPages;
 @property(nonatomic) NSInteger currentPage;
 @property(nonatomic, getter=isHidden) BOOL hidden;
 
-+(id) slCCUIPageControlWithParentNode:(CCNode *)parentNode;
--(id) initWithParentNode:(CCNode *)parentNode;
++(id) slCCUIPageControlWithParentNode:(CCNode *)parentNode withGlFrame:(CGRect)glFrame;
+-(id) initWithParentNode:(CCNode *)parentNode withGlFrame:(CGRect)glFrame;
+
+@property (nonatomic, assign) CGRect frame;   // Note: this is UIKit frame;
 
 @end
