@@ -107,8 +107,8 @@
                                                         selectedImage:@"apps_bigger.png"
                                                                target:self
                                                              selector:@selector(apps)];
-    info.position = ccp(0,0);
-    info.tag = kIntroAppButtonTag;
+    otherApps.position = ccp(50,0);
+    otherApps.tag = kIntroAppButtonTag;
     
     CCMenu *otherAppsMenu = [CCMenu menuWithItems:otherApps, nil];
     otherAppsMenu.tag = kIntroAppMenuTag;
@@ -187,6 +187,10 @@
 }
 
 -(void) addTopicMenus {
+    
+    debugLog(@"No play button needed");
+    return;
+    
     
     // Main Menu
     CCMenu *menu = [CCMenu menuWithItems:nil];
@@ -469,9 +473,9 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
 
     
     
-    CCMenuItemImage *reduceMenuItem = [CCMenuItemImage itemFromNormalImage:@"evaporation.png"
-                                                             selectedImage:@"evaporation_bigger.png"
-                                                             disabledImage:@"evaporation.png"
+    CCMenuItemImage *reduceMenuItem = [CCMenuItemImage itemFromNormalImage:@"fossils.png"
+                                                             selectedImage:@"fossils_bigger.png"
+                                                             disabledImage:@"fossils.png"
                                                                     target:self 
                                                                   selector:@selector(topicHandler:)];
     
@@ -481,9 +485,9 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
     
     [reduceMenuItem runAction:[self makeGentleSwirlingAction:reduceMenuItem.position]];
     
-    CCMenuItemImage *recycleMenuItem = [CCMenuItemImage itemFromNormalImage:@"precipitation.png"
-                                                             selectedImage:@"precipitation_bigger.png"
-                                                             disabledImage:@"precipitation.png"
+    CCMenuItemImage *recycleMenuItem = [CCMenuItemImage itemFromNormalImage:@"rocks.png"
+                                                             selectedImage:@"rocks_bigger.png"
+                                                             disabledImage:@"rocks.png"
                                                                     target:self 
                                                                   selector:@selector(topicHandler:)];
     
@@ -492,9 +496,9 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
 
     [recycleMenuItem runAction:[self makeGentleSwirlingAction:recycleMenuItem.position]];
 
-    CCMenuItemImage *reuseMenuItem = [CCMenuItemImage itemFromNormalImage:@"condensation.png"
-                                                              selectedImage:@"condensation_bigger.png"
-                                                              disabledImage:@"condensation.png"
+    CCMenuItemImage *reuseMenuItem = [CCMenuItemImage itemFromNormalImage:@"soils.png"
+                                                              selectedImage:@"soils_bigger.png"
+                                                              disabledImage:@"soils.ong"
                                                                      target:self 
                                                                    selector:@selector(topicHandler:)];
     
@@ -503,9 +507,9 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
 
     [reuseMenuItem runAction:[self makeGentleSwirlingAction:reuseMenuItem.position]];
     
-    CCMenuItemImage *runoffMenuItem = [CCMenuItemImage itemFromNormalImage:@"runoff.png"
-                                                            selectedImage:@"runoff_bigger.png"
-                                                            disabledImage:@"runoff.png"
+    CCMenuItemImage *runoffMenuItem = [CCMenuItemImage itemFromNormalImage:@"minerals.png"
+                                                            selectedImage:@"minerals_bigger.png"
+                                                            disabledImage:@"minerals.png"
                                                                    target:self
                                                                  selector:@selector(topicHandler:)];
     
