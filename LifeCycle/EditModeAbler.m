@@ -110,8 +110,8 @@
     [_editSaveButton runAction:[CCFadeOut actionWithDuration:0.5]];
     
     [_coordinatesLabel runAction:[CCFadeOut actionWithDuration:0.5]];
-    [[CCTouchDispatcher sharedDispatcher] removeDelegate:self.delegateLayer];
-    [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self.delegateLayer priority:0 swallowsTouches:NO];
+  //  [[CCTouchDispatcher sharedDispatcher] removeDelegate:self.delegateLayer];
+//    [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self.delegateLayer priority:0 swallowsTouches:NO];
     uiEditMode = NO;
     
     // Reable all menu buttons
@@ -195,8 +195,8 @@
         [_editSaveButton runAction:[CCFadeIn actionWithDuration:0.5]];
         
         // Register touch, and swallow all event
-        [[CCTouchDispatcher sharedDispatcher] removeDelegate:self.delegateLayer];
-        [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self.delegateLayer priority:0 swallowsTouches:YES];
+//[[CCTouchDispatcher sharedDispatcher] removeDelegate:self.delegateLayer];
+  //      [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self.delegateLayer priority:0 swallowsTouches:YES];
         uiEditMode = YES;
         
         // Disable all menu items
@@ -340,8 +340,8 @@
 }
 
 -(void) setSwallowTouches:(BOOL)swallowsTouches withTarget:(id<CCTargetedTouchDelegate>)target {
-	[[CCTouchDispatcher sharedDispatcher] removeDelegate:target];
-    [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:target priority:kCCMenuTouchPriority swallowsTouches:swallowsTouches];
+//	[[CCTouchDispatcher sharedDispatcher] removeDelegate:target];
+  //  [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:target priority:kCCMenuTouchPriority swallowsTouches:swallowsTouches];
 }
 
 
