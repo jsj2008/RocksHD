@@ -23,6 +23,7 @@
 #import "VideoScene.h"
 #import "CurrScene.h"
 #import "TopicInteractiveBackgroundLayer.h"
+#import "ReadTextScene.h"
 
 #import "MatchingGameScene.h"
 #import "OtherAppsScene.h"
@@ -108,26 +109,42 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
              case kOtherAppsScene:
              sceneToRun = [OtherAppsScene node];
             break;
+        
+        case kQuizScene:
+        {
+            sceneToRun = [TextAndQuizScene node];
             
-        case kPhotoScene: 
+            [(TextAndQuizScene*) sceneToRun loadQuestionsForScene:kTopic1Scene];
+            [(TextAndQuizScene*) sceneToRun loadQuiz];
+        }
+            break;
+        case kReadTextScene:
+            sceneToRun = [ReadTextScene node];
+            break;
+            
+        case kPhotoScene:
             sceneToRun = [PhotoScene node];
         {
+            /*
             CCScene *current_scene = [[CCDirector sharedDirector] runningScene];
             if ([current_scene respondsToSelector:@selector(topicInfo)]) {
 //                ((PhotoScene*)sceneToRun).topicInfo = [current_scene topicInfo];
                 ((PhotoScene*)sceneToRun).topicInfo = [current_scene performSelector:@selector(topicInfo)];
             }
-        }
+             */
+            
+
+            ((PhotoScene*)sceneToRun).topicInfo  = [self loadTopicSpecificsForScene:[AppConfigManager  getInstance].currentTopic];
+
             break;
+                    }
         case kVideoScene:
-            sceneToRun = [VideoScene node];
         {
-            CCScene *current_scene = [[CCDirector sharedDirector] runningScene];
-            if ([current_scene respondsToSelector:@selector(topicInfo)]) {
-                ((VideoScene*)sceneToRun).topicInfo = [current_scene performSelector:@selector(topicInfo)];
-            }
-        }
+            sceneToRun = [VideoScene node];
+            ((VideoScene*)sceneToRun).topicInfo  = [self loadTopicSpecificsForScene:[AppConfigManager  getInstance].currentTopic];
+
             break;
+        }
         case kTopicInteractiveScene:
         {
             
@@ -239,6 +256,13 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
             sceneToRun = [OtherAppsScene node];
             break;
     
+        case kQuizScene:
+            sceneToRun = [TextAndQuizScene node];
+            break;
+        case kReadTextScene:
+            sceneToRun = [ReadTextScene node];
+            break;
+            
         case kPhotoScene: 
             sceneToRun = [PhotoScene node];
         {
@@ -507,6 +531,13 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
         case kOtherAppsScene:
             result = @"kOtherAppsScene";
             break;
+        case kQuizScene:
+            result = @"kQuizScene";
+            break;
+        case kReadTextScene:
+            result = @"kReadTextScene";
+            break;
+    
         case kTopicInteractiveScene:
             result = @"kTopicInteractiveScene";
             break;
@@ -735,5 +766,41 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
 }
 
 
+-(NSDictionary*)loadTopicSpecificsForScene:(int)sceneType {
+    NSDictionary *dict;
+    
+    switch (sceneType) {
+        case kTopic1Scene:
+            dict = [[PlistManager sharedPlistManager] topic1SpecificsDictionary];
+            break;
+        case kTopic2Scene:
+            dict = [[PlistManager sharedPlistManager] topic2SpecificsDictionary];
+            break;
+        case kTopic3Scene:
+            dict = [[PlistManager sharedPlistManager] topic3SpecificsDictionary];
+            break;
+        case kTopic4Scene:
+            dict = [[PlistManager sharedPlistManager] topic4SpecificsDictionary];
+            break;
+        case kTopic5Scene:
+            dict = [[PlistManager sharedPlistManager] topic5SpecificsDictionary];
+            break;
+        case kTopic6Scene:
+            dict = [[PlistManager sharedPlistManager] topic6SpecificsDictionary];
+            break;
+        case kTopic7Scene:
+            dict = [[PlistManager sharedPlistManager] topic7SpecificsDictionary];
+            break;
+        default:
+            break;
+    }
+    
+    if (dict == nil) {
+        CCLOG(@"Error reading Topic?Specifics plist");
+        return nil;
+    }
+ 
+    return dict;
+}
 
 @end

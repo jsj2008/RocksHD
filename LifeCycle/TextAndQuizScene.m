@@ -43,11 +43,6 @@
 }
 
 -(void)loadQuiz {
-    // First unload the main text and the "Do you know?" section
-    MainTextImagesLayer *mainTextImagesLayer = (MainTextImagesLayer*)[self getChildByTag:1];
-    self.specificTopicInfo = mainTextImagesLayer.topicInfo;
-
-    [mainTextImagesLayer removeFromParentAndCleanup:YES]; mainTextImagesLayer = nil;
     
     // Then load the quiz layer and its background
     TextAndQuizBackgroundLayer *bgLayer = [TextAndQuizBackgroundLayer node];

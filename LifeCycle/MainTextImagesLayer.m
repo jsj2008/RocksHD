@@ -14,6 +14,7 @@
 #import "SLAudio.h"
 #import "GalleryManager.h"
 #import "Reachability.h"
+#import "AppConfigManager.h"
 
 #define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 
@@ -834,7 +835,7 @@
         screenSize = [CCDirector sharedDirector].winSize;
         
         CCLOG(@"Before loadTopicSpecificsForScene");
-        self.topicInfo = [self loadTopicSpecificsForScene:[FlowAndStateManager sharedFlowAndStateManager].currentScene];
+        self.topicInfo = [self loadTopicSpecificsForScene:[AppConfigManager  getInstance].currentTopic];
         CCLOG(@"After loadTopicSpecificsForScene");
         
         

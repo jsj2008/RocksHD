@@ -26,6 +26,7 @@
 		0442CB9F16A64E100056DC2E /* vol-button-off-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0442CB9B16A64DF50056DC2E /* vol-button-off-ipadhd.png */; };
 		0442CBA016A64E100056DC2E /* vol-button-on-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0442CB9C16A64DFC0056DC2E /* vol-button-on-ipad.png */; };
 		0442CBA116A64E100056DC2E /* vol-button-on-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0442CB9D16A64E090056DC2E /* vol-button-on-ipadhd.png */; };
+		0442CBA416A679870056DC2E /* ReadTextScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0442CBA316A679870056DC2E /* ReadTextScene.m */; };
 		044A13F3158EF527002FFB22 /* Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A13F2158EF527002FFB22 /* Properties.m */; };
 		045373271631367E00172F38 /* evaporation-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 045373261631367E00172F38 /* evaporation-8.jpg */; };
 		045373291631369200172F38 /* evaporation-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 045373281631369100172F38 /* evaporation-6.jpg */; };
@@ -622,6 +623,8 @@
 		0442CB9B16A64DF50056DC2E /* vol-button-off-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vol-button-off-ipadhd.png"; sourceTree = "<group>"; };
 		0442CB9C16A64DFC0056DC2E /* vol-button-on-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vol-button-on-ipad.png"; sourceTree = "<group>"; };
 		0442CB9D16A64E090056DC2E /* vol-button-on-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vol-button-on-ipadhd.png"; sourceTree = "<group>"; };
+		0442CBA216A679860056DC2E /* ReadTextScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadTextScene.h; sourceTree = "<group>"; };
+		0442CBA316A679870056DC2E /* ReadTextScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadTextScene.m; sourceTree = "<group>"; };
 		044A13F1158EF527002FFB22 /* Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Properties.h; sourceTree = "<group>"; };
 		044A13F2158EF527002FFB22 /* Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Properties.m; sourceTree = "<group>"; };
 		045373261631367E00172F38 /* evaporation-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "evaporation-8.jpg"; sourceTree = "<group>"; };
@@ -2342,6 +2345,8 @@
 				1B14799514B831D100353E77 /* Info */,
 				1B54525D152A2B1B00EDACA4 /* Curriculum */,
 				1B98870214CF50BF00C5BB34 /* Experimental */,
+				0442CBA216A679860056DC2E /* ReadTextScene.h */,
+				0442CBA316A679870056DC2E /* ReadTextScene.m */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -3784,6 +3789,7 @@
 				04785F4E168AE9A40077520F /* SLCCTextTickerTape.m in Sources */,
 				04785F51168AE9C00077520F /* SLCCCompositeNode.m in Sources */,
 				04DE6EA4168C46340055B07A /* SLCCUICompositeNode.m in Sources */,
+				0442CBA416A679870056DC2E /* ReadTextScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

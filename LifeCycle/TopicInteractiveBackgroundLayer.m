@@ -18,6 +18,9 @@
 #import "HotspotInfo.h"
 #import "GalleryItemInfo.h"
 #import "NavigationItemInfo.h"
+#import "TextAndQuizScene.h"
+#import "MainTextImagesLayer.h"
+
 typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
     kBackgroundSpriteTag = 1011,
     kEditorTag = 1012,
@@ -163,16 +166,24 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
 
 #pragma mark - Menu Setup
 -(void) setupTopLeftMenu {
-    CCMenuItemImage *app = [CCMenuItemImage itemWithNormalImage:@"app-button.png" 
+    
+    
+    CCMenuItemImage *app = [CCMenuItemImage itemWithNormalImage:@"app-button.png"
                                                    selectedImage:@"app-button.png"
                                                    disabledImage:@"app-button.png"
                                                           target:self selector:@selector(handleApp)];
     
     CCMenuItemImage *vol = [CCMenuItemImage itemWithNormalImage:@"vol-button-on.png"
-                                                    selectedImage:@"vol-button-on.png"
-                                                    disabledImage:@"vol-button-on.png"
-                                                           target:self selector:@selector(handleVol)];
+                                                    selectedImage:@"vol-button-off.png"
+                                                    disabledImage:@"vol-button-off.png"
+                                                           target:self
+                                                       selector:(@selector(handleVol:))];
     
+    if ([[FlowAndStateManager sharedFlowAndStateManager] isMusicON])
+        [vol unselected];
+    else
+        [vol selected];
+
     CCMenuItemImage *home = [CCMenuItemImage itemWithNormalImage:@"home-button.png"
                                                     selectedImage:@"home-button.png"
                                                     disabledImage:@"home-button.png"
@@ -180,7 +191,7 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
 
     SLCCMenu *menu = [SLCCMenu slCCMenuWithParentNode:self atLocation:SLCCMenuTopLeft withType:SLCCMenuTypePullOrTabOutHorizontal];
     [self reorderChild:menu z:1000];
-    [menu menuWithItems:app, vol, home, nil];
+    [menu menuWithItems: vol, home, nil];
 }
     
 
@@ -215,12 +226,15 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
     
     [self reorderChild:menu z:1000];
     
-    [menu menuWithItems:text, photo, video, quiz, share, nil];
-//    [menu menuWithItems:text, photo, video, quiz, nil];
+    //[menu menuWithItems:text, photo, video, quiz, share, nil];
+    [menu menuWithItems:text, photo, video, quiz, nil];
 
 }
 
 -(void) setupBottomLeftMenu {
+    
+    debugLog(@"adding nothing to buttom menu");
+    return;
     CCMenuItemImage *info = [CCMenuItemImage itemWithNormalImage:@"info-button.png" 
                                                    selectedImage:@"info-button.png"
                                                    disabledImage:@"info-button.png"
@@ -372,19 +386,44 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
     
 //    CCLOG(@"handle Text is commented: needs fix");
     NSString *destLayer = self.navigationMap[@"Main Text"];
-    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithName:destLayer withTranstion:kCCTransitionPageFlip withIntermediateTransition:NO withContextInfo:self.info];
+    
+    
+    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kReadTextScene withTranstion:kCCTransitionPageFlip];
+
 }
 
 -(void) handlePhoto {
     CCLOG(@"Handle Photo");
+    
+    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kPhotoScene withTranstion:kCCTransitionPageFlip];
+
 }
 
 -(void) handleVideo {
     CCLOG(@"Handle Video");
+    
+    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kVideoScene withTranstion:kCCTransitionPageFlip];
+
 }
 
 -(void) handleQuiz {
     CCLOG(@"Handle Quiz");
+    
+    [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+    
+    /*
+    if (!self.audioItemImage.isSelected) {
+        
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_TEXTPAGE];
+    }
+     */
+    
+    
+
+    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kQuizScene withTranstion:kCCTransitionPageFlip];
+
+    
+
 }
 
 -(void) handleShare {
@@ -393,10 +432,33 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
 
 -(void) handleApp {
     NSString *destLayer = self.navigationMap[@"Cross Marketing Page"];
-    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithName:destLayer withTranstion:kCCTransitionPageFlip withIntermediateTransition:NO withContextInfo:nil];
 }
 
--(void) handleVol {
+-(void) handleVol:(CCMenuItemImage*)i {
+    
+    
+    
+    if ([FlowAndStateManager sharedFlowAndStateManager].isMusicON) {
+        
+        [i selected];
+        
+        [FlowAndStateManager sharedFlowAndStateManager].isMusicON = NO;
+        
+        [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+        
+    }
+    
+    else {
+        
+        [i unselected];
+        
+        [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
+        
+            [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+        
+    }
+
+
     CCLOG(@"Handle sound volume");
 }
 
@@ -404,14 +466,15 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
 
     NSString *destLayer = self.navigationMap[@"Home"];
     
-    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithName:destLayer withTranstion:kCCTransitionPageFlip withIntermediateTransition:NO withContextInfo:[ModelManager sharedModelManger].appInfo];
+    
+    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kHomeScene withTranstion:kCCTransitionPageFlip];
+    
     
 }
 
 -(void) handleInfo {
     
     NSString *destLayer = self.navigationMap[@"Info"];
-    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithName:destLayer withTranstion:kCCTransitionPageFlip withIntermediateTransition:NO withContextInfo:[ModelManager sharedModelManger].appInfo];
 }
 
 

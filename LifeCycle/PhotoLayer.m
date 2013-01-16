@@ -388,9 +388,10 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     
     [slides show];
     
+    CGRect glFrame = CGRectMake(0.0, 0.0, 120.0, 15.0);  // the origin is a dummy, the position is the thing thats gonna be set a few lines later.
     
     
-    SLCCUIPageControl *pageCtrl = [SLCCUIPageControl slCCUIPageControlWithParentNode:self];
+    SLCCUIPageControl *pageCtrl = [SLCCUIPageControl slCCUIPageControlWithParentNode:self withGlFrame:glFrame];
     pageCtrl.tag = kPhotoPageControlTag;
     pageCtrl.numberOfPages = numOfImages;
     

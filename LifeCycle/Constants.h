@@ -54,6 +54,8 @@ typedef enum {
     kMatchingGameScene=105,
     kOtherAppsScene=106,
     kTopicInteractiveScene=107,
+    kQuizScene=108,
+    kReadTextScene=109,
     kTestScene=999
 } SceneTypes;
 
