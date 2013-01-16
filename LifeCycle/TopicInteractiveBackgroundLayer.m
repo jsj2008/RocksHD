@@ -168,9 +168,9 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
                                                    disabledImage:@"app-button.png"
                                                           target:self selector:@selector(handleApp)];
     
-    CCMenuItemImage *vol = [CCMenuItemImage itemWithNormalImage:@"vol-button.png"
-                                                    selectedImage:@"vol-button.png"
-                                                    disabledImage:@"vol-button.png"
+    CCMenuItemImage *vol = [CCMenuItemImage itemWithNormalImage:@"vol-button-on.png"
+                                                    selectedImage:@"vol-button-on.png"
+                                                    disabledImage:@"vol-button-on.png"
                                                            target:self selector:@selector(handleVol)];
     
     CCMenuItemImage *home = [CCMenuItemImage itemWithNormalImage:@"home-button.png"
