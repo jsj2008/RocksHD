@@ -46,16 +46,18 @@
     
     <topic version="1" uid="1">
         <number>1</number>
-        <name>glassland</name>
+        <name>rocks</name>
         <topicImageName>ecosystem_stage1.png</topicImageName>
         <topicBiggerImageName>ecosystem_stage1_bigger.png</topicBiggerImageName>
         <mainText>
-            \n Grassland ecosystems mostly contain grasses and non-woody plants rather than large shrubs or trees and are found in areas of the earth where it is too wet for deserts, but too dry for forests.
-            \n There are two main types of grasslands: tropical grasslands that are close to the equator and are warm throughout the year, and have a rainy and a dry season and temperate grasslands that have a growing season and a season when it’s too cold for anything to grow.
-            \n Examples of the tropical grasslands are the Savannas and Veldts of Africa. The Steppes of Eurasia, the Pampas and Campos of South America and the Prairies of North America are examples of temperate grasslands.
-            \n Plants and animals that live in grasslands have adapted to the dry, windy conditions. Grasses have deep and extensive root systems to absorb moisture and to prevent the grazing animals from pulling the roots out of the ground.
-            \n Animals use camouflage to hide them from the carnivores (meat eaters). They have also developed the ability to run fast to escape predators and to migrate large distances to find water during the dry season. Since grasses are difficult to digest, the herbivores (grass eaters) have developed a digestive system with multiple stomachs.
-            \n Grasslands are very important to humans. They have deep soil which is rich in nutrients. They provide food for livestock, help prevent soil erosion, and act as a filter to cleanse water.
+            <mainText>
+                \n What is a rock?  Rocks are naturally occurring solid combinations of minerals and sometimes other materials too. The common rock granite is made of the minerals quartz, feldspar and biotite. When only one mineral is present, the object is a mineral, not rock.
+                \n Scientists classify rocks into three categories: igneous, sedimentary, and metamorphic. These are all part of the rock cycle.
+                \n Igneous rocks begin deep in the Earth, which contains solid and molten materials such as silicon, magnesium and iron. Magma bursts through the Earth's surface via volcanoes and cracks in the Earth's crust. At the surface it's called lava. Lava hardens to become new crust.
+                \n Rocks are exposed to ocean waves and weather. They slowly break down into pebbles and sand. Sedimentary rocks are made of the resulting sand and mud, material from plants and animals, and minerals left over when liquid evaporates. These all compact and harden to become rock.
+                \n Metamorphic rocks are made when rocks experience new temperature and pressure conditions. For example, contact with magma could cause rock to liquefy and then recrystallize into a different type of rock.
+                \n Scientists believe that humans have been using rocks for about 3.5 million years.  Stone arrowheads were among our first tools. Today we mine rocks for use in roads, statues, buildings, chalkboards, jewelry, cosmetics and many other items.
+            </mainText>
         </mainText>
         <optionalText>I am optional text</optionalText>
         <mainTextTitleImageName>
@@ -121,64 +123,68 @@
             <didYouKnowLeftImage>grasslands_arrow_left.png</didYouKnowLeftImage>
             <didYouKnowRightImage>grasslands_arrow_right.png</didYouKnowRightImage>
             <item uid="0">
-                <text>About 25% of the total land area on earth is covered by grasslands</text>
+                <text>Petrology is the study of the origin and composition of rocks.</text>
             </item>
             <item uid="1">
-                <text>All major food grains like corn, wheat, oats, barley, rye, millet, and sorghum come from grasslands</text>
+                <text>Geology is the study of the Earth, rocks and the rock cycle.</text>
             </item>
             <item uid="2">
-                <text>Grasslands occur on every continent except Antarctica</text>
+                <text>A grain of sand is like a tiny rock! Look at one under a microscope.</text>
             </item>
             <item uid="3">
-                <text>Fire is important in maintaining grasslands because it recycles nutrients and prevents trees from growing</text>
+                <text>Some rocks contain mineralites in addition to minerals. Glass is a mineralite.</text>
             </item>
             <item uid="4">
-                <text>The amount of rainfall determines the height of grasses in the grassland</text>
+                <text>Glass is made from superheated sand.</text>
             </item>
             <item uid="5">
-                <text>Grasslands have some of the world’s richest loam soil. This rich soil is ideal for farming and grazing</text>
+                <text>Igneous means fire in Latin. Igneous rocks come from magma.</text>
             </item>
             <item uid="6">
-                <text>Temperate grasslands typically occur between deserts and forests</text>
+                <text>When molten material cools inside the Earth's crust, intrusive rock is formed.</text>
             </item>
             <item uid="7">
-                <text>If there is less 10 inches of precipitation a desert will form and if there is at least 40 inches, a forest will form</text>
+                <text>When lava cools outside the Earth's crust, extrusive rock is formed.</text>
             </item>
             <item uid="8">
-                <text>Prairies formed about 8000 years ago</text>
+                <text>The Earth's outer rocky layer is called the lithosphere. It includes oceanic crust and continental crust.</text>
             </item>
             <item uid="9">
-                <text>Animals in the savanna have evolved long legs to help them migrate during drought</text>
+                <text>Basalt is the most common rock on Earth. Much of the ocean's crust is basalt.</text>
             </item>
             <item uid="10">
-                <text>Pine, acacia and palm are trees found in the savanna since they are resistant to drought and poor soil</text>
+                <text>The Earth's continental crust is mainly andesite rock.</text>
             </item>
             <item uid="11">
-                <text>Mountain ranges maintain grasslands by blocking rainfall</text>
+                <text>Marble is a metamorphic rock. It is usually made from limestone.</text>
             </item>
             <item uid="12">
-                <text>Perennial plants are dominant in temperate grasslands while annuals are dominant in tropical grasslands</text>
+                <text>At least 300 degrees Fahrenheit (150 Celsius) are needed to cause metamorphic changes.</text>
             </item>
             <item uid="13">
-                <text>Water is so scarce in the arid regions of China that people use yak's milk to wash their faces</text>
+                <text>The Taj Mahal is made entirely of marble.</text>
             </item>
             <item uid="14">
-                <text>Fire helps many plants by germinating their seeds</text>
+                <text>Geodes are ordinary-looking igneous or sedimentary rocks on the outside but contain beautiful crystals on the inside.</text>
             </item>
             <item uid="15">
-                <text>50% of Africa is made of grasslands</text>
+                <text>Meteorites, or rocks from outer space, help scientists learn about our solar system</text>
             </item>
             <item uid="16">
-                <text>Over 30% of the grasses in the Prairies are non-native grasses</text>
+                <text>One of the oldest rocks on Earth was brought from the Moon. Scientists believe it's about 4.5 billion years old.
+</text>
             </item>
             <item uid="17">
-                <text>Over half of the animals in the temperate grasslands burrow underground</text>
+                <text>The Himalayans are among the world’s youngest mountains. Scientists estimate that they formed 30 million years ago.
+</text>
             </item>
             <item uid="18">
-                <text>A majority of the grasslands are found near the tropics</text>
+                <text>To estimate the age of a sedimentary rock, scientists consider its thickness, its mineral layers, and the plant and animal remains it may contain.
+</text>
             </item>
             <item uid="19">
-                <text>Temperate grasslands have more organic material in the soil than tropical grasslands</text>
+                <text>Mountains form when enormous pieces of the Earth's crust collide and bunch up.
+</text>
             </item>
         </didYouKnows>
         <voiceoverPacings>
