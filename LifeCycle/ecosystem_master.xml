@@ -501,74 +501,74 @@
         <questions version="1">
             <item uid="0">
                 <question>
-                    Grasslands have grasses and
+                    For an object to be a rock in geologists' terms, what must it contain?
                 </question>
                 <level>Easy</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Trees</answer>
+                        <answer>Only one mineral</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Shrubs</answer>
+                        <answer>Organic material</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Non-woody plants or forbs</answer>
+                        <answer>Minerals and organic material</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Cactus</answer>
-                        <truth>N</truth>
+                        <answer>More than one mineral</answer>
+                        <truth>Y</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="1">
                 <question>
-                    What is the name for the grasslands in Europe and Asia?
+                    Creating sedimentary rocks primarily involves _________________.
                 </question>
                 <level>Easy</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Pampas</answer>
-                        <truth>N</truth>
+                        <answer>The compaction of material</answer>
+                        <truth>Y</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Prairie</answer>
+                        <answer>Volcanic flows and cooling</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Savanna</answer>
+                        <answer>High heat and pressure</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Steppes</answer>
-                        <truth>Y</truth>
+                        <answer>The precipitation of minerals</answer>
+                        <truth>N</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="2">
                 <question>
-                    There are two types of grasslands: Tropical and
+                    Which rock type is most directly associated with molten (melted) material?
                 </question>
                 <level>Easy</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Savanna</answer>
-                        <truth>N</truth>
+                        <answer>Igneous</answer>
+                        <truth>Y</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Prairie</answer>
+                        <answer>Sedimentary</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Temperate</answer>
+                        <answer>Metamorphic</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Steppes</answer>
+                        <answer>Meteorite</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
@@ -576,24 +576,24 @@
             
             <item uid="3">
                 <question>
-                    Plants have adapted to the grasslands by developing
+                    Which rocks are especially common in riverbeds?
                 </question>
                 <level>Easy</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Leaves</answer>
+                        <answer>Igneous rocks</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Deep roots</answer>
+                        <answer>Metamorphic rocks</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Thick stems</answer>
+                        <answer>Sedimentary rocks</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Beautiful flowers</answer>
+                        <answer>Geodes</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
@@ -601,66 +601,73 @@
             
             <item uid="4">
                 <question>
-                    Tropical grasslands are found near
+                    Creating metamorphic rocks primarily involves _________________.
                 </question>
                 <level>Easy</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Equator</answer>
-                        <truth>Y</truth>
+                        <answer>The compaction of sand and organic material</answer>
+                        <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Deserts</answer>
+                        <answer>The cooling of lava</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Water bodies</answer>
+                        <answer>The precipitation of minerals</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Temperate grasslands</answer>
-                        <truth>N</truth>
-                    </choice>
+                        <answer>Extreme heat and pressure</answer>
+                        <truth>Y</truth>
                 </answers>
             </item>
 
             <item uid="5">
                 <question>
-                    A tropical grassland has the following growing seasons
+                    Judging from its name, sandstone is most likely ________.
                 </question>
-                <level>Easy</level>
+                <level>Medium</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Warm and a cold</answer>
+                        <answer>Igneous rock</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Rainy and a dry</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-
-            <item uid="6">
-                <question>
-                    The amount of rainfall in the grassland determines the
-                </question>
-                <level>Easy</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Thickness of the grass</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Shape of the leaf</answer>
+                        <answer>Metamorphic rock</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Height of the grass</answer>
+                        <answer>Sedimentary rock</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Number of leaves</answer>
+                        <answer>Intrusive rock</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="6">
+                <question>
+                    Which event would most likely help create metamorphic rocks?
+                </question>
+                <level>Medium</level>
+                <answers>
+                    <choice uid="0">
+                        <answer>Weathering</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>A volcanic eruption</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>An earthquake</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>A meteorite crash</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
@@ -668,24 +675,24 @@
             
             <item uid="7">
                 <question>
-                    When plants and animals die, the process by which they are added to the soil is called
+                    The Earth's crust __________.
                 </question>
-                <level>Easy</level>
+                <level>Medium</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Evaporation</answer>
+                        <answer>Never changes</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Decomposition</answer>
+                        <answer>Is replaced with new rock</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Digestion</answer>
+                        <answer>Is created mainly through erosion</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Pollination</answer>
+                        <answer>First formed 30 million years ago</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
@@ -693,116 +700,124 @@
             
             <item uid="8">
                 <question>
-                    Which of the following is NOT an example of animal adaptation in the grasslands?
+                    Which rock would be most likely to contain glass?
                 </question>
-                <level>Easy</level>
+                <level>Medium</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Migration</answer>
-                        <truth>N</truth>
+                        <answer>An igneous rock</answer>
+                        <truth>Y</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Camouflage</answer>
+                        <answer>A sedimentary rock</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Running fast</answer>
+                        <answer>A meteorite</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Decomposition</answer>
-                        <truth>Y</truth>
+                        <answer>A geode</answer>
+                        <truth>N</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="9">
                 <question>
-                    The Antarctic is the only continent which does not have a grassland. True or False?
+                    Which of the following is true?
                 </question>
-                <level>Easy</level>
+                <level>Medium</level>
                 <answers>
                     <choice uid="0">
-                        <answer>True</answer>
-                        <truth>Y</truth>
+                        <answer>Minerals are larger than rocks</answer>
+                        <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>False</answer>
+                        <answer>Rocks are larger than minerals</answer>
                         <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Minerals are made from rocks</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Rocks are made from minerals</answer>
+                        <truth>Y</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="10">
                 <question>
-                    If you had more than 40 inches of rainfall in a grassland what kind of biome would it become?
+                    Which statement is true?
                 </question>
-                <level>Medium</level>
+                <level>Hard</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Desert</answer>
+                        <answer>Oceanic crust is older than continental crust</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Forest</answer>
+                        <answer>Mountain ranges have different ages</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Tropical grassland</answer>
+                        <answer>Sedimentary rocks are not placed under pressure</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Aquatic</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="11">
-                <question>
-                    Lions, zebras, antelope, wildebeest and other animals live in Africa. The grassland is called
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Savanna</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Campos</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Steppes</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Illanos</answer>
+                        <answer>All of the above</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
             </item>
 
-            <item uid="12">
+            <item uid="11">
                 <question>
-                    A desert is unlike a grassland because
+                   To make a mountain, what must occur?
                 </question>
-                <level>Medium</level>
+                <level>Hard</level>
                 <answers>
                     <choice uid="0">
-                        <answer>It gets very little rainfall</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>It has its own ecosystem</answer>
+                        <answer>A basaltic eruption</answer>
                         <truth>N</truth>
                     </choice>
+                    <choice uid="1">
+                        <answer>Movement in the Earth's crust</answer>
+                        <truth>Y</truth>
+                    </choice>
                     <choice uid="2">
-                        <answer>It has carnivores and herbivores</answer>
+                        <answer>An extreme temperature change</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>It occurs in different continents</answer>
+                        <answer>Any of the above</answer>
+                        <truth>N</truth>
+                    </choice>
+                </answers>
+            </item>
+            
+            <item uid="12">
+                <question>
+                    Oceanic crust is typically made through ________. 
+                </question>
+                <level>Hard</level>
+                <answers>
+                    <<choice uid="0">
+                        <answer>A basaltic eruption</answer>
+                        <truth>Y</truth>
+                    </choice>
+                    <choice uid="1">
+                        <answer>An intrusive eruption</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Collisions of the Earth's crust</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>An eruption of andesite</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
@@ -810,421 +825,55 @@
             
             <item uid="13">
                 <question>
-                    All animals that live in the grasslands eat only grasses. True or False?
+                    How would intrusive rock most likely reach the Earth's surface?
                 </question>
-                <level>Medium</level>
+                <level>Hard</level>
                 <answers>
                     <choice uid="0">
-                        <answer>True</answer>
+                        <answer>In a basaltic eruption</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>False</answer>
+                        <answer>In an earthquake</answer>
                         <truth>Y</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>By filling cracks in the sea floor</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Any of the above</answer>
+                        <truth>N</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="14">
                 <question>
-                    What do you call an animal that eats other living creatures?
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Insectivore</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Omnivore</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Herbivore</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Carnivore</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="15">
-                <question>
-                    Mountain ranges help form grasslands by
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Adding beauty to the landscape</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Preventing the animals from migrating</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Blocking rainfall</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Having a competing ecosystem</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="16">
-                <question>
-                    Why is fire important to the grasslands?
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Makes the grass easier to digest</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Prevent carnivores from eating all the herbivores</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Helps germinate the seeds and prevents trees from spreading</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Warns humans about destroying grasslands</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="17">
-                <question>
-                    Why are grasslands important to humans?
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>They have rich soil for cultivation</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>They are home to plants and animals</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>They are found in almost all continents</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>They don't have a lot of trees</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="18">
-                <question>
-                    Since it is dry and windy in the grasslands, grasses are mostly pollinated by
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Water</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Soil</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Wind</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Insects</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="19">
-                <question>
-                    Since grasses are difficult to digest, how have herbivores adapted to this?
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Adapted by developing a complex digestive process</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Stopped eating grasses</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Moved to newer areas</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>They do not digest the grass</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="20">
-                <question>
-                    If you were a herbivore in a grassland and there was drought, you would
+                    If a planet did not have much weather, which rock type would take extra-long to form?
                 </question>
                 <level>Hard</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Do nothing</answer>
+                        <answer>Igneous</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Eat more grasses</answer>
+                        <answer>Metamorphic</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Migrate to a place with water and food</answer>
+                        <answer>Sedimentary</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Become a carnivore</answer>
+                        <answer>All of the above</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
             </item>
             
-            <item uid="21">
-                <question>
-                    In order for grasslands to have tall grasses what is needed?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Fertilizer</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>More seeds</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>More sunshine</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>More rain</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="22">
-                <question>
-                    If you had to convert a grassland into a desert what would you need to do?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Drive all the animals away</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Reduce the amount of rainfall to less than 10 inches per year</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Begin planting cacti</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Add sand to the grassland</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-
-            <item uid="23">
-                <question>
-                    Perennial plants are the dominants species in
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Tropical grasslands</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Temperate grasslands</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Deserts</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Antarctica</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="24">
-                <question>
-                    If you were an animal in the grassland that could not run fast what could you do?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Develop wings to fly</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Burrow and hide underground</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Get help from animals that could run fast</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>From large groups to confuse predators</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="25">
-                <question>
-                    Why are grasslands located between deserts and forests?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>They had no other place to form</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>They get more rainfall than forests and less than deserts</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>They get more rainfall than deserts and less than forests</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>They have grasses and some trees</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="26">
-                <question>
-                    If a grassland had no fires, what could happen?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Humans could use it for more options</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>It would become very cold</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>The grasses would die due to too much water</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>It could become a forest over time</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="27">
-                <question>
-                    If a plant had broad leaves and shallow roots, what changes would it need to make to survive in a grassland
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Develop narrow leaves and deep extensive roots</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Shed all its leaves</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Create attractive and good smelling flowers</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Go into dormancy during the winter</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-
-            <item uid="28">
-                <question>
-                    Why do soils of temperate grasslands have more organic matter?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>There are more animals and plants in this grassland</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Humans use this grassland more and add organic material</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Rainwater brings organic material to this grassland</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>They have less rainfall and hence less leaching of organic material</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="29">
-                <question>
-                    Why does the acacia tree survive in grasslands?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>It has no leaves</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Elephants like the tree</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>It grows well in poor soil and drought conditions</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>It grows to be a tall tree with a thick stem</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-        </questions>
+     </questions>
         
     </topic>
     
