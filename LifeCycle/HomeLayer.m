@@ -11,6 +11,20 @@
 #import "ConfigManager.h"
 #import "PlistManager.h"
 #import "AppConfigManager.h"
+#import "FlowAndStateManager.h"
+#import "ModelManager.h"
+#import "AppInfo.h"
+#import "TopicInfo.h"
+#import "ImageInfo.h"
+#import "DidYouKnowInfo.h"
+#import "YoutubeVideoInfo.h"
+#import "StarterImageInfo.h"
+#import "GalleryItemInfo.h"
+#import "QuestionItemInfo.h"
+#import "ChoiceInfo.h"
+#import "HotspotInfo.h"
+#import "NavigationItemInfo.h"
+
 
 @implementation HomeLayer
 
@@ -382,13 +396,22 @@
 {
     CCLOG(@"init");
     self = [super init];
+    
+    
+    [[ModelManager sharedModelManger] setDataSrcName:@"ecosystem_master"];
+    
+    AppInfo *info = [ModelManager sharedModelManger].appInfo;             // Feed in everything.
+
     if (self) {
         screenSize = [CCDirector sharedDirector].winSize;
       
+        
+        // TO Comment in Production
+        [self testXML];
                 
         CCSprite *backgroundImage;
         if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-            backgroundImage = [CCSprite spriteWithFile:@"home_background.png"];
+            backgroundImage = [CCSprite spriteWithFile:info.backgroundImage];
         }
         else {
             backgroundImage = nil;
@@ -400,7 +423,7 @@
         
         CCSprite *backgroundImageDYK;
         if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-            backgroundImageDYK = [CCSprite spriteWithFile:@"info_background_strip.png"];
+            backgroundImageDYK = [CCSprite spriteWithFile:info.introTexts.backgroundImage];
         }
         else {
             backgroundImageDYK = nil;
@@ -429,38 +452,6 @@
     }
     
 NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([self class])];
-    /*
-    
-    NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([self class])];
-    
-    // Get arrow positions from User Defaults
-    CGPoint arrow3Position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kHome3OclockArrowTag];
-    CGPoint arrow6Position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kHome4OclockArrowTag];
-    CGPoint arrow4Position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kHome6OclockArrowTag];
-    
-    // Get arrow angles from User defaults
-    float arrow3Angle = [[ConfigManager sharedConfigManager] angleFromDefaultsForNodeHierPath:path andTag:kHome3OclockArrowTag];
-    float arrow4Angle = [[ConfigManager sharedConfigManager] angleFromDefaultsForNodeHierPath:path andTag:kHome4OclockArrowTag];
-    float arrow6Angle = [[ConfigManager sharedConfigManager] angleFromDefaultsForNodeHierPath:path andTag:kHome6OclockArrowTag];
-    
-    
-    CCSprite *arrow3oclock = [CCSprite spriteWithFile:@"arrow_bottom.png"];
-    arrow3oclock.position = arrow3Position;
-    arrow3oclock.rotation = arrow3Angle;
-    [self addChild:arrow3oclock z:0 tag:kHome3OclockArrowTag];
-    
-    CCSprite *arrow4oclock = [CCSprite spriteWithFile:@"arrow_left.png"];
-    arrow4oclock.position = arrow4Position;
-    arrow4oclock.rotation = arrow4Angle;
-    [self addChild:arrow4oclock z:0 tag:kHome4OclockArrowTag];
-    
-    CCSprite *arrow6oclock = [CCSprite spriteWithFile:@"arrow_right.png"];
-    arrow6oclock.position = arrow6Position;
-    arrow6oclock.rotation = arrow6Angle;
-    //    arrow6oclock.rotation = 22.5f;
-    [self addChild:arrow6oclock z:0 tag:kHome6OclockArrowTag];
-    
-    */
     
     // Get arrow positions from User Defaults
         NSString *hierPath = [NSString stringWithFormat:@"%@/CCMenu:%d/CCMenuItemImage", NSStringFromClass([self class]), kIntroTopicButtonsMenuTag];
@@ -498,7 +489,7 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
 
     CCMenuItemImage *reuseMenuItem = [CCMenuItemImage itemFromNormalImage:@"soils.png"
                                                               selectedImage:@"soils_bigger.png"
-                                                              disabledImage:@"soils.ong"
+                                                              disabledImage:@"soils.png"
                                                                      target:self 
                                                                    selector:@selector(topicHandler:)];
     
@@ -530,12 +521,14 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
     
     // Loading "Did you know"
     // TODO: why mutableCopy?
-    CCArray *dYKTxts = [CCArray arrayWithCapacity:15];
+    //CCArray *dYKTxts = [CCArray arrayWithCapacity:15];
     
-        NSDictionary * dict = [[PlistManager sharedPlistManager] appDictionary];
-    dYKTxts = [[dict objectForKey:@"infolines"] mutableCopy];
-    [dYKTxts autorelease];
-    self.didYouKnowTxts = dYKTxts;
+//    NSDictionary * dict = [[PlistManager sharedPlistManager] appDictionary];
+  //  dYKTxts = [[dict objectForKey:@"infolines"] mutableCopy];
+  //  [dYKTxts autorelease];
+    
+    
+    self.didYouKnowTxts = info.introTexts.texts;
     
     // Put the left/right arrow        
     CCMenuItemImage *right = [CCMenuItemImage itemFromNormalImage:@"info_right_arrow.png" 
@@ -677,6 +670,115 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
     NSString *str = [didYouKnowTxtLabel.string copy];
     previousDidYouKnowTxtLabel.string = str;
     [str release];
+}
+
+
+
+
+#pragma mark - Testing XML
+-(void) testXML {
+    
+    AppInfo *appInfo = [ModelManager sharedModelManger].appInfo;
+    
+    CCLOG(@"appInfo.version = %.2f", appInfo.version.floatValue);
+    CCLOG(@"appInfo.uid = %d", appInfo.uid.intValue);
+    CCLOG(@"appInfo.name = %@", appInfo.name);
+    CCLOG(@"appInfo.numberOfTopics = %d", appInfo.numberOfTopics.intValue);
+    CCLOG(@"appInfo.info = %@", appInfo.info);
+    CCLOG(@"appInfo.curriculum = %@", appInfo.curriculum);
+    
+    CCLOG(@"appInfo.introTexts.version = %.2f", appInfo.introTexts.version.floatValue);
+    
+    // test some KVCs
+    
+    //    CCLOG(@"KVC: app name = %@", [appInfo valueForKey:@"version"]);
+    //    InfoLines *infoLines = (InfoLines *)[appInfo valueForKey:@"infoLines"];
+    //    for (NSString *text in infoLines.texts) {
+    //        CCLOG(@"info line = %@", text);
+    //    }
+    
+    // test list all topics
+    for (TopicInfo *topicInfo in appInfo.topics) {
+        CCLOG(@"topic: version = %.2f, uid = %d, bgImage = %@", topicInfo.version.floatValue, topicInfo.uid.intValue, topicInfo.backgroundImage);
+        CCLOG(@"topic: number = %d, name = %@, topicImageName = %@, mainText = %@", topicInfo.number.intValue, topicInfo.name, topicInfo.topicImageName, topicInfo.mainText);
+        CCLOG(@"topic: maintext title image = %@, bg trackname = %@", topicInfo.mainTextTitleImageName, topicInfo.backgroundTrackName);
+    }
+    
+    // test one topic
+    TopicInfo *topic = appInfo.topics[0];
+    
+    // test images (polaroid)
+    for (ImageInfo *imgInfo in topic.images.items) {
+        CCLOG(@"imgInfo: name = %@, title = %@, scale = %.2f", imgInfo.name, imgInfo.title, imgInfo.scale.floatValue);
+    }
+    
+    // test Did You Know
+    for (DidYouKnowInfo *dykInfo in topic.didYouKnows.items) {
+        CCLOG(@"did you know: text = %@", dykInfo.text);
+    }
+    
+    // test voice over pacings
+    CCLOG(@"voice over pacing times: %@", topic.voiceoverPacings.voiceoverPacingsTime.time);
+    CCLOG(@"voice over pacing spaces: %@", topic.voiceoverPacings.voiceoverPacingsSpace.space);
+    
+    // test youtube video listing
+    
+    for (YoutubeVideoInfo *youtube in topic.youtubeVideos.items) {
+        CCLOG(@"youtube video title = %@", youtube.title);
+    }
+    
+    // test flickr photo
+    CCLOG(@"Flickr gallery id = %@", topic.flickrPhotos.photoGallery.galleryId);
+    
+    // test background image
+    CCLOG(@"background image = %@", topic.backgroundImage);
+    
+    // testing starter images
+    for (StarterImageInfo *startImage in topic.starterImages.items) {
+        CCLOG(@"starter image id = %@", startImage.startImageId);
+    }
+    
+    // testing gallery
+    CCLOG(@"gallery title = %@", topic.gallery.title);
+    
+    for (GalleryItemInfo *item in topic.gallery.items) {
+        CCLOG(@"gallery item: version = %.0f, uid = %d, title = %@, type=%@", item.version.floatValue, item.uid.intValue, item.title, item.type);
+        CCLOG(@"gallery item: url = %@, attribution = %@", item.url, item.attribution);
+    }
+    
+    // testing questions
+    for (QuestionItemInfo *item in topic.questions.items) {
+        CCLOG(@"question = %@, level = %@", item.question, item.level);
+        for (ChoiceInfo *choice in item.answers.choices) {
+            CCLOG(@"\tAnswer = %@, Truth = %@", choice.answer, choice.truth);
+        }
+    }
+    
+    // optional text
+    CCLOG(@"Optional Text = %@", topic.optionalText);
+    CCLOG(@"Optional Text 2 = %@", ((TopicInfo*)appInfo.topics[1]).optionalText);
+    if (((TopicInfo*)appInfo.topics[1]).optionalText == nil) {
+        CCLOG(@"Topic 2 optional text is not set ");
+    }
+    
+    // testing hotspots
+    if (topic.hotspotsOnBackgrounds != nil && topic.hotspotsOnBackgrounds.count > 0) {
+        HotspotsOnBackgroundInfo *bg = topic.hotspotsOnBackgrounds[0];
+        
+        CCLOG(@"There are %d hotspots", bg.hotspots.count);
+        
+        HotspotInfo *australia_hotspot = bg.hotspots[1];
+        
+        CCLOG(@"Hotspot key image = %@", australia_hotspot.keyImage);
+        CGRect bound = australia_hotspot.bound;
+        CCLOG(@"Australia hotspot bound = (%.2f, %.2f, %.2f, %.2f)", bound.origin.x, bound.origin.y, bound.size.width, bound.size.height);
+    }
+    
+    // Navigation
+    if (appInfo.navigation.navigationItems.count > 0)
+        for (NavigationItemInfo *navItem in appInfo.navigation.navigationItems) {
+            CCLOG(@"Navigation %@:%@", navItem.uid, navItem.destination);
+        }
 }
 
 @end

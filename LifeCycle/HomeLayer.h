@@ -68,7 +68,7 @@ typedef enum {
 
 }
 
-@property (nonatomic, retain) CCArray *didYouKnowTxts;
+@property (nonatomic, retain) NSMutableArray *didYouKnowTxts;
 @property (nonatomic, retain) CCLabelTTF *didYouKnowTxtLabel;
 @property (nonatomic, retain) CCLabelTTF *previousDidYouKnowTxtLabel;
 @property (nonatomic, retain) CCMenuItemImage *audioImage;

@@ -91,7 +91,7 @@ typedef enum {
 @property (nonatomic, copy) NSString *imageAtlasPngName;
 
 // Supporting the "Did you know" at the bottom
-@property (nonatomic, retain) CCArray *didYouKnowTxts;
+@property (nonatomic, retain) NSMutableArray *didYouKnowTxts;
 @property (nonatomic, retain) CCLabelTTF *didYouKnowTxtLabel;
 @property (nonatomic, retain) CCLabelTTF *previousDidYouKnowTxtLabel;
 

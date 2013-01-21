@@ -16,31 +16,31 @@
     <introTexts version="1">
         <backgroundImage>info_background_strip.png</backgroundImage>
         <item uid="0">
-            Every living thing, plant or animal, has a home. It's natural home is called its habitat.
+            Rocks, Every living thing, plant or animal, has a home. It's natural home is called its habitat.
         </item>
         <item uid="1">
-            These living things or biotic components, live in balance and interact with each other and with the non-living or abiotic components.
+            Rocks, These living things or biotic components, live in balance and interact with each other and with the non-living or abiotic components.
         </item>
         <item uid="2">
-            Abiotic components include light, air, water, soil and temperature. Together with the biotic components, they make up an ecosystem.
+            Rocks, Abiotic components include light, air, water, soil and temperature. Together with the biotic components, they make up an ecosystem.
         </item>
         <item uid="3">
-            A biome is a large region that has plants, animals, and other living things that have adapted to the environmental conditions.
+            Rocks, A biome is a large region that has plants, animals, and other living things that have adapted to the environmental conditions.
         </item>
         <item uid="4">
-            A biome can have many different ecosystems.
+            Rocks, A biome can have many different ecosystems.
         </item>
         <item uid="5">
-            Plants and animals survive in their environment because of how they behave and how they are created. This is called adaptation.
+            Rocks, Plants and animals survive in their environment because of how they behave and how they are created. This is called adaptation.
         </item>
         <item uid="6">
-            When the environment changes too quickly for living things to adapt, they can die, and entire species may become extinct.
+            Rocks, When the environment changes too quickly for living things to adapt, they can die, and entire species may become extinct.
         </item>
         <item uid="7">
-            Thus, protecting the earth’s biomes, ecosystems, and habitats is very important!
+            Rocks, Thus, protecting the earth’s biomes, ecosystems, and habitats is very important!
         </item>
         <item uid="8">
-            Go ahead and start exploring the major biomes and ecosystems of the world!
+            Rocks, Go ahead and start exploring the major biomes and ecosystems of the world!
         </item>
     </introTexts>
     
@@ -620,6 +620,7 @@
                     <choice uid="3">
                         <answer>Extreme heat and pressure</answer>
                         <truth>Y</truth>
+                    </choice>    
                 </answers>
             </item>
 
@@ -804,7 +805,7 @@
                 </question>
                 <level>Hard</level>
                 <answers>
-                    <<choice uid="0">
+                    <choice uid="0">
                         <answer>A basaltic eruption</answer>
                         <truth>Y</truth>
                     </choice>

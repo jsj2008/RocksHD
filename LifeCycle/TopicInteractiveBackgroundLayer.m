@@ -71,6 +71,8 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
 -(void) initializeBackgroundWithInfo:(HotspotsOnBackgroundInfo *)bgInfo {
     CCLOG(@"Background with hotpots has uid = %d", bgInfo.uid.intValue);
 
+    debugLog(@"Bg sprite %@",bgInfo.backgroundImage);
+    
     BackgroundSprite *bgSprite = [BackgroundSprite spriteWithFile:bgInfo.backgroundImage];
     bgSprite.tag = kBackgroundSpriteTag;
     bgSprite.position = globalCenter;
@@ -114,6 +116,7 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
 
 -(void) setupPlainBackground {
     
+    debugLog(@"setupPlainBackground %@",self.info.backgroundImage);
     BackgroundSprite *bgSprite = [BackgroundSprite spriteWithFile:self.info.backgroundImage];
     bgSprite.tag = kBackgroundSpriteTag;
     bgSprite.position = globalCenter;

@@ -15,6 +15,11 @@
 #import "GalleryManager.h"
 #import "Reachability.h"
 #import "AppConfigManager.h"
+#import "ModelManager.h"
+#import "AppInfo.h"
+#import "DidYouKnowInfo.h"
+#import "TopicInfo.h"
+
 
 #define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 
@@ -99,7 +104,7 @@
 
 -(NSDictionary*)loadTopicSpecificsForScene:(SceneTypes)sceneType {
     NSDictionary *dict;
-    
+
     switch (sceneType) {
         case kTopic1Scene:
             dict = [[PlistManager sharedPlistManager] topic1SpecificsDictionary];
@@ -125,6 +130,11 @@
         default:
             break;
     }
+    
+    AppInfo *info = [ModelManager sharedModelManger].appInfo;             // Feed in everything.
+   // info.topics[sceneType];
+
+    
     
     if (dict == nil) {
         CCLOG(@"Error reading Topic?Specifics plist");
@@ -158,10 +168,18 @@
     
     // Loading "Did you know"
     // TODO: why mutableCopy?
-    CCArray *dYKTxts = [CCArray arrayWithCapacity:15];
-    dYKTxts = [[dict objectForKey:@"didyouknows"] mutableCopy];
-    [dYKTxts autorelease];
-    self.didYouKnowTxts = dYKTxts;
+//    CCArray *dYKTxts = [CCArray arrayWithCapacity:15];
+  ///  dYKTxts = [[dict objectForKey:@"didyouknows"] mutableCopy];
+  //  [dYKTxts autorelease];
+    
+    
+    TopicInfo *ti = info.topics[sceneType - 3];
+    
+    
+    self.didYouKnowTxts = ti.didYouKnows.items;
+    
+    debugLog(@"Items %@",didYouKnowTxts);
+    
     
     // Load Voice Over pacings
     self.pacings = [self getTimeSpaceInterleavedPacingsFromDictionary:[dict objectForKey:@"voiceoverpacings"]];
@@ -721,7 +739,8 @@
         
         CCLOG(@"Did you know > 0");
         
-        NSString *didYouKnowTxt = (NSString*)[self.didYouKnowTxts objectAtIndex:didYouKnowCount];
+        DidYouKnowInfo *ddki =  [self.didYouKnowTxts objectAtIndex:didYouKnowCount];
+        NSString *didYouKnowTxt = ddki.text;
         
         CCLOG(@"Text to display %@",didYouKnowTxt);
         
