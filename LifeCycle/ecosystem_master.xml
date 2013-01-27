@@ -884,11 +884,16 @@
         <topicImageName>ecosystem_stage2.png</topicImageName>
         <topicBiggerImageName>ecosystem_stage2_bigger.png</topicBiggerImageName>
         <mainText>
-            \n Deserts are very dry or arid regions of the world that receive fewer than ten inches of rain a year. Some deserts don’t receive rainfall for four, five, or even more years in a row!
-            \n There are four kinds of deserts: subtropical or hot and dry deserts, semi-arid deserts, coastal deserts and polar or cold deserts. Both the Arctic and Antarctic regions are polar deserts. Semi-arid deserts like Patagonia and Gobi have dry summers and cold winters and are often in the rain shadow region of a mountain range. The subtropical deserts that most people think about are places like the Sahara and Kalahari deserts of Africa, while the Atacama and the Namib are examples of coastal deserts that have long warm summers and cool winters.
+            \n What is a mineral? Minerals such as gold, calcium and sodium are the building blocks of rocks. They are inorganic. That is, although rocks may contain matter from plants and animals, minerals do not. Minerals are purely chemical. They are typically solid at room temperature.
+            \n Minerals are made of the elements listed on the Periodic Table. Minerals may consist of just one element, such as gold, or they can be combinations of elements. Quartz, for example, is made of silicon and oxygen.
             \n Plants and animals must adapt to be able to survive the desert’s tough conditions. Desert plants like cactus have thick and fleshy stems to store water. They also have spiny leaves to prevent loss of water through transpiration, which is similar to sweating.
-            \n Camels have a hump (or two if it is a Bactrian camel) to store fat, which can be metabolized for energy. This allows the camel to go without food or water for long periods of time. Camels also have broad, leathery pads at the bottom of their hooves which prevents them from sinking in the sand. Camels have two rows of long eyelashes and nostrils that can be closed to keep the sand out.
-            \n Most desert animals are nocturnal. They stay cool, hiding during daytime, and come out at night.
+            \n Scientists classify minerals in several ways. Some categories are color, luster, hardness, specific  gravity, and cleavage or how the mineral breaks. 
+            \n When you're identifying minerals, color is helpful but not enough. Many minerals are found in multiple colors. Also, minerals may be impure; extra chemicals can change their color. Diamonds are made in every color of the rainbow.
+            \n “Luster” describes how a mineral reflects light. Some terms used to describe luster are brilliant, metallic, silky and dull. 
+            \n Hardness is another way to classify a mineral. Hardness is measured by scratching a mineral. Diamonds are the hardest mineral on earth; they can scratch anything.
+            \n Specific gravity refers to density. Two mineral chunks of the same size can have different weights. Specific gravity can be measured by comparing a mineral's weight to an equal volume of water.
+            \n Cleavage and other characteristics of breakage help people classify minerals. For example, some crystals break with jagged edges. Others break along smooth planes.
+            \n People identify minerals in many other ways such as acid tests, radioactivity tests, and simply using their taste buds.
         </mainText>
         <mainTextTitleImageName>deserts_button.png</mainTextTitleImageName>
         <backgroundTrackName>ecosystem_stage2bgtrack.mp3</backgroundTrackName>
@@ -949,64 +954,64 @@
             <didYouKnowLeftImage>deserts_arrow_left.png</didYouKnowLeftImage>
             <didYouKnowRightImage>deserts_arrow_right.png</didYouKnowRightImage>
             <item uid="0">
-                <text>A camel can drink as much as 30 gallons of water at one time</text>
+                <text>Because elements can be combined in countless ways, scientists haven't set a limit for how many minerals exist.</text>
             </item>
             <item uid="1">
-                <text>Deserts can be found on every continent on the earth</text>
+                <text>The International Mineralogical Association recognizes approximately 4700 mineral species.</text>
             </item>
             <item uid="2">
-                <text>The Resurrection tree looks brown and dead until it rains, when it turns green</text>
+                <text>The most common mineral on Earth is quartz. </text>
             </item>
             <item uid="3">
-                <text>The Kangaroo rat and Addax get water from their food</text>
+                <text>Amethyst, citrine and other types of quartz are the most common minerals used in jewelry.</text>
             </item>
             <item uid="4">
-                <text>The first dinosaur eggs were discovered in the Gobi desert (a cold desert)</text>
+                <text>The elements oxygen, silicon, aluminum, iron, magnesium, calcium, potassium, and sodium make up 98% of all minerals on Earth.</text>
             </item>
             <item uid="5">
-                <text>Cave paintings from the Sahara desert show that at one time it was a green, tropical region</text>
+                <text>Mercury and water ice are exceptions to the rule that minerals are solid at room temperature.</text>
             </item>
             <item uid="6">
-                <text>The Sahara desert can reach temperatures up to 122 F    (50 C) in the daytime</text>
+                <text>The Mohs Hardness Scale is used to describe a mineral's hardness.</text>
             </item>
             <item uid="7">
-                <text>The jackrabbit has large ears to help cool off when it is resting in the shade</text>
+                <text>Because diamonds are so hard, they are useful in drill bits and other tools that cut.</text>
             </item>
             <item uid="8">
-                <text>The African fringe toad lizard keeps cool by dancing</text>
+                <text>Talc is the softest rock. It is used in body powder.</text>
             </item>
             <item uid="9">
-                <text>Antarctica is the world’s largest cold desert</text>
+                <text>Crystals are minerals that have their atoms arranged in three-dimensional patterns.</text>
             </item>
             <item uid="10">
-                <text>The Atacama Desert in Chile is the driest place on earth</text>
+                <text>Crystals are most likely to form when magma cools slowly and under great pressure.</text>
             </item>
             <item uid="11">
-                <text>Most hot and dry deserts are near the Tropic of Cancer or the Tropic of Capricorn</text>
+                <text>When lava cools quickly, it's likely to form glassy rocks, not crystals.</text>
             </item>
             <item uid="12">
-                <text>Some sand dunes in the Sahara can reach 180 meters or 590 feet</text>
+                <text>Most of the Earth's crust is made of silicate minerals, which contain silicon and oxygen.</text>
             </item>
             <item uid="13">
-                <text>The Namib desert is considered the world’s oldest desert</text>
+                <text>Eight important mineral groups are the silicates, native elements, sulfides, oxides, halides, carbonates, sulfates, and phosphates.</text>
             </item>
             <item uid="14">
-                <text>The Arabian desert has the world’s largest expanse of continuous sand</text>
+                <text>Native elements appear in nature uncombined with others. Examples are gold, silver and copper.</text>
             </item>
             <item uid="15">
-                <text>The soil of the Atacama desert is similar to the Martian soil. It has chemicals like nitrates and perchlorates</text>
+                <text>Halides are part halogen. Chloride and many other halides are salts.</text>
             </item>
             <item uid="16">
-                <text>Most desert plants flower and produce seeds right after rains</text>
+                <text>Phosphates, which include the element phosphorus, are valued primarily as fertilizer and for detergents.</text>
             </item>
             <item uid="17">
-                <text>The Sahara desert has 30% sand and 70% gravel</text>
+                <text>Heavy metal waste from phosphate mining has contaminated drinking water.</text>
             </item>
             <item uid="18">
-                <text>Some mosses and lichens get water by soaking up dew</text>
+                <text>Sulfides, which combine sulfur with other minerals, may smell like rotten eggs. They are especially useful in medicine, art and agriculture.</text>
             </item>
             <item uid="19">
-                <text>Deserts cover a fifth of the earth’s surface</text>
+                <text>Diamonds and pencil “lead” are made from the same element: carbon. The different look is explained by diamond's crystalline structure.</text>
             </item>
         </didYouKnows>
 
