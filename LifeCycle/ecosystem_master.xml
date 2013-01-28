@@ -1334,74 +1334,74 @@
         <questions version="1">
             <item uid="0">
                 <question>
-                    How much rainfall does a typical desert receive per year?
+                    How are minerals related to rocks?
                 </question>
                 <level>Easy</level>
                 <answers>
                     <choice uid="0">
-                        <answer>1 inch</answer>
+                        <answer>Rocks contain only one mineral.</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>15 inch</answer>
+                        <answer> In geology, minerals and rocks are synonyms.</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>10 inches</answer>
-                        <truth>Y</truth>
+                        <answer>Rocks are the building blocks of minerals.</answer>
+                        <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>20 inches</answer>
-                        <truth>N</truth>
+                        <answer>Minerals are components of rocks.</answer>
+                        <truth>Y</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="1">
                 <question>
-                    What kind of desert is the Antarctic Ice Sheet?
+                    What is luster?
                 </question>
                 <level>Easy</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Hot, dry desert</answer>
+                        <answer>Purity</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>High desert</answer>
+                        <answer>Density</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Cold desert</answer>
-                        <truth>Y</truth>
+                        <answer>Hardness</answer>
+                        <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Warn desert</answer>
-                        <truth>N</truth>
+                        <answer>How a mineral reflects light</answer>
+                        <truth>Y</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="2">
                 <question>
-                    Loss of water through the leaves is called
+                    The way a mineral divides is called ________.
                 </question>
                 <level>Easy</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Transpiration</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Pollination</answer>
+                        <answer>Cracking</answer>
                         <truth>N</truth>
                     </choice>
+                    <choice uid="1">
+                        <answer>Cleavage</answer>
+                        <truth>Y</truth>
+                    </choice>
                     <choice uid="2">
-                        <answer>Desertification</answer>
+                        <answer>Parting</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Evaporation</answer>
+                        <answer>Hardness</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
@@ -1409,41 +1409,49 @@
             
             <item uid="3">
                 <question>
-                    Deserts always have sand. True or False?
+                    Which mineral is the most abundant on Earth?
                 </question>
                 <level>Easy</level>
                 <answers>
                     <choice uid="0">
-                        <answer>True</answer>
-                        <truth>Y</truth>
+                        <answer>Oxygen</answer>
+                        <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>False</answer>
+                        <answer>Carbon</answer>
                         <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Nitrogen</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Quartz</answer>
+                        <truth>Y</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="4">
                 <question>
-                    Most deserts are found near
+                    Which is a native mineral?
                 </question>
                 <level>Easy</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Tropic of Cancer and Tropic of Capricorn</answer>
-                        <truth>Y</truth>
+                        <answer>Marble</answer>
+                        <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Equator</answer>
+                        <answer>Steel</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Arctic</answer>
-                        <truth>N</truth>
+                        <answer>Silver</answer>
+                        <truth>Y</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Mountains</answer>
+                        <answer>All of the above</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
@@ -1451,24 +1459,24 @@
             
             <item uid="5">
                 <question>
-                    How much of the earth's surface area is covered with deserts?
+                    What causes a diamond to be colorful?
                 </question>
-                <level>Easy</level>
+                <level>Medium</level>
                 <answers>
                     <choice uid="0">
-                        <answer>10%</answer>
+                        <answer>Its crystalline structure</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>20%</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>30%</answer>
+                        <answer>High luster</answer>
                         <truth>N</truth>
                     </choice>
+                    <choice uid="2">
+                        <answer>Impurities</answer>
+                        <truth>Y</truth>
+                    </choice>
                     <choice uid="3">
-                        <answer>40%</answer>
+                        <answer>Quickly-cooled lava</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
@@ -1476,49 +1484,47 @@
             
             <item uid="6">
                 <question>
-                    How many humps does a Bactrian camel have?
+                    Why does a diamond's carbon look different from a pencil's carbon?
                 </question>
-                <level>Easy</level>
+                <level>Medium</level>
                 <answers>
                     <choice uid="0">
-                        <answer>One</answer>
+                        <answer>Their molecules are arranged differently</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Two</answer>
-                        <truth>Y</truth>
+                        <answer>Pencil carbon has been exposed to higher temperatures</answer>
+                        <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Three</answer>
+                        <answer>Pencil carbon is mixed with phosphates</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Four</answer>
-                        <truth>N</truth>
+                        <answer>Their molecules are arranged differently</answer>
+                        <truth>Y</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="7">
-                <question>
-                    Most desert animals are
-                </question>
-                <level>Easy</level>
+                <question>What effect do high heat and pressure have upon minerals?</question>
+                <level>Medium</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Diurnal or active during the day</answer>
+                        <answer>They prevent crystallization</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Nocturnal or active at night</answer>
+                        <answer>They promote crystallization</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Crepuscular or active at dawn or dusk</answer>
+                        <answer>They prevent mineral contamination</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Cathemeral or have random intervals of activity</answer>
+                        <answer>They increase the likelihood of contamination</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
@@ -1526,24 +1532,24 @@
             
             <item uid="8">
                 <question>
-                    How do some mammals keep cool in the desert?
+                    Why are diamonds considered more valuable than glass?
                 </question>
-                <level>Easy</level>
+                <level>Medium</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Eating cacti</answer>
+                        <answer>Diamonds have more uses</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Digging an underground den</answer>
+                        <answer>Diamonds are organic</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Sleep at night</answer>
-                        <truth>N</truth>
+                        <answer>Diamonds can cut any material</answer>
+                        <truth>Y</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Drinking water</answer>
+                        <answer>Diamonds cannot be broken</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
@@ -1551,66 +1557,74 @@
             
             <item uid="9">
                 <question>
-                    What adaptation of the cactus allows it to prevent loss of water?
+                    Which sense can help us identify minerals?
                 </question>
                 <level>Medium</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Green color</answer>
+                        <answer>Sight</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Thick and fleshy stems</answer>
+                        <answer>Smell</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Spiny leaves</answer>
+                        <answer>Taste</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Shallow roots</answer>
-                        <truth>N</truth>
+                        <answer>All of the above</answer>
+                        <truth>Y</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="10">
                 <question>
-                    All deserts have similar plants and animals. True or False?
+                    What is an important difference between minerals and rocks?
                 </question>
-                <level>Medium</level>
+                <level>Hard</level>
                 <answers>
                     <choice uid="0">
-                        <answer>True</answer>
-                        <truth>N</truth>
+                        <answer>Minerals do not contain organic material</answer>
+                        <truth>Y</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>False</answer>
-                        <truth>Y</truth>
+                        <answer>Rocks do not contain organic material</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="2">
+                        <answer>Minerals can't undergo metamorphosis</answer>
+                        <truth>N</truth>
+                    </choice>
+                    <choice uid="3">
+                        <answer>Minerals are not recycled by the Earth</answer>
+                        <truth>N</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="11">
                 <question>
-                    How does the camel benefit from being able to close its nostrils?
+                    Which characteristic helps make mercury a mineral?
                 </question>
-                <level>Medium</level>
+                <level>Hard</level>
                 <answers>
                     <choice uid="0">
-                        <answer>It keeps the sand out</answer>
+                        <answer>It is solid at room temperature</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>It keeps the insects out</answer>
+                        <answer>It contains water</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>It helps the camel stay cool</answer>
-                        <truth>N</truth>
+                        <answer>It is purely chemical</answer>
+                        <truth>Y</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>It keeps away bad odor</answer>
+                        <answer>It contains organic material</answer>
                         <truth>N</truth>
                     </choice>
                 </answers>
@@ -1618,425 +1632,75 @@
             
             <item uid="12">
                 <question>
-                    Which of the following is true about cold deserts?
+                    If a unknown item is a gas, it is most likely ___________.
                 </question>
-                <level>Medium</level>
+                <level>Hard</level>
                 <answers>
                     <choice uid="0">
-                        <answer>They have no plants or animals</answer>
+                        <answer>A mineral</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>They are hot and dry</answer>
-                        <truth>N</truth>
+                        <answer>Not a mineral</answer>
+                        <truth>Y</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Humans don't live there</answer>
+                        <answer>Crystalline</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>They have water</answer>
-                        <truth>Y</truth>
+                        <answer>Quartz</answer>
+                        <truth>N</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="13">
                 <question>
-                    The Sahara and Kalahari are 
+                    If a planet did not have any oxygen, it would also lack _______. 
                 </question>
-                <level>Medium</level>
+                <level>Hard</level>
                 <answers>
                     <choice uid="0">
-                        <answer>Examples of cold deserts</answer>
+                        <answer>Halides</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Types of camels</answer>
-                        <truth>N</truth>
+                        <answer>Silicates</answer>
+                        <truth>Y</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Types of cactus</answer>
+                        <answer>Native elements</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Examples of subtropical deserts</answer>
-                        <truth>Y</truth>
+                        <answer>Sulfides</answer>
+                        <truth>N</truth>
                     </choice>
                 </answers>
             </item>
             
             <item uid="14">
                 <question>
-                    Where do camels store the fat they need for energy?
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>In their stomach</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>In their humps</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>In their skin</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>In their legs</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="15">
-                <question>
-                    Why do most desert animals come out at night
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>They can see better at night</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Other animals come out at night</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>It is cooler at night</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>It is quieter at night</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="16">
-                <question>
-                    Some animals have adapted by not needing water to survive. How do they get the water?
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>From the food they eat</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>From underground wells</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>From the air</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>From other animals</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="17">
-                <question>
-                    Very often frost and snow can be seen on the dunes of Gobi desert. What type of desert is it
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>High desert</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Cold desert</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Hot and dry desert</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>It is not a desert</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="18">
-                <question>
-                    When plants and animals evolve to live in their habitat what is it called?
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Selection</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Evolution</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Symbiosis</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Adaptation</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="19">
-                <question>
-                    If a camel goes long enough without food, what will happen to its hump?
+                    What is the most reliable way to tell whether a gemstone is real or imitation diamond?
                 </question>
                 <level>Hard</level>
                 <answers>
                     <choice uid="0">
-                        <answer>It will remain the same</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>It will reduce in size</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>It will grow</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>It will split into two humps</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="20">
-                <question>
-                    If the amount of rainfall increased what biome would the desert become?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Tundra</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Forest</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Grassland</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Aquatic</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="21">
-                <question>
-                    Which of the following can contribute to Desertification or the process of desert formation?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Overgrazing</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Deforestation or removal of trees</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Depletion or loss of water resources</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>All the above</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="22">
-                <question>
-                    Which of the following is not an example of adaptation to the desert habitat?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Large ears of the jackrabbit</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Spiny leaves of the cactus</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>The hump of a camel</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Sand dunes in the desert</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="23">
-                <question>
-                    If you were an animal living in the desert when should you be active?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>During the day</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>During the night</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>All throughout the day</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>None of the above</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="24">
-                <question>
-                    Why are camels known as the "Ships of the desert"
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>They have the same color as large ships</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Their adaptation allows them to travel long distances without food while carrying heavy loads</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>There are no ships in the desert</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>They travel in groups called caravans</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="25">
-                <question>
-                    How are polar and semi-arid deserts similar?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>They are found in the same regions of the earth</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>The have warm summers</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>They have no water</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>They have very cold winters</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="26">
-                <question>
-                    How do semi-arid deserts form?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>By a mountain range blocking moisture from reaching the area</answer>
+                        <answer>Scratch it</answer>
                         <truth>Y</truth>
                     </choice>
                     <choice uid="1">
-                        <answer>Winds off the coast blow easterly and prevent moisture from reaching the land</answer>
+                        <answer>Test its reflectivity</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>There is a lot of snowfall</answer>
+                        <answer>Break it</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
-                        <answer>Due to earthquakes</answer>
+                        <answer>Weigh it</answer>
                         <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="27">
-                <question>
-                    How do desert plants survive long dry periods?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>By growing deep roots</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>By shedding their leaves</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>By remaining dormant</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>By growing taller</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="28">
-                <question>
-                    Which of the following is NOT an adaptation of a nocturnal animal?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Large ears</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Big eyes</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Dark in color</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Long legs</answer>
-                        <truth>Y</truth>
                     </choice>
                 </answers>
             </item>
