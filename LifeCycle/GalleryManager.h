@@ -7,27 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Gallery.h"
+#import "GalleryInfo.h"
 #include <sys/xattr.h>
 
-#define TAG_GALLERY @"gallery"
-#define TAG_ITEM @"item"
-#define TAG_VERSION @"version"
-#define TAG_UID @"uid"
-#define TAG_TITLE @"title"
-#define TAG_DESCRIPTION @"description"
-#define TAG_TYPE @"type"
-#define TAG_ATTRIBUTION @"attribution"
-#define TAG_STATUS @"status"
-#define TAG_THUMBNAIL @"thumbnail"
-#define TAG_URL @"url"
-#define TAG_TAGS @"tags"
-#define TAG_QUESTION @"question"
-#define TAG_TEXT @"text"
-#define TAG_OPTION @"option"
-#define TAG_ANSWERS @"answers"
-#define TAG_VALUE @"value"
-#define TAG_ANSWER @"answer"
+
 
 #define GALLERY_ITEM_TYPE_PHOTO @"photo"
 #define GALLERY_ITEM_TYPE_VIDEO @"video"
@@ -52,18 +35,14 @@
 
 -(void ) saveGallerySpecificationAsFile : (NSString*) galleryUid withID :(NSString*) galleryUid;
 
--(NSString *) downloadGallerySpecification :(NSString*) galleryUid;
--(Gallery*) parseGallerySpecification :(NSString*) galleryXml;
-
-
 +(GalleryManager *)getInstance;
--(void) addGalleryToCache :(Gallery*) gallery;
--(Gallery*) getGalleryFromCache :(NSString*) galleryUid;
+-(void) addGalleryToCache :(GalleryInfo*) gallery;
+-(GalleryInfo*) getGalleryFromCache :(NSString*) galleryUid;
 
--(Gallery*) filterGalleryLocal:(Gallery*) gallery;
--(Gallery*) filterGallery:(Gallery*) gallery byType:(NSString*) type;
--(Gallery*) filterGallery:(Gallery*) gallery byTags:(NSString*) tags;
--(Gallery*)loadGalleryFromSpecification :(NSString*) galleryUid;
+-(GalleryInfo*) filterGalleryLocal:(GalleryInfo*) gallery;
+-(GalleryInfo*) filterGallery:(GalleryInfo*) gallery byType:(NSString*) type;
+-(GalleryInfo*) filterGallery:(GalleryInfo*) gallery byTags:(NSString*) tags;
+-(GalleryInfo*)loadGalleryFromSpecification :(NSString*) galleryUid;
 -(void) syncGalleryAndReloadCache :(NSString*) galleryUid;
 -(void) syncGalleryAndReloadCacheAsThread:(NSString *)galleryUid;
 -(void) buildGlobalItemMapFromGalleriesInCache: (NSMutableArray*) galleryIds withKey :(NSString *) key;

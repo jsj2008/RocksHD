@@ -8,9 +8,9 @@
 
 #import "cocos2d.h"
 #import "CCScene.h"
-
+#import "TopicInfo.h"
 @interface VideoScene : CCScene
 
-@property (nonatomic, retain) NSDictionary *topicInfo;
+@property (nonatomic, retain) TopicInfo *topicInfo;
 
 @end

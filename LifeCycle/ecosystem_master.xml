@@ -244,8 +244,8 @@
             </item>
         </starterImages>
         
-        <gallery version="12" uid="grassland">
-            <title>Ecosystem Grassland</title>
+        <gallery version="12" uid="rocks">
+            <title>Rocks</title>
             <item version="1" uid="4">
                 <title>Grassland</title>
                 <type>photo</type>

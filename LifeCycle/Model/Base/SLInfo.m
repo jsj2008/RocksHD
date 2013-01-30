@@ -134,6 +134,8 @@
     
     // Introspect on the instanceVar's datatype
     objc_property_t property = class_getProperty([self class], [instanceVar UTF8String]);
+    
+    
     NSString *propertyType = [SLInfo propertyTypeStringOfProperty:property];
 //    const char *type = getPropertyType(property);
 //    NSString *propertyType = [NSString stringWithCString:type encoding:NSUTF8StringEncoding];

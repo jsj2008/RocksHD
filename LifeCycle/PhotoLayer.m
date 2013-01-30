@@ -10,10 +10,11 @@
 #import "FlowAndStateManager.h"
 #import "ConfigManager.h"
 #import "CCImageReflector.h"
-#import "Gallery.h"
-#import "GalleryItem.h"
+#import "GalleryInfo.h"
+#import "GalleryItemInfo.h"
 #import "GalleryManager.h"
 #import "AppConfigManager.h"
+
 
 @interface PhotoLayer (Private)
 //-(void) loadImage;
@@ -694,6 +695,7 @@ else {
 
 -(void) onScroll :(int) index
 {
+    debugLog(@"on scroll %d",index);
     
     //    CCLOG(@"slider current index = %d", index);
     NSString *photoId = [photoIdArray objectAtIndex:index];
@@ -701,8 +703,8 @@ else {
     
     
     GalleryManager *gm = [GalleryManager getInstance];
-    Gallery *gallery = [gm getGalleryFromCache:galleryId];
-    GalleryItem *item = [gallery.itemMap objectForKey:photoId];
+    GalleryInfo *gallery = [gm getGalleryFromCache:galleryId];
+    GalleryItemInfo *item = [gallery.itemMap objectForKey:photoId];
     
     NSString *title = item.description;
     NSString *username = item.attribution;
@@ -1337,7 +1339,7 @@ else {
     debugLog(@"in setupPhotosForDisplay");
     
     
-    galleryId = [self.topicInfo objectForKey:@"gallery_id"];
+    galleryId = topicInfo.gallery.uid;
     
     CCLOG(@"setup photos for display %@",galleryId);
     
@@ -1373,7 +1375,7 @@ else {
             photoId2IndexMap = [[NSMutableDictionary alloc] initWithCapacity:10];
         
         int k = 0;
-        for (GalleryItem *item in galleryItems) {
+        for (GalleryItemInfo *item in galleryItems) {
             [photoIdArray addObject:item.guid];
             
             //                SLImageInfoDownloader *infoDL = [[SLImageInfoDownloader alloc] init];

@@ -14,6 +14,7 @@
 @dynamic uid;
 @dynamic version;
 @dynamic title;
+@synthesize itemMap;
 
 -(void) dealloc {
     [_items release];

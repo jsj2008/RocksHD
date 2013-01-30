@@ -9,8 +9,9 @@
 #import "VideoLayer.h"
 #import "FlowAndStateManager.h"
 #import "ConfigManager.h"
-#import "Gallery.h"
+#import "GalleryInfo.h"
 #import "GalleryManager.h"
+#import "GalleryItemInfo.h"
 
 
 @interface VideoLayer() <UIAlertViewDelegate>
@@ -117,7 +118,7 @@
 
 -(void)addTitle{
     
-    NSString *imageNameTemplate = [self.topicInfo objectForKey:@"main_text_title_image_name"];
+    NSString *imageNameTemplate = topicInfo.backgroundImage;
     
     NSString *imageName  = [NSString stringWithFormat:@"%@.png",imageNameTemplate];
     NSString *biggerImageName  = [NSString stringWithFormat:@"%@_bigger.png",imageNameTemplate];
@@ -166,6 +167,10 @@
     
     [slides reset];
 
+    
+    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnBackward];
+    return;
+    
     int topicNumber = [[self.topicInfo objectForKey:@"topic_number"] intValue];
     
     switch (topicNumber) {
@@ -246,20 +251,20 @@
         
     GalleryManager *gman = [GalleryManager getInstance];
     
-     NSString *galleryId =   [topicInfo objectForKey:@"gallery_id"];
+    NSString *galleryId =   topicInfo.gallery.uid;
     
     NSString *galleryName = [NSString stringWithFormat:@"%@-%@",galleryId,GALLERY_ITEM_TYPE_VIDEO];
     
     debugLog(@"Get video gallery name %@ from cache",galleryName);
                              
-    Gallery *videoGallery =     [gman getGalleryFromCache:galleryName];
+    GalleryInfo *videoGallery =     [gman getGalleryFromCache:galleryName];
 
       potentialVideoIDs = [[NSMutableArray alloc] init];
      potentialVideoAttributions = [[NSMutableDictionary alloc] initWithCapacity:[potentialVideoIDs count]];
     
     for (int i=0; i<[videoGallery.items count]; i++) {
         
-        GalleryItem *item = [videoGallery.items objectAtIndex:i];
+        GalleryItemInfo *item = [videoGallery.items objectAtIndex:i];
         
         
         // parse the video id

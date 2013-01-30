@@ -12,6 +12,9 @@
 #import "SLCCPhotoSlides.h"
 #import "SLWebViewVideoPlayer.h"
 #import "SLYouTubeVideo.h"
+#import "TopicInfo.h"
+#import "GalleryInfo.h"
+#import "GalleryInfo.h"
 
 typedef enum {
     kVideoHomeButtonTag=101,
@@ -47,6 +50,6 @@ typedef enum {
 
 }
 
-@property (nonatomic, retain) NSDictionary *topicInfo;
+@property (nonatomic, retain) TopicInfo *topicInfo;
 
 @end

@@ -34,6 +34,7 @@
 #import "ChoiceInfo.h"
 #import "HotspotInfo.h"
 #import "NavigationItemInfo.h"
+#import "GalleryManager.h"
 
 @implementation AppDelegate
 
@@ -133,6 +134,9 @@
     [[ModelManager sharedModelManger] setDataSrcName:@"ecosystem_master"];
     [self testXML];
     
+
+    
+    
 	// make main window visible
 	[window makeKeyAndVisible];
     
@@ -166,8 +170,8 @@
     // Basic plist validation
     [[PlistValidator sharedPlistValidator] validateQuizDictionary];
     
-    
-    int totalTopics = [[[[PlistManager sharedPlistManager] appDictionary] objectForKey:@"numberOfTopics"] intValue];
+    AppInfo *appInfo = [ModelManager sharedModelManger].appInfo;
+    int totalTopics = appInfo.numberOfTopics.intValue;
     
     GalleryManager *gman = [GalleryManager getInstance];
     
@@ -188,64 +192,22 @@
         
         for (int i =1; i <= totalTopics;i++) {
             
-            NSDictionary *dict = [[PlistManager sharedPlistManager] getDictionaryForTopic:i+1];
-            NSString *galleryId =   [dict objectForKey:@"gallery_id"];
-            
-            
-            // copy starter galleries
-            NSString *gallerySpecFile = [NSString stringWithFormat:@"gallery-%@.xml",galleryId];
-            
-            
-            NSString *docDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-            NSString *destSpecFile = [NSString stringWithFormat:@"%@/%@", docDir,gallerySpecFile];
-            
-            
-            NSError *err = nil;
-            
-            
-            NSString *srcPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:gallerySpecFile];
-            CCLOG(@"Src %@",srcPath);
-            CCLOG(@"Descr %@",destSpecFile);
-            
-            
-            BOOL destFileExits = [[NSFileManager defaultManager]  fileExistsAtPath:destSpecFile];
-            
-            if (destFileExits)
-            {
-                [[NSFileManager defaultManager] removeItemAtPath:destSpecFile error:&err];
-                CCLOG(@"Destination file exits, try to delete");
-                
-                if (err!= nil) {
-                    CCLOG(@"Failed to delete destination %@",err.localizedDescription);
-                }
-                
-                
-            }
-            
-            [[NSFileManager defaultManager] copyItemAtPath:srcPath
-                                                    toPath:destSpecFile
-                                                     error:&err];
-            
-            
-            
-            
-            if (err!= nil) {
-                CCLOG(@"Error in copy %@",err.localizedDescription);
-            }
-            
-            
-            CCLOG(@"File copied %@",gallerySpecFile);
-            
-            
-            Gallery *gallery = [gman loadGalleryFromSpecification:galleryId];
             
             
             // get the starter images
             NSMutableArray *starterImages = [[[NSMutableArray alloc] init] autorelease];
             
+            TopicInfo * topicInfo = [appInfo.topics objectAtIndex:i-1];
+            GalleryInfo *gallery = topicInfo.gallery;
+            
             // populate starter images
             for (int k=0; k< [gallery.items count]; k++) {
-                GalleryItem *item = [gallery.items objectAtIndex:k];
+                GalleryItemInfo *item = [gallery.items objectAtIndex:k];
+                item.guid = [NSString stringWithFormat:@"%@-%@",gallery.uid,item.uid];
+                item.filename = [NSString stringWithFormat:@"%@.jpg",item.guid];
+
+                
+
                 
                 [starterImages addObject:item.guid];
             }
@@ -259,7 +221,7 @@
                 
                 NSString *starterImage = [NSString  stringWithFormat:@"%@.jpg",[starterImages objectAtIndex:j]];
                 
-                CCLOG(@"Copy starter Image %@ for gallery %@",starterImage,galleryId );
+                CCLOG(@"Copy starter Image %@ for gallery %@",starterImage,gallery.uid );
                 
                 UIImage *image = [UIImage imageNamed:starterImage];
                 NSData *data = [NSData dataWithData:UIImageJPEGRepresentation(image, 1.0f)];//1.0f = 100% quality
@@ -283,10 +245,10 @@
     }
     
     
-    [gman buildCaches];
+        [[GalleryManager getInstance] buildCaches];
     
     
-    [gman syncAllGalleries];
+
     
     
     

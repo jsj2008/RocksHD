@@ -20,5 +20,7 @@
 @property (nonatomic, retain) NSString *attribution;
 @property (nonatomic, retain) NSString *status;
 @property (nonatomic, retain) NSString *tags;
+@property (nonatomic, retain) NSString *filename;
+@property (nonatomic, retain) NSString *guid;
 
 @end

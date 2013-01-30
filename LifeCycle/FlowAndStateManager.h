@@ -42,7 +42,6 @@
 -(void)runSceneWithID:(SceneTypes)sceneID withTranstion:(CCTransitionStyles)transitionStyle;
 -(void)runSceneSansAudioOpWithID:(SceneTypes)sceneID withTranstion:(CCTransitionStyles)transitionStyle;
 -(void)openSiteWithLinkType:(LinkTypes)linkTypeToOpen;
-//-(NSDictionary *)loadBasicInfo;
 -(NSDictionary *)loadBasicInfoForSceneWithID:(NSUInteger)topicNumber;
 
 -(void)setupAudioEngine;

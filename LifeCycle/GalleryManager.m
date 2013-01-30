@@ -10,14 +10,17 @@
 #import "cocos2d.h"
 #import "Constants.h"
 #import "GDataXMLNode.h"
-#import "Gallery.h"
-#import "GalleryItem.h"
 #import "SLImageDownloader.h"
 #import "Constants.h"
 #import "AppDelegate.h"
 #import "PlistManager.h"
 #import "AppConfigManager.h"
 #include <sys/xattr.h>
+#import "GalleryInfo.h"
+#import "GalleryItemInfo.h"
+#import "ModelManager.h"
+#import "AppInfo.h" 
+#import "TopicInfo.h"
 
 @implementation GalleryManager
 
@@ -28,7 +31,7 @@ static GalleryManager *instance;
 
 +(GalleryManager*) getInstance {
     @synchronized([GalleryManager class]) {
-        if (!instance) 
+        if (!instance)
             [[self alloc] init];
         return instance;
     }
@@ -65,21 +68,21 @@ static GalleryManager *instance;
     NSMutableArray *dict = nil;
     // check if the map exits
     
-        debugLog(@"Create dict as it not there");
-       dict = [[NSMutableArray alloc] init];
+    debugLog(@"Create dict as it not there");
+    dict = [[NSMutableArray alloc] init];
     
-        for (int i=0; i< [galleryIds count]; i++) {
-     
-            NSString *galleryId = [galleryIds objectAtIndex:i];
-
-            debugLog(@"Gallery Id to retrieve %@",galleryId);
-            
-            Gallery *gallery = [self getGalleryFromCache:galleryId];
+    for (int i=0; i< [galleryIds count]; i++) {
         
-            for (int j=0; j< [gallery.items count]; j++) {
+        NSString *galleryId = [galleryIds objectAtIndex:i];
+        
+        debugLog(@"Gallery Id to retrieve %@",galleryId);
+        
+        GalleryInfo *gallery = [self getGalleryFromCache:galleryId];
+        
+        for (int j=0; j< [gallery.items count]; j++) {
             
-                [dict addObject:[gallery.items objectAtIndex:j]];
-            }
+            [dict addObject:[gallery.items objectAtIndex:j]];
+        }
     }
     
     debugLog(@"Adding item map %d", dict.count);
@@ -109,237 +112,13 @@ static GalleryManager *instance;
 }
 
 
--(Gallery*) parseGallerySpecification :(NSString*) galleryXml
-{
-    
-    CCLOG(@"in : fromXml");
-    CCLOG(@"%@",galleryXml);
-    
-    Gallery *gallery  = [[Gallery alloc] init] ;
-
-    
-    NSError *error;
-    
-    NSData *data = [galleryXml dataUsingEncoding:NSUTF8StringEncoding];
-    GDataXMLDocument *doc = [[GDataXMLDocument alloc] initWithData:  data options: 0 error: &error];
-    
-    
-    NSArray *galleryUidTagList = [doc.rootElement elementsForName:TAG_UID];
-    
-    if (galleryUidTagList.count >0)
-    {
-        GDataXMLElement *galleryUidTag = (GDataXMLElement*) [galleryUidTagList objectAtIndex:0];   
-        gallery.uid = galleryUidTag.stringValue;
-        
-    }
-    
-    
-    NSArray *galleryTitleTagList = [doc.rootElement elementsForName:TAG_TITLE];
-    
-    if (galleryTitleTagList.count >0)
-    {
-        GDataXMLElement *galleryTitleTag = (GDataXMLElement*) [galleryTitleTagList objectAtIndex:0];   
-        gallery.title = galleryTitleTag.stringValue;
-        
-    }
-    
-    NSArray *galleryVersionTagList = [doc.rootElement elementsForName:TAG_VERSION];
-    
-    if (galleryVersionTagList.count >0)
-    {
-        GDataXMLElement *galleryVersionTag = (GDataXMLElement*) [galleryVersionTagList objectAtIndex:0];   
-        gallery.version = [galleryVersionTag.stringValue intValue];
-        
-    }
-    
-    
-    NSArray *itemTagList = [doc.rootElement elementsForName:TAG_ITEM];
-    if (itemTagList.count >0)
-    {
-        CCLOG(@"Item Tags, iterate through");
-        
-        for (int i=0; i< [itemTagList count]; i++) {
-            
-            CCLOG(@"Item Tag Found %d",i);
-            GDataXMLElement *itemTag = (GDataXMLElement*) [itemTagList objectAtIndex:i];
-            
-            GalleryItem *item = [[GalleryItem alloc] init];
-            
-            // set reference
-            item.galleryUid = gallery.uid;
-            
-            NSArray *itemUidTagList = [itemTag elementsForName:TAG_UID];
-            
-            if (itemUidTagList.count >0)
-            {
-                GDataXMLElement *itemUidTag = (GDataXMLElement*) [itemUidTagList objectAtIndex:0];   
-                item.uid = itemUidTag.stringValue;
-                
-            }
-            
-            NSArray *galleryItemVersionTagList = [itemTag elementsForName:TAG_VERSION];
-            
-            if (galleryItemVersionTagList.count >0)
-            {
-                GDataXMLElement *galleryItemVersionTag = (GDataXMLElement*) [galleryItemVersionTagList objectAtIndex:0];   
-                item.version = [galleryItemVersionTag.stringValue intValue];
-                
-            }
-            
-            
-            NSArray *itemTypeTagList = [itemTag elementsForName:TAG_TYPE];
-            
-            if (itemTypeTagList.count >0)
-            {
-                GDataXMLElement *itemTypeTag = (GDataXMLElement*) [itemTypeTagList objectAtIndex:0];   
-                item.type = itemTypeTag.stringValue;
-                
-            }
-            
-            NSArray *galleryTitleTagList = [doc.rootElement elementsForName:TAG_TITLE];
-            
-            if (galleryTitleTagList.count >0)
-            {
-                GDataXMLElement *galleryTitleTag = (GDataXMLElement*) [galleryTitleTagList objectAtIndex:0];   
-                item.title = galleryTitleTag.stringValue;
-                
-            }
-
-            
-
-            
-            NSArray *itemTagsTagList = [itemTag elementsForName:TAG_TAGS];
-            
-            if (itemTagsTagList.count >0)
-            {
-                GDataXMLElement *itemTagsTag = (GDataXMLElement*) [itemTagsTagList objectAtIndex:0];   
-                item.tags = itemTagsTag.stringValue;
-                
-            }
-            
-            
-            NSArray *itemThumUrlTagList = [itemTag elementsForName:TAG_THUMBNAIL];
-            
-            if (itemThumUrlTagList.count >0)
-            {
-                GDataXMLElement *itemThumbTag = (GDataXMLElement*) [itemThumUrlTagList objectAtIndex:0];   
-                item.thumbUrl = itemThumbTag.stringValue;
-                
-            }
-            
-            
-            
-            
-            NSArray *itemUrlTagList = [itemTag elementsForName:TAG_URL];
-            
-            if (itemUrlTagList.count >0)
-            {
-                GDataXMLElement *itemUrlTag = (GDataXMLElement*) [itemUrlTagList objectAtIndex:0];   
-                item.url = itemUrlTag.stringValue;
-                
-            }
-            
-            
-            NSArray *itemDescrTagList = [itemTag elementsForName:TAG_DESCRIPTION];
-            
-            if (itemDescrTagList.count >0)
-            {
-                GDataXMLElement *itemDescrTag = (GDataXMLElement*) [itemDescrTagList objectAtIndex:0];   
-                item.description = itemDescrTag.stringValue;
-                
-            }
-            
-            NSArray *itemAttributionTagList = [itemTag elementsForName:TAG_ATTRIBUTION];
-            
-            if (itemAttributionTagList.count >0)
-            {
-                GDataXMLElement *itemAttributionTag = (GDataXMLElement*) [itemAttributionTagList objectAtIndex:0];   
-                item.attribution = itemAttributionTag.stringValue;
-                
-            }
-            
-            NSArray *itemStatusTagList = [itemTag elementsForName:TAG_STATUS];
-            
-            if (itemStatusTagList.count >0)
-            {
-                GDataXMLElement *itemStatusTag = (GDataXMLElement*) [itemStatusTagList objectAtIndex:0];   
-                item.status = itemStatusTag.stringValue;
-                
-            }
-            
-            item.guid = [NSString stringWithFormat:@"%@-%@",item.galleryUid,item.uid];
-            item.fileName = [NSString stringWithFormat:@"%@.jpg",item.guid];
-            
-            
-                /*
-            <question answer="1">
-                 
-            <text>How do exterme climate effect?</text>
-                <answers>
-                <option value="1">True</option>
-                <option value="2">False</option>
-                </answers>
-            </question>
-                 */
-            
-            NSArray *itemQuestionTagList = [itemTag elementsForName:TAG_QUESTION];
-            
-            if (itemQuestionTagList.count >0)
-            {
-                GDataXMLElement *itemQuestionTag = (GDataXMLElement*) [itemQuestionTagList objectAtIndex:0];   
-                
-                GDataXMLNode *answerAttrib = [itemQuestionTag attributeForName:TAG_ANSWER];
-                item.correctAnswer =  answerAttrib.stringValue;
-                
-                //item.status = itemStatusTag.stringValue;
-                // get the attribute
-                NSArray *questionTextTagList = [itemQuestionTag elementsForName:TAG_TEXT];
-                
-                if (questionTextTagList.count >0)
-                {
-                    GDataXMLElement *questionTextTag = (GDataXMLElement*) [questionTextTagList objectAtIndex:0];   
-                    item.question = questionTextTag.stringValue;
-                }
-                
-                NSArray *answersTagList = [itemQuestionTag elementsForName:TAG_ANSWERS];
-                
-                if (answersTagList.count >0)
-                {
-                    GDataXMLElement *answersTag = (GDataXMLElement*) [answersTagList objectAtIndex:0];   
-                    
-                    NSArray *optionsTagList = [answersTag elementsForName:TAG_OPTION];
-                    
-                    NSMutableArray *answers = [[NSMutableArray alloc] init];
-                    for (int i=0; i<optionsTagList.count; i++) {
-                        GDataXMLElement *optionTag = (GDataXMLElement*) [optionsTagList objectAtIndex:0];   
-                        [answers addObject:optionTag.stringValue];
-                    }
-                }
-                
-            }
-            
-            
-            CCLOG(@"Added Item %@ to gallery %@",item.fileName,item.galleryUid);
-            // add item
-            [gallery addItem:item];
-            
-            // item
-        }
-        
-        
-    }
-    
-    return  gallery;
-}
-
-
--(void) addGalleryToCache :(Gallery*) gallery
+-(void) addGalleryToCache :(GalleryInfo*) gallery
 {
     
     debugLog(@"adding gallery to cache %@", gallery.uid);
     [galleries setObject:gallery forKey:gallery.uid];
 }
--(Gallery*) getGalleryFromCache :(NSString*) galleryUid
+-(GalleryInfo*) getGalleryFromCache :(NSString*) galleryUid
 {
     return [galleries objectForKey:galleryUid];
 }
@@ -357,10 +136,10 @@ static GalleryManager *instance;
     [super dealloc];
 }
 
--(Gallery*) filterGalleryLocal:(Gallery*) gallery
+-(GalleryInfo*) filterGalleryLocal:(GalleryInfo*) gallery
 {
     // check if the item is local
-    Gallery *localGallery = [[Gallery alloc] init];
+    GalleryInfo *localGallery = [[GalleryInfo alloc] init];
     localGallery.version = gallery.version;
     localGallery.title = gallery.title;
     localGallery.uid = gallery.uid;
@@ -369,16 +148,16 @@ static GalleryManager *instance;
     
     for (int i=0; i<=[gallery.items count]; i++) {
         
-        GalleryItem *item = [gallery.items objectAtIndex:i];
+        GalleryItemInfo *item = [gallery.items objectAtIndex:i];
         
         
         
-        NSString *filePath = [NSString stringWithFormat:@"%@/%@", docDir, item.fileName];
+        NSString *filePath = [NSString stringWithFormat:@"%@/%@", docDir, item.filename];
         
         
         //Using NSFileManager we can perform many file system operations.
         NSFileManager *fileManager = [NSFileManager defaultManager];
-        BOOL success = [fileManager fileExistsAtPath:filePath]; 				
+        BOOL success = [fileManager fileExistsAtPath:filePath];
         
         if(success) {
             
@@ -401,79 +180,92 @@ static GalleryManager *instance;
     return localGallery;
 }
 
--(Gallery*) filterGallery:(Gallery*) gallery byType:(NSString *)type
+-(GalleryInfo*) filterGallery:(GalleryInfo*) gallery byType:(NSString *)type
 {
     
     debugLog(@"filterGallery by type %@", type);
     // check if the item is local
-    Gallery *localGallery = [[Gallery alloc] init];
+    GalleryInfo *localGallery = [[GalleryInfo alloc] init];
     localGallery.version = gallery.version;
     localGallery.title = gallery.title;
     
-  localGallery.uid=  [NSString stringWithFormat:@"%@-%@",gallery.uid,type];
+    localGallery.uid=  [NSString stringWithFormat:@"%@-%@",gallery.uid,type];
     
     
     
-    NSString *docDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-    
+    NSMutableArray *localItems = [[NSMutableArray alloc] init];
+    NSMutableDictionary *localItemMap = [[NSMutableDictionary alloc] init];
     for (int i=0; i<[gallery.items count]; i++) {
         
-        GalleryItem *item = [gallery.items objectAtIndex:i];
-       
+        debugLog(@"Filter item %d",i);
+        
+        GalleryItemInfo *item = [gallery.items objectAtIndex:i];
+        item.guid = [NSString stringWithFormat:@"%@-%@",gallery.uid,item.uid];
+        debugLog(@"Item guid %@",item.guid);
+       item.filename = [NSString stringWithFormat:@"%@.jpg",item.guid];
+        debugLog(@"Item filename %@",item.filename);
+        
         if ([item.type isEqualToString:type])
         {
             
             if ([type isEqualToString:@"video"])
-                {
-                    debugLog(@"Found video item %@ for gallery %@",item.guid,gallery.title);
-                }
-                 
-            [localGallery addItem:item];            
+            {
+                debugLog(@"Found video item %@ for gallery %@",item.guid,gallery.title);
+            }
+            
+            [localItems addObject:item];
+            [localItemMap setObject:item forKey:item.guid];
         }
         else {
             
         }
-
-       
+        
+        
+        
     }
-
+    
+    localGallery.items = localItems;
+    gallery.itemMap = localItemMap;
+    
+    
     if ([type isEqualToString:@"video"])
     {
         debugLog(@"Local gallery items %d",[localGallery.items count]);
     }
-
+    
     
     return localGallery;
 }
 
 
--(Gallery*) filterGallery:(Gallery*) gallery byTags:(NSString *)tags
+-(GalleryInfo*) filterGallery:(GalleryInfo*) gallery byTags:(NSString *)tags
 {
+    debugLog(@"filter gallery by tags");
     // check if the item is local
-    Gallery *localGallery = [[Gallery alloc] init];
+    GalleryInfo *localGallery = [[GalleryInfo alloc] init];
     localGallery.version = gallery.version;
     localGallery.title = gallery.title;
     
     localGallery.uid=  [NSString stringWithFormat:@"%@-%@",gallery.uid,tags];
     
-        
-//    NSString *docDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    
+    NSMutableArray *localItems = [[NSMutableArray alloc]init];
     
     for (int i=0; i<[gallery.items count]; i++) {
         
-        GalleryItem *item = [gallery.items objectAtIndex:i];
+        GalleryItemInfo *item = [gallery.items objectAtIndex:i];
         
         if ([item.tags rangeOfString:tags].location == NSNotFound)
         {
             debugLog(@"Tag does not match, %@ skip it",item.tags);
         }
-            else
-            {
-                [localGallery addItem:item];                    
-            }
+        else
+        {
+            [localItems addObject:item];
+        }
         
         
-        
+        localGallery.items = localItems;
         
     }
     
@@ -482,48 +274,6 @@ static GalleryManager *instance;
 
 
 
-
--(Gallery*)loadGalleryFromSpecification :(NSString*) galleryUid
-{
-    CCLOG(@"loadGalleryFromSpecification");
-    NSString *docDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-    NSString *galleryXmlFile = [NSString stringWithFormat:@"%@/gallery-%@.xml", docDir, galleryUid];
-    
-    NSFileManager *fileManager = [NSFileManager defaultManager];
-    BOOL success = [fileManager fileExistsAtPath:galleryXmlFile]; 				
-    
-    NSString *xmlSpec;
-    if(success) {
-        
-        CCLOG(@"File exists %@",galleryXmlFile );
-        
-        NSURL *url = [NSURL URLWithString:galleryXmlFile];
-        // get the xml
-        NSError *err = nil;
-        NSData *databuffer = [NSData dataWithContentsOfFile:galleryXmlFile options:NSDataReadingMappedIfSafe error:&err];
-  //       NSData *databuffer = [NSData dataWithContentsOfFile:galleryXmlFile];
-       xmlSpec = [[NSString alloc] initWithData:databuffer encoding:NSUTF8StringEncoding];
-    //    xmlSpec = [NSString stringWithUTF8String:[databuffer bytes]];
-
-        
-        if (err!= nil)
-        {
-            CCLOG(@"errror reading gallery : %@",err.localizedDescription);
-        }
-        CCLOG(@"XMl %@",xmlSpec);
-    }
-    else {
-        CCLOG(@"File does not exists %@",galleryXmlFile );
-        
-        // download it
-        xmlSpec = [self downloadGallerySpecification:galleryUid];
-        [self saveGallerySpecificationAsFile:xmlSpec withID:galleryUid ];
-    }
-    
-    // parse it
-    return [self parseGallerySpecification:xmlSpec];
-    
-}
 
 -(void ) saveGallerySpecificationAsFile : (NSString*) galleryXmlSpec withID :(NSString*) galleryUid
 {
@@ -531,7 +281,7 @@ static GalleryManager *instance;
     NSString *docDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
     NSString *galleryXmlFile = [NSString stringWithFormat:@"%@/gallery-%@.xml", docDir, galleryUid];
     NSFileManager *fileManager = [NSFileManager defaultManager];
-    BOOL success = [fileManager fileExistsAtPath:galleryXmlFile]; 				
+    BOOL success = [fileManager fileExistsAtPath:galleryXmlFile];
     if (success)
     {
         [fileManager removeItemAtPath:galleryXmlFile error:NULL];
@@ -573,7 +323,7 @@ static GalleryManager *instance;
 -(void) syncGalleryAndReloadCache:(NSString *)galleryUid
 {
     
-
+    
     debugLog(@"syncGalleryAndReloadCacheAsThread");
     
     // download it
@@ -582,36 +332,36 @@ static GalleryManager *instance;
     [self saveGallerySpecificationAsFile:xmlSpec withID:galleryUid];
     
     // get current spec
-    Gallery *currentGallery = [self getGalleryFromCache:galleryUid];
+    GalleryInfo *currentGallery = [self getGalleryFromCache:galleryUid];
     if (currentGallery == nil)
     {
-        currentGallery = [[[Gallery alloc] init] autorelease];
+        currentGallery = [[[GalleryInfo alloc] init] autorelease];
     }
     
-    Gallery *newGallery = [self parseGallerySpecification:xmlSpec];
-    
+    // GalleryInfo *newGallery = [self parseGallerySpecification:xmlSpec];
+    GalleryInfo *newGallery = nil; // TODO FIX IT
     debugLog(@"New Gallery item count %d",[newGallery.items count]);
     
     for(int i =0; i < [newGallery.items count];i++)
     {
-
-        GalleryItem *newItem = [newGallery.items objectAtIndex:i];
-        GalleryItem *currentItem = [currentGallery.itemMap objectForKey:newItem.guid];
-
+        
+        GalleryItemInfo *newItem = [newGallery.items objectAtIndex:i];
+        // GalleryItemInfo *currentItem = [currentGallery.itemMap objectForKey:newItem.guid];
+        GalleryItemInfo *currentItem =  nil; // TODO Fix it
         
         debugLog(@"Current version %d, new version %d",currentItem.version,newItem.version);
         
         // compare version
         if (currentItem.version != newItem.version)
         {
-         
+            
             debugLog(@"New version found");
             
             // download item
             
             // Get an image from the URL below
             NSURL *url = [[NSURL alloc] initWithString:newItem.url];
-             NSData *data = [NSData dataWithContentsOfURL:url];
+            NSData *data = [NSData dataWithContentsOfURL:url];
             
             if (data != nil)
             {
@@ -629,7 +379,7 @@ static GalleryManager *instance;
                 
                 NSString *docDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
                 
-                NSString *filePath = [NSString stringWithFormat:@"%@/%@", docDir, newItem.fileName];
+                NSString *filePath = [NSString stringWithFormat:@"%@/%@", docDir, newItem.filename];
                 CCLOG(@"Save image to %@",filePath);
                 [data writeToFile:filePath atomically:YES];
                 
@@ -637,16 +387,16 @@ static GalleryManager *instance;
                 
                 CCLOG(@"File path %@",filePath);
                 [self addSkipBackupAttributeToItemAtURL:filePath];
-
                 
-               // [image release];
+                
+                // [image release];
             }
             else
             {
                 debugLog(@"Image not avaiable on the server");
             }
             
-
+            
             
         }
         else {
@@ -655,35 +405,13 @@ static GalleryManager *instance;
             
             
         }
-    
- 
+        
+        
     }
     
     
-    /*
-    // get the starter images
-    NSMutableArray *starterImages = [[[NSMutableArray alloc] init] autorelease];
     
-    // populate starter images
-    for (int k=0; k< [newGallery.items count]; k++) {
-        GalleryItem *item = [newGallery.items objectAtIndex:k];
-        
-        if ([item.status isEqualToString:@"A"])
-        {
-            [starterImages addObject:item.guid];
-        }
-        else {
-            debugLog(@"Skip as the status is not A");
-        }
-    }
     
-        
-    [AppDelegate savePhotoIdArrayToDoc:starterImages withGalleryId:newGallery.uid];
-    
-    [[GalleryManager getInstance] addGalleryToCache:newGallery];
-    */
-    
-       
     
     
 }
@@ -708,7 +436,7 @@ static GalleryManager *instance;
 		
 		NSDate *syncDate = [format dateFromString:dated];
 		
-		     
+        
 		
 		// compare
 		NSDate *dtNow = [NSDate date];
@@ -722,7 +450,7 @@ static GalleryManager *instance;
 		{
 			debugLog(@"Sync Date is in the future");
 			
-			// 
+			//
 		}
 		else if(result==NSOrderedDescending)
 		{
@@ -743,12 +471,12 @@ static GalleryManager *instance;
 	}
     
     if (syncNow) {
-            [NSThread detachNewThreadSelector:@selector(syncAllGalleriesAsThread:) toTarget:self withObject:nil];    
+        [NSThread detachNewThreadSelector:@selector(syncAllGalleriesAsThread:) toTarget:self withObject:nil];
     }
     else {
         debugLog(@"It not time yet to sync");
     }
-
+    
 }
 
 -(void) syncAllGalleriesAsThread :(id) sender
@@ -764,37 +492,37 @@ static GalleryManager *instance;
     
     AppConfigManager *cfg = [AppConfigManager getInstance];
     [cfg load];
-
+    
     BOOL somethingChanged = FALSE;
     int totalTopics = [[[[PlistManager sharedPlistManager] appDictionary] objectForKey:@"numberOfTopics"] intValue];
     
     for (int i =1; i <= totalTopics;i++) {
-    
-    NSDictionary *dict = [[PlistManager sharedPlistManager] getDictionaryForTopic:i+1];
-    NSString *galleryId =   [dict objectForKey:@"gallery_id"];
-    
         
-        NSString *galleryNameProperty = [NSString stringWithFormat:@"gallery.%@.version",galleryId];   
-    // check if version changed
-      NSString *serverVersion =   [[AppConfigManager getInstance] getProperty:galleryNameProperty];
+        NSDictionary *dict = [[PlistManager sharedPlistManager] getDictionaryForTopic:i+1];
+        NSString *galleryId =   [dict objectForKey:@"gallery_id"];
         
-      // get gallery from cache
-        Gallery *localGallery = [self getGalleryFromCache:galleryId]; 
+        
+        NSString *galleryNameProperty = [NSString stringWithFormat:@"gallery.%@.version",galleryId];
+        // check if version changed
+        NSString *serverVersion =   [[AppConfigManager getInstance] getProperty:galleryNameProperty];
+        
+        // get gallery from cache
+        GalleryInfo *localGallery = [self getGalleryFromCache:galleryId];
         
         debugLog(@"Gallery Local version %d, server version %d",localGallery.version,[serverVersion intValue]);
         
         if ([serverVersion intValue] > localGallery.version)
         {
-            debugLog(@"Sync gallery %@",galleryId)  ;           
+            debugLog(@"Sync gallery %@",galleryId)  ;
             [self syncGalleryAndReloadCache:galleryId];
             somethingChanged = true;
         }
         else {
             debugLog(@"No need to sync gallery %@",galleryId);
         }
+        
+    }
     
-}
-
     if (somethingChanged)
     {
         [self buildCaches];
@@ -802,41 +530,44 @@ static GalleryManager *instance;
     else {
         debugLog(@"Nothing changed, no need to rebuild caches");
     }
- 
+    
     [self setNewSyncDate:1];
     
     syncInProgress = FALSE;
     [pool release];
 }
 
+
+
+
 -(void) buildCaches
 {
     CCLOG(@"in buildCaches");
+    
+    AppInfo *appInfo = [ModelManager sharedModelManger].appInfo;
 
-    int totalTopics = [[[[PlistManager sharedPlistManager] appDictionary] objectForKey:@"numberOfTopics"] intValue];
+    int totalTopics = appInfo.numberOfTopics.intValue;
     
     
     CCLOG(@"Total topics %d", totalTopics);
-
+    
     NSMutableArray *matchingGalleryIdsForItemMap = [[[NSMutableArray alloc] init] autorelease];
     NSMutableArray *portfolioGalleryIdsForItemMap = [[[NSMutableArray alloc] init] autorelease];
     
     CCLOG(@"Total topics %d", totalTopics);
     for (int i =1; i <= totalTopics;i++) {
         
-        NSDictionary *dict = [[PlistManager sharedPlistManager] getDictionaryForTopic:i+1];
-        //            NSString *galleryId =   [dict objectForKey:@"flickrphotos"];
-        NSString *galleryId =   [dict objectForKey:@"gallery_id"];
         
+        TopicInfo *topicInfo = [appInfo.topics objectAtIndex:i-1];
         
-        CCLOG(@"Loding gallery from local xml"); 
-        Gallery *gallery = [self loadGalleryFromSpecification:galleryId];
+        CCLOG(@"Loding gallery from local xml");
+        GalleryInfo *gallery = topicInfo.gallery;
         
-        Gallery *videoGallery = [self filterGallery:gallery byType:GALLERY_ITEM_TYPE_VIDEO];
-        Gallery *photoGallery = [self filterGallery:gallery byType:GALLERY_ITEM_TYPE_PHOTO];
+        GalleryInfo *videoGallery = [self filterGallery:gallery byType:GALLERY_ITEM_TYPE_VIDEO];
+        GalleryInfo *photoGallery = [self filterGallery:gallery byType:GALLERY_ITEM_TYPE_PHOTO];
         
-        Gallery *matchingGamePhotoGallery = [self filterGallery:photoGallery byTags:GALLERY_TAG_MATCHING_GAME];
-        Gallery *galleryPhotoGallery = [self filterGallery:photoGallery byTags:GALLERY_TAG_PHOTO_GALLERY];            
+        GalleryInfo *matchingGamePhotoGallery = [self filterGallery:photoGallery byTags:GALLERY_TAG_MATCHING_GAME];
+        GalleryInfo *galleryPhotoGallery = [self filterGallery:photoGallery byTags:GALLERY_TAG_PHOTO_GALLERY];
         
         
         [self addGalleryToCache:matchingGamePhotoGallery];
@@ -846,13 +577,13 @@ static GalleryManager *instance;
         [self addGalleryToCache:gallery];
         
         [matchingGalleryIdsForItemMap addObject:matchingGamePhotoGallery.uid];
-        [portfolioGalleryIdsForItemMap addObject:galleryPhotoGallery.uid]; 
+        [portfolioGalleryIdsForItemMap addObject:galleryPhotoGallery.uid];
     }
     
     [self buildGlobalItemMapFromGalleriesInCache:matchingGalleryIdsForItemMap withKey:GALLERIES_PHOTO_FOR_MATCHING_GAME_ITEM_MAP];
     [self buildGlobalItemMapFromGalleriesInCache:portfolioGalleryIdsForItemMap withKey:GALLERIES_PHOTO_FOR_PHOTO_GALLERY_ITEM_MAP];
     
-
+    
     
 }
 
@@ -870,7 +601,7 @@ static GalleryManager *instance;
 	
 	AppConfigManager *cfg = [AppConfigManager getInstance];
 	[cfg setLocalProperty:@"last.gallery.sync" withValue:dateStr];
-
+    
 	
 	debugLog(@"New Sync Date %d -- %@",days,dateStr);
     

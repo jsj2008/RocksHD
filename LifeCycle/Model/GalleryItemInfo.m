@@ -20,5 +20,6 @@
 @dynamic attribution;
 @dynamic status;
 @dynamic tags;
-
+@dynamic filename;
+@dynamic guid;
 @end
