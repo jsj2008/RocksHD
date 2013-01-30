@@ -333,42 +333,52 @@
             
             [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
             
+            [AppConfigManager  getInstance].currentTopic = 1;
             
-         [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopic1Scene withTranstion:kCCTransitionPageTurnForward];
+            debugLog(@"First Topic clicked");
+         [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnForward];
             break;
         case kHomeTopic2ButtonTag:
+            
+            [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+            
             [AppConfigManager  getInstance].currentTopic = 2;
-            [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
-            [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopic2Scene withTranstion:kCCTransitionPageTurnForward];
+            
+            debugLog(@"First Topic clicked");
+            [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnForward];
+            
             break;
+            
+            
         case kHomeTopic3ButtonTag:
-            [AppConfigManager  getInstance].currentTopic = 3;
+            
             [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
-            [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageFlip];
+            
+            [AppConfigManager  getInstance].currentTopic = 2;
+            
+            debugLog(@"First Topic clicked");
+            [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnForward];
+            
             break;
-        case kHomeTopic4ButtonTag:
-            [AppConfigManager  getInstance].currentTopic = 4;
-            [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
-            [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopic4Scene withTranstion:kCCTransitionPageTurnForward];
-            break;
-        case kHomeTopic5ButtonTag:
-            [AppConfigManager  getInstance].currentTopic = 5;
-            [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
-            [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopic5Scene withTranstion:kCCTransitionPageTurnForward];
-            break;
-        case kHomeTopic6ButtonTag:
-                      [AppConfigManager  getInstance].currentTopic = 6;
-            [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
-            [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopic6Scene withTranstion:kCCTransitionPageTurnForward];
-            break;
-        case kHomeTopic7ButtonTag:
-                        [AppConfigManager  getInstance].currentTopic = 7;
-            [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
-            [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopic7Scene withTranstion:kCCTransitionPageTurnForward];
-            break;
-        default:
-            break;
+    
+
+    
+case kHomeTopic4ButtonTag:
+    
+    [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+    
+    [AppConfigManager  getInstance].currentTopic = 2;
+    
+    debugLog(@"First Topic clicked");
+    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnForward];
+    
+    break;
+    
+
     }
+
+
+
 }
 
 
@@ -470,7 +480,7 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
                                                                     target:self 
                                                                   selector:@selector(topicHandler:)];
     
-    reduceMenuItem.tag = kHomeTopic1ButtonTag;
+    reduceMenuItem.tag = kHomeTopic4ButtonTag;
     reduceMenuItem.position = arrow90Position;
     
     
@@ -482,7 +492,7 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
                                                                     target:self 
                                                                   selector:@selector(topicHandler:)];
     
-    recycleMenuItem.tag = kHomeTopic1ButtonTag+2;
+    recycleMenuItem.tag = kHomeTopic1ButtonTag;
     recycleMenuItem.position = arrow100Position;
 
     [recycleMenuItem runAction:[self makeGentleSwirlingAction:recycleMenuItem.position]];
@@ -493,7 +503,7 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
                                                                      target:self 
                                                                    selector:@selector(topicHandler:)];
     
-    reuseMenuItem.tag = kHomeTopic1ButtonTag +1;
+    reuseMenuItem.tag = kHomeTopic3ButtonTag;
     reuseMenuItem.position = arrow120Position;
 
     [reuseMenuItem runAction:[self makeGentleSwirlingAction:reuseMenuItem.position]];
@@ -504,7 +514,7 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
                                                                    target:self
                                                                  selector:@selector(topicHandler:)];
     
-    runoffMenuItem.tag = kHomeTopic1ButtonTag +3;
+    runoffMenuItem.tag = kHomeTopic2ButtonTag;
     runoffMenuItem.position = arrow20Position;
 
     [runoffMenuItem runAction:[self makeGentleSwirlingAction:runoffMenuItem.position]];

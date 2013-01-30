@@ -11,6 +11,7 @@
 #import "CCLayer.h"
 #import "EditModeAbler.h"
 #import "Constants.h"
+#import "QuestionItemInfo.h"
 
 typedef enum {
     kQuizQuestionLabelTag=100,
@@ -28,7 +29,9 @@ typedef enum {
 
 @interface QuizLayer : CCLayer <CCTargetedTouchDelegate, EditModeAblerDelegate> {
     CGSize screenSize;
-    NSDictionary *questionDict;
+
+    QuestionItemInfo *questionItemInfo;
+    
     NSMutableArray *ansKey;
     NSArray *choicesImgNames;
     CCMenuItemImage *audioItemImage;
@@ -51,12 +54,12 @@ typedef enum {
 
 @property (nonatomic, retain) NSDictionary *topicInfo;
 
-@property (nonatomic, retain) NSDictionary *questionDict;
+
 @property (nonatomic, retain) NSMutableArray *ansKey;
 @property (nonatomic, retain) NSArray *choicesImgNames;
     
 @property (nonatomic, retain) CCMenuItemImage *audioItemImage;
-
+@property (nonatomic, retain) QuestionItemInfo *questionItemInfo;
 
 
 // -(void)loadQuestionsForScene:(SceneTypes)sceneType;

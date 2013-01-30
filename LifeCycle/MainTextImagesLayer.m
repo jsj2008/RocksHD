@@ -105,6 +105,7 @@
 -(NSDictionary*)loadTopicSpecificsForScene:(SceneTypes)sceneType {
     NSDictionary *dict;
 
+
     switch (sceneType) {
         case kTopic1Scene:
             dict = [[PlistManager sharedPlistManager] topic1SpecificsDictionary];

@@ -12,6 +12,7 @@
 #import "TextAndQuizScene.h"
 #import "SizeSmartCCLabelTTF.h"
 #import "AppConfigManager.h"
+#import "ChoiceInfo.h"
 
 #define kCorrect 11
 #define kWrong 10
@@ -20,14 +21,14 @@
 @implementation QuizLayer
 
 @synthesize topicInfo;
-@synthesize questionDict;
+
 @synthesize ansKey;
 @synthesize choicesImgNames;
 @synthesize audioItemImage;
-
+@synthesize questionItemInfo;
 
 -(void)dealloc {
-    [questionDict release];
+
     [ansKey release];
     [choicesImgNames release];
     [audioItemImage release];
@@ -134,22 +135,19 @@
 
 -(void) addMultipleChoice:(NSArray *)answers withFontName:(NSString*)fontName withFontSize:(float)fontSize {
     
+    debugLog(@"Add Multiple Choice");
     [ansKey removeAllObjects];
     
     float spacing = 85.0f;
     
     int k = 0;
-    for (NSString *a in answers) {
+    for (ChoiceInfo *a in answers) {
         
-        NSString *trim_a = [a stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        NSString *ansStr = [a.answer stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
         
-        NSArray *tmp = [trim_a componentsSeparatedByString:@"|"];
         
-        NSString *ans = [tmp objectAtIndex:0];
         
-        NSString *ansStr = [NSString stringWithFormat:@"%@", ans];
-        
-        [ansKey addObject:[tmp objectAtIndex:1]];
+        [ansKey addObject:a.truth];
         
         // put choice label (ie. A, B, C, or D)
         NSString *imgName = [self.choicesImgNames objectAtIndex:k];
@@ -169,7 +167,7 @@
         SizeSmartCCLabelTTF *ansLabel = [[SizeSmartCCLabelTTF alloc] initWithString:ansStr withFixedWidth:screenSize.width*0.6 alignment:UITextAlignmentLeft fontName:fontName fontSize:fontSize];
         
         ansLabel.color = ccc3(0, 0, 0);
-        // ansLabel.anchorPoint = ccp(0.0, 1.0);
+
         
         // Use CCMenuItemLabel to wrap the CCLabelTTF
         CCMenuItemLabel *ansLabel2 = [CCMenuItemLabel itemWithLabel:ansLabel target:self selector:@selector(choiceSelected:)];
@@ -185,11 +183,11 @@
                      [CCFadeIn actionWithDuration:0.77],
                      nil];
         
-        // m2.position = ccp(screenSize.width/5.0f + c.boundingBox.size.width, screenSize.height*7/12 - spacing*k + 19);
+
         [m2 runAction:action];
         [self addChild:m2];
         
-        // [self addChild:ansLabel];
+
         k++;
     }
     
@@ -224,11 +222,6 @@
     home.position = home_position;
     home.tag = kQuizHomeButtonTag;
     
-    /*CCMenuItemImage *playGame = [CCMenuItemImage itemFromNormalImage:@"play2.png"
-                                                       selectedImage:@"play2_bigger.png"
-                                                       disabledImage:@"play.png"
-                                                              target:self selector:@selector(goPlayGame)];
-    playGame.position = ccp(0.0f, 0.0f);*/
     
     CGPoint audio_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kQuizAudioButtonTag];
     
@@ -281,7 +274,6 @@
     else {
         [i unselected];
         [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
-//        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_TEXTPAGE];
         [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:[topicInfo objectForKey:@"background_track_name"]];
     }
 }
@@ -329,10 +321,11 @@
 
 -(void)prepareLayerForQuestion {
     
+    debugLog(@"in prepareLayerForQuestion");
     NSString *fontName = @"ArialRoundedMTBold";
     
-    [self addQuestion:[questionDict objectForKey:@"question"] withFontName:fontName withFontSize:36];
-    [self addMultipleChoice:[questionDict objectForKey:@"answers"] withFontName:fontName withFontSize:24];
+    [self addQuestion: questionItemInfo.question withFontName:fontName withFontSize:36];
+    [self addMultipleChoice:questionItemInfo.answers.choices  withFontName:fontName withFontSize:24];
     
     // add right/wrong image
     
@@ -359,7 +352,7 @@
     nextMenu.tag = kQuizNextTag;
     
     nextMenu.position = nextIconPosition;
-//    nextMenu.position = QUIZ_NEXT_ICON_POSITION;
+
     nextMenu.visible = NO;
     
     [self addChild:nextMenu];
@@ -395,14 +388,6 @@
 
 -(void)showResult:(NSInteger)correctCount outOfTotal:(NSInteger)totalCount withText:(NSString *)text {
     
-    /*NSString *result = [NSString stringWithFormat:@"You got %d out of %d questions right so far", correctCount, totalCount];
-    CCLabelTTF *resultLabel = [CCLabelTTF labelWithString:result fontName:@"Noteworthy" fontSize:48];
-    resultLabel.color = ccc3(0, 0, 0);
-    resultLabel.position = ccp(screenSize.width/2, screenSize.height/2+50);
-    [self addChild:resultLabel];*/
-    
-    // CCLabelTTF *dareLabel = [CCLabelTTF labelWithString:text fontName:@"ArialRoundedMTBold" fontSize:42];
-//    SizeSmartCCLabelTTF *dareLabel = [[SizeSmartCCLabelTTF alloc] initWithString:text withFixedWidth:screenSize.width*3/4 alignment:UITextAlignmentCenter fontName:@"ArialRoundedMTBold" fontSize:42];
     SizeSmartCCLabelTTF *dareLabel = [[SizeSmartCCLabelTTF alloc] initWithString:text withFixedWidth:screenSize.width*3/4 alignment:UITextAlignmentLeft fontName:@"ArialRoundedMTBold" fontSize:42];
     
     
@@ -420,7 +405,7 @@
     CCMenu *nextMenu = [CCMenu menuWithItems:next, nil];
     nextMenu.tag = kQuizNextTag;
     nextMenu.position = nextIconPosition;
-//    nextMenu.position = QUIZ_NEXT_ICON_POSITION;
+
     nextMenu.visible = YES;
     
     [self addChild:nextMenu];
@@ -439,13 +424,12 @@
         self.isTouchEnabled = YES;
         
         screenSize = [CCDirector sharedDirector].winSize;
-        // NSString *fontName = @"Marker Felt";
+
         
         // initialize image names for ans choices
         NSArray *a2 = [NSArray arrayWithObjects:@"quiz_A", @"quiz_B", @"quiz_C", @"quiz_D", nil];
         self.choicesImgNames = a2;
         
-      //  [CCTexture2D setDefaultAlphaPixelFormat:kTexture2DPixelFormat_RGBA8888];
         
         NSString *path = [NSString stringWithFormat:@"%@/CCMenu", NSStringFromClass([self class])];
         nextIconPosition = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kQuizNextTag];

@@ -12,6 +12,12 @@
 #import "QuizLayer.h"
 #import "FlowAndStateManager.h"
 #import "NSMutableArrayShuffle.h"
+#import "ModelManager.h"
+#import "AppConfigManager.h"
+#import "TopicInfo.h"
+#import "QuestionsInfo.h"
+#import "QuestionItemInfo.h"
+#import "ChoiceInfo.h"
 
 @interface TextAndQuizScene ()
 @property (nonatomic, copy) NSDictionary *specificTopicInfo;
@@ -48,25 +54,13 @@
     TextAndQuizBackgroundLayer *bgLayer = [TextAndQuizBackgroundLayer node];
     [self addChild:bgLayer z:0 tag:0];
     
-//    QuizLayer *quizLayer = [QuizLayer node];
-//    quizLayer.topicInfo = specificTopicInfo;
-    
     currentQuestion = -1;
     [self progressReportEasy];
-//    NSDictionary *q = [self.questions objectAtIndex:currentQuestion];
-//    quizLayer.questionDict = q;
-//    
-//    [quizLayer addMenu];
-//    [quizLayer prepareLayerForQuestion];
-//    [self addChild:quizLayer z:1 tag:3];
-
-//    [specificTopicInfo release];
     
 }
 
 -(void)loadNextQuiz:(BOOL)must {
     QuizLayer *quizLayer = (QuizLayer*)[self getChildByTag:3];
-//    NSDictionary *specificTopicInfo = [quizLayer.topicInfo retain];
 
     [quizLayer removeFromParentAndCleanup:YES]; quizLayer = nil;
     
@@ -85,11 +79,13 @@
     
     if (currentQuestion < [self.questions count]) {
         
-        NSDictionary *q = [self.questions objectAtIndex:currentQuestion];
+        debugLog(@"get the current question");
+        QuestionItemInfo *q = [self.questions objectAtIndex:currentQuestion];
         
         QuizLayer *qL = [QuizLayer node];
         qL.topicInfo = self.specificTopicInfo;
-        qL.questionDict = q;
+        //qL.questionDict = q; // OLD
+        qL.questionItemInfo = q;
         
         [qL addMenu];
         [qL prepareLayerForQuestion];
@@ -100,7 +96,7 @@
         [self loadResult];
     }
     
-//    [specificTopicInfo release];
+
          
 }
 
@@ -144,11 +140,15 @@
 }
 
 -(NSArray *)shuffleQuestionsAccordingToLevel:(NSArray *)qs {
+    
+    debugLog(@"ShuffleQuestionsAccordingToLevel");
+    
     NSMutableArray *questionsToReturn = [[[NSMutableArray alloc] initWithCapacity:[qs count]] autorelease];
     
     NSMutableArray *easyQuestions = [[NSMutableArray alloc] init];
-    for (NSDictionary *q in qs) {
-        if ([[q objectForKey:@"level"] isEqualToString:@"Easy"]) {
+    
+    for (QuestionItemInfo *q in qs) {
+        if ([q.level isEqualToString:@"Easy"]) {
             [easyQuestions addObject:q];
         }
     }
@@ -156,8 +156,8 @@
     numberOfEasy = [easyQuestions count];
     
     NSMutableArray *mediumQuestions = [[NSMutableArray alloc] init];
-    for (NSDictionary *q in qs) {
-        if ([[q objectForKey:@"level"] isEqualToString:@"Medium"]) {
+    for (QuestionItemInfo *q in qs) {
+        if ([q.level isEqualToString:@"Medium"]) {
             [mediumQuestions addObject:q];
         }
     }
@@ -165,8 +165,8 @@
     numberOfMedium = [mediumQuestions count];
     
     NSMutableArray *hardQuestions = [[NSMutableArray alloc] init];
-    for (NSDictionary *q in qs) {
-        if ([[q objectForKey:@"level"] isEqualToString:@"Hard"]) {
+    for (QuestionItemInfo *q in qs) {
+        if ([q.level isEqualToString:@"Hard"]) {
             [hardQuestions addObject:q];
         }
     }
@@ -174,8 +174,8 @@
     numberOfHard = [hardQuestions count];
     
     NSMutableArray *unrankedQuestions = [[NSMutableArray alloc] init];
-    for (NSDictionary *q in qs) {
-        if ([q objectForKey:@"level"] == nil || [[q objectForKey:@"level"] isEqualToString:@""]) {
+    for (QuestionItemInfo *q in qs) {
+        if (q.level == nil || [q.level isEqualToString:@""]) {
             [unrankedQuestions addObject:q];
         }
     }
@@ -191,25 +191,38 @@
     [hardQuestions release];
     [unrankedQuestions release];
     
+    debugLog(@"Question sorting done");
     return questionsToReturn;
 }
 
--(void)loadQuestionsForScene:(SceneTypes)sceneType {
-//    NSString *fileName = @"Quiz";
-//    
-//    NSString *fullFileName = [NSString stringWithFormat:@"%@.plist", fileName];
-//    NSString *plistPath;
-//    
-//    NSString *rootPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-//    plistPath = [rootPath stringByAppendingPathComponent:fullFileName];
-//    if (![[NSFileManager defaultManager] fileExistsAtPath:plistPath]) {
-//        plistPath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"plist"];
-//    }
-//    
-//    NSDictionary *plistDict = [NSDictionary dictionaryWithContentsOfFile:plistPath];
-//    if (plistDict == nil) {
-//        CCLOG(@"Error reading plist: %@.plist", fileName);
-//    }
+-(void)loadQuestionsForSceneViaXML:(int)topicId {
+    
+    debugLog(@"Load loadQuestionsForSceneViaXML:");
+    ModelManager *mm = [ModelManager sharedModelManger];
+    
+    TopicInfo *topicInfoForScene = mm.appInfo.topics[topicId -1];
+    
+  
+
+    // testing questions
+    for (QuestionItemInfo *item in topicInfoForScene.questions.items) {
+        debugLog(@"question = %@, level = %@", item.question, item.level);
+        for (ChoiceInfo *choice in item.answers.choices) {
+            debugLog(@"\tAnswer = %@, Truth = %@", choice.answer, choice.truth);
+        }
+    }
+    
+    NSArray *qs = [self shuffleQuestionsAccordingToLevel:  topicInfoForScene.questions.items];
+    
+    self.questions = qs;
+    
+}
+-(void)loadQuestionsForTopic:(int)topicId {
+ 
+    [self loadQuestionsForSceneViaXML:topicId];
+}
+
+-(void)loadQuestionsForSceneViaPlist:(int)sceneType {
     
     NSDictionary *plistDict = [[PlistManager sharedPlistManager] quizDictionary];
     
@@ -230,7 +243,7 @@
         case kTopic5Scene:
             dict = (NSDictionary*) [plistDict objectForKey:@"topic5"];
             break;
-        case kTopic6Scene: 
+        case kTopic6Scene:
             dict = (NSDictionary*) [plistDict objectForKey:@"topic6"];
             break;
         case kTopic7Scene:
@@ -245,6 +258,7 @@
     self.questions = qs;
     
 }
+
 
 - (id)init
 {

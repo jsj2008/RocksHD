@@ -33,7 +33,7 @@
 
 -(void)loadQuiz;
 -(void)loadNextQuiz:(BOOL)must;
--(void)loadQuestionsForScene:(SceneTypes)sceneType;
+-(void)loadQuestionsForTopic:(int)topicId;
 -(void)loadResult;
 -(void)progressReportEasy;
 -(void)progressReportMedium;

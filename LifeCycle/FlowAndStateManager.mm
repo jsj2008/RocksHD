@@ -114,7 +114,9 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
         {
             sceneToRun = [TextAndQuizScene node];
             
-            [(TextAndQuizScene*) sceneToRun loadQuestionsForScene:kTopic1Scene];
+            int curTopic = [AppConfigManager  getInstance].currentTopic;
+            debugLog(@"Current topic %d",curTopic);
+            [(TextAndQuizScene*) sceneToRun loadQuestionsForTopic:curTopic];
             [(TextAndQuizScene*) sceneToRun loadQuiz];
         }
             break;

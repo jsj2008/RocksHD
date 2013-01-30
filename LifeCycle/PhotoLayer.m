@@ -13,6 +13,7 @@
 #import "Gallery.h"
 #import "GalleryItem.h"
 #import "GalleryManager.h"
+#import "AppConfigManager.h"
 
 @interface PhotoLayer (Private)
 //-(void) loadImage;
@@ -30,7 +31,7 @@
 
 @interface PhotoLayer ()
 @property (nonatomic, retain) NSMutableArray *urlArray;
-@property (nonatomic, retain) NSMutableDictionary *bigUrl2IndexMap; 
+@property (nonatomic, retain) NSMutableDictionary *bigUrl2IndexMap;
 @property (nonatomic, retain) NSMutableArray *bigImageURLs;
 @end
 
@@ -63,15 +64,6 @@
     if (photoId2IndexMap != nil)
         [photoId2IndexMap release];
     
-    //    if (imgSetDownloader != nil) {
-    //        [imgSetDownloader cancel];
-    //        [imgSetDownloader release];
-    //    }
-    //    
-    //    if (imgGrpDownloader != nil) {
-    //        [imgGrpDownloader cancel];
-    //        [imgGrpDownloader release];
-    //    }
     
     if (imgGalleryDownloader != nil) {
         [imgGalleryDownloader cancel];
@@ -118,13 +110,13 @@
     return _bigUrl2IndexMap;
 }
 
-#pragma mark - 
+#pragma mark -
 
 -(void)addMenu {
     
     NSString *path = [NSString stringWithFormat:@"%@/CCMenu:%d/CCMenuItemImage", NSStringFromClass([self class]), kPhotoMenuTag];
     
-    CCMenuItemImage *home = [CCMenuItemImage itemFromNormalImage:@"home.png" 
+    CCMenuItemImage *home = [CCMenuItemImage itemFromNormalImage:@"home.png"
                                                    selectedImage:@"home_bigger.png"
                                                    disabledImage:@"home.png"
                                                           target:self selector:@selector(goHome)];
@@ -154,14 +146,11 @@
     NSString *path = [NSString stringWithFormat:@"%@/CCMenu:%d/CCMenuItemImage", NSStringFromClass([self class]), kPhotoBackButtonTag];
     CGPoint back_pos = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kPhotoBackButtonTag];
     
-    //    NSString *imageName = [self.topicInfo objectForKey:@"main_text_title_image_name"];
-    
-    //    CCSprite *imageTitleSprite = [CCSprite spriteWithSpriteFrameName:imageName];
     CCMenuItemImage *imageBackSprite = [CCMenuItemImage itemFromNormalImage:@"back.png"
                                                               selectedImage:@"back_bigger.png"
                                                               disabledImage:@"back.png"
                                                                      target:self selector:@selector(goBackToMainText)];
-    //    imageTitleSprite.anchorPoint = ccp(0.5, 0.5);
+    
     imageBackSprite.position = back_pos;
     imageBackSprite.tag = kPhotoBackButtonTag;
     imageBackSprite.scale = 0.75f;
@@ -172,15 +161,14 @@
     CCMenu *menu = [CCMenu menuWithItems:imageBackSprite, nil];
     menu.position = menu_pos;
     menu.tag = kPhotoBackMenuTag;
-    //    [self.imagesBatchNode addChild:imageTitleSprite z:20 tag:kMainTextImagesMainTitleTag];
-    //    [self addChild:imageTitleSprite z:20 tag:kPhotoMainTitleTag];
     
     [self addChild:menu z:0];
 }
 
 -(void)addTitle{
     
-    NSString *imageNameTemplate = [self.topicInfo objectForKey:@"main_text_title_image_name"];
+    NSString *imageNameTemplate =     topicInfo.mainTextTitleImageName;
+
     
     NSString *imageName  = [NSString stringWithFormat:@"%@.png",imageNameTemplate];
     NSString *biggerImageName  = [NSString stringWithFormat:@"%@_bigger.png",imageNameTemplate];
@@ -208,21 +196,6 @@
     
 }
 
--(void) addTitle_org {
-    NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([self class])];
-    CGPoint title_pos = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kPhotoMainTitleTag];
-    
-    NSString *imageName = [self.topicInfo objectForKey:@"main_text_title_image_name"];
-    imageName = [imageName stringByAppendingString:@".png"];
-    CCSprite *titleSprite = [CCSprite spriteWithFile:imageName];
-    float scale = 135.0 / titleSprite.contentSize.width;
-    titleSprite.scale = scale;
-    
-    titleSprite.position = title_pos;
-    titleSprite.tag = kPhotoMainTitleTag;
-    
-    [self addChild:titleSprite z:0];
-}
 
 -(void)addWaitIndicator {
     //plsWaitIndicator = [CCUIActivityIndicatorView ccUIActivityIndicatorViewWithParentNode:self];
@@ -231,14 +204,17 @@
 
 -(void) goBackToMainText {
     
+    debugLog(@"Return back to original topic home");
     if (zoomed) {
         [[[CCDirector sharedDirector] openGLView] removeGestureRecognizer:swipeGestureRecognizer];
     }
     
     [slides reset];
-    //    [slide_reflections reset];
+
+    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnBackward];
+    return;
     
-    int topicNumber = [[self.topicInfo objectForKey:@"topic_number"] intValue];
+    int topicNumber = [AppConfigManager getInstance].currentTopic;
     
     switch (topicNumber) {
         case 1:
@@ -288,16 +264,16 @@
         // observe the "Image Gallery Downloader DidFinish notification
         [[NSNotificationCenter defaultCenter] addObserver:self
                                                  selector:@selector(slImageGalleryDownloaderDidFinish:)
-                                                     name:IMAGE_GALLERY_DOWNLOADER_DIDFINISH_NOTIFICATIONNAME 
+                                                     name:IMAGE_GALLERY_DOWNLOADER_DIDFINISH_NOTIFICATIONNAME
                                                    object:nil];
         
         [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(slImageDownloaderDidFinish:) 
-                                                     name:IMAGE_DOWNLOADER_DIDFINISH_NOTIFICATIONNAME 
+                                                 selector:@selector(slImageDownloaderDidFinish:)
+                                                     name:IMAGE_DOWNLOADER_DIDFINISH_NOTIFICATIONNAME
                                                    object:nil];
         
         [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(slImageInfoDownloaderDidFinish:) 
+                                                 selector:@selector(slImageInfoDownloaderDidFinish:)
                                                      name:IMAGE_INFO_DOWNLOADER_DIDFINISH_NOTIFICATIONNAME
                                                    object:nil];
         
@@ -327,7 +303,7 @@
     [self addTitle];
     [self addWaitIndicator];
     
-    //    [[CCTouchDispatcher sharedDispatcher] addStandardDelegate:self priority:0];
+    
     
     pinchGestureRecognizer = [[[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(handlePinchPhoto:)] autorelease];
     
@@ -344,10 +320,6 @@
 #pragma mark - Launch method
 -(void) launchPhotoSlidesFromFlickr {
     
-    //    if (self.topicInfo != nil) {
-    //        NSString *background_track_name = [self.topicInfo objectForKey:@"background_track_name"];
-    //        CCLOG(@"bg music for photo is %@", background_track_name);
-    //    }
     
     
     
@@ -356,10 +328,10 @@
     CGPoint attrib_pos = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kPhotoAttributionTag];
     
     GalleryManager *gm = [GalleryManager getInstance];
-   
     
     
-
+    
+    
     CCLabelTTF *attribution = [CCLabelTTF labelWithString: @" " fontName:@"ArialMT" fontSize:14.0];
     attribution.position = attrib_pos;
     attribution.tag = kPhotoAttributionTag;
@@ -368,14 +340,14 @@
     CGPoint title_pos = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kPhotoTitleTag];
     
     //CCLabelTTF *title = [CCLabelTTF labelWithString:@" " fontName:@"Marker Felt" fontSize:24.0];
-CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake(screenSize.width*0.7, 80) alignment:UITextAlignmentCenter fontName:@"ArialMT" fontSize:18];
-
+    CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake(screenSize.width*0.7, 80) alignment:UITextAlignmentCenter fontName:@"ArialMT" fontSize:18];
+    
     
     
     title.position = title_pos;
     title.tag = kPhotoTitleTag;
     [self addChild:title];
-
+    
     [self unschedule:_cmd];
     
     // Main slide photos
@@ -395,15 +367,6 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     pageCtrl.tag = kPhotoPageControlTag;
     pageCtrl.numberOfPages = numOfImages;
     
-    // Reflections of photo
-    //    slide_reflections = [SLCCPhotoSlides slCCPhotoSlidesWithParentNode:self];
-    //    slide_reflections.tag = kPhotoSliderReflectionTag;
-    //    slide_reflections.dataSource = self;
-    //    slide_reflections.delegate = self;
-    //        
-    //    slide_reflections.position = ccp(screenSize.width*0.5f, screenSize.height*0.5 - 240.0 - 20.0);
-    //    slide_reflections.fixedSize = CGSizeMake(640.0, 40.0);
-    //    [slide_reflections show];
     
 }
 
@@ -415,7 +378,7 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
         CCSpriteFrame *f = [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:imageName];
         if (f != nil)
             s = [CCSprite spriteWithSpriteFrame:f];
-        else 
+        else
             s = [CCSprite spriteWithFile:imageName];
     }
     @catch (NSException *NSInternalInconsistencyException) {
@@ -437,7 +400,7 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     
     if (s != nil)
         return [reflector drawSpriteReflection:s withHeight:40.0];
-    else 
+    else
         return nil;
     
 }
@@ -450,46 +413,35 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     CCTexture2D *t = [[CCTextureCache sharedTextureCache] textureForKey:imageName];
     if (t != nil) {
         
-            debugLog(@"texture is in cache");
+        debugLog(@"texture is in cache");
         s = [CCSprite spriteWithTexture:t];
         //[plsWaitIndicator stopAnimating];
     }
     else {
         
-                    debugLog(@"texture not in cache");
+        debugLog(@"texture not in cache");
         NSData *imageData = [self retrieveImageDataFromDoc:imageName];
-                    debugLog(@"got image data");
+        debugLog(@"got image data");
         
         if (imageData != nil) {
             
-                        debugLog(@"data is not null");
+            debugLog(@"data is not null");
             UIImage *image = [UIImage imageWithData:imageData];
             
-              debugLog(@"add to CGImage");
+            debugLog(@"add to CGImage");
             [[CCTextureCache sharedTextureCache] addCGImage:[image CGImage] forKey:imageName];
-                                    debugLog(@"create the sprint from CGImage");
+            debugLog(@"create the sprint from CGImage");
             s = [CCSprite spriteWithCGImage:image.CGImage key:imageName];
             
-            // whats the dim?
-            //            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-            //            NSString *dims = [defaults objectForKey:imageName];            
-            
-            //            if (dims != nil) {
-            //                NSArray *size = [dims componentsSeparatedByString:@","];
-            //                [s setTextureRect:CGRectMake(0, 0, [[size objectAtIndex:0] floatValue], [[size objectAtIndex:1] floatValue])];
-            //            }
-            
-           // CGSize size = [self retrieveImageSizeFromDoc:imageName];
-            //[s setTextureRect:CGRectMake(0, 0, size.width, size.height)];
             
             
-           [self resizeTo:s toSize:CGSizeMake(640, 480)];
-           // [plsWaitIndicator stopAnimating];
+            [self resizeTo:s toSize:CGSizeMake(640, 480)];
+            
             
         }
         else {
             s = [self makeNewSpriteWithImageNamed:@"PhotoSlidesPleaseWait.png"];
-            //[plsWaitIndicator startAnimating];
+            
         }
     }
     
@@ -506,7 +458,7 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     
     if (s != nil)
         return [reflector drawSpriteReflection:s withHeight:40];
-    else 
+    else
         return nil;
     
 }
@@ -517,16 +469,6 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     CCTexture2D *t = [[CCTextureCache sharedTextureCache] textureForKey:imageName];
     if (t != nil) {
         [sprite setTexture:t];
-        //[plsWaitIndicator stopAnimating];
-        
-        // whats the dim?
-        //        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-        //        NSString *dims = [defaults objectForKey:imageName];
-        //        
-        //        if (dims != nil) {
-        //            NSArray *size = [dims componentsSeparatedByString:@","];
-        //            [sprite setTextureRect:CGRectMake(0, 0, [[size objectAtIndex:0] floatValue], [[size objectAtIndex:1] floatValue])];
-        //        }
         
         CGSize size = [self retrieveImageSizeFromDoc:imageName];
         [sprite setTextureRect:CGRectMake(0, 0, size.width, size.height)];
@@ -624,15 +566,15 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
 #pragma mark - SLCCPhotoSlidesDataSource
 -(NSInteger)sLCCPhotoSlides:(SLCCPhotoSlides *)sLCCPhotoSlides numberOfObjectsInSection:(NSInteger)section {
     
-        // adjust the page control to reflect the known number of images
-        
-        debugLog(@"Num of Images in Slider .... %d",numOfImages);
-        
-        SLCCUIPageControl *pageCtrl = (SLCCUIPageControl *) [self getChildByTag:kPhotoPageControlTag];
-        pageCtrl.numberOfPages = numOfImages;
-        
-        return numOfImages;
-   
+    // adjust the page control to reflect the known number of images
+    
+    debugLog(@"Num of Images in Slider .... %d",numOfImages);
+    
+    SLCCUIPageControl *pageCtrl = (SLCCUIPageControl *) [self getChildByTag:kPhotoPageControlTag];
+    pageCtrl.numberOfPages = numOfImages;
+    
+    return numOfImages;
+    
     
 }
 
@@ -644,35 +586,35 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     CCLOG(@"objectforIndex %d",index);
     
     
-       NSString *photoId = [photoIdArray objectAtIndex:index]; // CCLOG(@"photoId = %@", photoId);
- 
+    NSString *photoId = [photoIdArray objectAtIndex:index]; // CCLOG(@"photoId = %@", photoId);
+    
     if (index == 0 && !firstDescriptioNotShow)
     {
-    
+        
         firstDescriptioNotShow = true;
         [self onScroll:0];
-
+        
     }
-
+    
     
     if (sLCCPhotoSlides == slides) {
         
         CCLOG(@"show photo for index %d",index);
         
-    
+        
         
         
         
         CCLOG(@"imageKey = %@", photoId);
         
-        CCSprite *imageVisible = nil;        
+        CCSprite *imageVisible = nil;
         
         if (photoId != nil) {
             
-
+            
             NSString *filename = [NSString stringWithFormat:@"%@.jpg", photoId];
             
-              CCLOG(@"Image key found %@",filename);
+            CCLOG(@"Image key found %@",filename);
             
             imageVisible = (CCSprite*)[sLCCPhotoSlides dequeueReusableObject];
             if (imageVisible == nil) {
@@ -684,80 +626,62 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
                 debugLog(@"Image visible, replace");
                 [self replaceSpriteTextureForSprite:imageVisible withSavedImageNamed:filename];
             }
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            /*
-             // try to download image on the current slide
-             if (![self saveImageFoundInDoc:filename]) {
-             SLImageDownloader *imgDownloader = [[SLImageDownloader alloc] init];
-             imgDownloader.imageURL = [self.urlArray objectAtIndex:index];
-             imgDownloader.photoId = photoId;
-             [imgDownloader loadImage];
-             [imgDownloader release];
-             }
-             */
-        }
-        else {
-            
-            CCLOG(@"Image key noe found, show wait image");
-            imageVisible = (CCSprite*)[sLCCPhotoSlides dequeueReusableObject];
-            if (imageVisible == nil) 
-                imageVisible = [self makeNewSpriteWithImageNamed:@"PhotoSlidesPleaseWait.png"];
-            else 
-                [self replaceSpriteTextureForSprite:imageVisible withTextureCacheKey:@"PhotoSlidesPleaseWait.png"];
-            
-            //[plsWaitIndicator startAnimating];
-        }
-        
-        //    CCLOG(@"ImageVisible.size = %f, %f", imageVisible.contentSize.width, imageVisible.contentSize.height);
         
         
-      
         
-        return imageVisible;
+        
+        
     }
     else {
         
-        // For reflection
-        NSString *imageKey = [self.urlArray objectAtIndex:index];
-        NSString *photoId = [photoIdArray objectAtIndex:index];
+        CCLOG(@"Image key noe found, show wait image");
+        imageVisible = (CCSprite*)[sLCCPhotoSlides dequeueReusableObject];
+        if (imageVisible == nil)
+            imageVisible = [self makeNewSpriteWithImageNamed:@"PhotoSlidesPleaseWait.png"];
+        else
+            [self replaceSpriteTextureForSprite:imageVisible withTextureCacheKey:@"PhotoSlidesPleaseWait.png"];
         
-        CCSprite *reflectedImageVisible = nil;
-        
-        if (imageKey != nil) {
-            reflectedImageVisible = (CCSprite*) [sLCCPhotoSlides dequeueReusableObject];
-            if (reflectedImageVisible == nil) {
-                reflectedImageVisible = [self makeNewReflectedSpriteWithSavedImageNamed:[NSString stringWithFormat:@"%@.jpg", photoId]];
-            }
-            else {
-                [self replaceReflectedSpriteTextureForSprite:reflectedImageVisible withSavedImageNamed:[NSString stringWithFormat:@"%@.jpg", photoId]];
-            }
-        }
-        else {
-            reflectedImageVisible = (CCSprite *)[sLCCPhotoSlides dequeueReusableObject];
-            if (reflectedImageVisible == nil) 
-                reflectedImageVisible = [self makeNewReflectedSpriteWithImageNamed:@"PhotoSlidesPleaseWait.png"];
-            else 
-                [self replaceReflectedSpriteTextureForSprite:reflectedImageVisible withTextureCacheKey:@"PhotoSlidesPleaseWait.png"];
-            
-        }
-        
-        return reflectedImageVisible;
-        
+        //[plsWaitIndicator startAnimating];
     }
     
     
     
+    
+    
+    return imageVisible;
+}
+else {
+    
+    // For reflection
+    NSString *imageKey = [self.urlArray objectAtIndex:index];
+    NSString *photoId = [photoIdArray objectAtIndex:index];
+    
+    CCSprite *reflectedImageVisible = nil;
+    
+    if (imageKey != nil) {
+        reflectedImageVisible = (CCSprite*) [sLCCPhotoSlides dequeueReusableObject];
+        if (reflectedImageVisible == nil) {
+            reflectedImageVisible = [self makeNewReflectedSpriteWithSavedImageNamed:[NSString stringWithFormat:@"%@.jpg", photoId]];
+        }
+        else {
+            [self replaceReflectedSpriteTextureForSprite:reflectedImageVisible withSavedImageNamed:[NSString stringWithFormat:@"%@.jpg", photoId]];
+        }
+    }
+    else {
+        reflectedImageVisible = (CCSprite *)[sLCCPhotoSlides dequeueReusableObject];
+        if (reflectedImageVisible == nil)
+            reflectedImageVisible = [self makeNewReflectedSpriteWithImageNamed:@"PhotoSlidesPleaseWait.png"];
+        else
+            [self replaceReflectedSpriteTextureForSprite:reflectedImageVisible withTextureCacheKey:@"PhotoSlidesPleaseWait.png"];
+        
+    }
+    
+    return reflectedImageVisible;
+    
+}
+
+
+
 }
 
 #pragma mark - SLCCPhotoSlidesDelegate
@@ -771,37 +695,37 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
 -(void) onScroll :(int) index
 {
     
-        //    CCLOG(@"slider current index = %d", index);
-        NSString *photoId = [photoIdArray objectAtIndex:index];
-        
-        
-        
-        GalleryManager *gm = [GalleryManager getInstance];
-        Gallery *gallery = [gm getGalleryFromCache:galleryId];
-        GalleryItem *item = [gallery.itemMap objectForKey:photoId];
-        
-        NSString *title = item.description;
-        NSString *username = item.attribution;
-        
-        CCLOG(@"title = %@", title);
-        CCLOG(@"username = %@", username);
-        
-        
-        
-        CCLabelTTF *attribution = (CCLabelTTF*)[self getChildByTag:kPhotoAttributionTag];
-        attribution.string = [NSString stringWithFormat:@"Photo by %@", username];
-        attribution.scale = 0.0;
-        [attribution runAction:[CCScaleTo actionWithDuration:0.4 scale:1.0]];
-        
-        CCLabelTTF *titleLabel = (CCLabelTTF*)[self getChildByTag:kPhotoTitleTag];
-        titleLabel.string = title;
-        titleLabel.scale = 0.0;
-        [titleLabel runAction:[CCScaleTo actionWithDuration:0.4 scale:1.0]];
-        
-        // adjust the page control 
-        SLCCUIPageControl *pageCtrl = (SLCCUIPageControl *) [self getChildByTag:kPhotoPageControlTag];
-        pageCtrl.currentPage = index;
-
+    //    CCLOG(@"slider current index = %d", index);
+    NSString *photoId = [photoIdArray objectAtIndex:index];
+    
+    
+    
+    GalleryManager *gm = [GalleryManager getInstance];
+    Gallery *gallery = [gm getGalleryFromCache:galleryId];
+    GalleryItem *item = [gallery.itemMap objectForKey:photoId];
+    
+    NSString *title = item.description;
+    NSString *username = item.attribution;
+    
+    CCLOG(@"title = %@", title);
+    CCLOG(@"username = %@", username);
+    
+    
+    
+    CCLabelTTF *attribution = (CCLabelTTF*)[self getChildByTag:kPhotoAttributionTag];
+    attribution.string = [NSString stringWithFormat:@"Photo by %@", username];
+    attribution.scale = 0.0;
+    [attribution runAction:[CCScaleTo actionWithDuration:0.4 scale:1.0]];
+    
+    CCLabelTTF *titleLabel = (CCLabelTTF*)[self getChildByTag:kPhotoTitleTag];
+    titleLabel.string = title;
+    titleLabel.scale = 0.0;
+    [titleLabel runAction:[CCScaleTo actionWithDuration:0.4 scale:1.0]];
+    
+    // adjust the page control
+    SLCCUIPageControl *pageCtrl = (SLCCUIPageControl *) [self getChildByTag:kPhotoPageControlTag];
+    pageCtrl.currentPage = index;
+    
 }
 
 #pragma mark - Image File I/O helpers
@@ -814,7 +738,7 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     
     if ([[NSFileManager defaultManager] fileExistsAtPath:imgFilePath])
         return YES;
-    else 
+    else
         return NO;
 }
 
@@ -875,7 +799,7 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     for (NSString *photo in lastPhotoSet) {
         if (![newPhotoSet containsObject:photo]) {
             NSString *filename = [NSString stringWithFormat:@"%@/%@.jpg", docDir, photo];
-            if (![fileMgr removeItemAtPath:filename error:&err]) 
+            if (![fileMgr removeItemAtPath:filename error:&err])
                 CCLOG(@"Unable to delete file: %@", [err localizedDescription]);
             
         }
@@ -992,8 +916,8 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
         
         numOfImagesKnown = YES;
         
-        // If we know the number of images, reset the slide and re-display it 
-        // If we know the number of images, reset the slide and re-display it 
+        // If we know the number of images, reset the slide and re-display it
+        // If we know the number of images, reset the slide and re-display it
         if (numOfImages > 0) {
             [slides reset];
             [slides show];
@@ -1134,24 +1058,7 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
         }
     }
     
-    //    if (slides.cursorVisible == [[photoId2IndexMap objectForKey:photoId] intValue]) {
-    //        NSString *title = [[info objectForKey:@"title"] objectForKey:@"_content"];
-    //        NSString *username = [[info objectForKey:@"owner"] objectForKey:@"username"];
-    //
-    //        CCLOG(@"title = %@", title);
-    //        CCLOG(@"username = %@", username);
-    //        
-    //        CCLabelTTF *attribution = (CCLabelTTF*)[self getChildByTag:kPhotoAttributionTag];
-    ////        attribution.string = username;
-    //        attribution.string = [NSString stringWithFormat:@"Photo by %@", username];
-    //        attribution.scale = 0.0;
-    //        [attribution runAction:[CCScaleTo actionWithDuration:0.4 scale:1.0]];
-    //        
-    //        CCLabelTTF *titleLabel = (CCLabelTTF*)[self getChildByTag:kPhotoTitleTag];
-    //        titleLabel.string = title;
-    //        titleLabel.scale = 0.0;
-    //        [titleLabel runAction:[CCScaleTo actionWithDuration:0.4 scale:1.0]];
-    //    }
+    
     
 }
 
@@ -1257,7 +1164,7 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     
     [bigImage runAction:[CCSequence actions:spawnActions, killAction, nil]];
     
-    // unhide page control 
+    // unhide page control
     SLCCUIPageControl *pgCtrl = (SLCCUIPageControl*)[self getChildByTag:kPhotoPageControlTag];
     pgCtrl.hidden = NO;
     
@@ -1429,13 +1336,14 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     
     debugLog(@"in setupPhotosForDisplay");
     
+    
     galleryId = [self.topicInfo objectForKey:@"gallery_id"];
     
-    CCLOG(@"setup photos for display %@",galleryId);    
+    CCLOG(@"setup photos for display %@",galleryId);
     
     
     // Retrieve photo id arrays from doc plist
-   // NSArray *lastPhotoIdArray = [self retrievePhotoIdArrayFromDoc:galleryId];
+    // NSArray *lastPhotoIdArray = [self retrievePhotoIdArrayFromDoc:galleryId];
     
     NSString *galleryName = [NSString stringWithFormat:@"%@-photo-%@",galleryId,GALLERY_TAG_PHOTO_GALLERY];
     
@@ -1444,7 +1352,7 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     GalleryManager *gman = [GalleryManager getInstance];
     NSArray *galleryItems = [gman getGalleryFromCache:galleryName].items;
     
-       
+    
     
     numOfImages = galleryItems.count;
     
@@ -1485,8 +1393,8 @@ CCLabelTTF *title = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake
     
     numOfImagesKnown = YES;
     
-    // If we know the number of images, reset the slide and re-display it 
-    // If we know the number of images, reset the slide and re-display it 
+    // If we know the number of images, reset the slide and re-display it
+    // If we know the number of images, reset the slide and re-display it
     if (numOfImages > 0) {
         [slides reset];
         [slides show];

@@ -9,14 +9,13 @@
 #import "cocos2d.h"
 #import "CCLayer.h"
 #import "EditModeAbler.h"
-//#import "SLImageSetDownloader.h"
-//#import "SLImageGroupDownloader.h"
 #import "SLImageGalleryDownloader.h"
 #import "SLImageDownloader.h"
 #import "SLImageInfoDownloader.h"
 #import "SLCCPhotoSlides.h"
 #import "SLCCUIPageControl.h"
 #import "CCUIActivityIndicatorView.h"
+#import "TopicInfo.h"
 
 typedef enum {
     kPhotoHomeButtonTag=101,
@@ -34,14 +33,12 @@ typedef enum {
     kPhotoBigImageTag=114
 } PhotoLayerTags;
 
-//@interface PhotoLayer : CCLayer <SLImageSetDownloaderDelegate, SLImageGroupDownloaderDelegate, SLImageGalleryDownloaderDelegate,SLImageDownloaderDelegate,SLCCPhotoSlidesDataSource, SLCCPhotoSlidesDelegate, SLImageInfoDownloaderDelegate> {
 @interface PhotoLayer : CCLayer <SLCCPhotoSlidesDataSource, SLCCPhotoSlidesDelegate> {
 
     CGSize screenSize;
     EditModeAbler *editModeAbler;
     
     SLCCPhotoSlides *slides;
-//    SLCCPhotoSlides *slide_reflections;
     CCUIActivityIndicatorView *plsWaitIndicator;
     
     NSMutableArray *urlArray;
@@ -55,8 +52,6 @@ typedef enum {
     BOOL numOfImagesKnown;
     int numOfImages;
     
-//    SLImageSetDownloader *imgSetDownloader;
-//    SLImageGroupDownloader *imgGrpDownloader;
     SLImageGalleryDownloader *imgGalleryDownloader;
     
     NSMutableArray *slImageDownloaders;
@@ -77,7 +72,7 @@ typedef enum {
     BOOL         firstDescriptioNotShow ;
 }
 
-@property (nonatomic, retain) NSDictionary *topicInfo;
+@property (nonatomic, retain) TopicInfo *topicInfo;
 @property (nonatomic, retain) NSString *galleryId;
 
 @end
