@@ -12,6 +12,7 @@
 #import "EditModeAbler.h"
 #import "Constants.h"
 #import "QuestionItemInfo.h"
+#import "TopicInfo.h"
 
 typedef enum {
     kQuizQuestionLabelTag=100,
@@ -52,7 +53,7 @@ typedef enum {
     
 }
 
-@property (nonatomic, retain) NSDictionary *topicInfo;
+@property (nonatomic, retain) TopicInfo *topicInfo;
 
 
 @property (nonatomic, retain) NSMutableArray *ansKey;

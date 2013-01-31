@@ -10,12 +10,12 @@
 #import "cocos2d.h"
 #import "CCScene.h"
 #import "MainTextImagesLayer.h"
-
+#import "TopicInfo.h"
 
 @interface ReadTextScene : CCScene {
 
     
 }
 
-@property (nonatomic, retain) NSDictionary *topicInfo;
+@property (nonatomic, retain) TopicInfo *topicInfo;
 @end

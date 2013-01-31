@@ -706,7 +706,7 @@ else {
     GalleryInfo *gallery = [gm getGalleryFromCache:galleryId];
     GalleryItemInfo *item = [gallery.itemMap objectForKey:photoId];
     
-    NSString *title = item.description;
+    NSString *title = item.title;
     NSString *username = item.attribution;
     
     CCLOG(@"title = %@", title);

@@ -17,7 +17,7 @@
     if (self) {
         MainTextImagesLayer *topic1Layer = [MainTextImagesLayer node];
 
-//        self.topicInfo = [[FlowAndStateManager sharedFlowAndStateManager] loadBasicInfoForSceneWithID:1];
+
         self.topicInfo = [[PlistManager sharedPlistManager] topic1SpecificsDictionary];
         [self addChild:topic1Layer z:0 tag:1];
     }

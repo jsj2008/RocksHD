@@ -14,6 +14,7 @@
 #import "TextAndQuizScene.h"
 #import "ScrollableCCLabelTTF.h"
 #import "EditModeAbler.h"
+#import "TopicInfo.h"
 
 typedef enum {
     kMainTextImagesBackgroundTag=100,
@@ -65,7 +66,7 @@ typedef enum {
     
 }
 
-@property (nonatomic, retain) NSDictionary *topicInfo;
+@property (nonatomic, retain)  TopicInfo *topicInfo;
 
 // Batch Node for the scene
 //@property (nonatomic, retain) CCSpriteBatchNode *imagesBatchNode;

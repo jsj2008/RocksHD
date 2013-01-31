@@ -274,7 +274,7 @@
     else {
         [i unselected];
         [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
-        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:[topicInfo objectForKey:@"background_track_name"]];
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
     }
 }
 

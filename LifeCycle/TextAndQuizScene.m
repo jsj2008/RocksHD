@@ -20,7 +20,7 @@
 #import "ChoiceInfo.h"
 
 @interface TextAndQuizScene ()
-@property (nonatomic, copy) NSDictionary *specificTopicInfo;
+@property (nonatomic, copy) TopicInfo *specificTopicInfo;
 @end
 
 @implementation TextAndQuizScene

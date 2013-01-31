@@ -11,7 +11,7 @@
 #import "CCScene.h"
 #import "Constants.h"
 #import "TextAndQuizBackgroundLayer.h"
-
+#import "TopicInfo.h"
 
 @interface TextAndQuizScene : CCScene {
     NSArray *questions;
@@ -26,8 +26,8 @@
     int correctCount;
     
 }
+@property (nonatomic, retain) TopicInfo *topicInfo;
 
-@property (nonatomic, retain) NSDictionary *topicInfo;
 
 @property (nonatomic, retain) NSArray *questions;
 

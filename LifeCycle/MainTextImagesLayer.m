@@ -73,23 +73,15 @@
     [super dealloc];
 }
 
--(NSArray*) getTimeSpaceInterleavedPacingsFromDictionary:(NSDictionary *)voiceoverpacings {
+-(NSArray*) getTimeSpaceInterleavedPacingsFromDictionary:(VoiceoverPacingsInfo *)voiceoverpacings {
     
     if (voiceoverpacings == nil) {
         CCLOG(@"Could not find VoiceOverPacing for this scene.");
         return nil;
     }
     
-    NSString *timePacingsStr = [voiceoverpacings objectForKey:@"time"];
-    NSString *spacePacingsStr = [voiceoverpacings objectForKey:@"space"];
-    
-    if (timePacingsStr == nil || spacePacingsStr == nil) {
-        CCLOG(@"Couldnt find any voiceover pacings.");
-        return nil;
-    }
-    
-    NSArray *timePacings = [timePacingsStr componentsSeparatedByString:@","];
-    NSArray *spacePacings = [spacePacingsStr componentsSeparatedByString:@","];
+    NSArray *timePacings = voiceoverpacings.voiceoverPacingsTime.time;
+    NSArray *spacePacings = voiceoverpacings.voiceoverPacingsSpace.space;
     
     NSMutableArray *timespaceInterleavedPacings = [[[NSMutableArray alloc] init] autorelease];
     
@@ -102,50 +94,16 @@
     
 }
 
--(NSDictionary*)loadTopicSpecificsForScene:(SceneTypes)sceneType {
-    NSDictionary *dict;
+-(TopicInfo*)loadTopicSpecificsForTopic:(int)topicId {
+    
+    AppInfo *appInfo =  [ModelManager sharedModelManger].appInfo;
+    TopicInfo *ti = [appInfo.topics objectAtIndex:topicId-1];
 
 
-    switch (sceneType) {
-        case kTopic1Scene:
-            dict = [[PlistManager sharedPlistManager] topic1SpecificsDictionary];
-            break;
-        case kTopic2Scene:
-            dict = [[PlistManager sharedPlistManager] topic2SpecificsDictionary];
-            break;
-        case kTopic3Scene:
-            dict = [[PlistManager sharedPlistManager] topic3SpecificsDictionary];
-            break;
-        case kTopic4Scene:
-            dict = [[PlistManager sharedPlistManager] topic4SpecificsDictionary];
-            break;
-        case kTopic5Scene:
-            dict = [[PlistManager sharedPlistManager] topic5SpecificsDictionary];
-            break;
-        case kTopic6Scene: 
-            dict = [[PlistManager sharedPlistManager] topic6SpecificsDictionary];
-            break;
-        case kTopic7Scene:
-            dict = [[PlistManager sharedPlistManager] topic7SpecificsDictionary];
-            break;
-        default:
-            break;
-    }
-    
-    AppInfo *info = [ModelManager sharedModelManger].appInfo;             // Feed in everything.
-   // info.topics[sceneType];
-
-    
-    
-    if (dict == nil) {
-        CCLOG(@"Error reading Topic?Specifics plist");
-        return nil;
-    }
-    
-    NSString *mainTxt = (NSString *) [dict objectForKey:@"maintext"];
+    NSString *mainTxt = (NSString *) ti.mainText;
     // need to take of escaping the \n
     self.mainText = [mainTxt stringByReplacingOccurrencesOfString:@"\\n" withString:@"\n"];
-    
+    /*
     NSArray *imagesInfoArray = (NSArray *) [dict objectForKey:@"images"];
     
     CCArray *images = [[CCArray alloc] initWithCapacity:[imagesInfoArray count]];
@@ -167,14 +125,8 @@
     [images release];
     [imageScales release];
     
-    // Loading "Did you know"
-    // TODO: why mutableCopy?
-//    CCArray *dYKTxts = [CCArray arrayWithCapacity:15];
-  ///  dYKTxts = [[dict objectForKey:@"didyouknows"] mutableCopy];
-  //  [dYKTxts autorelease];
     
-    
-    TopicInfo *ti = info.topics[sceneType - 3];
+    */
     
     
     self.didYouKnowTxts = ti.didYouKnows.items;
@@ -183,9 +135,9 @@
     
     
     // Load Voice Over pacings
-    self.pacings = [self getTimeSpaceInterleavedPacingsFromDictionary:[dict objectForKey:@"voiceoverpacings"]];
+    self.pacings = [self getTimeSpaceInterleavedPacingsFromDictionary:ti.voiceoverPacings];
     
-    return dict;
+    return ti;
 }
 
 
@@ -293,7 +245,7 @@
                 [actionsArrayForMainTextLabel addObject:[CCMoveBy actionWithDuration:4.0 position:CGPointZero]];
                 [actionsArrayForMainTextLabel addObject:[CCCallBlock actionWithBlock:^{
                     if (!self.audioItemImage.isSelected) {
-                        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:[topicInfo objectForKey:@"background_track_name"]];
+                        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
                     }
                     // [self.mainTextLabel unfreezeScrolling];
                     voiceOverOn = NO;
@@ -399,7 +351,7 @@
                 [actionsArrayForMainTextLabel addObject:[CCMoveBy actionWithDuration:4.0 position:CGPointZero]];
                 [actionsArrayForMainTextLabel addObject:[CCCallBlock actionWithBlock:^{
                     if (!self.audioItemImage.isSelected) {
-                        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:[topicInfo objectForKey:@"background_track_name"]];
+                        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
                     }
                     // [self.mainTextLabel unfreezeScrolling];
                     voiceOverOn = NO;
@@ -455,12 +407,12 @@
 
 -(void)addTitle:(SceneTypes)sceneType {
 
-    NSString *imageNameTemplate = [self.topicInfo objectForKey:@"main_text_title_image_name"];
+    NSString *imageName = topicInfo.topicImageName;
     
-    NSString *imageName  = [NSString stringWithFormat:@"%@.png",imageNameTemplate];      
-    NSString *biggerImageName  = [NSString stringWithFormat:@"%@_bigger.png",imageNameTemplate];   
+    NSString *biggerImageName  = topicInfo.topicBiggerImageName;
     
     debugLog(@"Adding title %@ %@",imageName,biggerImageName);
+    
     
     CCMenuItemImage *topicItemImage = [CCMenuItemImage itemFromNormalImage:imageName
                                                              selectedImage:biggerImageName
@@ -483,30 +435,11 @@
     
 }
 
--(void)addTitle_Original:(SceneTypes)sceneType {
-    
-    NSString *imageName = [self.topicInfo objectForKey:@"main_text_title_image_name"];
-    
 
-    CCSprite *imageTitleSprite = [CCSprite spriteWithFile:imageName];
-    imageTitleSprite.anchorPoint = ccp(0.5, 0.5);
-    
-    NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([self class])];
-    CGPoint title_pos = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kMainTextImagesMainTitleTag];
-    
-    imageTitleSprite.position = title_pos;
-    
-    
-    // try to dynamically scale such that the dim is always about 135 x 124
-    float scale = 135.0 / imageTitleSprite.contentSize.width;
-    
-//    imageTitleSprite.scale = 0.75f;
-    imageTitleSprite.scale = scale;
-//    [self.imagesBatchNode addChild:imageTitleSprite z:20 tag:kMainTextImagesMainTitleTag];
-    [self addChild:imageTitleSprite z:20 tag:kMainTextImagesMainTitleTag];
-}
 
 -(void)addMenu {
+    
+    debugLog(@"adding menu");
     
     NSString *path = [NSString stringWithFormat:@"%@/CCMenu:%d/CCMenuItemImage", NSStringFromClass([self class]), kMainTextImagesMainMenuTag];
     
@@ -607,7 +540,7 @@
         [i unselected];
         [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
         if (!voiceOverOn)
-            [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:[topicInfo objectForKey:@"background_track_name"]];
+            [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
     }
     
 }
@@ -622,7 +555,7 @@
     voiceOverTrackTime = [CDAudioManager sharedManager].backgroundMusic.currentTime;
     [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
     if (!self.audioItemImage.isSelected) {
-        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:[topicInfo objectForKey:@"background_track_name"]];
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
     }
     [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kPhotoScene withTranstion:kCCTransitionCrossFade];
 }
@@ -645,7 +578,7 @@
     voiceOverTrackTime = [CDAudioManager sharedManager].backgroundMusic.currentTime;
     [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
     if (!self.audioItemImage.isSelected) {
-        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:[topicInfo objectForKey:@"background_track_name"]];
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
     }
     [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kVideoScene withTranstion:kCCTransitionCrossFade];
 }
@@ -659,15 +592,11 @@
     // CCLOG(@"Scene name = %@", NSStringFromClass([[self parent] class]));
     [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
     if (!self.audioItemImage.isSelected) {
-        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:[topicInfo objectForKey:@"background_track_name"]];
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
     }
     
+    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kQuizScene  withTranstion:kCCTransitionPageFlip];
     
-    TextAndQuizScene *parentScene = (TextAndQuizScene *)[self parent];
-
-    
-    [parentScene loadQuestionsForScene:[FlowAndStateManager sharedFlowAndStateManager].currentScene];
-    [parentScene loadQuiz];
 }
 
 -(void)readme {
@@ -675,7 +604,7 @@
     // Voice Over (Readme) trumps Audio Control Button trumps Background Music
     
     if (!voiceOverOn) {
-        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:[topicInfo objectForKey:@"voiceover_track_name"] loop:NO];
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.voiceoverTrackName loop:NO];
         [[CDAudioManager sharedManager].backgroundMusic playAt:voiceOverTrackTime];
         voiceOverOn = YES;
         // [self.mainTextLabel freezeScrolling];
@@ -689,7 +618,7 @@
         voiceOverTrackTime = [CDAudioManager sharedManager].backgroundMusic.currentTime;
         
         if (!self.audioItemImage.isSelected) {
-            [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:[topicInfo objectForKey:@"background_track_name"]];
+            [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
         }
         else
             [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
@@ -855,16 +784,15 @@
         screenSize = [CCDirector sharedDirector].winSize;
         
         CCLOG(@"Before loadTopicSpecificsForScene");
-        self.topicInfo = [self loadTopicSpecificsForScene:[AppConfigManager  getInstance].currentTopic];
+        self.topicInfo = [self loadTopicSpecificsForTopic:[AppConfigManager  getInstance].currentTopic];
         CCLOG(@"After loadTopicSpecificsForScene");
         
         
         
 
         
- //       CCSprite *bg = [CCSprite spriteWithFile:@"MainTextBackground.png"];
         
-          CCSprite *bg = [CCSprite spriteWithFile:[topicInfo objectForKey:@"background_image"]];
+        CCSprite *bg = [CCSprite spriteWithFile:topicInfo.mainTextTitleImageName];
         
         bg.position = ccp(screenSize.width/2, screenSize.height/2);
         [self addChild:bg z:0 tag:kMainTextImagesBackgroundTag];
@@ -903,9 +831,9 @@
 
       
         // Put the left/right arrow        
-        CCMenuItemImage *right = [CCMenuItemImage itemFromNormalImage:  [topicInfo objectForKey:@"didyouknow_arrow_right_image"] 
-                                                        selectedImage:  [topicInfo objectForKey:@"didyouknow_arrow_right_image"]
-                                                        disabledImage:  [topicInfo objectForKey:@"didyouknow_arrow_right_image"]
+        CCMenuItemImage *right = [CCMenuItemImage itemFromNormalImage:  topicInfo.didYouKnows.didYouKnowRightImage
+                                                        selectedImage:  topicInfo.didYouKnows.didYouKnowRightImage
+                                                        disabledImage:  topicInfo.didYouKnows.didYouKnowRightImage
                                                                target:self
                                                              selector:@selector(goRightDidYouKnow:)];
         CCMenu *rightMenu = [CCMenu menuWithItems:right, nil];
@@ -916,9 +844,9 @@
         rightMenu.position = rmenu_pos;
         [self addChild:rightMenu z:10 tag:kMainTextImagesDYKRightMenuTag];   // z = 10 to make sure it covers the text
         
-        CCMenuItemImage *left = [CCMenuItemImage itemFromNormalImage:  [topicInfo objectForKey:@"didyouknow_arrow_left_image"] 
-                                                       selectedImage:[topicInfo objectForKey:@"didyouknow_arrow_left_image"] 
-                                                       disabledImage:[topicInfo objectForKey:@"didyouknow_arrow_left_image"] 
+        CCMenuItemImage *left = [CCMenuItemImage itemFromNormalImage:  topicInfo.didYouKnows.didYouKnowLeftImage
+                                                       selectedImage:topicInfo.didYouKnows.didYouKnowLeftImage
+                                                       disabledImage:topicInfo.didYouKnows.didYouKnowLeftImage
                                                               target:self
                                                             selector:@selector(goLeftOnDidYouKnow:)];
         CCMenu *leftMenu = [CCMenu menuWithItems:left, nil];
@@ -991,7 +919,7 @@
     
     // start background music (if audio is on)
     if (!self.audioItemImage.isSelected) {
-        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:[topicInfo objectForKey:@"background_track_name"]];
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
     }
         
     CCLOG(@"Main Text Layer after onEnter");
