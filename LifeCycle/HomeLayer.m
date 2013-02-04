@@ -331,7 +331,7 @@
     switch (sender.tag) {
         case kHomeTopic1ButtonTag:
             
-            [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+          // [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
             
             [AppConfigManager  getInstance].currentTopic = 1;
             
@@ -340,7 +340,7 @@
             break;
         case kHomeTopic2ButtonTag:
             
-            [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+        // [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
             
             [AppConfigManager  getInstance].currentTopic = 2;
             
@@ -352,7 +352,7 @@
             
         case kHomeTopic3ButtonTag:
             
-            [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+           // [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
             
             [AppConfigManager  getInstance].currentTopic = 2;
             
@@ -365,7 +365,7 @@
     
 case kHomeTopic4ButtonTag:
     
-    [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+    // [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
     
     [AppConfigManager  getInstance].currentTopic = 2;
     

@@ -183,7 +183,10 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
                                                        selector:(@selector(handleVol:))];
     
     if ([[FlowAndStateManager sharedFlowAndStateManager] isMusicON])
+    {
+        debugLog(@"music is on and should be working");
         [vol unselected];
+    }
     else
         [vol selected];
 
@@ -273,7 +276,7 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
                                                                target:self selector:@selector(handlePageArrow:)];
     pageArrow.tag = kPageArrowMenuItem;
     //[self assignPositionFromXMLForNode:pageArrow];
-    pageArrow.position = CGPointMake(512, 50);
+    pageArrow.position = CGPointMake(475, 50);
     
     CCMenu *menu = [CCMenu menuWithItems:pageArrow, nil];
     menu.tag = kPageArrowMenu;
@@ -590,16 +593,20 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
                         NSMutableArray *photoArray = [[NSMutableArray alloc] init];
                         NSMutableArray *videoURLArray = [[NSMutableArray alloc] init];
                         NSMutableArray *videoThumbNailArray = [[NSMutableArray alloc] init];
+                        
+                        debugLog(@"creating photo and video array");
+                        
                         for (GalleryItemInfo *item in hotSpot.gallery.items) {
                             if ([item.type isEqualToString:@"photo"]) {
                                 [photoArray addObject:[UIImage imageNamed:item.url]];
+                                debugLog(@"found photo %@",item.url);
                             }
                             else if ([item.type isEqualToString:@"video"]) {
+                                
                                 [videoThumbNailArray addObject:item.thumbnail];
                                 [videoURLArray addObject:item.url];
+                                debugLog(@"found video %@",item.url);
                             }
-                            else
-                                ;
                         }
                         
                         popupView.photoThumbnailArray = photoArray;

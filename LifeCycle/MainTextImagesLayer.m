@@ -167,7 +167,7 @@
         
         self.mainTextLabel = m;
         
-        [self addChild:self.mainTextLabel z:0 tag:kMainTextImagesMainTextTag];
+        [self addChild:self.mainTextLabel z:10 tag:kMainTextImagesMainTextTag];
         
         [m release];
     }
@@ -175,9 +175,19 @@
     NSString *path = [NSString stringWithFormat:@"%@/ScrollableCCLabelTTF", NSStringFromClass([self class])];
     mainTextLabel_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kMainTextImagesMainTextTag];
     
+    mainTextLabel_position.x = 220;
+    debugLog(@"Position %f %f",mainTextLabel_position.x,mainTextLabel_position.y);
     self.mainTextLabel.color = ccc3(0, 0, 0);
     self.mainTextLabel.anchorPoint = ccp(0.0, 1.0);
-    self.mainTextLabel.position = mainTextLabel_position;
+    
+    
+    NSString *pathx = [NSString stringWithFormat:@"%@/CCMenu:%d/CCMenuItemImage", NSStringFromClass([self class]), kMainTextImagesMainMenuTag];
+    
+    
+    CGPoint photo_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:pathx andTag:kMainTextImagesPhotoMenuTag];
+    
+    // self.mainTextLabel.position = photo_position;
+   self.mainTextLabel.position = mainTextLabel_position;
     //self.mainTextLabel.viewPortRatio = ? 
     
     maintextimage_viewport_height = [[ConfigManager sharedConfigManager] lengthInUnitOfScreenHeightFromDefaultsWithKey:@"MAINTEXTIMAGE_VIEWPORT_HEIGHT"];
@@ -890,6 +900,7 @@
         NSString *vslider_path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([self class])];
         maintextimage_voiceoverslider_initial_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:vslider_path andTag:kMainTextImagesVoiceOverSliderTag];
     
+        maintextimage_voiceoverslider_initial_position.x = 210;
     }
     CCLOG(@"Exit: [MainTextImageLayer init]");
 
