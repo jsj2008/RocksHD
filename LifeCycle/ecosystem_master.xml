@@ -918,7 +918,7 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>kangaroo.png</keyImage>
+                <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
                     <x>830.0</x>
@@ -944,7 +944,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>Desert-P1.png</url>
+                        <url>rocks-4.jpg</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
@@ -954,7 +954,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>Desert-P2.png</url>
+                        <url>rocks-5.jpg</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
@@ -964,7 +964,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>Desert-P3.png</url>
+                        <url>rocks-6.jpg</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
@@ -974,7 +974,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>Desert-P4.png</url>
+                        <url>rocks-7.jpg</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
@@ -984,7 +984,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>Desert-P5.png</url>
+                        <url>rocks-5.jpg</url>>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
@@ -994,7 +994,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>Desert-P6.png</url>
+                        <url>rocks-6.jpg</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
@@ -1004,7 +1004,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>Desert-P7.png</url>
+                        <url>rocks-7.jpg</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
@@ -1014,7 +1014,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>Desert-P8.png</url>
+                        <url>rocks-8.jpg</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>

@@ -560,6 +560,8 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
             NSString *type = hotSpot.type;
             
             if (CGRectContainsPoint(bound, loc)) {
+                
+                    [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
                 CGRect frame = hotSpot.frame;
                 CGRect largerFrame = hotSpot.largerFrame;
                 CCLOG(@"title = %@", hotSpot.title);
@@ -595,17 +597,21 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
                         NSMutableArray *videoThumbNailArray = [[NSMutableArray alloc] init];
                         
                         debugLog(@"creating photo and video array");
+                        debugLog(@"gallery %@",hotSpot.gallery.items);
                         
                         for (GalleryItemInfo *item in hotSpot.gallery.items) {
+                            debugLog(@"Found one item");
                             if ([item.type isEqualToString:@"photo"]) {
+                                                                debugLog(@"found photo %@",item.url);
                                 [photoArray addObject:[UIImage imageNamed:item.url]];
-                                debugLog(@"found photo %@",item.url);
+
                             }
                             else if ([item.type isEqualToString:@"video"]) {
+                                                                debugLog(@"found video %@",item.url);
                                 
                                 [videoThumbNailArray addObject:item.thumbnail];
                                 [videoURLArray addObject:item.url];
-                                debugLog(@"found video %@",item.url);
+
                             }
                         }
                         

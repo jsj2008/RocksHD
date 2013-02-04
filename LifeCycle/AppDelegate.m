@@ -505,6 +505,9 @@
         CCLOG(@"Hotspot key image = %@", australia_hotspot.keyImage);
         CGRect bound = australia_hotspot.bound;
         CCLOG(@"Australia hotspot bound = (%.2f, %.2f, %.2f, %.2f)", bound.origin.x, bound.origin.y, bound.size.width, bound.size.height);
+        
+       CCLOG(@"hotspot gallery %@", australia_hotspot.gallery.items);
+        
     }
     
     // Navigation
