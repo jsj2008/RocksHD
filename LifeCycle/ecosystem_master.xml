@@ -875,7 +875,7 @@
      </questions>
         
         <hotspotsOnBackground version="1" uid="1">
-            <backgroundImage>worldmap.png</backgroundImage>
+            <backgroundImage>rockshotspotimage1.png</backgroundImage>
             <backgroundText>World Map showing all the major type of ecosystems</backgroundText>
             <textBackgroundImage>TextBackground.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="defaultContent">
@@ -1222,7 +1222,7 @@
         </hotspotsOnBackground>
         
         <hotspotsOnBackground version="1" uid="2">
-            <backgroundImage>rainforest_background.png</backgroundImage>
+            <backgroundImage>rockshotspotimage2.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
             <textBackgroundImage>TextBackground.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
@@ -2963,7 +2963,7 @@
         </questions>
         
         <hotspotsOnBackground version="1" uid="1">
-            <backgroundImage>worldmap.png</backgroundImage>
+            <backgroundImage>rockshotspotimage1.png</backgroundImage>
             <backgroundText>World Map showing all the major type of ecosystems</backgroundText>
             <textBackgroundImage>TextBackground.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="defaultContent">
@@ -3310,7 +3310,7 @@
         </hotspotsOnBackground>
         
         <hotspotsOnBackground version="1" uid="2">
-            <backgroundImage>rainforest_background.png</backgroundImage>
+            <backgroundImage>rockshotspotimage2.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
             <textBackgroundImage>TextBackground.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
@@ -4214,7 +4214,7 @@
         </questions>
         
         <hotspotsOnBackground version="1" uid="1">
-            <backgroundImage>worldmap.png</backgroundImage>
+            <backgroundImage>rockshotspotimage1.png</backgroundImage>
             <backgroundText>World Map showing all the major type of ecosystems</backgroundText>
             <textBackgroundImage>TextBackground.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="defaultContent">
@@ -4561,7 +4561,7 @@
         </hotspotsOnBackground>
         
         <hotspotsOnBackground version="1" uid="2">
-            <backgroundImage>rainforest_background.png</backgroundImage>
+            <backgroundImage>rockshotspotimage2.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
             <textBackgroundImage>TextBackground.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
@@ -5464,7 +5464,7 @@
         </questions>
         
         <hotspotsOnBackground version="1" uid="1">
-            <backgroundImage>worldmap.png</backgroundImage>
+            <backgroundImage>rockshotspotimage1.png</backgroundImage>
             <backgroundText>World Map showing all the major type of ecosystems</backgroundText>
             <textBackgroundImage>TextBackground.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="defaultContent">
@@ -5811,7 +5811,7 @@
         </hotspotsOnBackground>
         
         <hotspotsOnBackground version="1" uid="2">
-            <backgroundImage>rainforest_background.png</backgroundImage>
+            <backgroundImage>rockshotspotimage2.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
             <textBackgroundImage>TextBackground.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
