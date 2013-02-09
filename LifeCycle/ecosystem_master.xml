@@ -876,43 +876,13 @@
         
         <hotspotsOnBackground version="1" uid="1">
             <backgroundImage>rockshotspotimage1.png</backgroundImage>
-            <backgroundText>World Map showing all the major type of ecosystems</backgroundText>
+            <backgroundText>Rock formation at Arches National Park, Utah, USA</backgroundText>
             <textBackgroundImage>TextBackground.png</textBackgroundImage>
-            <hotspot version="1" uid="1" type="defaultContent">
-                
-                <title>Africa, Desert</title>
-                <text>\tDeserts are very dry or arid regions of the world that receive fewer than ten inches of rain a year. Some deserts don't receive rainfall for four, five, or even more years in a row!\n There are four kinds of deserts: subtropical or hot and dry deserts, semi-arid deserts, coastal deserts and polar or cold deserts. Both the Arctic and Antarctic regions are polar deserts. Semi-arid deserts like Patagonia and Gobi have dry summers and cold winters and are often in the rain shadow region of a mountain range. The subtropical deserts that most people think about are places like the Sahara and Kalahari deserts of Africa, while the Atacama and the Namib are examples of coastal deserts that have long warm summers and cool winters.\n Plants and animals must adapt to be able to survive the desert’s tough conditions. Desert plants like cactus have thick and fleshy stems to store water. They also have spiny leaves to prevent loss of water through transpiration, which is similar to sweating.\n Camels have a hump (or two if it is a Bactrian camel) to store fat, which can be metabolized for energy. This allows the camel to go without food or water for long periods of time. Camels also have broad, leathery pads at the bottom of their hooves which prevents them from sinking in the sand. Camels have two rows of long eyelashes and nostrils that can be closed to keep the sand out.\n Most desert animals are nocturnal. They stay cool, hiding during daytime, and come out at night.</text>
-                <fontSize>15.0</fontSize>
-                <!-- backgroundColor></backgroundColor -->
-                <!-- textColor></textColor -->
-                <!-- alpha></alpha -->
-                <flippable>YES</flippable>
-                <keyImage>desert.png</keyImage>
-                <keyImageTitle>Desert</keyImageTitle>
-                <bound>
-                    <x>423.0</x>
-                    <y>187.0</y>
-                    <width>200.0</width>
-                    <height>200.0</height>
-                </bound>
-                <frame>
-                    <x>423.0</x>
-                    <y>187.0</y>
-                    <width>200.0</width>
-                    <height>200.0</height>
-                </frame>
-                <largerFrame>
-                    <x>423.0</x>
-                    <y>87.0</y>
-                    <width>200.0</width>
-                    <height>300.0</height>
-                </largerFrame>
-                <!-- /popup -->
-            </hotspot>
-            <hotspot version="1" uid="2" type="largeContent">
+            
+            <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
-                <text>Austrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\n</text>
+                <text>Rocks are formed by weathering by wind and water.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -922,13 +892,13 @@
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
                     <x>830.0</x>
-                    <y>153.0</y>
+                    <y>353.0</y>
                     <width>140.0</width>
                     <height>112.0</height>
                 </bound>
                 <frame>
                     <x>830.0</x>
-                    <y>153.0</y>
+                    <y>353.0</y>
                     <width>140.0</width>
                     <height>112.0</height>
                 </frame>
@@ -1092,133 +1062,195 @@
                         <tags>gallery</tags>
                     </item>
                 </gallery>
+            
+            </hotspot>
+            
+            <hotspot version="1" uid="2" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Australia, Desert</title>
+                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage>rocks-icon-ipadhd.png</keyImage>
+                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <bound>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </bound>
+                <frame>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </frame>
+                <largerFrame>
+                    <x>50</x>
+                    <y>50</y>
+                    <width>924.0</width>
+                    <height>668.0</height>
+                </largerFrame>
                 
-                <!-- /popup -->
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-4.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="2">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-7.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="7">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-7.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="8">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-8.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    
+                    <item version="1" uid="9">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="10">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="11">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="12">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/BVkdwQQ-yqQ/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/BVkdwQQ-yqQ</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="13">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/6yaSkpKdj3E/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/6yaSkpKdj3E</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="14">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/ZV8cO70fz7o/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/ZV8cO70fz7o</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="15">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/Xn1h0Oy82Xo/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/Xn1h0Oy82Xo</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                </gallery>
+                
             </hotspot>
-            <hotspot version="1" uid="3" type="defaultContent">
-                <!-- popup type="defaultContent" -->
-                <title>North America, grassland</title>
-                <text>North America, grassland</text>
-                <fontSize>15.0</fontSize>
-                <!-- backgroundColor>white=0.0, alpha=0.3</backgroundColor -->
-                <!-- textColor>white</textColor -->
-                <!-- alpha></alpha -->
-                <flippable>YES</flippable>
-                <keyImage>desert.png</keyImage>
-                <keyImageTitle>Glassland</keyImageTitle>
-                <bound>
-                    <x>67.00</x>
-                    <y>331.00</y>
-                    <width>200</width>
-                    <height>300</height>
-                </bound>
-                <frame>
-                    <x>67.00</x>
-                    <y>331.00</y>
-                    <width>200</width>
-                    <height>300</height>
-                </frame>
-                <largerFrame>
-                    <x>67.00</x>
-                    <y>331.00</y>
-                    <width>200</width>
-                    <height>300</height>
-                </largerFrame>
-                <!-- /popup -->
-            </hotspot>
-            <hotspot version="1" uid="4" type="defaultContent">
-                <!-- popup type="defaultContent" -->
-                <title>South America, rain forest</title>
-                <text>South America, rain forest</text>
-                <fontSize>15.0</fontSize>
-                <!-- background_color>white=0.0, alpha=0.3</background_color -->
-                <!-- text_color>white</text_color -->
-                <!-- alpha></alpha -->
-                <flippable>YES</flippable>
-                <keyImage>desert.png</keyImage>
-                <keyImageTitle>Rain Forest</keyImageTitle>
-                <bound>
-                    <x>211.00</x>
-                    <y>121.00</y>
-                    <width>150</width>
-                    <height>200</height>
-                </bound>
-                <frame>
-                    <x>211.00</x>
-                    <y>121.00</y>
-                    <width>150</width>
-                    <height>200</height>
-                </frame>
-                <largerFrame>
-                    <x>211.00</x>
-                    <y>121.00</y>
-                    <width>150</width>
-                    <height>200</height>
-                </largerFrame>
-                <!-- /popup -->
-            </hotspot>
-            <hotspot version="1" uid="5" type="defaultContent">
-                <!-- popup type="defaultContent" -->
-                <title>Asia, all kinds of habitats</title>
-                <text>Asia, all kinds of habitats</text>
-                <fontSize>15.0</fontSize>
-                <!-- background_color>white=0.0, alpha=0.3</background_color -->
-                <!-- text_color>white</text_color -->
-                <!-- alpha></alpha -->
-                <flippable>YES</flippable>
-                <keyImage>desert.png</keyImage>
-                <keyImageTitle>All kinds of habitats</keyImageTitle>
-                <bound>
-                    <x>627.00</x>
-                    <y>337.00</y>
-                    <width>390</width>
-                    <height>325</height>
-                </bound>
-                <frame>
-                    <x>627.00</x>
-                    <y>337.00</y>
-                    <width>390</width>
-                    <height>325</height>
-                </frame>
-                <largerFrame>
-                    <x>627.00</x>
-                    <y>337.00</y>
-                    <width>390</width>
-                    <height>325</height>
-                </largerFrame>
-                <!-- /popup -->
-            </hotspot>
-            <hotspot version="1" uid="6" type="defaultContent">
-                <!-- popup type="defaultContent" -->
-                <title>South Pacific, ocean</title>
-                <text>South Pacific, ocean</text>
-                <fontSize>15.0</fontSize>
-                <!-- background_color>white=0.0, alpha=0.3</background_color -->
-                <!-- text_color>white</text_color -->
-                <!-- alpha></alpha -->
-                <flippable>YES</flippable>
-                <keyImage>desert.png</keyImage>
-                <keyImageTitle>Ocean</keyImageTitle>
-                <bound>
-                    <x>7.0</x>
-                    <y>122.0</y>
-                    <width>200.0</width>
-                    <height>281</height>
-                </bound>
-                <frame>
-                    <x>7.0</x>
-                    <y>122.0</y>
-                    <width>200.0</width>
-                    <height>281</height>
-                </frame>
-                <largerFrame>
-                    <x>7.0</x>
-                    <y>122.0</y>
-                    <width>200.0</width>
-                    <height>281</height>
-                </largerFrame>
-                <!-- /popup -->
-            </hotspot>
+
         </hotspotsOnBackground>
         
         <hotspotsOnBackground version="1" uid="2">
@@ -1226,16 +1258,201 @@
             <backgroundText>Rain Forest 1</backgroundText>
             <textBackgroundImage>TextBackground.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
-                <title>Ferns</title>
-                <text>
-                    Ferns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\n
-                </text>
+                <!-- popup type="largeContent" -->
+                <title>Australia, Desert</title>
+                <text>Rocks are formed by weathering by wind and water.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
+                <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>fern.png</keyImage>
-                <keyImageTitle>Ferns</keyImageTitle>
+                <keyImage>rocks-icon-ipadhd.png</keyImage>
+                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <bound>
+                    <x>830.0</x>
+                    <y>353.0</y>
+                    <width>140.0</width>
+                    <height>112.0</height>
+                </bound>
+                <frame>
+                    <x>830.0</x>
+                    <y>353.0</y>
+                    <width>140.0</width>
+                    <height>112.0</height>
+                </frame>
+                <largerFrame>
+                    <x>50</x>
+                    <y>50</y>
+                    <width>924.0</width>
+                    <height>668.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-4.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="2">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-7.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="7">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-7.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="8">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-8.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    
+                    <item version="1" uid="9">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="10">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="11">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="12">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/BVkdwQQ-yqQ/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/BVkdwQQ-yqQ</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="13">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/6yaSkpKdj3E/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/6yaSkpKdj3E</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="14">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/ZV8cO70fz7o/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/ZV8cO70fz7o</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="15">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/Xn1h0Oy82Xo/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/Xn1h0Oy82Xo</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            
+            <hotspot version="1" uid="2" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Australia, Desert</title>
+                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage>rocks-icon-ipadhd.png</keyImage>
+                <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
                     <x>275.5</x>
                     <y>299.0</y>
@@ -1254,44 +1471,164 @@
                     <width>924.0</width>
                     <height>668.0</height>
                 </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-4.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="2">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-7.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="7">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-7.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="8">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-8.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    
+                    <item version="1" uid="9">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="10">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="11">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="12">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/BVkdwQQ-yqQ/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/BVkdwQQ-yqQ</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="13">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/6yaSkpKdj3E/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/6yaSkpKdj3E</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="14">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/ZV8cO70fz7o/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/ZV8cO70fz7o</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="15">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/Xn1h0Oy82Xo/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/Xn1h0Oy82Xo</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                </gallery>
             </hotspot>
         </hotspotsOnBackground>
         
-        <hotspotsOnBackground version="1" uid="3">
-            <backgroundImage>rainforest_background2.png</backgroundImage>
-            <backgroundText>Rain Forest 2</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
-            <hotspot version="1" uid="1" type="largeContent">
-                <title>Stream</title>
-                <text>
-                    Stream in a rainforest is an important habitat for many species.
-                </text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <flippable>NO</flippable>
-                <keyImage>stream.png</keyImage>
-                <keyImageTitle>Stream</keyImageTitle>
-                <bound>
-                    <x>382.0</x>
-                    <y>51.0</y>
-                    <width>245.5</width>
-                    <height>264.5</height>
-                </bound>
-                <frame>
-                    <x>382.0</x>
-                    <y>51.0</y>
-                    <width>245.5</width>
-                    <height>264.5</height>
-                </frame>
-                <largerFrame>
-                    <x>50</x>
-                    <y>50</y>
-                    <width>924.0</width>
-                    <height>668.0</height>
-                </largerFrame>
-            </hotspot>
-        </hotspotsOnBackground>
+        
 
         
     </topic>
