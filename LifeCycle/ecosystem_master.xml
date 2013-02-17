@@ -912,9 +912,9 @@
             
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
-                <title>Australia, Desert</title>
+                <title></title>
                 <text>Rocks are formed by weathering by wind and water.\n</text>
-                <fontSize>15.0</fontSize>
+                <fontSize>25.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
                 <alpha></alpha>
@@ -936,8 +936,8 @@
                 <largerFrame>
                     <x>50</x>
                     <y>50</y>
-                    <width>924.0</width>
-                    <height>668.0</height>
+                    <width>624.0</width>
+                    <height>368.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6355,7 +6355,6 @@
                     </choice>
                 </answers>
             </item>
-            
         </questions>
         
         <hotspotsOnBackground version="1" uid="1">
