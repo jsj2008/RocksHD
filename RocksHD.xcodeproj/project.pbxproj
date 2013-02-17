@@ -406,10 +406,10 @@
 		04FD551F155720B5003235F6 /* didyouknow_goright.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD551D155720B3003235F6 /* didyouknow_goright.png */; };
 		04FD5520155720B5003235F6 /* didyouknow_goleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD551E155720B4003235F6 /* didyouknow_goleft.png */; };
 		04FD552215579D2C003235F6 /* next_bigger.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD552115579D2A003235F6 /* next_bigger.png */; };
-		0A85923C16D00E6200BBC4B0 /* Fossils.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A85923816D00E6200BBC4B0 /* Fossils.mp3 */; };
-		0A85923D16D00E6200BBC4B0 /* Minerals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A85923916D00E6200BBC4B0 /* Minerals.mp3 */; };
-		0A85923E16D00E6200BBC4B0 /* Rocks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A85923A16D00E6200BBC4B0 /* Rocks.mp3 */; };
-		0A85923F16D00E6200BBC4B0 /* Soil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A85923B16D00E6200BBC4B0 /* Soil.mp3 */; };
+		0A0B6FB516D0951A006F98CD /* Fossils.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A0B6FB116D0951A006F98CD /* Fossils.mp3 */; };
+		0A0B6FB616D0951A006F98CD /* Minerals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A0B6FB216D0951A006F98CD /* Minerals.mp3 */; };
+		0A0B6FB716D0951A006F98CD /* Rocks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A0B6FB316D0951A006F98CD /* Rocks.mp3 */; };
+		0A0B6FB816D0951A006F98CD /* Soil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A0B6FB416D0951A006F98CD /* Soil.mp3 */; };
 		1B14620A151829C800A824C8 /* PlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B146209151829C800A824C8 /* PlistManager.m */; };
 		1B14620C1518509200A824C8 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B14620B1518509100A824C8 /* photo.png */; };
 		1B14620E1518509D00A824C8 /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B14620D1518509C00A824C8 /* video.png */; };
@@ -1279,10 +1279,10 @@
 		04FD551D155720B3003235F6 /* didyouknow_goright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = didyouknow_goright.png; sourceTree = "<group>"; };
 		04FD551E155720B4003235F6 /* didyouknow_goleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = didyouknow_goleft.png; sourceTree = "<group>"; };
 		04FD552115579D2A003235F6 /* next_bigger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_bigger.png; sourceTree = "<group>"; };
-		0A85923816D00E6200BBC4B0 /* Fossils.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Fossils.mp3; path = "../../../Downloads/Rocks Audio 2/Fossils.mp3"; sourceTree = "<group>"; };
-		0A85923916D00E6200BBC4B0 /* Minerals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Minerals.mp3; path = "../../../Downloads/Rocks Audio 2/Minerals.mp3"; sourceTree = "<group>"; };
-		0A85923A16D00E6200BBC4B0 /* Rocks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Rocks.mp3; path = "../../../Downloads/Rocks Audio 2/Rocks.mp3"; sourceTree = "<group>"; };
-		0A85923B16D00E6200BBC4B0 /* Soil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Soil.mp3; path = "../../../Downloads/Rocks Audio 2/Soil.mp3"; sourceTree = "<group>"; };
+		0A0B6FB116D0951A006F98CD /* Fossils.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fossils.mp3; sourceTree = "<group>"; };
+		0A0B6FB216D0951A006F98CD /* Minerals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Minerals.mp3; sourceTree = "<group>"; };
+		0A0B6FB316D0951A006F98CD /* Rocks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rocks.mp3; sourceTree = "<group>"; };
+		0A0B6FB416D0951A006F98CD /* Soil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Soil.mp3; sourceTree = "<group>"; };
 		1B1461FE1516BD5E00A824C8 /* APIKeyConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKeyConstant.h; sourceTree = "<group>"; };
 		1B146208151829C700A824C8 /* PlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistManager.h; sourceTree = "<group>"; };
 		1B146209151829C800A824C8 /* PlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistManager.m; sourceTree = "<group>"; };
@@ -1627,10 +1627,10 @@
 		0404CFB116BF568E0023C679 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
-				0A85923816D00E6200BBC4B0 /* Fossils.mp3 */,
-				0A85923916D00E6200BBC4B0 /* Minerals.mp3 */,
-				0A85923A16D00E6200BBC4B0 /* Rocks.mp3 */,
-				0A85923B16D00E6200BBC4B0 /* Soil.mp3 */,
+				0A0B6FB116D0951A006F98CD /* Fossils.mp3 */,
+				0A0B6FB216D0951A006F98CD /* Minerals.mp3 */,
+				0A0B6FB316D0951A006F98CD /* Rocks.mp3 */,
+				0A0B6FB416D0951A006F98CD /* Soil.mp3 */,
 			);
 			name = sounds;
 			sourceTree = "<group>";
@@ -3644,7 +3644,6 @@
 				0442CBA116A64E100056DC2E /* vol-button-on-ipadhd.png in Resources */,
 				043C3FE716BA5E3A00AE3B73 /* rocks-icon-ipad.png in Resources */,
 				043C3FE816BA5E3A00AE3B73 /* rocks-icon-ipadhd.png in Resources */,
-				0404CFB416BF56B90023C679 /* rocks.mp3 in Resources */,
 				F42E927116D0450700E37701 /* soilhotspotimage3-ipad.png in Resources */,
 				F42E927216D0450700E37701 /* rockhotspotimage2-ipad.png in Resources */,
 				F42E927316D0450700E37701 /* fossilhotspotimage3-ipad.png in Resources */,
@@ -3685,6 +3684,10 @@
 				F42E92AB16D0452D00E37701 /* soilhotspotimage4-ipadhd.png in Resources */,
 				F42E92AC16D0452D00E37701 /* rockhotspotimage3-ipadhd.png in Resources */,
 				F42E92AD16D0452D00E37701 /* rockhotspotimage1-ipadhd.png in Resources */,
+				0A0B6FB516D0951A006F98CD /* Fossils.mp3 in Resources */,
+				0A0B6FB616D0951A006F98CD /* Minerals.mp3 in Resources */,
+				0A0B6FB716D0951A006F98CD /* Rocks.mp3 in Resources */,
+				0A0B6FB816D0951A006F98CD /* Soil.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
