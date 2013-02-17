@@ -48,7 +48,7 @@
         <number>1</number>
         <name>rocks</name>
         <topicImageName>rocks-icon-ipad.png</topicImageName>
-        <topicBiggerImageName>rocks-icon-pad.png</topicBiggerImageName>
+        <topicBiggerImageName>rocks-icon-ipad.png</topicBiggerImageName>
         <mainText>
             <mainText>
                 \n Do you have a rock collection? If so, you already know how fascinating rocks can be! This lesson explains how rocks are formed, how they change, and how we use them.
@@ -243,75 +243,75 @@
             </item>
         </starterImages>
         
-        <gallery version="12" uid="rocks">
+        <gallery version="1" uid="rocks">
             <title>Rocks</title>
             <item version="1" uid="4">
-                <title>Grassland</title>
+                <title>Mountains</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2607/4120008935_a7fe197e43_z.jpg</url>
-                <description>Grasslands have mostly grasses and non-woody plants instead of shrubs and trees</description>
-                <attribution>cm195902</attribution>
+                <url>http://farm1.staticflickr.com/127/408879493_d05ed9846c_z.jpg</url>
+                <description>Mountains are not eternal. They form when pieces of the Earth's crust collide and bunch up. Mountains will erode away.</description>
+                <attribution>gdbg12</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="5">
-                <title>Savanna</title>
+                <title>Mineral combinations</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4134/4940255253_8a6bd45c81_z.jpg</url>
-                <description>The Savanna of Africa is a tropical grassland with shrubs and some trees</description>
-                <attribution>West Zest</attribution>
+                <url>http://farm4.staticflickr.com/3266/3533130642_fe6cdca35c_z.jpg</url>
+                <description>Rocks are solid combinations of minerals and sometimes other materials too. Although they might seem permanent, they change in a cycle.</description>
+                <attribution>Faith Goble</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="6">
-                <title>Steppes</title>
+                <title>Igneous rocks</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4137/4881182877_e4da86258e_z.jpg</url>
-                <description>The Steppes of Eurasia are temperate grasslands and have a growing season and cold winters</description>
-                <attribution>bdearth</attribution>
+                <url>http://farm5.staticflickr.com/4038/4528606045_c76bd131e5_z.jpg</url>
+                <description>Igneous rocks begin deep in the Earth as solid and molten materials.</description>
+                <attribution>Klearchos Kapoutsis</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="7">
-                <title>Grassland soil</title>
+                <title>Lava</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4001/4253295948_210d5362b9_z.jpg</url>
-                <description>Grasslands have some of the worlds richest loam soil. The rich soil is ideal for farming and grazing</description>
-                <attribution>jewell willett</attribution>
+                <url>http://farm2.staticflickr.com/1158/3169289427_36abb12dc0_z.jpg</url>
+                <description>Lava hardens to become new crust and rocks.</description>
+                <attribution>Steve Jurvetson</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="8">
-                <title>Pampas grass</title>
+                <title>Amethyst</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4039/4253609324_de0a05ba95_z.jpg</url>
-                <description>The Pampas grass has deep roots to find water and can grow in almost any habitat</description>
-                <attribution>Tamago Moffle</attribution>
+                <url>http://farm8.staticflickr.com/7187/7035378433_a3d44f161f_z.jpg</url>
+                <description>This amethyst geode is a spectacular example of an igneous rock.</description>
+                <attribution>Dun Deagh</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="9">
-                <title>Baobab</title>
+                <title>Extrusive rock</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4117/4954709441_08a8113b29_z.jpg</url>
-                <description>The baobab tree uses its stems like a funnel to collect water</description>
-                <attribution>abi.bhattachan</attribution>
+                <url>http://farm3.staticflickr.com/2399/2347357012_20cfdaeee9_z.jpg</url>
+                <description>When lava cools outside of the Earth's crust, it forms extrusive rock.</description>
+                <attribution>Andjam79</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="10">
-                <title>Elephants</title>
+                <title>Magma plumes</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2411/5760241683_c2052d0295_z.jpg</url>
-                <description>Elephants in the savanna use camouflage to protect them from predators</description>
-                <attribution>Chrissy Olson</attribution>
+                <url>http://farm7.staticflickr.com/6229/7024095117_a06b3c59db_z.jpg</url>
+                <description>The North Mariana Island and other islands are formed by magma plumes.</description>
+                <attribution>NASA Earth Observatory</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -326,12 +326,12 @@
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="12">
-                <title>Springbok</title>
+                <title>Sedimentary rocks</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm1.staticflickr.com/68/191025177_575192f04f_z.jpg?zz=1</url>
-                <description>Springboks can jump 13 feet high and long jump to 50 feet to escape from predators</description>
-                <attribution>coda</attribution>
+                <url>http://farm9.staticflickr.com/8291/7706752936_b122f39bf6_z.jpg</url>
+                <description>Sedimentary rocks are made when material is weathered.</description>
+                <attribution>Grand Canyon NPS</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -346,42 +346,42 @@
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="14">
-                <title>Wildebeest</title>
+                <title>Rock erosion</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4075/4942052520_0cce139384_z.jpg</url>
-                <description>Animals like the wildebeest migrate large distances to find water during the dry season</description>
-                <attribution>Gabriel White</attribution>
+                <url>http://farm5.staticflickr.com/4144/4833200822_2fc624c084_z.jpg</url>
+                <description>Rocks are weathered by ocean waves and break down into pebbles and sand.</description>
+                <attribution>Carolyn</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="15">
-                <title>Prairie dogs</title>
+                <title>Sand grains</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2784/5802183416_daee7b0f66_z.jpg</url>
-                <description>Prairie dogs get their water from the plants and hibernate in the burrows during winter</description>
-                <attribution>iluvcocacola</attribution>
+                <url>http://farm6.staticflickr.com/5088/5240256451_703cff8c3d_z.jpg</url>
+                <description>A grain of sand is like a tiny rock! Look at one.</description>
+                <attribution>Paul Morris</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="16">
-                <title>Bird migration</title>
+                <title>Glass</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm7.staticflickr.com/6163/6182300171_66afe70055_z.jpg</url>
-                <description>Birds migrate to warmer climates during the cold winter</description>
-                <attribution>richardrichard</attribution>
+                <url>http://farm8.staticflickr.com/7160/6654419823_34193f93f0_z.jpg</url>
+                <description>Did you know? Glass is made from superheated sand.</description>
+                <attribution>Peggy2012CreativeLenz</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="17">
-                <title>Bison</title>
+                <title>Sedimentary rocks</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3448/3904654237_88f07573d0_z.jpg</url>
-                <description>The American bison has thick fur that keeps it warm in winter and can be shed in summer to cool the animal</description>
-                <attribution>Lee Coursey</attribution>
+                <url>http://farm9.staticflickr.com/8450/7975309357_75937c14ed_z.jpg</url>
+                <description>Sedimentary rocks are made of sand and mud, organic material, and minerals left when liquid evaporates.</description>
+                <attribution>Gerry T</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -396,102 +396,132 @@
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="19">
-                <title>Kangaroo</title>
+                <title>Metamorphic rocks</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3382/3334741664_c8770c07e6_z.jpg</url>
-                <description>Kangaroos can travel long distances by hopping. They have four pairs of chewing teeth to eat the grasses</description>
-                <attribution>Ryan Wick</attribution>
+                <url>http://farm1.staticflickr.com/8/10177681_aa0db56c71_z.jpg?zz=1</url>
+                <description>Metamorphic rocks are made when rocks experience new temperature and pressure conditions.</description>
+                <attribution>Kevin Zim</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="20">
-                <title>Fires</title>
+                <title>Magma</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm7.staticflickr.com/6157/6194551803_d364840029_z.jpg</url>
-                <description>Natural causes like fires and human activities can impact and alter grassland ecosystems</description>
-                <attribution>USFWS Mountain Prairie</attribution>
+                <url>http://farm7.staticflickr.com/6086/6110613189_324324e666_z.jpg</url>
+                <description>Magma can create metamorphic rock by causing a rock to melt and reform.</description>
+                <attribution>Subarctic Mike</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="21">
-                <title>Humans</title>
+                <title>meteorite</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm2.staticflickr.com/1174/873475737_d326bbca66_z.jpg?zz=1</url>
-                <description>Human activities can have a lasting impact on the ecosystem in the grasslands</description>
-                <attribution>steven.buss</attribution>
+                <url>http://farm6.staticflickr.com/5151/5868072388_059c43b6c4_z.jpg</url>
+                <description>A meteorite is a rare type of metamorphic rock. This Odessa meteorite fragment hit Earth approximately 64,000 years ago.</description>
+                <attribution>jsj1771</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="22">
-                <title></title>
-                <type>video</type>
+                <title>stones</title>
+                <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=9WuLjqydz_w</url>
-                <description></description>
-                <attribution>FloraFaunNL</attribution>
+                <url>http://farm4.staticflickr.com/3505/3234940961_68ac9b3f93_z.jpg</url>
+                <description>Humans have used stone since before recorded history. These arrowheads are an example of our earliest use of stone.</description>
+                <attribution>Mr. T in DC</attribution>
                 <status>A</status>
-                <tags>gallery</tags>
+                <tags>match,gallery</tags>
             </item>
-            <item version="2" uid="23">
-                <title></title>
-                <type>video</type>
+            <item version="1" uid="23">
+                <title>Taj Mahal</title>
+                <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=VBb0ZdmfYQc</url>
-                <description></description>
-                <attribution>DucksUnlimitedInc</attribution>
+                <url>http://farm3.staticflickr.com/2199/2215341040_47c93cae63_z.jpg</url>
+                <description>The Taj Mahal is made entirely of marble, a type of metamorphic rock.</description>
+                <attribution>Archer10</attribution>
                 <status>A</status>
-                <tags>gallery</tags>
+                <tags>match,gallery</tags>
             </item>
             <item version="1" uid="24">
-                <title></title>
-                <type>video</type>
+                <title>marble</title>
+                <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=oi3bDdBDmRk</url>
-                <description></description>
-                <attribution>greentvgreentv</attribution>
+                <url>http://farm7.staticflickr.com/6109/6277774830_ec815d7674_z.jpg</url>
+                <description>Marble rock was carved into this statue of Queen Victoria.</description>
+                <attribution>Ell Brown</attribution>
                 <status>A</status>
-                <tags>gallery</tags>
+                <tags>match,gallery</tags>
             </item>
             <item version="1" uid="25">
-                <title></title>
-                <type>video</type>
+                <title>skyscrapers</title>
+                <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=ikWzJ2rGxiM</url>
-                <description></description>
-                <attribution>HinterlandWW</attribution>
+                <url>http://farm7.staticflickr.com/6010/5981929015_b3c7f49b10_z.jpg</url>
+                <description>Skyscrapers are constructed of granite, marble and other types of rock.</description>
+                <attribution>FutUndBeidl</attribution>
                 <status>A</status>
-                <tags>gallery</tags>
+                <tags>match,gallery</tags>
             </item>
             <item version="1" uid="26">
-                <title></title>
+                <title>rock cycle</title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=ezHcyIq5Xgw</url>
+                <url>http://www.youtube.com/watch?v=SRaInMDNyE8</url>
                 <description></description>
-                <attribution>PrairieWildlifeRes</attribution>
+                <attribution>NASA</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="1" uid="27">
-                <title></title>
+            <item version="2" uid="27">
+                <title>rock cycle</title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=4G8Gfz1hn-A</url>
+                <url>http://www.youtube.com/watch?v=HN1eRMsAluE</url>
                 <description></description>
-                <attribution>moconservation</attribution>
+                <attribution>SZJVT</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
             <item version="1" uid="28">
-                <title></title>
+                <title>rock types</title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=xY5CJAZchxE</url>
+                <url>http://www.youtube.com/watch?v=K8dDq3el_tQ</url>
                 <description></description>
-                <attribution>Allegrosjf</attribution>
+                <attribution>teachertubeMS</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="29">
+                <title>earth structure</title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=3MFr2cC3erk</url>
+                <description></description>
+                <attribution>pluckda</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="30">
+                <title>island formation</title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=RMtuTfAqAbo</url>
+                <description></description>
+                <attribution>dizzo95</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="31">
+                <title>plate tectonics</title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=6I0m-kZaLFE</url>
+                <description></description>
+                <attribution>hskellie</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -2952,25 +2982,25 @@
             </item>
         </starterImages>
         
-        <gallery version="10" uid="desert">
-            <title>Ecosystem Desert</title>
+        <gallery version="1" uid="minerals">
+            <title>Minerals</title>
             <item version="1" uid="4">
-                <title>Sahara</title>
+                <title>Minerals</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm6.staticflickr.com/5221/5630241115_7ea76d6290_z.jpg</url>
-                <description>The Sahara is the world's largest hot desert with temperatures reaching 122F or 50C </description>
-                <attribution>TREEAID</attribution>
+                <url>http://farm4.staticflickr.com/3224/3152951160_f905e77083_z.jpg</url>
+                <description>Minerals such as gold are the building blocks of rocks. A picture of the Round Mountain Gold Mine in Nevada.</description>
+                <attribution>Uncle Kick-Kick</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="5">
-                <title>Antarctica</title>
+                <title>mineral composition</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm6.staticflickr.com/5044/5239470296_a0c68118d5_z.jpg</url>
-                <description>The Antarctic region is a polar or cold desert. It is the coldest and windiest place on earth</description>
-                <attribution>US Embassy New Zealand</attribution>
+                <url>http://farm8.staticflickr.com/7054/6953044195_4fd739b3d8_z.jpg</url>
+                <description>Oxygen, silicon, aluminum, iron, magnesium, calcium, potassium, and sodium make up 98% of all minerals on Earth.</description>
+                <attribution>Rodrigo Gomez</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -2978,9 +3008,9 @@
                 <title>Atacama</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2146/2043918256_fe5e1897d2_z.jpg</url>
-                <description>The Atacama desert in Chile is a coastal desert that is considered the driest place on earth</description>
-                <attribution>rewbs.soal</attribution>
+                <url>http://farm3.staticflickr.com/2409/2474643298_b48e54f9c8_z.jpg</url>
+                <description>Aluminum, the third most abundant mineral, makes up about 8% of the Earth's weight.</description>
+                <attribution>rpoolie</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -2988,9 +3018,9 @@
                 <title>Gobi Desert</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm1.staticflickr.com/26/59510135_e80bf39839_z.jpg</url>
-                <description>The Gobi desert in Mongolia, a semi-arid desert, is in the rainshadow region of the Himalayas</description>
-                <attribution>Andrzej W</attribution>
+                <url>http://farm5.staticflickr.com/4032/4530692361_6ea2f1bf29_z.jpg</url>
+                <description>Calcium, seen in the white rock here, is abundant too. It comprises pearls, eggshells, antacid tablets and your bones.</description>
+                <attribution>Shandchem</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -2998,9 +3028,9 @@
                 <title>Palm tree</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2244/2505094335_d860a43034_z.jpg</url>
-                <description>Palm trees have deep fibrous roots to reach the water</description>
-                <attribution>http2007</attribution>
+                <url>http://farm7.staticflickr.com/6084/6057800625_cb8d33efc5.jpg</url>
+                <description>Sodium silicate, meanwhile, makes up much of the Earth's crust.</description>
+                <attribution>Jill47</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -3008,9 +3038,9 @@
                 <title>Cacti</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3539/3387880841_8082a0483b_z.jpg</url>
-                <description>Cacti have long roots and use their thick, fleshy stems to store water</description>
-                <attribution>wallygrom</attribution>
+                <url>http://farm1.staticflickr.com/40/76151445_3076f4babf_z.jpg</url>
+                <description>Minerals like these are all inorganic. That is, minerals do not contain plant or animal materials.</description>
+                <attribution>Kai Schreiber</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -3018,9 +3048,9 @@
                 <title>Cactus leaf</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm2.staticflickr.com/1130/1450514807_c9ba6dee5e_z.jpg</url>
-                <description>The cactus has spiny leaves to prevent loss of water through transpiration</description>
-                <attribution>jetsandzeppelins</attribution>
+                <url>http://farm5.staticflickr.com/4106/5054691463_abca15b049_z.jpg</url>
+                <description>For example, quartz is made entirely of silicon and oxygen.</description>
+                <attribution>halseike</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -3028,9 +3058,9 @@
                 <title>Desert plants</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm6.staticflickr.com/5028/5878838306_ffc4e6ccf2_z.jpg</url>
-                <description>Drought tolerant plants reduce their metabolism during dry seasons and resume growth after rains</description>
-                <attribution>Jams Byrum</attribution>
+                <url>http://farm4.staticflickr.com/3346/3503046152_1f84a673cd_z.jpg</url>
+                <description>Quartz is the most common mineral on Earth.</description>
+                <attribution>Brenda Clarke</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -3038,9 +3068,9 @@
                 <title>Mulga</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3204/3154711843_261ca7ac03_z.jpg</url>
-                <description>The Australian mulga tree has leaves that grow in the shape of funnels and direct rainwater to the roots</description>
-                <attribution>djpmapleferryman</attribution>
+                <url>http://farm1.staticflickr.com/49/177995013_405b3e222a_z.jpg</url>
+                <description>Amethyst, a type of quartz, is popular for jewelry. But how can we tell all the stones apart?</description>
+                <attribution>jarno</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -3048,9 +3078,9 @@
                 <title>Acacia</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3134/2732161814_124fd5dfde_z.jpg</url>
-                <description>The whitethorn acacia loses its leaves during severe droughts and has thorns to keep animals away</description>
-                <attribution>kretyen</attribution>
+                <url>http://farm6.staticflickr.com/5057/5432912423_ecf91c2249.jpg</url>
+                <description>We classify minerals by sight but that's not enough. Diamonds, for instance, occur in many colors.</description>
+                <attribution>fancy-diamonds</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -3058,9 +3088,9 @@
                 <title>Camel</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm7.staticflickr.com/6097/6222768425_b87e62a8d0_z.jpg</url>
-                <description>Camels have a hump to store fat that can be metabolized for energy when needed</description>
-                <attribution>isapisa</attribution>
+                <url>http://farm1.staticflickr.com/40/91712256_1d4fdc3f04_z.jpg</url>
+                <description>Minerals are also categorized by luster. Luster describes how a mineral reflects light.</description>
+                <attribution>cobalt123</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -3068,9 +3098,9 @@
                 <title>Camel eyes</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2214/2456081119_ca2b7b98c8_z.jpg?zz=1</url>
-                <description>Camels have two rows of long eyelashes and nostrils that can be closed to keep the sand out</description>
-                <attribution>indigoprime</attribution>
+                <url>http://farm5.staticflickr.com/4046/4403358223_06b04bb600_z.jpg?zz=1</url>
+                <description>The Moh's Hardness Test involves scratching a mineral to identify it.</description>
+                <attribution>jimmie</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -3078,9 +3108,9 @@
                 <title>Camel legs</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm8.staticflickr.com/7134/7080604451_43edae074b_z.jpg</url>
-                <description>Camels have two toes on each foot and a pad that connects them and helps spread the weight so that they can walk on sand</description>
-                <attribution>geographyalltheway.com</attribution>
+                <url>http://farm1.staticflickr.com/77/156830367_ea6525fc62.jpg</url>
+                <description>Diamond is the hardest mineral.</description>
+                <attribution>Steve Jurvetson</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -3088,31 +3118,29 @@
                 <title>Jackrabbit</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2328/1560877428_707a221040_z.jpg?zz=1</url>
-                <description>The large ears of a jackrabbit with a network of blood vessels help dissipate heat when resting in the shade</description>
-                <attribution>eschipul</attribution>
+                <url>http://farm3.staticflickr.com/2713/4138034935_63f7534794_z.jpg</url>
+                <description>Talc is the softest mineral. It is used in body powder.</description>
+                <attribution>Lee Haywood</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
-            <item>
-                <uid>18</uid>
-                <title>Kangaroo rat</title>
+            <item version="1" uid="18">
+                <title>Jackrabbit</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm8.staticflickr.com/7021/6554996147_cd586b1eae_z.jpg</url>
-                <description>The kangaroo rat gets its water from the food it eats</description>
-                <attribution>USFWS Pacific Southwest Region</attribution>
+                <url>http://farm6.staticflickr.com/5265/5604800058_863290de64_z.jpg</url>
+                <description>Mineral cleavage refers to how a mineral breaks. It is another clue for mineral classification.</description>
+                <attribution>Mike Beauregard</attribution>
                 <status>A</status>
-                <version>1</version>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="19">
                 <title>Desert Tortoise</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm7.staticflickr.com/6140/6012502158_50fbfb61b3_z.jpg</url>
-                <description>Desert tortoises stay cool by burrowing into the ground. They can live without water for a year</description>
-                <attribution>USFWS Pacific Southwest Region</attribution>
+                <url>http://farm1.staticflickr.com/38/76151498_21701642ec_z.jpg</url>
+                <description>Fluorescent and radioactive tests also help scientists identify minerals.</description>
+                <attribution>Kai Schreiber</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -3120,9 +3148,9 @@
                 <title>Thorny Devil Lizard</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3150/3048162566_0f894a7c31_z.jpg?zz=1</url>
-                <description>The thorny devil lizard's body is made of ridges that allow it to collect water from any part of the body and send it to its mouth</description>
-                <attribution>chem7</attribution>
+                <url>http://farm3.staticflickr.com/2686/4097094562_8a894cd367_z.jpg</url>
+                <description>Minerals take many forms. Mercury is one of the few minerals that is liquid at room temperature.</description>
+                <attribution>p. gordon</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -3130,59 +3158,39 @@
                 <title>San people</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2514/3998700658_726a792106_z.jpg</url>
-                <description>The San people create sip wells to get water from the sand and eat animals and plants found in the Kalahari</description>
-                <attribution>Frank.Vassen</attribution>
+                <url>http://farm3.staticflickr.com/2400/2269434882_70fa68d436_z.jpg</url>
+                <description>Diamonds and pencil graphite are both made of carbon. Diamonds are carbon crystals. Graphite is carbon sheets.</description>
+                <attribution>Ryan Somma</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="22">
-                <title></title>
-                <type>video</type>
+                <title>San people</title>
+                <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=-St-I3qRFQE</url>
-                <description></description>
-                <attribution>natureconservancy</attribution>
+                <url>http://farm1.staticflickr.com/159/380859219_a974f3743d_z.jpg</url>
+                <description>Citrine, diamonds and other crystals are most likely to form when magma cools slowly.</description>
+                <attribution>Cobalt123</attribution>
                 <status>A</status>
-                <tags>gallery</tags>
-            </item>
-            <item version="1" uid="26">
-                <title></title>
-                <type>video</type>
-                <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=VwADGPfjerI</url>
-                <description></description>
-                <attribution>dhgpj</attribution>
-                <status>A</status>
-                <tags>gallery</tags>
+                <tags>match,gallery</tags>
             </item>
             <item version="1" uid="23">
-                <title></title>
-                <type>video</type>
+                <title>San people</title>
+                <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=7Ifk9IJl0A0</url>
-                <description></description>
-                <attribution>dizzo95</attribution>
+                <url>http://farm8.staticflickr.com/7257/6957655092_d73c421942_z.jpg</url>
+                <description>Minerals should be used responsibly. One risk is phosphates. These are used in fertilizers and detergents but contaminate drinking water.</description>
+                <attribution>McKay Savage</attribution>
                 <status>A</status>
-                <tags>gallery</tags>
+                <tags>match,gallery</tags>
             </item>
             <item version="1" uid="24">
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=BVkdwQQ-yqQ</url>
+                <url>http://www.youtube.com/watch?v=DeNkh4xDKjA</url>
                 <description></description>
-                <attribution>audubonguides</attribution>
-                <status>A</status>
-                <tags>gallery</tags>
-            </item>
-            <item version="1" uid="27">
-                <title></title>
-                <type>video</type>
-                <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=6yaSkpKdj3E</url>
-                <description></description>
-                <attribution>rosyboas</attribution>
+                <attribution>About.com</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -3190,9 +3198,29 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=ZV8cO70fz7o</url>
+                <url>http://www.youtube.com/watch?v=7piTh8mH9zw</url>
                 <description></description>
-                <attribution>magnusgrafex</attribution>
+                <attribution>About.com</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="26">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=3uXyZ3FGTCo</url>
+                <description></description>
+                <attribution>CareerCrate</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="27">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=s8qgE4LkZa4</url>
+                <description></description>
+                <attribution>BBC</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -3200,9 +3228,29 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=Xn1h0Oy82Xo</url>
+                <url>http://www.youtube.com/watch?v=QuW4_bRHbUk</url>
                 <description></description>
-                <attribution>DiscoveryNetworks</attribution>
+                <attribution>periodicvideos</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="29">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=_qheSchsrsA</url>
+                <description></description>
+                <attribution>About.com</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="30">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=g1lRUxuo0fA</url>
+                <description></description>
+                <attribution>newsyscience</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -5658,15 +5706,15 @@
             </item>
         </starterImages>
         
-        <gallery version="10" uid="forest">
-            <title>Ecosystem  Forest</title>
+        <gallery version="10" uid="soil">
+            <title>soil</title>
             <item version="1" uid="4">
                 <title>Tropical rainforest</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2647/4132244038_76b9e6d2fe_z.jpg</url>
-                <description>Tropical rainforests get a lot of rainfall and remain hot and have thick, dense vegetation</description>
-                <attribution>Victoria Reay</attribution>
+                <url>http://farm7.staticflickr.com/6227/7000846749_cff0bbb594_z.jpg</url>
+                <description>Countless varieties of soil can be found around the Earth.</description>
+                <attribution>uair01</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5674,9 +5722,9 @@
                 <title>Emergent layer</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2626/4103217926_53a9e8d004_z.jpg</url>
-                <description>The tall trees that rise above the rainforest canopy make up the emergent layer.The canopy forms a roof over the understory and the forest floor layers</description>
-                <attribution>HBarrison</attribution>
+                <url>http://farm5.staticflickr.com/4091/5094937726_ca401869a8_z.jpg</url>
+                <description>Scientists study soil to make better decisions for solving hunger and urban growth.</description>
+                <attribution>Soil Science</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5684,9 +5732,9 @@
                 <title>Epiphyte</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4030/5163531322_99ab1e4dbf_z.jpg</url>
-                <description>Epiphytes are plants that grow on other plants. They are not parasites, but use the host plant for support</description>
-                <attribution>MiguelVieira</attribution>
+                <url>http://farm7.staticflickr.com/6122/6198714166_3123618780_z.jpg</url>
+                <description>Soil holds all the nutrients that plants need to survive.</description>
+                <attribution>Armchair Builder</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5694,9 +5742,9 @@
                 <title>Buttress roots</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm6.staticflickr.com/5008/5301337763_1f73a38dcf_z.jpg</url>
-                <description>Buttress or stilt or prop roots are large roots on the side of a tree with shallow roots</description>
-                <attribution>Comrogues</attribution>
+                <url>http://farm5.staticflickr.com/4153/5084844060_f5f05b83cc_z.jpg</url>
+                <description>Soil is created as weather erodes rocks.</description>
+                <attribution>SoilScience</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5704,9 +5752,9 @@
                 <title>Drip tip leaves</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm2.staticflickr.com/1222/5156257428_07b6cff68a_z.jpg</url>
-                <description>Due to the heavy rainfall, plants have developed drip tip leaves to prevent growth of parasitic fungi </description>
-                <attribution>Brisbane City Council</attribution>
+                <url>http://farm4.staticflickr.com/3609/4013668085_02d5e7b617_z.jpg?zz=1</url>
+                <description>Decay from plants and animals also contributes to soil.</description>
+                <attribution>Kirsty Hall</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5714,9 +5762,9 @@
                 <title>Howler monkey</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2231/2618802724_e961932244_z.jpg</url>
-                <description>Howler monkeys feed on leaves and fresh fruits found in the canopy layer. They use their loud howls to communicate and have a long tail that they keep wrapped around a branch even when walking</description>
-                <attribution>maveric2003</attribution>
+                <url>http://farm6.staticflickr.com/5183/5617175452_33fef69f8a_z.jpg</url>
+                <description>Fungus helps break material into useful nutrients.</description>
+                <attribution>vastateparkstaff</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5724,9 +5772,9 @@
                 <title>Scarlet macaw</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2457/3632782699_9a6a0ab32b_z.jpg</url>
-                <description>Scarlet macaws have strong beaks to break the hard nuts found in the rainforest. They also use their beaks to dig for insects and can use them to pinch predators</description>
-                <attribution>Christian Haugen</attribution>
+                <url>http://farm1.staticflickr.com/203/511247459_01a6128550_z.jpg</url>
+                <description>Soil is organized into several layers called horizons.</description>
+                <attribution>YachtBoy</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5734,9 +5782,9 @@
                 <title>Temperate forest</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm2.staticflickr.com/1270/531020157_2c7de3a9b5_z.jpg</url>
-                <description>Temperate forests have moderate climate and have either coniferous, or deciduous, or broad leaved evergreen trees</description>
-                <attribution>Nicholas_T</attribution>
+                <url>http://farm6.staticflickr.com/5191/5868472387_9be2023b9d_z.jpg</url>
+                <description>The topmost layer, humus, is leaf litter and decomposed organic matter.</description>
+                <attribution>g_kat26</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5744,9 +5792,9 @@
                 <title>Fall colors</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm1.staticflickr.com/107/276905866_94df0bebd1_z.jpg</url>
-                <description>As days get shorter in fall, deciduous trees begin withdrawing chlorophyll from the leaves to prepare for winter, creating the orange and yellow fall colors</description>
-                <attribution>Nicholas_T</attribution>
+                <url>http://farm5.staticflickr.com/4012/4245276791_af78fced10_z.jpg</url>
+                <description>Topsoil is where seeds germinate and roots grow. It has sediment from rocks and contains some humus too.</description>
+                <attribution>USFS Region 5</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5754,9 +5802,9 @@
                 <title>Deciduous in winter</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm1.staticflickr.com/143/380119039_cf0aba5180_z.jpg</url>
-                <description>A deciduous, temperate forest in winter after the trees have shed all their leaves</description>
-                <attribution>Nicholas_T</attribution>
+                <url>http://farm4.staticflickr.com/3076/5716434476_d03a8091ec_z.jpg</url>
+                <description>Although sand is mainly below the topsoil, topsoil can also be sandy.</description>
+                <attribution>USFWS Mountain Prairie</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5764,9 +5812,9 @@
                 <title>Bird migration</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2335/2063746235_c549d494d5_z.jpg</url>
-                <description>60-70 percent of the birds in the temperate rainforest migrate to the tropics during the cold, winter months</description>
-                <attribution>ibm4381</attribution>
+                <url>http://farm3.staticflickr.com/2364/2183799236_e16d497ecc_z.jpg?zz=1</url>
+                <description>Clay is found beneath topsoil and sand in the subsoil horizon.</description>
+                <attribution>kellinahandbasket</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5774,9 +5822,9 @@
                 <title>Monarch butterfly</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3465/3178203185_3db3a07c83_z.jpg</url>
-                <description>Insects like the Monarch butterfly migrate from Canada starting in August and spend the winters in parts of Mexico or California before returning in spring</description>
-                <attribution>hspauldi</attribution>
+                <url>http://farm5.staticflickr.com/4128/5140652550_37ecceeb26_z.jpg</url>
+                <description>This soil in Brazil is rich with clay.</description>
+                <attribution>Soil Science</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5784,9 +5832,9 @@
                 <title>Taiga</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3216/2717470525_783f25f19e_z.jpg</url>
-                <description>Taiga forests have coniferous evergreens trees. Taiga trees have shallow roots and most plants are small and grow closer to the ground</description>
-                <attribution>peupleloup</attribution>
+                <url>http://farm1.staticflickr.com/217/477537281_3f7f1d91d7_z.jpg?zz=1</url>
+                <description>Termites are a type of macrofauna that live in topsoil. They help make nutrients available.</description>
+                <attribution>born1945</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5794,9 +5842,9 @@
                 <title>Taiga plants</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm6.staticflickr.com/5245/5366901205_ee8be5b3a3_z.jpg</url>
-                <description>The poor soil of the taiga prevents the growth of large trees</description>
-                <attribution>Efenstor</attribution>
+                <url>http://farm1.staticflickr.com/44/106634239_fe5230ad8c_z.jpg</url>
+                <description>Nematodes are mesofauna. They also break matter down into nutrients for plants.</description>
+                <attribution>Ian Riley</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5804,9 +5852,9 @@
                 <title>Taiga winter</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3271/3096188660_b2ebbe466e_z.jpg</url>
-                <description>Winters are extremely cold and last for 5-7 months</description>
-                <attribution>peupleloup</attribution>
+                <url>http://farm3.staticflickr.com/2403/2174672203_4b9e15c988_z.jpg</url>
+                <description>Roots absorb nutrients from the topsoil.</description>
+                <attribution>Stephen Bowler</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5814,9 +5862,9 @@
                 <title>Lynx</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4039/4465380932_fcac7770e7_z.jpg</url>
-                <description>The lynx is well adapted for the taiga. It has a thick, furry coat with fur covered pads. The paws are wide and allow it to walk on the snow</description>
-                <attribution>kdee64</attribution>
+                <url>http://farm3.staticflickr.com/2457/3589552357_2f42ebbe6d_z.jpg</url>
+                <description>A heavy river washes away topsoil in Ethiopia.</description>
+                <attribution>treesftf</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5824,9 +5872,9 @@
                 <title>Caribou</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3398/3221791453_220002930a_z.jpg</url>
-                <description>Caribous have small tails and short ears to reduce heat loss. Their legs are well suited for plodding through deep snow and for swimming. They have two layers of fur for keeping warm</description>
-                <attribution>peupleloup</attribution>
+                <url>http://farm8.staticflickr.com/7167/6424794521_bd45ec8f85_z.jpg</url>
+                <description>The effects of wind erosion can be seen at Lake Tecumseh.</description>
+                <attribution>US Fish and Wildlife Service - Northeast Division</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -5834,29 +5882,39 @@
                 <title>Grizzly bear</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4148/4947113475_562cdbb862_z.jpg</url>
-                <description>Grizzly bears survive the cold winters by hibernating. They spend the fall season eating a lot of food to store energy. They are omnivores and eat whatever is available</description>
-                <attribution>whaledancer99</attribution>
+                <url>http://farm4.staticflickr.com/3088/2923704279_4467279aa5_z.jpg</url>
+                <description>Glaciers also erode. They can carry boulders and soil thousands of miles.</description>
+                <attribution>Dawn Ellner</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
-            <item version="1" uid="27">
-                <title></title>
-                <type>video</type>
+            <item version="1" uid="22">
+                <title>Grizzly bear</title>
+                <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=1MAPTT7VReU</url>
-                <description></description>
-                <attribution>DucksUnlimitedInc</attribution>
+                <url>http://farm3.staticflickr.com/2051/2279460497_416b9864f5_z.jpg</url>
+                <description>Trees can help fight erosion. Here, they even help on a steep relief.</description>
+                <attribution>Treehouse1977</attribution>
                 <status>A</status>
-                <tags>gallery</tags>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="23">
+                <title>Grizzly bear</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm3.staticflickr.com/2451/3936363033_2f870ba563_z.jpg</url>
+                <description>Soil regulates our environment by absorbing carbon dioxide. Protecting soil can help prevent global warming.</description>
+                <attribution>Robert Benner</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
             </item>
             <item version="1" uid="24">
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=7HfeBP3vaEI</url>
+                <url>http://www.youtube.com/watch?v=3HQwYbwmyaY</url>
                 <description></description>
-                <attribution>ezza9999</attribution>
+                <attribution>TheRealBillNye</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -5864,9 +5922,9 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=oAnDo_LqYRg</url>
+                <url>http://www.youtube.com/watch?v=gx2wVHeiTKE</url>
                 <description></description>
-                <attribution>ezza9999</attribution>
+                <attribution>ParrMr</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -5874,19 +5932,19 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=OyS7_fE1LvI</url>
+                <url>http://www.youtube.com/watch?v=sIuphBL_JpA</url>
                 <description></description>
-                <attribution>greentalenttv</attribution>
+                <attribution>WWCCSoils</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="1" uid="23">
+            <item version="1" uid="27">
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=UfEjPcFwTuE</url>
+                <url>http://www.youtube.com/watch?v=knrmCbctGEA</url>
                 <description></description>
-                <attribution>MyCuipo</attribution>
+                <attribution>MITEHippoCampus</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -5894,19 +5952,9 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=AeXUDQp9UG4</url>
+                <url>http://www.youtube.com/watch?v=adhssib1ggE</url>
                 <description></description>
-                <attribution>Pew</attribution>
-                <status>A</status>
-                <tags>gallery</tags>
-            </item>
-            <item version="1" uid="22">
-                <title></title>
-                <type>video</type>
-                <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=gpzuVt_mkKs</url>
-                <description></description>
-                <attribution>WWFunitedkingdom</attribution>
+                <attribution>ecoversity</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -5914,9 +5962,19 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=h4tQ5jGJ9cQ</url>
+                <url>http://www.youtube.com/watch?v=8EoNJf8_I0w</url>
                 <description></description>
-                <attribution>phoenixfilmandvideo</attribution>
+                <attribution>wildlandschoolvideo</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="30">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=B0koKEHRmGY</url>
+                <description></description>
+                <attribution>artmoviemaster</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -8180,1258 +8238,6 @@
         </hotspotsOnBackground>
     </topic>
     
-    <topic version="1" uid="1">
-        <number>1</number>
-        <name>rocks</name>
-        <topicImageName>rocks-icon-ipad.png</topicImageName>
-        <topicBiggerImageName>rocks-icon-pad.png</topicBiggerImageName>
-        <mainText>
-            <mainText>
-                \n What is a rock?  Rocks are naturally occurring solid combinations of minerals and sometimes other materials too. The common rock granite is made of the minerals quartz, feldspar and biotite. When only one mineral is present, the object is a mineral, not rock.
-                \n Scientists classify rocks into three categories: igneous, sedimentary, and metamorphic. These are all part of the rock cycle.
-                \n Igneous rocks begin deep in the Earth, which contains solid and molten materials such as silicon, magnesium and iron. Magma bursts through the Earth's surface via volcanoes and cracks in the Earth's crust. At the surface it's called lava. Lava hardens to become new crust.
-                \n Rocks are exposed to ocean waves and weather. They slowly break down into pebbles and sand. Sedimentary rocks are made of the resulting sand and mud, material from plants and animals, and minerals left over when liquid evaporates. These all compact and harden to become rock.
-                \n Metamorphic rocks are made when rocks experience new temperature and pressure conditions. For example, contact with magma could cause rock to liquefy and then recrystallize into a different type of rock.
-                \n Scientists believe that humans have been using rocks for about 3.5 million years.  Stone arrowheads were among our first tools. Today we mine rocks for use in roads, statues, buildings, chalkboards, jewelry, cosmetics and many other items.
-            </mainText>
-        </mainText>
-        <optionalText>I am optional text</optionalText>
-        <mainTextTitleImageName>main_text_bg.png</mainTextTitleImageName>
-        <backgroundTrackName>
-            stage1bgtrack.mp3
-        </backgroundTrackName>
-        <voiceoverTrackName>Rocks.mp3</voiceoverTrackName>
-        <images>
-            <item version="1" uid="0">
-                <name>Grassland-P1.png</name>
-                <title>Tropical Grasslands (Savanna)</title>
-                <attribution>Picture taken by Woodlouse</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="1">
-                <name>Grassland-P2.png</name>
-                <title>Temperate Grassland (Steppe)</title>
-                <attribution>Picture taken by bdearth</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="2">
-                <name>Grassland-P3.png</name>
-                <title>Winter in the Steppe</title>
-                <attribution>Picture taken by Einar Freriksen</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="3">
-                <name>Grassland-P4.png</name>
-                <title>Fires are common in grasslands</title>
-                <attribution>Picture taken by ercwttmn</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="4">
-                <name>Grassland-P5.png</name>
-                <title>Fertile grasslands are used for agriculture</title>
-                <attribution>Picture taken by CamPixie</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="5">
-                <name>Grassland-P6.png</name>
-                <title>New Zealand farm on a grassland</title>
-                <attribution>Picture taken by Donna Rutherford</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="6">
-                <name>Grassland-P7.png</name>
-                <title>Precious water in the Serengeti</title>
-                <attribution>Picture taken by amanderson2</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="7">
-                <name>Grassland-P8.png</name>
-                <title>Camouflaged giraffe in the African Bush</title>
-                <attribution>Picture taken by Violator1</attribution>
-                <scale>1.0</scale>
-            </item>
-        </images>
-        
-        <didYouKnows>
-            <didYouKnowTitleImage></didYouKnowTitleImage>
-            <didYouKnowLeftImage>main_text_arrow_left.png</didYouKnowLeftImage>
-            <didYouKnowRightImage>main_text_arrow_right.png</didYouKnowRightImage>
-            <item uid="0">
-                <text>Petrology is the study of the origin and composition of rocks.</text>
-            </item>
-            <item uid="1">
-                <text>Geology is the study of the Earth, rocks and the rock cycle.</text>
-            </item>
-            <item uid="2">
-                <text>A grain of sand is like a tiny rock! Look at one under a microscope.</text>
-            </item>
-            <item uid="3">
-                <text>Some rocks contain mineralites in addition to minerals. Glass is a mineralite.</text>
-            </item>
-            <item uid="4">
-                <text>Glass is made from superheated sand.</text>
-            </item>
-            <item uid="5">
-                <text>Igneous means fire in Latin. Igneous rocks come from magma.</text>
-            </item>
-            <item uid="6">
-                <text>When molten material cools inside the Earth's crust, intrusive rock is formed.</text>
-            </item>
-            <item uid="7">
-                <text>When lava cools outside the Earth's crust, extrusive rock is formed.</text>
-            </item>
-            <item uid="8">
-                <text>The Earth's outer rocky layer is called the lithosphere. It includes oceanic crust and continental crust.</text>
-            </item>
-            <item uid="9">
-                <text>Basalt is the most common rock on Earth. Much of the ocean's crust is basalt.</text>
-            </item>
-            <item uid="10">
-                <text>The Earth's continental crust is mainly andesite rock.</text>
-            </item>
-            <item uid="11">
-                <text>Marble is a metamorphic rock. It is usually made from limestone.</text>
-            </item>
-            <item uid="12">
-                <text>At least 300 degrees Fahrenheit (150 Celsius) are needed to cause metamorphic changes.</text>
-            </item>
-            <item uid="13">
-                <text>The Taj Mahal is made entirely of marble.</text>
-            </item>
-            <item uid="14">
-                <text>Geodes are ordinary-looking igneous or sedimentary rocks on the outside but contain beautiful crystals on the inside.</text>
-            </item>
-            <item uid="15">
-                <text>Meteorites, or rocks from outer space, help scientists learn about our solar system</text>
-            </item>
-            <item uid="16">
-                <text>One of the oldest rocks on Earth was brought from the Moon. Scientists believe it's about 4.5 billion years old.
-                </text>
-            </item>
-            <item uid="17">
-                <text>The Himalayans are among the world’s youngest mountains. Scientists estimate that they formed 30 million years ago.
-                </text>
-            </item>
-            <item uid="18">
-                <text>To estimate the age of a sedimentary rock, scientists consider its thickness, its mineral layers, and the plant and animal remains it may contain.
-                </text>
-            </item>
-            <item uid="19">
-                <text>Mountains form when enormous pieces of the Earth's crust collide and bunch up.
-                </text>
-            </item>
-        </didYouKnows>
-        <voiceoverPacings>
-            <voiceoverPacingsTime>
-                3.783,3.851,3.650,2.133,3.951,3.549,3.568,3.532,3.167,3.650,3.601,3.716,3.0,2.024,3.204,3.101,3.1,3.1,1.60,3.10,3.10,3.60,3.10,3.10,3.10,3.50,3.8,3.0,2.0
-            </voiceoverPacingsTime>
-            <voiceoverPacingsSpace>                -40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40,-80-40.0,-40.0,-40.0,-40
-            </voiceoverPacingsSpace>
-        </voiceoverPacings>
-        <youtubeVideos>
-            <item uid="0">
-                <videoId>INcW26-iyqU</videoId>
-                <title>The Life cycle of a Butterfly</title>
-                <attribution>kendal0923</attribution>
-            </item>
-            <item uid="1">
-                <videoId>iuhv6FJBYck</videoId>
-                <title>Butterfly laying eggs in a garden</title>
-                <attribution>attribution</attribution>
-            </item>
-            <item uid="2">
-                <videoId>dzgveXh00gc</videoId>
-                <title>Monarch butterfly laying eggs</title>
-                <attribution>psong100</attribution>
-            </item>
-            <item uid="3">
-                <videoId>ikWzJ2rGxiM</videoId>
-                <title>Polydamas Swallowtail butterfly laying eggs</title>
-                <attribution>meiralfasi</attribution>
-            </item>
-            <item uid="4">
-                <videoId>pQKwzhEXLEo</videoId>
-                <title>A Monarch butterfly egg hatches</title>
-                <attribution>scw1217</attribution>
-            </item>
-            <item uid="5">
-                <videoId>ID0h30gHVdw</videoId>
-                <title>Title</title>
-                <attribution>naturedisc</attribution>
-            </item>
-            <item uid="6">
-                <videoId>VBb0ZdmfYQc</videoId>
-                <title>Title</title>
-                <attribution>attribution</attribution>
-            </item>
-        </youtubeVideos>
-        <flickrPhotos>
-            <galleryId>76237694-72157629628909383</galleryId>
-        </flickrPhotos>
-        <backgroundImage>worldmap.png</backgroundImage>
-        <starterImages>
-            <item uid="0">
-                1128860064
-            </item>
-            <item uid="1">
-                2896079731
-            </item>
-        </starterImages>
-        
-        <gallery version="12" uid="rocks">
-            <title>Rocks</title>
-            <item version="1" uid="4">
-                <title>Grassland</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2607/4120008935_a7fe197e43_z.jpg</url>
-                <description>Grasslands have mostly grasses and non-woody plants instead of shrubs and trees</description>
-                <attribution>cm195902</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="5">
-                <title>Savanna</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4134/4940255253_8a6bd45c81_z.jpg</url>
-                <description>The Savanna of Africa is a tropical grassland with shrubs and some trees</description>
-                <attribution>West Zest</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="6">
-                <title>Steppes</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4137/4881182877_e4da86258e_z.jpg</url>
-                <description>The Steppes of Eurasia are temperate grasslands and have a growing season and cold winters</description>
-                <attribution>bdearth</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="7">
-                <title>Grassland soil</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4001/4253295948_210d5362b9_z.jpg</url>
-                <description>Grasslands have some of the worlds richest loam soil. The rich soil is ideal for farming and grazing</description>
-                <attribution>jewell willett</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="8">
-                <title>Pampas grass</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4039/4253609324_de0a05ba95_z.jpg</url>
-                <description>The Pampas grass has deep roots to find water and can grow in almost any habitat</description>
-                <attribution>Tamago Moffle</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="9">
-                <title>Baobab</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4117/4954709441_08a8113b29_z.jpg</url>
-                <description>The baobab tree uses its stems like a funnel to collect water</description>
-                <attribution>abi.bhattachan</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="10">
-                <title>Elephants</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2411/5760241683_c2052d0295_z.jpg</url>
-                <description>Elephants in the savanna use camouflage to protect them from predators</description>
-                <attribution>Chrissy Olson</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="11">
-                <title>Kudu</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm1.staticflickr.com/115/264868235_27b6335b5e_z.jpg</url>
-                <description>The grasslands vegetation provides shelter and camouflage for antelopes like the kudu</description>
-                <attribution>oddsock</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="12">
-                <title>Springbok</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm1.staticflickr.com/68/191025177_575192f04f_z.jpg?zz=1</url>
-                <description>Springboks can jump 13 feet high and long jump to 50 feet to escape from predators</description>
-                <attribution>coda</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="13">
-                <title>Lioness</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3470/3905492430_d548c7d399_z.jpg</url>
-                <description>Predators in the grasslands also use camouflage to help them when hunting</description>
-                <attribution>saragoldsmith</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="14">
-                <title>Wildebeest</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4075/4942052520_0cce139384_z.jpg</url>
-                <description>Animals like the wildebeest migrate large distances to find water during the dry season</description>
-                <attribution>Gabriel White</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="15">
-                <title>Prairie dogs</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2784/5802183416_daee7b0f66_z.jpg</url>
-                <description>Prairie dogs get their water from the plants and hibernate in the burrows during winter</description>
-                <attribution>iluvcocacola</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="16">
-                <title>Bird migration</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm7.staticflickr.com/6163/6182300171_66afe70055_z.jpg</url>
-                <description>Birds migrate to warmer climates during the cold winter</description>
-                <attribution>richardrichard</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="17">
-                <title>Bison</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3448/3904654237_88f07573d0_z.jpg</url>
-                <description>The American bison has thick fur that keeps it warm in winter and can be shed in summer to cool the animal</description>
-                <attribution>Lee Coursey</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="18">
-                <title>Vultures</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm1.staticflickr.com/8/10197749_9ad3daf8ce_z.jpg</url>
-                <description>Vultures have keen eyesight and strong beaks and help clean up the carcass of dead animals</description>
-                <attribution>kevinzim</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="19">
-                <title>Kangaroo</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3382/3334741664_c8770c07e6_z.jpg</url>
-                <description>Kangaroos can travel long distances by hopping. They have four pairs of chewing teeth to eat the grasses</description>
-                <attribution>Ryan Wick</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="20">
-                <title>Fires</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm7.staticflickr.com/6157/6194551803_d364840029_z.jpg</url>
-                <description>Natural causes like fires and human activities can impact and alter grassland ecosystems</description>
-                <attribution>USFWS Mountain Prairie</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="21">
-                <title>Humans</title>
-                <type>photo</type>
-                <thumbnail></thumbnail>
-                <url>http://farm2.staticflickr.com/1174/873475737_d326bbca66_z.jpg?zz=1</url>
-                <description>Human activities can have a lasting impact on the ecosystem in the grasslands</description>
-                <attribution>steven.buss</attribution>
-                <status>A</status>
-                <tags>match,gallery</tags>
-            </item>
-            <item version="1" uid="22">
-                <title></title>
-                <type>video</type>
-                <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=9WuLjqydz_w</url>
-                <description></description>
-                <attribution>FloraFaunNL</attribution>
-                <status>A</status>
-                <tags>gallery</tags>
-            </item>
-            <item version="2" uid="23">
-                <title></title>
-                <type>video</type>
-                <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=VBb0ZdmfYQc</url>
-                <description></description>
-                <attribution>DucksUnlimitedInc</attribution>
-                <status>A</status>
-                <tags>gallery</tags>
-            </item>
-            <item version="1" uid="24">
-                <title></title>
-                <type>video</type>
-                <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=oi3bDdBDmRk</url>
-                <description></description>
-                <attribution>greentvgreentv</attribution>
-                <status>A</status>
-                <tags>gallery</tags>
-            </item>
-            <item version="1" uid="25">
-                <title></title>
-                <type>video</type>
-                <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=ikWzJ2rGxiM</url>
-                <description></description>
-                <attribution>HinterlandWW</attribution>
-                <status>A</status>
-                <tags>gallery</tags>
-            </item>
-            <item version="1" uid="26">
-                <title></title>
-                <type>video</type>
-                <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=ezHcyIq5Xgw</url>
-                <description></description>
-                <attribution>PrairieWildlifeRes</attribution>
-                <status>A</status>
-                <tags>gallery</tags>
-            </item>
-            <item version="1" uid="27">
-                <title></title>
-                <type>video</type>
-                <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=4G8Gfz1hn-A</url>
-                <description></description>
-                <attribution>moconservation</attribution>
-                <status>A</status>
-                <tags>gallery</tags>
-            </item>
-            <item version="1" uid="28">
-                <title></title>
-                <type>video</type>
-                <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=xY5CJAZchxE</url>
-                <description></description>
-                <attribution>Allegrosjf</attribution>
-                <status>A</status>
-                <tags>gallery</tags>
-            </item>
-        </gallery>
-        
-        <questions version="1">
-            <item uid="0">
-                <question>
-                    For an object to be a rock in geologists' terms, what must it contain?
-                </question>
-                <level>Easy</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Only one mineral</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Organic material</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Minerals and organic material</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>More than one mineral</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="1">
-                <question>
-                    Creating sedimentary rocks primarily involves _________________.
-                </question>
-                <level>Easy</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>The compaction of material</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Volcanic flows and cooling</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>High heat and pressure</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>The precipitation of minerals</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="2">
-                <question>
-                    Which rock type is most directly associated with molten (melted) material?
-                </question>
-                <level>Easy</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Igneous</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Sedimentary</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Metamorphic</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Meteorite</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="3">
-                <question>
-                    Which rocks are especially common in riverbeds?
-                </question>
-                <level>Easy</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Igneous rocks</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Metamorphic rocks</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Sedimentary rocks</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Geodes</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="4">
-                <question>
-                    Creating metamorphic rocks primarily involves _________________.
-                </question>
-                <level>Easy</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>The compaction of sand and organic material</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>The cooling of lava</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>The precipitation of minerals</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Extreme heat and pressure</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="5">
-                <question>
-                    Judging from its name, sandstone is most likely ________.
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Igneous rock</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Metamorphic rock</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Sedimentary rock</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Intrusive rock</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="6">
-                <question>
-                    Which event would most likely help create metamorphic rocks?
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Weathering</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>A volcanic eruption</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>An earthquake</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>A meteorite crash</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="7">
-                <question>
-                    The Earth's crust __________.
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Never changes</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Is replaced with new rock</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Is created mainly through erosion</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>First formed 30 million years ago</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="8">
-                <question>
-                    Which rock would be most likely to contain glass?
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>An igneous rock</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>A sedimentary rock</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>A meteorite</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>A geode</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="9">
-                <question>
-                    Which of the following is true?
-                </question>
-                <level>Medium</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Minerals are larger than rocks</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Rocks are larger than minerals</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Minerals are made from rocks</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Rocks are made from minerals</answer>
-                        <truth>Y</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="10">
-                <question>
-                    Which statement is true?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Oceanic crust is older than continental crust</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Mountain ranges have different ages</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Sedimentary rocks are not placed under pressure</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>All of the above</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="11">
-                <question>
-                    To make a mountain, what must occur?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>A basaltic eruption</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Movement in the Earth's crust</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>An extreme temperature change</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Any of the above</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="12">
-                <question>
-                    Oceanic crust is typically made through ________.
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>A basaltic eruption</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>An intrusive eruption</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Collisions of the Earth's crust</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>An eruption of andesite</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="13">
-                <question>
-                    How would intrusive rock most likely reach the Earth's surface?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>In a basaltic eruption</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>In an earthquake</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>By filling cracks in the sea floor</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>Any of the above</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-            <item uid="14">
-                <question>
-                    If a planet did not have much weather, which rock type would take extra-long to form?
-                </question>
-                <level>Hard</level>
-                <answers>
-                    <choice uid="0">
-                        <answer>Igneous</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="1">
-                        <answer>Metamorphic</answer>
-                        <truth>N</truth>
-                    </choice>
-                    <choice uid="2">
-                        <answer>Sedimentary</answer>
-                        <truth>Y</truth>
-                    </choice>
-                    <choice uid="3">
-                        <answer>All of the above</answer>
-                        <truth>N</truth>
-                    </choice>
-                </answers>
-            </item>
-            
-        </questions>
-        
-        <hotspotsOnBackground version="1" uid="1">
-            <backgroundImage>rockshotspotimage1.png</backgroundImage>
-            <backgroundText>World Map showing all the major type of ecosystems</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
-            <hotspot version="1" uid="1" type="defaultContent">
-                
-                <title>Africa, Desert</title>
-                <text>\tDeserts are very dry or arid regions of the world that receive fewer than ten inches of rain a year. Some deserts don't receive rainfall for four, five, or even more years in a row!\n There are four kinds of deserts: subtropical or hot and dry deserts, semi-arid deserts, coastal deserts and polar or cold deserts. Both the Arctic and Antarctic regions are polar deserts. Semi-arid deserts like Patagonia and Gobi have dry summers and cold winters and are often in the rain shadow region of a mountain range. The subtropical deserts that most people think about are places like the Sahara and Kalahari deserts of Africa, while the Atacama and the Namib are examples of coastal deserts that have long warm summers and cool winters.\n Plants and animals must adapt to be able to survive the desert’s tough conditions. Desert plants like cactus have thick and fleshy stems to store water. They also have spiny leaves to prevent loss of water through transpiration, which is similar to sweating.\n Camels have a hump (or two if it is a Bactrian camel) to store fat, which can be metabolized for energy. This allows the camel to go without food or water for long periods of time. Camels also have broad, leathery pads at the bottom of their hooves which prevents them from sinking in the sand. Camels have two rows of long eyelashes and nostrils that can be closed to keep the sand out.\n Most desert animals are nocturnal. They stay cool, hiding during daytime, and come out at night.</text>
-                <fontSize>15.0</fontSize>
-                <!-- backgroundColor></backgroundColor -->
-                <!-- textColor></textColor -->
-                <!-- alpha></alpha -->
-                <flippable>YES</flippable>
-                <keyImage>desert.png</keyImage>
-                <keyImageTitle>Desert</keyImageTitle>
-                <bound>
-                    <x>423.0</x>
-                    <y>187.0</y>
-                    <width>200.0</width>
-                    <height>200.0</height>
-                </bound>
-                <frame>
-                    <x>423.0</x>
-                    <y>187.0</y>
-                    <width>200.0</width>
-                    <height>200.0</height>
-                </frame>
-                <largerFrame>
-                    <x>423.0</x>
-                    <y>87.0</y>
-                    <width>200.0</width>
-                    <height>300.0</height>
-                </largerFrame>
-                <!-- /popup -->
-            </hotspot>
-            <hotspot version="1" uid="2" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>Australia, Desert</title>
-                <text>Austrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\nAustrialia, desert with a cool looking kangaroo\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage>kangaroo.png</keyImage>
-                <keyImageTitle>Cool Kangaroo</keyImageTitle>
-                <bound>
-                    <x>830.0</x>
-                    <y>153.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
-                </bound>
-                <frame>
-                    <x>830.0</x>
-                    <y>153.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
-                </frame>
-                <largerFrame>
-                    <x>50</x>
-                    <y>50</y>
-                    <width>924.0</width>
-                    <height>668.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>Desert-P1.png</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="2">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>Desert-P2.png</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="3">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>Desert-P3.png</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="4">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>Desert-P4.png</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="5">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>Desert-P5.png</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="6">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>Desert-P6.png</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="7">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>Desert-P7.png</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="8">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>Desert-P8.png</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    
-                    <item version="1" uid="9">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="10">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="11">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="12">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/BVkdwQQ-yqQ/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/BVkdwQQ-yqQ</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="13">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/6yaSkpKdj3E/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/6yaSkpKdj3E</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="14">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/ZV8cO70fz7o/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/ZV8cO70fz7o</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="15">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/Xn1h0Oy82Xo/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/Xn1h0Oy82Xo</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                </gallery>
-                
-                <!-- /popup -->
-            </hotspot>
-            <hotspot version="1" uid="3" type="defaultContent">
-                <!-- popup type="defaultContent" -->
-                <title>North America, grassland</title>
-                <text>North America, grassland</text>
-                <fontSize>15.0</fontSize>
-                <!-- backgroundColor>white=0.0, alpha=0.3</backgroundColor -->
-                <!-- textColor>white</textColor -->
-                <!-- alpha></alpha -->
-                <flippable>YES</flippable>
-                <keyImage>desert.png</keyImage>
-                <keyImageTitle>Glassland</keyImageTitle>
-                <bound>
-                    <x>67.00</x>
-                    <y>331.00</y>
-                    <width>200</width>
-                    <height>300</height>
-                </bound>
-                <frame>
-                    <x>67.00</x>
-                    <y>331.00</y>
-                    <width>200</width>
-                    <height>300</height>
-                </frame>
-                <largerFrame>
-                    <x>67.00</x>
-                    <y>331.00</y>
-                    <width>200</width>
-                    <height>300</height>
-                </largerFrame>
-                <!-- /popup -->
-            </hotspot>
-            <hotspot version="1" uid="4" type="defaultContent">
-                <!-- popup type="defaultContent" -->
-                <title>South America, rain forest</title>
-                <text>South America, rain forest</text>
-                <fontSize>15.0</fontSize>
-                <!-- background_color>white=0.0, alpha=0.3</background_color -->
-                <!-- text_color>white</text_color -->
-                <!-- alpha></alpha -->
-                <flippable>YES</flippable>
-                <keyImage>desert.png</keyImage>
-                <keyImageTitle>Rain Forest</keyImageTitle>
-                <bound>
-                    <x>211.00</x>
-                    <y>121.00</y>
-                    <width>150</width>
-                    <height>200</height>
-                </bound>
-                <frame>
-                    <x>211.00</x>
-                    <y>121.00</y>
-                    <width>150</width>
-                    <height>200</height>
-                </frame>
-                <largerFrame>
-                    <x>211.00</x>
-                    <y>121.00</y>
-                    <width>150</width>
-                    <height>200</height>
-                </largerFrame>
-                <!-- /popup -->
-            </hotspot>
-            <hotspot version="1" uid="5" type="defaultContent">
-                <!-- popup type="defaultContent" -->
-                <title>Asia, all kinds of habitats</title>
-                <text>Asia, all kinds of habitats</text>
-                <fontSize>15.0</fontSize>
-                <!-- background_color>white=0.0, alpha=0.3</background_color -->
-                <!-- text_color>white</text_color -->
-                <!-- alpha></alpha -->
-                <flippable>YES</flippable>
-                <keyImage>desert.png</keyImage>
-                <keyImageTitle>All kinds of habitats</keyImageTitle>
-                <bound>
-                    <x>627.00</x>
-                    <y>337.00</y>
-                    <width>390</width>
-                    <height>325</height>
-                </bound>
-                <frame>
-                    <x>627.00</x>
-                    <y>337.00</y>
-                    <width>390</width>
-                    <height>325</height>
-                </frame>
-                <largerFrame>
-                    <x>627.00</x>
-                    <y>337.00</y>
-                    <width>390</width>
-                    <height>325</height>
-                </largerFrame>
-                <!-- /popup -->
-            </hotspot>
-            <hotspot version="1" uid="6" type="defaultContent">
-                <!-- popup type="defaultContent" -->
-                <title>South Pacific, ocean</title>
-                <text>South Pacific, ocean</text>
-                <fontSize>15.0</fontSize>
-                <!-- background_color>white=0.0, alpha=0.3</background_color -->
-                <!-- text_color>white</text_color -->
-                <!-- alpha></alpha -->
-                <flippable>YES</flippable>
-                <keyImage>desert.png</keyImage>
-                <keyImageTitle>Ocean</keyImageTitle>
-                <bound>
-                    <x>7.0</x>
-                    <y>122.0</y>
-                    <width>200.0</width>
-                    <height>281</height>
-                </bound>
-                <frame>
-                    <x>7.0</x>
-                    <y>122.0</y>
-                    <width>200.0</width>
-                    <height>281</height>
-                </frame>
-                <largerFrame>
-                    <x>7.0</x>
-                    <y>122.0</y>
-                    <width>200.0</width>
-                    <height>281</height>
-                </largerFrame>
-                <!-- /popup -->
-            </hotspot>
-        </hotspotsOnBackground>
-        
-        <hotspotsOnBackground version="1" uid="2">
-            <backgroundImage>rockshotspotimage2.png</backgroundImage>
-            <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
-            <hotspot version="1" uid="1" type="largeContent">
-                <title>Ferns</title>
-                <text>
-                    Ferns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\nFerns showing fractal patterns\n
-                </text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <flippable>NO</flippable>
-                <keyImage>fern.png</keyImage>
-                <keyImageTitle>Ferns</keyImageTitle>
-                <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
-                </bound>
-                <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
-                </frame>
-                <largerFrame>
-                    <x>50</x>
-                    <y>50</y>
-                    <width>924.0</width>
-                    <height>668.0</height>
-                </largerFrame>
-            </hotspot>
-        </hotspotsOnBackground>
-        
-        <hotspotsOnBackground version="1" uid="3">
-            <backgroundImage>rainforest_background2.png</backgroundImage>
-            <backgroundText>Rain Forest 2</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
-            <hotspot version="1" uid="1" type="largeContent">
-                <title>Stream</title>
-                <text>
-                    Stream in a rainforest is an important habitat for many species.
-                </text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <flippable>NO</flippable>
-                <keyImage>stream.png</keyImage>
-                <keyImageTitle>Stream</keyImageTitle>
-                <bound>
-                    <x>382.0</x>
-                    <y>51.0</y>
-                    <width>245.5</width>
-                    <height>264.5</height>
-                </bound>
-                <frame>
-                    <x>382.0</x>
-                    <y>51.0</y>
-                    <width>245.5</width>
-                    <height>264.5</height>
-                </frame>
-                <largerFrame>
-                    <x>50</x>
-                    <y>50</y>
-                    <width>924.0</width>
-                    <height>668.0</height>
-                </largerFrame>
-            </hotspot>
-        </hotspotsOnBackground>
-        
-        
-    </topic>
-    
     <topic version="1" uid="4">
         <number>4</number>
         <name>fossils</name>
@@ -9628,15 +8434,15 @@
             </item>
         </starterImages>
         
-        <gallery version="12" uid="rocks">
-            <title>Rocks</title>
+        <gallery version="1" uid="fossils">
+            <title>Fossils</title>
             <item version="1" uid="4">
                 <title>Grassland</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2607/4120008935_a7fe197e43_z.jpg</url>
-                <description>Grasslands have mostly grasses and non-woody plants instead of shrubs and trees</description>
-                <attribution>cm195902</attribution>
+                <url>http://farm1.staticflickr.com/191/465981452_e52ef45ce1_z.jpg</url>
+                <description>Fossils like these are remains or signs of ancient life.</description>
+                <attribution>JelleS</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9644,9 +8450,9 @@
                 <title>Savanna</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4134/4940255253_8a6bd45c81_z.jpg</url>
-                <description>The Savanna of Africa is a tropical grassland with shrubs and some trees</description>
-                <attribution>West Zest</attribution>
+                <url>http://farm3.staticflickr.com/2387/2289004690_ca2bd5e48d_z.jpg</url>
+                <description>This fossil of the megalodon's jaws suggests that it was the world's largest predatory fish.</description>
+                <attribution>Ryan Somma</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9654,9 +8460,9 @@
                 <title>Steppes</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4137/4881182877_e4da86258e_z.jpg</url>
-                <description>The Steppes of Eurasia are temperate grasslands and have a growing season and cold winters</description>
-                <attribution>bdearth</attribution>
+                <url>http://farm9.staticflickr.com/8435/7887628226_e5332a9c54_z.jpg</url>
+                <description>Some of the oldest fossils we've found come from the Burgess Shale in Canada.</description>
+                <attribution>RMD Observations</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9664,9 +8470,9 @@
                 <title>Grassland soil</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4001/4253295948_210d5362b9_z.jpg</url>
-                <description>Grasslands have some of the worlds richest loam soil. The rich soil is ideal for farming and grazing</description>
-                <attribution>jewell willett</attribution>
+                <url>http://farm4.staticflickr.com/3223/2651436366_ff19522fd3_z.jpg</url>
+                <description>By studying how rocks are layered, we can tell which of their fossils are the oldest.</description>
+                <attribution>Quinn Anya</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9674,9 +8480,9 @@
                 <title>Pampas grass</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4039/4253609324_de0a05ba95_z.jpg</url>
-                <description>The Pampas grass has deep roots to find water and can grow in almost any habitat</description>
-                <attribution>Tamago Moffle</attribution>
+                <url>http://farm4.staticflickr.com/3290/2948579998_911b883a9b_z.jpg</url>
+                <description>Trilobites are index fossils. Since we know a lot about when they're from, they are clues about nearby fossils.</description>
+                <attribution>Mr. T in DC</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9684,9 +8490,9 @@
                 <title>Baobab</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4117/4954709441_08a8113b29_z.jpg</url>
-                <description>The baobab tree uses its stems like a funnel to collect water</description>
-                <attribution>abi.bhattachan</attribution>
+                <url>http://farm4.staticflickr.com/3596/3291564423_2c2a4b3cba_z.jpg</url>
+                <description>Trilobite fossils are found in sedimentary rock.</description>
+                <attribution>Jean Doremus Edwards</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9694,9 +8500,9 @@
                 <title>Elephants</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2411/5760241683_c2052d0295_z.jpg</url>
-                <description>Elephants in the savanna use camouflage to protect them from predators</description>
-                <attribution>Chrissy Olson</attribution>
+                <url>http://farm3.staticflickr.com/2506/4113449962_350824f5b2.jpg</url>
+                <description>So-called whole fossils like these are created when oxygen quickly leaves an environment.</description>
+                <attribution>Petrified Forest Ranger</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9704,9 +8510,9 @@
                 <title>Kudu</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm1.staticflickr.com/115/264868235_27b6335b5e_z.jpg</url>
-                <description>The grasslands vegetation provides shelter and camouflage for antelopes like the kudu</description>
-                <attribution>oddsock</attribution>
+                <url>http://farm7.staticflickr.com/6146/5983976748_146796f51f_z.jpg</url>
+                <description>Tree sap has helped create whole fossils.</description>
+                <attribution>PG Palmer</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9714,9 +8520,9 @@
                 <title>Springbok</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm1.staticflickr.com/68/191025177_575192f04f_z.jpg?zz=1</url>
-                <description>Springboks can jump 13 feet high and long jump to 50 feet to escape from predators</description>
-                <attribution>coda</attribution>
+                <url>http://farm5.staticflickr.com/4007/4697690407_02886c6dae_z.jpg</url>
+                <description>Another fossil type is the cast fossil. This australopithecus cast fossil was created when minerals replaced the original material.</description>
+                <attribution>Ryan Somma</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9725,8 +8531,8 @@
                 <type>photo</type>
                 <thumbnail></thumbnail>
                 <url>http://farm4.staticflickr.com/3470/3905492430_d548c7d399_z.jpg</url>
-                <description>Predators in the grasslands also use camouflage to help them when hunting</description>
-                <attribution>saragoldsmith</attribution>
+                <description>http://farm7.staticflickr.com/6004/5983971932_91d789a7ca_z.jpg</description>
+                <attribution>PG Palmer</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9734,9 +8540,9 @@
                 <title>Wildebeest</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm5.staticflickr.com/4075/4942052520_0cce139384_z.jpg</url>
-                <description>Animals like the wildebeest migrate large distances to find water during the dry season</description>
-                <attribution>Gabriel White</attribution>
+                <url>http://farm4.staticflickr.com/3303/3243909022_48f7ea21fc_z.jpg</url>
+                <description>Ammonites are among the most common mold fossils. These may also fill with minerals.</description>
+                <attribution>Simon Blackley</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9744,9 +8550,10 @@
                 <title>Prairie dogs</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm3.staticflickr.com/2784/5802183416_daee7b0f66_z.jpg</url>
-                <description>Prairie dogs get their water from the plants and hibernate in the burrows during winter</description>
-                <attribution>iluvcocacola</attribution>
+                <url>http://farm3.staticflickr.com/2393/2405805614_22b99bd544_z.jpg</url>
+                <description>Fossils suggest that spiral-shelled ammonites
+                    lived in the oceans until 65 million years ago.</description>
+                <attribution>Didier Bier</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9754,9 +8561,9 @@
                 <title>Bird migration</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm7.staticflickr.com/6163/6182300171_66afe70055_z.jpg</url>
-                <description>Birds migrate to warmer climates during the cold winter</description>
-                <attribution>richardrichard</attribution>
+                <url>http://farm7.staticflickr.com/6060/6327730457_37b3b7ec29_z.jpg</url>
+                <description>A variety of tools are used on dinosaur digs and other fossil expeditions.</description>
+                <attribution>Tom Dill</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9764,9 +8571,9 @@
                 <title>Bison</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3448/3904654237_88f07573d0_z.jpg</url>
-                <description>The American bison has thick fur that keeps it warm in winter and can be shed in summer to cool the animal</description>
-                <attribution>Lee Coursey</attribution>
+                <url>http://farm8.staticflickr.com/7157/6786844629_c56eac028b_z.jpg</url>
+                <description>A paleontologist makes a mold of a dinosaur fossil found in Montana.</description>
+                <attribution>UNE Photos</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9774,9 +8581,9 @@
                 <title>Vultures</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm1.staticflickr.com/8/10197749_9ad3daf8ce_z.jpg</url>
-                <description>Vultures have keen eyesight and strong beaks and help clean up the carcass of dead animals</description>
-                <attribution>kevinzim</attribution>
+                <url>http://farm1.staticflickr.com/44/140401539_09e319a119_z.jpg?zz=1</url>
+                <description>Scientists keep their dinosaur finds arranged in trays.</description>
+                <attribution>Willis Monroe</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9784,9 +8591,9 @@
                 <title>Kangaroo</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm4.staticflickr.com/3382/3334741664_c8770c07e6_z.jpg</url>
-                <description>Kangaroos can travel long distances by hopping. They have four pairs of chewing teeth to eat the grasses</description>
-                <attribution>Ryan Wick</attribution>
+                <url>http://farm5.staticflickr.com/4063/4636223559_0d5598d2cd_z.jpg</url>
+                <description>Dinosaur tracks are an example of trace fossils.</description>
+                <attribution>Randall Chancellor</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9794,9 +8601,9 @@
                 <title>Fires</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm7.staticflickr.com/6157/6194551803_d364840029_z.jpg</url>
-                <description>Natural causes like fires and human activities can impact and alter grassland ecosystems</description>
-                <attribution>USFWS Mountain Prairie</attribution>
+                <url>http://farm9.staticflickr.com/8307/7825597164_a3536020e6_z.jpg</url>
+                <description>Trace fossils like dinosaur tracks tell us about animal size and behavior.</description>
+                <attribution>Goddard Photo and Video</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
@@ -9804,39 +8611,39 @@
                 <title>Humans</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
-                <url>http://farm2.staticflickr.com/1174/873475737_d326bbca66_z.jpg?zz=1</url>
-                <description>Human activities can have a lasting impact on the ecosystem in the grasslands</description>
-                <attribution>steven.buss</attribution>
+                <url>http://farm2.staticflickr.com/1184/1282938194_d59c73d781_z.jpg</url>
+                <description>Coprolites can tell us about the animal's anatomy and diet.</description>
+                <attribution>Ben Brockert</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="22">
+                <title>Humans</title>
+                <type>photo</type>
+                <thumbnail></thumbnail>
+                <url>http://farm1.staticflickr.com/47/131398862_54577fc0dc_z.jpg</url>
+                <description>Cast fossils tell us about the T. Rex's incredible size!</description>
+                <attribution>Barry Kidd Photography</attribution>
+                <status>A</status>
+                <tags>match,gallery</tags>
+            </item>
+            <item version="1" uid="23">
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=9WuLjqydz_w</url>
+                <url>http://www.youtube.com/watch?v=3rkGu0BItKM</url>
                 <description></description>
-                <attribution>FloraFaunNL</attribution>
+                <attribution>dinodays</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="2" uid="23">
+            <item version="2" uid="24">
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=VBb0ZdmfYQc</url>
+                <url>http://www.youtube.com/watch?v=1pcNt2I7j0o</url>
                 <description></description>
-                <attribution>DucksUnlimitedInc</attribution>
-                <status>A</status>
-                <tags>gallery</tags>
-            </item>
-            <item version="1" uid="24">
-                <title></title>
-                <type>video</type>
-                <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=oi3bDdBDmRk</url>
-                <description></description>
-                <attribution>greentvgreentv</attribution>
+                <attribution>kidsknowit</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -9844,9 +8651,9 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=ikWzJ2rGxiM</url>
+                <url>http://www.youtube.com/watch?v=u-4BXU--G9s</url>
                 <description></description>
-                <attribution>HinterlandWW</attribution>
+                <attribution>American Museum of Natural History</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -9854,9 +8661,9 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=ezHcyIq5Xgw</url>
+                <url>http://www.youtube.com/watch?v=SEyl2rRa2YY</url>
                 <description></description>
-                <attribution>PrairieWildlifeRes</attribution>
+                <attribution>dinodays</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -9864,9 +8671,9 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=4G8Gfz1hn-A</url>
+                <url>http://www.youtube.com/watch?v=A5i5Qrp6sJU</url>
                 <description></description>
-                <attribution>moconservation</attribution>
+                <attribution>factfrog</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -9874,9 +8681,19 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=xY5CJAZchxE</url>
+                <url>http://www.youtube.com/watch?v=q0W-_o8lNlE</url>
                 <description></description>
-                <attribution>Allegrosjf</attribution>
+                <attribution>allthe111</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="29">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=N-ycRv16nqo</url>
+                <description></description>
+                <attribution>anembocrystals</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
