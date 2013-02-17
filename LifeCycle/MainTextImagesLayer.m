@@ -813,7 +813,7 @@
         
         [self addMenu];
         
-        NSString *fontName = @"Noteworthy";
+        NSString *fontName = @"Arial";
         CGFloat fontSize = 24; 
         CCLOG(@"Begin Add Main Text");
         [self addMainTextLabelWithFontName:fontName withFontSize:fontSize];
@@ -869,7 +869,7 @@
         [self addChild:leftMenu z:10 tag:kMainTextImagesDYKLeftMenuTag];   // z = 10 to make sure it covers the text
         
         // Did you know?
-        didYouKnowTxtLabel = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake(screenSize.width*0.8, 80) alignment:UITextAlignmentCenter fontName:@"ArialRoundedMTBold" fontSize:25];
+        didYouKnowTxtLabel = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake(screenSize.width*0.8, 80) alignment:UITextAlignmentCenter fontName:@"Arial" fontSize:25];
         
         didYouKnowTxtLabel.color = ccc3(255, 255, 255);
         didYouKnowTxtLabel.anchorPoint = ccp(0, 0.5);
@@ -877,7 +877,7 @@
 
         [self addChild:didYouKnowTxtLabel z:0 tag:kMainTextImagesDYKTxtTag];
         
-        previousDidYouKnowTxtLabel = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake(screenSize.width*0.8, 80) alignment:UITextAlignmentCenter fontName:@"ArialRoundedMTBold" fontSize:25];
+        previousDidYouKnowTxtLabel = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake(screenSize.width*0.8, 80) alignment:UITextAlignmentCenter fontName:@"Arial" fontSize:25];
         previousDidYouKnowTxtLabel.color = ccc3(255, 255,255);
         previousDidYouKnowTxtLabel.anchorPoint = ccp(0, 0.5);
         

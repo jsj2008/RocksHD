@@ -466,7 +466,7 @@ if (countOverPotential == [potentialVideoIDs count]) {
         
         // Display the attribute for the current video
         NSString *attribution = [NSString stringWithFormat:@"Video by %@", [videoAttributions objectAtIndex:slides.cursorVisible]];
-        CCLabelTTF *attribLabel = [CCLabelTTF labelWithString:attribution fontName:@"ArialRoundedMTBold" fontSize:24.0];
+        CCLabelTTF *attribLabel = [CCLabelTTF labelWithString:attribution fontName:@"Arial" fontSize:24.0];
         attribLabel.position = ccp(screenSize.width*0.5f, screenSize.height*0.1f);
         attribLabel.tag = kVideoAttributionTag;
         [self addChild:attribLabel];

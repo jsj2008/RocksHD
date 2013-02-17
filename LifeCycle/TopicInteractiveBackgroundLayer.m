@@ -101,10 +101,10 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
     
     CCLabelTTF *textLabel = (CCLabelTTF *)[self getChildByTag:kBackgroundTextTag];
     if (textLabel == nil) {
-        textLabel = [CCLabelTTF labelWithString:bgInfo.backgroundText fontName:@"ArialRoundedMTBold" fontSize:25.0];
+        textLabel = [CCLabelTTF labelWithString:bgInfo.backgroundText fontName:@"Arial" fontSize:25.0];
         textLabel.tag = kBackgroundTextTag;
 //        [self assignPositionFromXMLForNode:textLabel];
-                textLabel.position = CGPointMake(512, 0);
+                textLabel.position = CGPointMake(512,25);
         [self addChild:textLabel z:1000];
     }
     

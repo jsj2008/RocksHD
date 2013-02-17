@@ -471,7 +471,7 @@
         
         
         
-        CCLabelTTF *resultLabel = [CCLabelTTF labelWithString:@"" dimensions:CGSizeMake(485, 300) alignment:UITextAlignmentLeft lineBreakMode:UILineBreakModeWordWrap fontName:@"ArialRoundedMTBold" fontSize:42];
+        CCLabelTTF *resultLabel = [CCLabelTTF labelWithString:@"" dimensions:CGSizeMake(485, 300) alignment:UITextAlignmentLeft lineBreakMode:UILineBreakModeWordWrap fontName:@"Arial" fontSize:42];
         
         resultLabel.color = ccc3(0, 0, 0);
         resultLabel.position = ccp(screenSize.width/2 - 30, screenSize.height/2 -150);

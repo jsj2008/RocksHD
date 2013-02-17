@@ -557,14 +557,14 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
     
     
     // Did you know?
-    didYouKnowTxtLabel = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake(screenSize.width*0.75, 80) alignment:UITextAlignmentCenter fontName:@"ArialRoundedMTBold" fontSize:24];
+    didYouKnowTxtLabel = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake(screenSize.width*0.75, 80) alignment:UITextAlignmentCenter fontName:@"Arial" fontSize:25];
     
     didYouKnowTxtLabel.color = ccc3(255, 255,255);
     didYouKnowTxtLabel.anchorPoint = ccp(-0.05,0);
     
     [self addChild:didYouKnowTxtLabel z:0 tag:kHomeDYKTxtTag];
     
-    previousDidYouKnowTxtLabel = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake(screenSize.width*0.8, 80) alignment:UITextAlignmentCenter fontName:@"ArialRoundedMTBold" fontSize:24];
+    previousDidYouKnowTxtLabel = [[CCLabelTTF alloc] initWithString:@"" dimensions:CGSizeMake(screenSize.width*0.8, 80) alignment:UITextAlignmentCenter fontName:@"Arial" fontSize:25];
     previousDidYouKnowTxtLabel.color = ccc3(255, 255,255);
     previousDidYouKnowTxtLabel.anchorPoint = ccp(-0.05,0);
     

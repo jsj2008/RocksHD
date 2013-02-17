@@ -322,7 +322,7 @@
 -(void)prepareLayerForQuestion {
     
     debugLog(@"in prepareLayerForQuestion");
-    NSString *fontName = @"ArialRoundedMTBold";
+    NSString *fontName = @"Arial";
     
     [self addQuestion: questionItemInfo.question withFontName:fontName withFontSize:36];
     [self addMultipleChoice:questionItemInfo.answers.choices  withFontName:fontName withFontSize:24];
@@ -377,7 +377,7 @@
     else 
         result = [NSString stringWithFormat:@"You got %d out of %d questions right.", correctCount, totalCount];
     
-    CCLabelTTF *resultLabel = [CCLabelTTF labelWithString:result fontName:@"ArialRoundedMTBold" fontSize:42];
+    CCLabelTTF *resultLabel = [CCLabelTTF labelWithString:result fontName:@"Arial" fontSize:42];
     
     resultLabel.color = ccc3(0, 0, 0);
     resultLabel.position = ccp(screenSize.width/2, screenSize.height/2);
@@ -388,7 +388,7 @@
 
 -(void)showResult:(NSInteger)correctCount outOfTotal:(NSInteger)totalCount withText:(NSString *)text {
     
-    SizeSmartCCLabelTTF *dareLabel = [[SizeSmartCCLabelTTF alloc] initWithString:text withFixedWidth:screenSize.width*3/4 alignment:UITextAlignmentLeft fontName:@"ArialRoundedMTBold" fontSize:42];
+    SizeSmartCCLabelTTF *dareLabel = [[SizeSmartCCLabelTTF alloc] initWithString:text withFixedWidth:screenSize.width*3/4 alignment:UITextAlignmentLeft fontName:@"Arial" fontSize:42];
     
     
     dareLabel.color = ccc3(0, 0, 0);

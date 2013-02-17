@@ -586,7 +586,7 @@
         CGPoint triviaQuesLabelPos= [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kMatchingGameQuestionLabelTag];
 
 
-        CCLabelTTF *answerLabel = [[CCLabelTTF alloc] initWithString:@"Answer..." dimensions:CGSizeMake(screenSize.width*0.9, 80) alignment:UITextAlignmentCenter fontName:@"ArialRoundedMTBold" fontSize:24];
+        CCLabelTTF *answerLabel = [[CCLabelTTF alloc] initWithString:@"Answer..." dimensions:CGSizeMake(screenSize.width*0.9, 80) alignment:UITextAlignmentCenter fontName:@"Arial" fontSize:24];
         
         answerLabel.color = ccc3(255, 255,255);
         answerLabel.anchorPoint = ccp(-0.05,0);
@@ -596,7 +596,7 @@
 
         
         
-        CCLabelTTF *questionLabel = [[CCLabelTTF alloc] initWithString:@"Question..." dimensions:CGSizeMake(screenSize.width*0.6, 80) alignment:UITextAlignmentCenter fontName:@"ArialRoundedMTBold" fontSize:22];
+        CCLabelTTF *questionLabel = [[CCLabelTTF alloc] initWithString:@"Question..." dimensions:CGSizeMake(screenSize.width*0.6, 80) alignment:UITextAlignmentCenter fontName:@"Arial" fontSize:22];
         
         questionLabel.color = ccc3(0, 0,0);
         questionLabel.anchorPoint = ccp(-0.05,0);

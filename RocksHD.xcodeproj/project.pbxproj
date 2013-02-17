@@ -642,6 +642,8 @@
 		F4699BB916D131FB0064D823 /* rockhotspotimage4-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4699BB816D131FA0064D823 /* rockhotspotimage4-ipadhd.png */; };
 		F4699BBB16D133220064D823 /* rockhotspotimage2-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4699BBA16D133220064D823 /* rockhotspotimage2-ipadhd.png */; };
 		F4699BBD16D133630064D823 /* rockhotspotimage2-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4699BBC16D133630064D823 /* rockhotspotimage2-ipad.png */; };
+		F4699BBF16D1450D0064D823 /* mineralhotspotimage5-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4699BBE16D1450C0064D823 /* mineralhotspotimage5-ipad.png */; };
+		F4699BC116D145180064D823 /* mineralhotspotimage5-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4699BC016D145180064D823 /* mineralhotspotimage5-ipadhd.png */; };
 		F4C6247F153B2E5300903023 /* PleaseWait.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6247D153B2E5300903023 /* PleaseWait.png */; };
 		F4C62480153B2E5300903023 /* PhotoSlidesPleaseWait.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6247E153B2E5300903023 /* PhotoSlidesPleaseWait.png */; };
 		F4D446391533F08C003F2FCB /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D446381533F08C003F2FCB /* correct.png */; };
@@ -1596,6 +1598,8 @@
 		F4699BB816D131FA0064D823 /* rockhotspotimage4-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rockhotspotimage4-ipadhd.png"; sourceTree = "<group>"; };
 		F4699BBA16D133220064D823 /* rockhotspotimage2-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rockhotspotimage2-ipadhd.png"; sourceTree = "<group>"; };
 		F4699BBC16D133630064D823 /* rockhotspotimage2-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rockhotspotimage2-ipad.png"; sourceTree = "<group>"; };
+		F4699BBE16D1450C0064D823 /* mineralhotspotimage5-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mineralhotspotimage5-ipad.png"; sourceTree = "<group>"; };
+		F4699BC016D145180064D823 /* mineralhotspotimage5-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mineralhotspotimage5-ipadhd.png"; sourceTree = "<group>"; };
 		F4C6247D153B2E5300903023 /* PleaseWait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PleaseWait.png; sourceTree = "<group>"; };
 		F4C6247E153B2E5300903023 /* PhotoSlidesPleaseWait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhotoSlidesPleaseWait.png; sourceTree = "<group>"; };
 		F4D446381533F08C003F2FCB /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
@@ -2690,6 +2694,7 @@
 				F42E928A16D0451D00E37701 /* quizbackground-ipadhd.png */,
 				F42E928B16D0451E00E37701 /* mineralhotspotimage1-ipadhd.png */,
 				F42E928C16D0451F00E37701 /* rockhotspotimage5-ipadhd.png */,
+				F4699BC016D145180064D823 /* mineralhotspotimage5-ipadhd.png */,
 				F42E928D16D0452000E37701 /* soilhotspotimage5-ipadhd.png */,
 				F42E928E16D0452100E37701 /* fossilhotspotimage5-ipadhd.png */,
 				F42E928F16D0452200E37701 /* soilhotspotimage2-ipadhd.png */,
@@ -2698,6 +2703,7 @@
 				F4699BBC16D133630064D823 /* rockhotspotimage2-ipad.png */,
 				F42E929116D0452400E37701 /* fossilhotspotimage4-ipadhd.png */,
 				F4699BA916D12D460064D823 /* mineralhotspotimage3-ipad.png */,
+				F4699BBE16D1450C0064D823 /* mineralhotspotimage5-ipad.png */,
 				F4699BAA16D12D460064D823 /* mineralhotspotimage3-ipadhd.png */,
 				F4699BB616D131F10064D823 /* rockhotspotimage4-ipad.png */,
 				F42E929216D0452500E37701 /* soilhotspotimage1-ipadhd.png */,
@@ -3688,6 +3694,8 @@
 				F4699BB916D131FB0064D823 /* rockhotspotimage4-ipadhd.png in Resources */,
 				F4699BBB16D133220064D823 /* rockhotspotimage2-ipadhd.png in Resources */,
 				F4699BBD16D133630064D823 /* rockhotspotimage2-ipad.png in Resources */,
+				F4699BBF16D1450D0064D823 /* mineralhotspotimage5-ipad.png in Resources */,
+				F4699BC116D145180064D823 /* mineralhotspotimage5-ipadhd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

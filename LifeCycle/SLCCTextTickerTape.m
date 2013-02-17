@@ -92,7 +92,7 @@ typedef enum SLCCTextTickerTapeTags : NSInteger {
                 
         self.contentSize = unionBound.size;
         
-        CCLabelTTF *didYouKnowTxtLabel = [CCLabelTTF labelWithString:@"" dimensions:CGSizeMake(screenSize.width*0.8, 80) hAlignment:UITextAlignmentCenter fontName:@"ArialRoundedMTBold" fontSize:30.0];
+        CCLabelTTF *didYouKnowTxtLabel = [CCLabelTTF labelWithString:@"" dimensions:CGSizeMake(screenSize.width*0.8, 80) hAlignment:UITextAlignmentCenter fontName:@"Arial" fontSize:30.0];
         didYouKnowTxtLabel.tag = kTextLabelTag;
         
         didYouKnowTxtLabel.color = ccc3(0, 0, 0);
