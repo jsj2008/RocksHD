@@ -51,6 +51,7 @@
         <topicBiggerImageName>rocks-icon-pad.png</topicBiggerImageName>
         <mainText>
             <mainText>
+                \n Do you have a rock collection? If so, you already know how fascinating rocks can be! This lesson explains how rocks are formed, how they change, and how we use them.
                 \n What is a rock?  Rocks are naturally occurring solid combinations of minerals and sometimes other materials too. The common rock granite is made of the minerals quartz, feldspar and biotite. When only one mineral is present, the object is a mineral, not rock.
                 \n Scientists classify rocks into three categories: igneous, sedimentary, and metamorphic. These are all part of the rock cycle.
                 \n Igneous rocks begin deep in the Earth, which contains solid and molten materials such as silicon, magnesium and iron. Magma bursts through the Earth's surface via volcanoes and cracks in the Earth's crust. At the surface it's called lava. Lava hardens to become new crust.
@@ -64,7 +65,7 @@
         <backgroundTrackName>
             stage1bgtrack.mp3
         </backgroundTrackName>
-        <voiceoverTrackName>rocks.mp3</voiceoverTrackName>
+        <voiceoverTrackName>Rocks.mp3</voiceoverTrackName>
         <images>
             <item version="1" uid="0">
                 <name>Grassland-P1.png</name>
@@ -5478,7 +5479,7 @@
         </mainText>
         <mainTextTitleImageName>forests_button.png</mainTextTitleImageName>
         <backgroundTrackName>ecosystem_stage3bgtrack.mp3</backgroundTrackName>
-        <voiceoverTrackName>Forests.mp3</voiceoverTrackName>
+        <voiceoverTrackName>Soil.mp3</voiceoverTrackName>
         <images>
             <item uid="0">
                 <name>Forests-P1.png</name>
@@ -8199,7 +8200,7 @@
         <backgroundTrackName>
             stage1bgtrack.mp3
         </backgroundTrackName>
-        <voiceoverTrackName>rocks.mp3</voiceoverTrackName>
+        <voiceoverTrackName>Rocks.mp3</voiceoverTrackName>
         <images>
             <item version="1" uid="0">
                 <name>Grassland-P1.png</name>
@@ -9451,7 +9452,7 @@
         <backgroundTrackName>
             stage1bgtrack.mp3
         </backgroundTrackName>
-        <voiceoverTrackName>rocks.mp3</voiceoverTrackName>
+        <voiceoverTrackName>Fossils.mp3</voiceoverTrackName>
         <images>
             <item version="1" uid="0">
                 <name>Grassland-P1.png</name>
