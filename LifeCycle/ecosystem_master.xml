@@ -66,53 +66,13 @@
             stage1bgtrack.mp3
         </backgroundTrackName>
         <voiceoverTrackName>Rocks.mp3</voiceoverTrackName>
+        
+        <!-- Polaroid images -->
         <images>
             <item version="1" uid="0">
                 <name>Grassland-P1.png</name>
                 <title>Tropical Grasslands (Savanna)</title>
                 <attribution>Picture taken by Woodlouse</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="1">
-                <name>Grassland-P2.png</name>
-                <title>Temperate Grassland (Steppe)</title>
-                <attribution>Picture taken by bdearth</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="2">
-                <name>Grassland-P3.png</name>
-                <title>Winter in the Steppe</title>
-                <attribution>Picture taken by Einar Freriksen</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="3">
-                <name>Grassland-P4.png</name>
-                <title>Fires are common in grasslands</title>
-                <attribution>Picture taken by ercwttmn</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="4">
-                <name>Grassland-P5.png</name>
-                <title>Fertile grasslands are used for agriculture</title>
-                <attribution>Picture taken by CamPixie</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="5">
-                <name>Grassland-P6.png</name>
-                <title>New Zealand farm on a grassland</title>
-                <attribution>Picture taken by Donna Rutherford</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="6">
-                <name>Grassland-P7.png</name>
-                <title>Precious water in the Serengeti</title>
-                <attribution>Picture taken by amanderson2</attribution>
-                <scale>1.0</scale>
-            </item>
-            <item version="1" uid="7">
-                <name>Grassland-P8.png</name>
-                <title>Camouflaged giraffe in the African Bush</title>
-                <attribution>Picture taken by Violator1</attribution>
                 <scale>1.0</scale>
             </item>
         </images>
@@ -193,6 +153,7 @@
             <voiceoverPacingsSpace>                -40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40,-80-40.0,-40.0,-40.0,-40
             </voiceoverPacingsSpace>
         </voiceoverPacings>
+        
         <youtubeVideos>
             <item uid="0">
                 <videoId>INcW26-iyqU</videoId>
@@ -945,7 +906,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>rocks-4.jpg</url>
+                        <url>rocks-8.jpg</url>
                         <description></description>
                         <attribution>Photo by Tony Kent</attribution>
                         <status>A</status>
@@ -955,23 +916,13 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>rocks-5.jpg</url>
+                        <url>rocks-7.jpg</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
                         <tags>match,gallery</tags>
                     </item>
                     <item version="1" uid="3">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>rocks-6.jpg</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="4">
                         <title></title>
                         <type>video</type>
                         <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
@@ -981,21 +932,11 @@
                         <status>A</status>
                         <tags>gallery</tags>
                     </item>
-                    <item version="1" uid="5">
+                    <item version="1" uid="4">
                         <title></title>
                         <type>video</type>
                         <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
                         <url>http://www.youtube.com/embed/VwADGPfjerI</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="6">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
@@ -1039,7 +980,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>rocks-4.jpg</url>
+                        <url>rocks-8.jpg</url>
                         <description></description>
                         <attribution>Photo by Tony Kent</attribution>
                         <status>A</status>
@@ -1049,33 +990,13 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>rocks-5.jpg</url>
+                        <url>rocks-7.jpg</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
                         <tags>match,gallery</tags>
                     </item>
                     <item version="1" uid="3">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>rocks-6.jpg</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="4">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="5">
                         <title></title>
                         <type>video</type>
                         <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
@@ -1085,7 +1006,7 @@
                         <status>A</status>
                         <tags>gallery</tags>
                     </item>
-                    <item version="1" uid="6">
+                    <item version="1" uid="4">
                         <title></title>
                         <type>video</type>
                         <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>

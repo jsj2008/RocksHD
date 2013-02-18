@@ -151,7 +151,7 @@ typedef enum {
         // Popup Text
         textView.tag = kTextViewTag;
         textView.delegate = self;
-        textView.font = [UIFont systemFontOfSize:15];
+        textView.font = [UIFont systemFontOfSize:20];
         textView.editable = NO;
         textView.opaque = NO;
         textView.text = text;
