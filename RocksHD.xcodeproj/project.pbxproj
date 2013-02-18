@@ -315,8 +315,8 @@
 		04785F85168AFD8E0077520F /* text-button-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 04785F6D168AFD8E0077520F /* text-button-ipadhd.png */; };
 		04785F86168AFD8E0077520F /* video-button-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 04785F6E168AFD8E0077520F /* video-button-ipad.png */; };
 		04785F87168AFD8E0077520F /* video-button-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 04785F6F168AFD8E0077520F /* video-button-ipadhd.png */; };
-		04785F90168AFDBE0077520F /* glow-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 04785F8A168AFDBE0077520F /* glow-ipadhd.png */; };
-		04785F91168AFDBE0077520F /* glow-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 04785F8B168AFDBE0077520F /* glow-ipad.png */; };
+		04785F90168AFDBE0077520F /* xxglow-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 04785F8A168AFDBE0077520F /* xxglow-ipadhd.png */; };
+		04785F91168AFDBE0077520F /* xxglow-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 04785F8B168AFDBE0077520F /* xxglow-ipad.png */; };
 		04785F92168AFDBE0077520F /* pullout-tab-rightarrow-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 04785F8C168AFDBE0077520F /* pullout-tab-rightarrow-ipad.png */; };
 		04785F93168AFDBE0077520F /* pullout-tab-rightarrow-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 04785F8D168AFDBE0077520F /* pullout-tab-rightarrow-ipadhd.png */; };
 		04785F94168AFDBE0077520F /* pullout-tab-leftarrow-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 04785F8E168AFDBE0077520F /* pullout-tab-leftarrow-ipad.png */; };
@@ -644,6 +644,8 @@
 		F4699BBD16D133630064D823 /* rockhotspotimage2-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4699BBC16D133630064D823 /* rockhotspotimage2-ipad.png */; };
 		F4699BBF16D1450D0064D823 /* mineralhotspotimage5-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4699BBE16D1450C0064D823 /* mineralhotspotimage5-ipad.png */; };
 		F4699BC116D145180064D823 /* mineralhotspotimage5-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4699BC016D145180064D823 /* mineralhotspotimage5-ipadhd.png */; };
+		F4A465CB16D29DD400FF20BC /* glow-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A465C916D29DD400FF20BC /* glow-ipadhd.png */; };
+		F4A465CC16D29DD400FF20BC /* glow-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A465CA16D29DD400FF20BC /* glow-ipad.png */; };
 		F4C6247F153B2E5300903023 /* PleaseWait.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6247D153B2E5300903023 /* PleaseWait.png */; };
 		F4C62480153B2E5300903023 /* PhotoSlidesPleaseWait.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C6247E153B2E5300903023 /* PhotoSlidesPleaseWait.png */; };
 		F4D446391533F08C003F2FCB /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D446381533F08C003F2FCB /* correct.png */; };
@@ -1175,8 +1177,8 @@
 		04785F6D168AFD8E0077520F /* text-button-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-button-ipadhd.png"; sourceTree = "<group>"; };
 		04785F6E168AFD8E0077520F /* video-button-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-button-ipad.png"; sourceTree = "<group>"; };
 		04785F6F168AFD8E0077520F /* video-button-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-button-ipadhd.png"; sourceTree = "<group>"; };
-		04785F8A168AFDBE0077520F /* glow-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-ipadhd.png"; sourceTree = "<group>"; };
-		04785F8B168AFDBE0077520F /* glow-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-ipad.png"; sourceTree = "<group>"; };
+		04785F8A168AFDBE0077520F /* xxglow-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xxglow-ipadhd.png"; sourceTree = "<group>"; };
+		04785F8B168AFDBE0077520F /* xxglow-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xxglow-ipad.png"; sourceTree = "<group>"; };
 		04785F8C168AFDBE0077520F /* pullout-tab-rightarrow-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullout-tab-rightarrow-ipad.png"; sourceTree = "<group>"; };
 		04785F8D168AFDBE0077520F /* pullout-tab-rightarrow-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullout-tab-rightarrow-ipadhd.png"; sourceTree = "<group>"; };
 		04785F8E168AFDBE0077520F /* pullout-tab-leftarrow-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullout-tab-leftarrow-ipad.png"; sourceTree = "<group>"; };
@@ -1600,6 +1602,8 @@
 		F4699BBC16D133630064D823 /* rockhotspotimage2-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rockhotspotimage2-ipad.png"; sourceTree = "<group>"; };
 		F4699BBE16D1450C0064D823 /* mineralhotspotimage5-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mineralhotspotimage5-ipad.png"; sourceTree = "<group>"; };
 		F4699BC016D145180064D823 /* mineralhotspotimage5-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mineralhotspotimage5-ipadhd.png"; sourceTree = "<group>"; };
+		F4A465C916D29DD400FF20BC /* glow-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-ipadhd.png"; sourceTree = "<group>"; };
+		F4A465CA16D29DD400FF20BC /* glow-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-ipad.png"; sourceTree = "<group>"; };
 		F4C6247D153B2E5300903023 /* PleaseWait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PleaseWait.png; sourceTree = "<group>"; };
 		F4C6247E153B2E5300903023 /* PhotoSlidesPleaseWait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhotoSlidesPleaseWait.png; sourceTree = "<group>"; };
 		F4D446381533F08C003F2FCB /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
@@ -2720,6 +2724,8 @@
 				F42E926216D044F800E37701 /* mineralhotspotimage1-ipad.png */,
 				F42E926316D044F900E37701 /* rockhotspotimage5-ipad.png */,
 				F4699BBA16D133220064D823 /* rockhotspotimage2-ipadhd.png */,
+				F4A465C916D29DD400FF20BC /* glow-ipadhd.png */,
+				F4A465CA16D29DD400FF20BC /* glow-ipad.png */,
 				F42E926416D044FA00E37701 /* soilhotspotimage5-ipad.png */,
 				F42E926516D044FB00E37701 /* fossilhotspotimage5-ipad.png */,
 				F42E926616D044FC00E37701 /* soilhotspotimage2-ipad.png */,
@@ -2736,8 +2742,8 @@
 				04785F5B168AFD8D0077520F /* app-button-ipadhd.png */,
 				04785F5C168AFD8D0077520F /* edit-button-ipad.png */,
 				04785F5D168AFD8D0077520F /* edit-button-ipadhd.png */,
-				04785F8A168AFDBE0077520F /* glow-ipadhd.png */,
-				04785F8B168AFDBE0077520F /* glow-ipad.png */,
+				04785F8A168AFDBE0077520F /* xxglow-ipadhd.png */,
+				04785F8B168AFDBE0077520F /* xxglow-ipad.png */,
 				04A587DE169A5B860066968D /* minerals_bigger-ipad.png */,
 				04A587DF169A5B880066968D /* minerals_bigger-ipadhd.png */,
 				04A587E0169A5B890066968D /* minerals-ipad.png */,
@@ -3599,8 +3605,8 @@
 				04785F85168AFD8E0077520F /* text-button-ipadhd.png in Resources */,
 				04785F86168AFD8E0077520F /* video-button-ipad.png in Resources */,
 				04785F87168AFD8E0077520F /* video-button-ipadhd.png in Resources */,
-				04785F90168AFDBE0077520F /* glow-ipadhd.png in Resources */,
-				04785F91168AFDBE0077520F /* glow-ipad.png in Resources */,
+				04785F90168AFDBE0077520F /* xxglow-ipadhd.png in Resources */,
+				04785F91168AFDBE0077520F /* xxglow-ipad.png in Resources */,
 				04785F92168AFDBE0077520F /* pullout-tab-rightarrow-ipad.png in Resources */,
 				04785F93168AFDBE0077520F /* pullout-tab-rightarrow-ipadhd.png in Resources */,
 				04785F94168AFDBE0077520F /* pullout-tab-leftarrow-ipad.png in Resources */,
@@ -3696,6 +3702,8 @@
 				F4699BBD16D133630064D823 /* rockhotspotimage2-ipad.png in Resources */,
 				F4699BBF16D1450D0064D823 /* mineralhotspotimage5-ipad.png in Resources */,
 				F4699BC116D145180064D823 /* mineralhotspotimage5-ipadhd.png in Resources */,
+				F4A465CB16D29DD400FF20BC /* glow-ipadhd.png in Resources */,
+				F4A465CC16D29DD400FF20BC /* glow-ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
