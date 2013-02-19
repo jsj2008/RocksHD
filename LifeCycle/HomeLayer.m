@@ -344,7 +344,7 @@
             
             [AppConfigManager  getInstance].currentTopic = 2;
             
-            debugLog(@"First Topic clicked");
+            debugLog(@"Second Topic clicked");
             [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnForward];
             
             break;
@@ -354,9 +354,9 @@
             
            // [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
             
-            [AppConfigManager  getInstance].currentTopic = 2;
+            [AppConfigManager  getInstance].currentTopic = 3;
             
-            debugLog(@"First Topic clicked");
+            debugLog(@"Third Topic clicked");
             [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnForward];
             
             break;
@@ -367,7 +367,7 @@ case kHomeTopic4ButtonTag:
     
     // [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
     
-    [AppConfigManager  getInstance].currentTopic = 2;
+    [AppConfigManager  getInstance].currentTopic = 4;
     
     debugLog(@"First Topic clicked");
     [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnForward];
@@ -484,7 +484,7 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
     reduceMenuItem.position = arrow90Position;
     
     
-    [reduceMenuItem runAction:[self makeGentleSwirlingAction:reduceMenuItem.position]];
+    //[reduceMenuItem runAction:[self makeGentleSwirlingAction:reduceMenuItem.position]];
     
     CCMenuItemImage *recycleMenuItem = [CCMenuItemImage itemFromNormalImage:@"rocks.png"
                                                              selectedImage:@"rocks_bigger.png"
@@ -495,7 +495,7 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
     recycleMenuItem.tag = kHomeTopic1ButtonTag;
     recycleMenuItem.position = arrow100Position;
 
-    [recycleMenuItem runAction:[self makeGentleSwirlingAction:recycleMenuItem.position]];
+//    [recycleMenuItem runAction:[self makeGentleSwirlingAction:recycleMenuItem.position]];
 
     CCMenuItemImage *reuseMenuItem = [CCMenuItemImage itemFromNormalImage:@"soils.png"
                                                               selectedImage:@"soils_bigger.png"
@@ -506,7 +506,7 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
     reuseMenuItem.tag = kHomeTopic3ButtonTag;
     reuseMenuItem.position = arrow120Position;
 
-    [reuseMenuItem runAction:[self makeGentleSwirlingAction:reuseMenuItem.position]];
+//    [reuseMenuItem runAction:[self makeGentleSwirlingAction:reuseMenuItem.position]];
     
     CCMenuItemImage *runoffMenuItem = [CCMenuItemImage itemFromNormalImage:@"minerals.png"
                                                             selectedImage:@"minerals_bigger.png"
@@ -517,7 +517,7 @@ NSString *path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([s
     runoffMenuItem.tag = kHomeTopic2ButtonTag;
     runoffMenuItem.position = arrow20Position;
 
-    [runoffMenuItem runAction:[self makeGentleSwirlingAction:runoffMenuItem.position]];
+//    [runoffMenuItem runAction:[self makeGentleSwirlingAction:runoffMenuItem.position]];
     
     CCMenu *topicButtonMenu = [CCMenu menuWithItems:reduceMenuItem,recycleMenuItem, reuseMenuItem,runoffMenuItem,nil];
     

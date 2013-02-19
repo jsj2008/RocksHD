@@ -61,18 +61,58 @@
             </mainText>
         </mainText>
         <optionalText>I am optional text</optionalText>
-        <mainTextTitleImageName>main_text_bg.png</mainTextTitleImageName>
+        <mainTextTitleImageName>text-background.png</mainTextTitleImageName>
         <backgroundTrackName>
             stage1bgtrack.mp3
         </backgroundTrackName>
         <voiceoverTrackName>Rocks.mp3</voiceoverTrackName>
-        
-        <!-- Polaroid images -->
         <images>
             <item version="1" uid="0">
                 <name>Grassland-P1.png</name>
                 <title>Tropical Grasslands (Savanna)</title>
                 <attribution>Picture taken by Woodlouse</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="1">
+                <name>Grassland-P2.png</name>
+                <title>Temperate Grassland (Steppe)</title>
+                <attribution>Picture taken by bdearth</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="2">
+                <name>Grassland-P3.png</name>
+                <title>Winter in the Steppe</title>
+                <attribution>Picture taken by Einar Freriksen</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="3">
+                <name>Grassland-P4.png</name>
+                <title>Fires are common in grasslands</title>
+                <attribution>Picture taken by ercwttmn</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="4">
+                <name>Grassland-P5.png</name>
+                <title>Fertile grasslands are used for agriculture</title>
+                <attribution>Picture taken by CamPixie</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="5">
+                <name>Grassland-P6.png</name>
+                <title>New Zealand farm on a grassland</title>
+                <attribution>Picture taken by Donna Rutherford</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="6">
+                <name>Grassland-P7.png</name>
+                <title>Precious water in the Serengeti</title>
+                <attribution>Picture taken by amanderson2</attribution>
+                <scale>1.0</scale>
+            </item>
+            <item version="1" uid="7">
+                <name>Grassland-P8.png</name>
+                <title>Camouflaged giraffe in the African Bush</title>
+                <attribution>Picture taken by Violator1</attribution>
                 <scale>1.0</scale>
             </item>
         </images>
@@ -153,7 +193,6 @@
             <voiceoverPacingsSpace>                -40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40,-80-40.0,-40.0,-40.0,-40
             </voiceoverPacingsSpace>
         </voiceoverPacings>
-        
         <youtubeVideos>
             <item uid="0">
                 <videoId>INcW26-iyqU</videoId>
@@ -906,7 +945,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>rocks-8.jpg</url>
+                        <url>rocks-4.jpg</url>
                         <description></description>
                         <attribution>Photo by Tony Kent</attribution>
                         <status>A</status>
@@ -916,13 +955,23 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>rocks-7.jpg</url>
+                        <url>rocks-5.jpg</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
                         <tags>match,gallery</tags>
                     </item>
                     <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
                         <title></title>
                         <type>video</type>
                         <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
@@ -932,11 +981,21 @@
                         <status>A</status>
                         <tags>gallery</tags>
                     </item>
-                    <item version="1" uid="4">
+                    <item version="1" uid="5">
                         <title></title>
                         <type>video</type>
                         <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
                         <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
@@ -980,7 +1039,7 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>rocks-8.jpg</url>
+                        <url>rocks-4.jpg</url>
                         <description></description>
                         <attribution>Photo by Tony Kent</attribution>
                         <status>A</status>
@@ -990,13 +1049,33 @@
                         <title>Desert</title>
                         <type>photo</type>
                         <thumbnail></thumbnail>
-                        <url>rocks-7.jpg</url>
+                        <url>rocks-5.jpg</url>
                         <description></description>
                         <attribution></attribution>
                         <status>A</status>
                         <tags>match,gallery</tags>
                     </item>
                     <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
                         <title></title>
                         <type>video</type>
                         <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
@@ -1006,7 +1085,7 @@
                         <status>A</status>
                         <tags>gallery</tags>
                     </item>
-                    <item version="1" uid="4">
+                    <item version="1" uid="6">
                         <title></title>
                         <type>video</type>
                         <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
@@ -1797,8 +1876,8 @@
     <topic version="1" uid="2">
         <number>2</number>
         <name>minerals</name>
-        <topicImageName>ecosystem_stage2.png</topicImageName>
-        <topicBiggerImageName>ecosystem_stage2_bigger.png</topicBiggerImageName>
+        <topicImageName>minerals-icon-ipad.png</topicImageName>
+        <topicBiggerImageName>minerals-icon-ipad.png</topicBiggerImageName>
         <mainText>
             \n What is a mineral? Minerals such as gold, calcium and sodium are the building blocks of rocks. They are inorganic. That is, although rocks may contain matter from plants and animals, minerals do not. Minerals are purely chemical. They are typically solid at room temperature.
             \n Minerals are made of the elements listed on the Periodic Table. Minerals may consist of just one element, such as gold, or they can be combinations of elements. Quartz, for example, is made of silicon and oxygen.
@@ -1811,7 +1890,7 @@
             \n Cleavage and other characteristics of breakage help people classify minerals. For example, some crystals break with jagged edges. Others break along smooth planes.
             \n People identify minerals in many other ways such as acid tests, radioactivity tests, and simply using their taste buds.
         </mainText>
-        <mainTextTitleImageName>deserts_button.png</mainTextTitleImageName>
+        <mainTextTitleImageName>text-background.png</mainTextTitleImageName>
         <backgroundTrackName>ecosystem_stage2bgtrack.mp3</backgroundTrackName>
         <voiceoverTrackName>Deserts.mp3</voiceoverTrackName>
         <images>
@@ -1867,8 +1946,8 @@
         
         <didYouKnows>
             <didYouKnowTitleImage></didYouKnowTitleImage>
-            <didYouKnowLeftImage>deserts_arrow_left.png</didYouKnowLeftImage>
-            <didYouKnowRightImage>deserts_arrow_right.png</didYouKnowRightImage>
+            <didYouKnowLeftImage>main_text_arrow_left.png</didYouKnowLeftImage>
+            <didYouKnowRightImage>main_text_arrow_right.png</didYouKnowRightImage>
             <item uid="0">
                 <text>Because elements can be combined in countless ways, scientists haven't set a limit for how many minerals exist.</text>
             </item>
@@ -3612,8 +3691,8 @@
     <topic version="1" uid="3">
         <number>3</number>
         <name>soil</name>
-        <topicImageName>ecosystem_stage3.png</topicImageName>
-        <topicBiggerImageName>ecosystem_stage3_bigger.png</topicBiggerImageName>
+        <topicImageName>soils-icon-ipad.png</topicImageName>
+        <topicBiggerImageName>soils-icon-ipad.png</topicBiggerImageName>
         <mainText>
             \n Soil is like a nutrition bar for plants. It holds all the nutrients that plants need to survive. Soil has developed over hundreds of millions of years. It's created as weather erodes rocks and when plants and animals leave material behind. Minerals mix with organic material and water to become soil.
             \n Much of soil is alive! Bacteria, algae and fungi in soil break material into useful nutrients. They make it possible for larger life forms to survive.
@@ -3622,7 +3701,7 @@
             \n The bottommost layers are rocky. First there is regolith. Regolith is a mix of broken bedrock and dark soil, which is composed of dead organic matter. A solid layer of bedrock lays beneath it all.
             \n Erosion is the carrying away of rocks and soil. Erosion is caused by wind, precipitation and gravity. Although erosion is a natural process, it's problematic when we lose soil for crops, forests and other habitats. Trees can help fight erosion because their roots stabilize the soil.
         </mainText>
-        <mainTextTitleImageName>forests_button.png</mainTextTitleImageName>
+        <mainTextTitleImageName>text-background.png</mainTextTitleImageName>
         <backgroundTrackName>ecosystem_stage3bgtrack.mp3</backgroundTrackName>
         <voiceoverTrackName>Soil.mp3</voiceoverTrackName>
         <images>
@@ -3678,8 +3757,8 @@
         
         <didYouKnows>
             <didYouKnowTitleImage></didYouKnowTitleImage>
-            <didYouKnowLeftImage>forests_arrow_left.png</didYouKnowLeftImage>
-            <didYouKnowRightImage>forests_arrow_right.png</didYouKnowRightImage>
+            <didYouKnowLeftImage>main_text_arrow_left.png</didYouKnowLeftImage>
+            <didYouKnowRightImage>main_text_arrow_right.png</didYouKnowRightImage>
             <item uid="0">
                 <text>Soil formation is called pedogenesis.</text>
             </item>
@@ -5425,8 +5504,8 @@
     <topic version="1" uid="4">
         <number>4</number>
         <name>fossils</name>
-        <topicImageName>rocks-icon-ipad.png</topicImageName>
-        <topicBiggerImageName>rocks-icon-pad.png</topicBiggerImageName>
+        <topicImageName>fossils-icon-ipad.png</topicImageName>
+        <topicBiggerImageName>fossils-icon-ipad.png</topicBiggerImageName>
         <mainText>
             <mainText>
                 \n Fossils are remains and signs of ancient living things. They are the only evidence we have that certain species existed. Fossils reveal a history of the Earth's earliest bacteria, flowers, fish and other life.
@@ -5438,7 +5517,7 @@
             </mainText>
         </mainText>
         <optionalText>I am optional text</optionalText>
-        <mainTextTitleImageName>main_text_bg.png</mainTextTitleImageName>
+        <mainTextTitleImageName>text-background.png</mainTextTitleImageName>
         <backgroundTrackName>
             stage1bgtrack.mp3
         </backgroundTrackName>

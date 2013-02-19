@@ -20,15 +20,16 @@
         CCLayerColor *colorLayer = [CCLayerColor layerWithColor:ccc4(255, 255, 255, 255)];
         [self addChild:colorLayer z:0 tag:kTextAndQuizColorTag];
             
-        CCSprite *bg = [CCSprite spriteWithFile:@"QuizBackground.png"];
+        CCSprite *bg = [CCSprite spriteWithFile:@"quizbackground.png"];
         bg.position = ccp(screenSize.width/2, screenSize.height/2);
         bg.opacity = 195;
         [self addChild:bg z:0 tag:kTextAndQuizBackgroundTag];
-        
-        /*CCSprite *imagePane = [CCSprite spriteWithFile:@"MainImagePane.png"];
-        imagePane.position = ccp(MAINTEXTIMAGE_PANE_X_OFFSET + imagePane.boundingBox.size.width/2,
-                                 MAINTEXTIMAGE_PANE_Y_OFFSET + screenSize.height - imagePane.boundingBox.size.height/2);
-        [self addChild:imagePane z:0];*/
+                
+        CCSprite *quizbox = [CCSprite spriteWithFile:@"quiz-box.png"];
+        quizbox.position = ccp(screenSize.width/2, screenSize.height/2);
+        quizbox.opacity = 195;
+        [self addChild:quizbox z:0 tag:0];
+
 
     }
     

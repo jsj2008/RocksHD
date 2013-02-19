@@ -175,7 +175,7 @@
     NSString *path = [NSString stringWithFormat:@"%@/ScrollableCCLabelTTF", NSStringFromClass([self class])];
     mainTextLabel_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kMainTextImagesMainTextTag];
     
-    mainTextLabel_position.x = 220;
+    mainTextLabel_position.x = 260;
     debugLog(@"Position %f %f",mainTextLabel_position.x,mainTextLabel_position.y);
     self.mainTextLabel.color = ccc3(0, 0, 0);
     self.mainTextLabel.anchorPoint = ccp(0.0, 1.0);
@@ -463,6 +463,7 @@
     home.position = home_position;
     home.tag = kMainTextImagesHomeButtonTag;
     
+/*
     CCMenuItemImage *photo = [CCMenuItemImage itemFromNormalImage:@"photo.png"
                                                        selectedImage:@"photo_bigger.png"
                                                        disabledImage:@"photo.png"
@@ -487,6 +488,7 @@
     CGPoint quiz_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kMainTextImagesPopquizButtonTag];
     quiz.position = quiz_position;
     quiz.tag = kMainTextImagesPopquizButtonTag;
+ */
     
     self.readmeItemImage = [CCMenuItemImage itemFromNormalImage:@"stopreadme.png"
                                                    selectedImage:@"readme.png"
@@ -497,7 +499,7 @@
     self.readmeItemImage.position = readme_position;
     self.readmeItemImage.tag = kMainTextImagesReadmeButtonTag;
     
-    CCMenu *menu = [CCMenu menuWithItems:home, photo, video, quiz, self.readmeItemImage, nil];
+    CCMenu *menu = [CCMenu menuWithItems:home, self.readmeItemImage, nil];
     
     NSString *menu_path = [NSString stringWithFormat:@"%@/CCMenu", NSStringFromClass([self class])];
     CGPoint menu_pos = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:menu_path andTag:kMainTextImagesMainMenuTag];
@@ -811,6 +813,14 @@
         
         // [self addImage];
         
+        CCSprite *tbox = [CCSprite spriteWithFile:@"main-text-box.png"];
+        
+        tbox.position = ccp(screenSize.width/2, screenSize.height/2 + 30);
+        [self addChild:tbox z:0 tag:0];
+        
+        [self addTitle:[FlowAndStateManager sharedFlowAndStateManager].currentScene];
+        
+        
         [self addMenu];
         
         NSString *fontName = @"Arial";
@@ -824,23 +834,37 @@
         // "Did you know?"
         
         
-        /*
+        
         CCSprite *didYouKnowHeadTitle = [CCSprite spriteWithFile:@"didyouknowtext.png"];
         
         NSString *dykHeaderPath = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([self class])];
         CGPoint dykHeader_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:dykHeaderPath andTag:kMainTextImagesDYKHeaderTag];
-                                   
+        
+
+        dykHeader_position.y =  dykHeader_position.y  - 55;
+
         didYouKnowHeadTitle.position = dykHeader_position;
         didYouKnowHeadTitle.anchorPoint = ccp(0, 0);
-        didYouKnowHeadTitle.rotation = -15.0f;
+       // didYouKnowHeadTitle.rotation = -15.0f;
 
 
         [self addChild:didYouKnowHeadTitle z:1 tag:kMainTextImagesDYKHeaderTag];
-         */
+        
+        
+        CCSprite *bgStrip = [CCSprite spriteWithFile:@"text-background-strip.png"];
+        
+        bgStrip.position = ccp(0, 0);
+
+        
+        bgStrip.anchorPoint = ccp(0, 0);
+        // didYouKnowHeadTitle.rotation = -15.0f;
+        
+        
+        [self addChild:bgStrip z:0 tag:kMainTextImagesDYKHeaderTag];
         
 
       
-        // Put the left/right arrow        
+        // Put the left/right arrow
         CCMenuItemImage *right = [CCMenuItemImage itemFromNormalImage:  topicInfo.didYouKnows.didYouKnowRightImage
                                                         selectedImage:  topicInfo.didYouKnows.didYouKnowRightImage
                                                         disabledImage:  topicInfo.didYouKnows.didYouKnowRightImage
@@ -900,7 +924,8 @@
         NSString *vslider_path = [NSString stringWithFormat:@"%@/CCSprite", NSStringFromClass([self class])];
         maintextimage_voiceoverslider_initial_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:vslider_path andTag:kMainTextImagesVoiceOverSliderTag];
     
-        maintextimage_voiceoverslider_initial_position.x = 210;
+        maintextimage_voiceoverslider_initial_position.x = 265;
+        maintextimage_voiceoverslider_initial_position.y = maintextimage_voiceoverslider_initial_position.y + 20;
     }
     CCLOG(@"Exit: [MainTextImageLayer init]");
 
