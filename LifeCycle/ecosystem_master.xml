@@ -908,7 +908,7 @@
         <hotspotsOnBackground version="1" uid="1">
             <backgroundImage>rockhotspotimage1.png</backgroundImage>
             <backgroundText>Rock formation at Arches National Park, Utah, USA</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -1103,7 +1103,7 @@
         <hotspotsOnBackground version="1" uid="2">
             <backgroundImage>rockhotspotimage2.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -1296,7 +1296,7 @@
         <hotspotsOnBackground version="1" uid="3">
             <backgroundImage>rockhotspotimage3.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -1489,7 +1489,7 @@
         <hotspotsOnBackground version="1" uid="4">
             <backgroundImage>rockhotspotimage4.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -1682,7 +1682,7 @@
         <hotspotsOnBackground version="1" uid="5">
             <backgroundImage>rockhotspotimage5.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -2723,7 +2723,7 @@
         <hotspotsOnBackground version="1" uid="1">
             <backgroundImage>mineralhotspotimage1.png</backgroundImage>
             <backgroundText>Rock formation at Arches National Park, Utah, USA</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -2918,7 +2918,7 @@
         <hotspotsOnBackground version="1" uid="2">
             <backgroundImage>mineralhotspotimage2.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -3111,7 +3111,7 @@
         <hotspotsOnBackground version="1" uid="3">
             <backgroundImage>mineralhotspotimage3.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -3304,7 +3304,7 @@
         <hotspotsOnBackground version="1" uid="4">
             <backgroundImage>mineralhotspotimage4.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -3497,7 +3497,7 @@
         <hotspotsOnBackground version="1" uid="5">
             <backgroundImage>mineralhotspotimage5.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -4536,7 +4536,7 @@
         <hotspotsOnBackground version="1" uid="1">
             <backgroundImage>soilhotspotimage1.png</backgroundImage>
             <backgroundText>Rock formation at Arches National Park, Utah, USA</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -4731,7 +4731,7 @@
         <hotspotsOnBackground version="1" uid="2">
             <backgroundImage>soilhotspotimage2.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -4924,7 +4924,7 @@
         <hotspotsOnBackground version="1" uid="3">
             <backgroundImage>soilhotspotimage3.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -5117,7 +5117,7 @@
         <hotspotsOnBackground version="1" uid="4">
             <backgroundImage>soilhotspotimage4.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -5310,7 +5310,7 @@
         <hotspotsOnBackground version="1" uid="5">
             <backgroundImage>soilhotspotimage5.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -6343,7 +6343,7 @@
         <hotspotsOnBackground version="1" uid="1">
             <backgroundImage>fossilhotspotimage1.png</backgroundImage>
             <backgroundText>Rock formation at Arches National Park, Utah, USA</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -6538,7 +6538,7 @@
         <hotspotsOnBackground version="1" uid="2">
             <backgroundImage>fossilhotspotimage2.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -6731,7 +6731,7 @@
         <hotspotsOnBackground version="1" uid="3">
             <backgroundImage>fossilhotspotimage3.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -6924,7 +6924,7 @@
         <hotspotsOnBackground version="1" uid="4">
             <backgroundImage>fossilhotspotimage4.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
@@ -7117,7 +7117,7 @@
         <hotspotsOnBackground version="1" uid="5">
             <backgroundImage>fossilhotspotimage5.png</backgroundImage>
             <backgroundText>Rain Forest 1</backgroundText>
-            <textBackgroundImage>TextBackground.png</textBackgroundImage>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
