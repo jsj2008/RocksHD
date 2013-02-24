@@ -912,26 +912,26 @@
             
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
-                <title></title>
-                <text>Rocks are formed by weathering by wind and water. This picture shows weathering of rocks at the Arches National Monument.\n</text>
+                <title>Sedimentation</title>
+                <text>Sedimentation is the deposition of sediments which results in the formation of sedimentary rock.\n</text>
                 <fontSize>45.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <keyImageTitle>rock</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>439.0</x>
+                    <y>629.0</y>
+                    <width>108.0</width>
+                    <height>87.0</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>439.0</x>
+                    <y>629.0</y>
+                    <width>108.0</width>
+                    <height>87.0</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -1006,6 +1006,99 @@
             
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
+                <title>Sedimentary rocks</title>
+                <text>Sedimentary rocks are formed when layers of sediments: minerals and particles accumulate on top of each other within water bodies or on the surface of the Earth and are transformed by pressure into rock. \nOnce the sediments have been formed by weathering and erosion, they are transported and deposited by agents like wind (Aeolian or eolian process) water (fluvial process), glaciers, and ice. \nSedimentary rocks are economically valuable compared to other rocks since they are a source of fossil fuels and ores.\n</text>
+                <fontSize>45.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage>rocks-icon-ipadhd.png</keyImage>
+                <keyImageTitle>rock</keyImageTitle>
+                <bound>
+                    <x>274</x>
+                    <y>565</y>
+                    <width>108.0</width>
+                    <height>87</height>
+                </bound>
+                <frame>
+                    <x>274</x>
+                    <y>565</y>
+                    <width>108</width>
+                    <height>87</height>
+                </frame>
+                <largerFrame>
+                    <x>150</x>
+                    <y>150</y>
+                    <width>724.0</width>
+                    <height>468.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-4.jpg</url>
+                        <description></description>
+                        <attribution>Photo by Tony Kent</attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="2">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            <hotspot version="1" uid="3" type="largeContent">
+                <!-- popup type="largeContent" -->
                 <title>Australia, Desert</title>
                 <text>Rocks are formed by weathering by wind and water.\n</text>
                 <fontSize>45.0</fontSize>
@@ -1016,16 +1109,574 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>170</x>
+                    <y>374</y>
+                    <width>108.0</width>
+                    <height>87</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>170</x>
+                    <y>374</y>
+                    <width>108</width>
+                    <height>87</height>
+                </frame>
+                <largerFrame>
+                    <x>150</x>
+                    <y>150</y>
+                    <width>724.0</width>
+                    <height>468.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-4.jpg</url>
+                        <description></description>
+                        <attribution>Photo by Tony Kent</attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="2">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            <hotspot version="1" uid="4" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Australia, Desert</title>
+                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <fontSize>45.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage>rocks-icon-ipadhd.png</keyImage>
+                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <bound>
+                    <x>208</x>
+                    <y>183</y>
+                    <width>108.0</width>
+                    <height>87</height>
+                </bound>
+                <frame>
+                    <x>208</x>
+                    <y>183</y>
+                    <width>108</width>
+                    <height>87</height>
+                </frame>
+                <largerFrame>
+                    <x>150</x>
+                    <y>150</y>
+                    <width>724.0</width>
+                    <height>468.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-4.jpg</url>
+                        <description></description>
+                        <attribution>Photo by Tony Kent</attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="2">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            <hotspot version="1" uid="5" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Australia, Desert</title>
+                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <fontSize>45.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage>rocks-icon-ipadhd.png</keyImage>
+                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <bound>
+                    <x>354</x>
+                    <y>78</y>
+                    <width>108.0</width>
+                    <height>87</height>
+                </bound>
+                <frame>
+                    <x>354</x>
+                    <y>78</y>
+                    <width>108</width>
+                    <height>87</height>
+                </frame>
+                <largerFrame>
+                    <x>150</x>
+                    <y>150</y>
+                    <width>724.0</width>
+                    <height>468.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-4.jpg</url>
+                        <description></description>
+                        <attribution>Photo by Tony Kent</attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="2">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            <hotspot version="1" uid="6" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Australia, Desert</title>
+                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <fontSize>45.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage>rocks-icon-ipadhd.png</keyImage>
+                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <bound>
+                    <x>608</x>
+                    <y>90</y>
+                    <width>108.0</width>
+                    <height>87</height>
+                </bound>
+                <frame>
+                    <x>608</x>
+                    <y>90</y>
+                    <width>108</width>
+                    <height>87</height>
+                </frame>
+                <largerFrame>
+                    <x>150</x>
+                    <y>150</y>
+                    <width>724.0</width>
+                    <height>468.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-4.jpg</url>
+                        <description></description>
+                        <attribution>Photo by Tony Kent</attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="2">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            <hotspot version="1" uid="7" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Australia, Desert</title>
+                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <fontSize>45.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage>rocks-icon-ipadhd.png</keyImage>
+                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <bound>
+                    <x>718</x>
+                    <y>210</y>
+                    <width>108.0</width>
+                    <height>87</height>
+                </bound>
+                <frame>
+                    <x>718</x>
+                    <y>210</y>
+                    <width>108</width>
+                    <height>87</height>
+                </frame>
+                <largerFrame>
+                    <x>150</x>
+                    <y>150</y>
+                    <width>724.0</width>
+                    <height>468.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-4.jpg</url>
+                        <description></description>
+                        <attribution>Photo by Tony Kent</attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="2">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            <hotspot version="1" uid="8" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Australia, Desert</title>
+                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <fontSize>45.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage>rocks-icon-ipadhd.png</keyImage>
+                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <bound>
+                    <x>739</x>
+                    <y>404</y>
+                    <width>108.0</width>
+                    <height>87</height>
+                </bound>
+                <frame>
+                    <x>739</x>
+                    <y>404</y>
+                    <width>108</width>
+                    <height>87</height>
+                </frame>
+                <largerFrame>
+                    <x>150</x>
+                    <y>150</y>
+                    <width>724.0</width>
+                    <height>468.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-4.jpg</url>
+                        <description></description>
+                        <attribution>Photo by Tony Kent</attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="2">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-5.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="3">
+                        <title>Desert</title>
+                        <type>photo</type>
+                        <thumbnail></thumbnail>
+                        <url>rocks-6.jpg</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                    <item version="1" uid="4">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="5">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                    <item version="1" uid="6">
+                        <title></title>
+                        <type>video</type>
+                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
+                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            <hotspot version="1" uid="9" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Australia, Desert</title>
+                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <fontSize>45.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage>rocks-icon-ipadhd.png</keyImage>
+                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <bound>
+                    <x>658</x>
+                    <y>547</y>
+                    <width>108.0</width>
+                    <height>87</height>
+                </bound>
+                <frame>
+                    <x>658</x>
+                    <y>547</y>
+                    <width>108</width>
+                    <height>87</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
