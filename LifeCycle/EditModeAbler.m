@@ -13,7 +13,7 @@
 -(void)setAllChildOpacity:(GLubyte)opacity;
 -(void)disableAllNodeOfClass:(Class)klass rootNode:(CCNode*)rootNode;
 -(void)enableAllNodeOfClass:(Class)klass rootNode:(CCNode*)rootNode;
--(void)setSwallowTouches:(BOOL)swallowsTouches withTarget:(id<CCTargetedTouchDelegate>)target;
+-(void)setSwallowTouches:(BOOL)swallowsTouches withTarget:(id<CCTouchOneByOneDelegate>)target;
 -(void)setToSwallowTouchesAllNodeOfClass:(Class) klass rootNode:(CCNode*)rootNode;
 -(void)setToDontSwallowTouchesAllNodeOfClass:(Class) klass rootNode:(CCNode*)rootNode;
 @end
@@ -318,7 +318,7 @@
     
     for (CCNode *node in children) {
         if ([node isKindOfClass:klass]) {
-            id<CCTargetedTouchDelegate> n = (id<CCTargetedTouchDelegate>)node;
+            id<CCTouchOneByOneDelegate> n = (id<CCTouchOneByOneDelegate>)node;
             [self setSwallowTouches:YES withTarget:n];
         }
         else 
@@ -331,7 +331,7 @@
     
     for (CCNode *node in children) {
         if ([node isKindOfClass:klass]) {
-            id<CCTargetedTouchDelegate> n = (id<CCTargetedTouchDelegate>)node;
+            id<CCTouchOneByOneDelegate> n = (id<CCTouchOneByOneDelegate>)node;
             [self setSwallowTouches:NO withTarget:n];
         }
         else 
@@ -339,7 +339,7 @@
     }
 }
 
--(void) setSwallowTouches:(BOOL)swallowsTouches withTarget:(id<CCTargetedTouchDelegate>)target {
+-(void) setSwallowTouches:(BOOL)swallowsTouches withTarget:(id<CCTouchOneByOneDelegate>)target {
 //	[[CCTouchDispatcher sharedDispatcher] removeDelegate:target];
   //  [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:target priority:kCCMenuTouchPriority swallowsTouches:swallowsTouches];
 }

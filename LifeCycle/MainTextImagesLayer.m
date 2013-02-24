@@ -156,8 +156,8 @@
         
         ScrollableCCLabelTTF *m = [[ScrollableCCLabelTTF alloc] 
                                    initWithString:self.mainText 
-                                   dimensions:CGSizeMake(screenSize.width*0.5,
-                                                         screenSize.height*heightMutiplier) 
+                                   dimensions:CGSizeMake(screenSize.width * 0.5,
+                                                         screenSize.height*heightMutiplier)
                                    alignment:UITextAlignmentLeft 
                                    fontName:fontName 
                                    fontSize:fontSize];
@@ -175,7 +175,8 @@
     NSString *path = [NSString stringWithFormat:@"%@/ScrollableCCLabelTTF", NSStringFromClass([self class])];
     mainTextLabel_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kMainTextImagesMainTextTag];
     
-    mainTextLabel_position.x = 260;
+    mainTextLabel_position.x = 260  ;
+   // mainTextLabel_position.y = 1350;
     debugLog(@"Position %f %f",mainTextLabel_position.x,mainTextLabel_position.y);
     self.mainTextLabel.color = ccc3(0, 0, 0);
     self.mainTextLabel.anchorPoint = ccp(0.0, 1.0);
@@ -453,7 +454,7 @@
     
     NSString *path = [NSString stringWithFormat:@"%@/CCMenu:%d/CCMenuItemImage", NSStringFromClass([self class]), kMainTextImagesMainMenuTag];
     
-    
+    /*
     CCMenuItemImage *home = [CCMenuItemImage itemFromNormalImage:@"mt_home.png"
                                                    selectedImage:@"mt_home_bigger.png"
                                             disabledImage:@"mt_home.png"
@@ -463,7 +464,8 @@
     home.position = home_position;
     home.tag = kMainTextImagesHomeButtonTag;
     
-/*
+     
+
     CCMenuItemImage *photo = [CCMenuItemImage itemFromNormalImage:@"photo.png"
                                                        selectedImage:@"photo_bigger.png"
                                                        disabledImage:@"photo.png"
@@ -496,10 +498,11 @@
                                                           target:self selector:@selector(readme)];
     
     CGPoint readme_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kMainTextImagesReadmeButtonTag];
+//    readme_position.x = readme_position.x + 50;
     self.readmeItemImage.position = readme_position;
     self.readmeItemImage.tag = kMainTextImagesReadmeButtonTag;
     
-    CCMenu *menu = [CCMenu menuWithItems:home, self.readmeItemImage, nil];
+    CCMenu *menu = [CCMenu menuWithItems:   self.readmeItemImage, nil];
     
     NSString *menu_path = [NSString stringWithFormat:@"%@/CCMenu", NSStringFromClass([self class])];
     CGPoint menu_pos = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:menu_path andTag:kMainTextImagesMainMenuTag];
@@ -531,6 +534,8 @@
     
     NSString *path = [NSString stringWithFormat:@"%@/CCMenu", NSStringFromClass([self class])];
     CGPoint pos = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kMainTextImagesAudioMenuTag];
+    
+    
     audioMenu.position = pos;
     
     [self addChild:audioMenu z:0 tag:kMainTextImagesAudioMenuTag];
@@ -559,7 +564,7 @@
 
 -(void)goHome {
     [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
-    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kHomeScene withTranstion:kCCTransitionPageTurnBackward];
+    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnBackward];
 }
 
 -(void) goPhoto {
@@ -795,6 +800,8 @@
         
         screenSize = [CCDirector sharedDirector].winSize;
         
+        debugLog(@"Screen size %f %f",screenSize.height,screenSize.width);
+        
         CCLOG(@"Before loadTopicSpecificsForScene");
         self.topicInfo = [self loadTopicSpecificsForTopic:[AppConfigManager  getInstance].currentTopic];
         CCLOG(@"After loadTopicSpecificsForScene");
@@ -823,8 +830,8 @@
         
         [self addMenu];
         
-        NSString *fontName = @"Arial";
-        CGFloat fontSize = 24; 
+        NSString *fontName = @"Noteworthy";
+        CGFloat fontSize = 24;
         CCLOG(@"Begin Add Main Text");
         [self addMainTextLabelWithFontName:fontName withFontSize:fontSize];
         CCLOG(@"After Add Main Text");

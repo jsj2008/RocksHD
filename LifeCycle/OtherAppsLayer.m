@@ -11,7 +11,7 @@
 #import "ConfigManager.h"
 #import "FlowAndStateManager.h"
 
-@interface OtherAppsLayer () <CCTargetedTouchDelegate, EditModeAblerDelegate>
+@interface OtherAppsLayer () <CCTouchOneByOneDelegate, EditModeAblerDelegate>
 @property (nonatomic, retain) EditModeAbler *editor;
 @end
 

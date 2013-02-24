@@ -16,7 +16,7 @@ typedef enum SLCCTextTickerTapeTags : NSInteger {
     kTextLabelTag = 1003
 } SLCCTextTickerTapeTags;
 
-@interface SLCCTextTickerTape () <CCTargetedTouchDelegate>
+@interface SLCCTextTickerTape () <CCTouchOneByOneDelegate>
 
 @end
 
@@ -127,8 +127,8 @@ typedef enum SLCCTextTickerTapeTags : NSInteger {
 }
 
 -(CGRect)adjustedBoundingBox {
-    CGPoint o = ccp(position_.x - adjustedContentSize.width * self.anchorPoint.x,
-                    position_.y - adjustedContentSize.height * self.anchorPoint.y);
+    CGPoint o = ccp(_position.x - adjustedContentSize.width * self.anchorPoint.x,
+                    _position.y - adjustedContentSize.height * self.anchorPoint.y);
     
     return CGRectMake(o.x, o.y, adjustedContentSize.width, adjustedContentSize.height);
 }

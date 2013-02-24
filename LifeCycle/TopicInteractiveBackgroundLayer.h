@@ -13,7 +13,7 @@
 #import "TopicInfo.h"
 #import "CCUIPopupView.h"
 
-@interface TopicInteractiveBackgroundLayer : CCLayer <CCTargetedTouchDelegate, CCUIPopupViewDelegate>
+@interface TopicInteractiveBackgroundLayer : CCLayer <CCTouchOneByOneDelegate, CCUIPopupViewDelegate>
 {
     // Instance variable with Protect scope
     CGSize screenSize;

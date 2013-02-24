@@ -9,7 +9,7 @@
 #import "CCLabelTTF.h"
 #import "cocos2d.h"
 
-@interface ScrollCCLabelTTF : CCLabelTTF <CCTargetedTouchDelegate> {
+@interface ScrollCCLabelTTF : CCLabelTTF <CCTouchOneByOneDelegate> {
     
 }
 

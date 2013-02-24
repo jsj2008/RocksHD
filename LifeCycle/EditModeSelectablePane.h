@@ -11,7 +11,7 @@
 
 @protocol EditModeSelectablePaneDelegate;
 
-@interface EditModeSelectablePane : CCRenderTexture <CCTargetedTouchDelegate> {
+@interface EditModeSelectablePane : CCRenderTexture <CCTouchOneByOneDelegate> {
     CGSize size;
 
 }

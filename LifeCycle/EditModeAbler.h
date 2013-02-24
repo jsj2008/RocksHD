@@ -22,7 +22,7 @@ typedef enum {
 
 @protocol EditModeAblerDelegate;
 
-@interface EditModeAbler : CCSprite <CCTargetedTouchDelegate, EditModeSelectablePaneDelegate> {
+@interface EditModeAbler : CCSprite <CCTouchOneByOneDelegate, EditModeSelectablePaneDelegate> {
     BOOL uiEditMode;
     CCLayer *delegateLayer;
     

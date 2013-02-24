@@ -21,7 +21,7 @@ typedef enum {
     kCurrMenuTag=104
 } CurrLayerTags;
 
-@interface CurrLayer : CCLayer <CCTargetedTouchDelegate, EditModeAblerDelegate> {
+@interface CurrLayer : CCLayer <CCTouchOneByOneDelegate, EditModeAblerDelegate> {
     CGSize screenSize;
     CGRect currLabelBound;
     EditModeAbler *editModeAbler;

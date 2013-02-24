@@ -11,7 +11,7 @@
 #import "Constants.h"
 #import "GameConstant.h"
 
-@interface MiniGameSprite : CCSprite <CCTargetedTouchDelegate> {
+@interface MiniGameSprite : CCSprite <CCTouchOneByOneDelegate> {
     CGPoint startTouchPt;
     CGPoint lastTouchPt;
     

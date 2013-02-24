@@ -21,7 +21,7 @@ typedef enum {
 } InfoLayerTags;
 
 
-@interface InfoLayer : CCLayer <CCTargetedTouchDelegate, EditModeAblerDelegate> {
+@interface InfoLayer : CCLayer <CCTouchOneByOneDelegate, EditModeAblerDelegate> {
     
     CGSize screenSize;
     CGRect infoLabelBound;
