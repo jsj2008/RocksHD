@@ -356,8 +356,10 @@
     slides.tag = kPhotoSliderTag;
     slides.dataSource = self;
     slides.delegate = self;
-    slides.position = ccp(screenSize.width*0.5f, screenSize.height*0.5f);
-    slides.fixedSize = CGSizeMake(640.0, 480.0);
+   slides.position = ccp(screenSize.width*0.5f, screenSize.height*0.5f);
+
+slides.fixedSize = CGSizeMake(640.0, 480.0);
+    //slides.fixedSize = CGSizeMake(640.0, 480.0);
     
     [slides show];
     

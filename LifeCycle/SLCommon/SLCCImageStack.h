@@ -22,7 +22,7 @@
 -(void) slCCImageStack:(SLCCImageStack *)sender didShuffleToCurrentIndex:(int)index;
 @end
 
-@interface SLCCImageStack : CCNode <CCTargetedTouchDelegate> {
+@interface SLCCImageStack : CCNode <CCTouchOneByOneDelegate> {
     
     // Object pool
     SLObjectPool *pool;

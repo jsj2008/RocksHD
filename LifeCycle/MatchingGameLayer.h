@@ -62,7 +62,7 @@ typedef enum  {
     
     } MatchingGameConstants;
 
-@interface MatchingGameLayer : CCLayer <CCTargetedTouchDelegate, EditModeAblerDelegate> {
+@interface MatchingGameLayer : CCLayer <CCTouchOneByOneDelegate, EditModeAblerDelegate> {
     
     CGSize screenSize;
     EditModeAbler *editModeAbler;

@@ -56,7 +56,7 @@
         [self embedUIView:pageControl];
         
         adjustedContentSize = glFrame.size;
-        position_ = glFrame.origin;
+        _position = glFrame.origin;
     }
     return self;
 }
@@ -67,7 +67,7 @@
 
 -(CGRect)adjustedBoundingBox {
     // return this in GL Coord and convention for rectangle
-    return CGRectMake(position_.x, position_.y, adjustedContentSize.width, adjustedContentSize.height);
+    return CGRectMake(_position.x, _position.y, adjustedContentSize.width, adjustedContentSize.height);
 }
 
 #pragma mark - Getters & Setters

@@ -14,7 +14,7 @@
 @protocol SLCCPhotoSlidesDelegate;
 
 
-@interface SLCCPhotoSlides : CCNode <CCTargetedTouchDelegate, UIGestureRecognizerDelegate> {
+@interface SLCCPhotoSlides : CCNode <CCTouchOneByOneDelegate, UIGestureRecognizerDelegate> {
         
     // Object pool
     SLObjectPool *pool;

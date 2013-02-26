@@ -245,12 +245,12 @@
                                                    selectedImage:@"back_bigger.png"
                                                    disabledImage:@"back.png"
                                                           target:self 
-                                                        selector:@selector(goBackToMainText)];
+                                                        selector:@selector(goHome)];
     
     back.position = back_position;
     back.tag = kQuizBackButtonTag;
 
-    CCMenu *menu = [CCMenu menuWithItems:home, self.audioItemImage, back, nil];
+    CCMenu *menu = [CCMenu menuWithItems: self.audioItemImage, back, nil];
     
     NSString *menu_path = [NSString stringWithFormat:@"%@/CCMenu", NSStringFromClass([self class])];
     CGPoint menu_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:menu_path andTag:kQuizMenuTag];
@@ -261,7 +261,7 @@
 }
 
 -(void)goHome {
-    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kHomeScene withTranstion:kCCTransitionPageTurnForward];
+    [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnForward];
 }
 
 -(void) audio:(CCMenuItemImage*)i {

@@ -51,7 +51,7 @@ typedef enum {
 } HomeLayerTags;
 
 
-@interface HomeLayer : CCLayer <CCTargetedTouchDelegate, EditModeAblerDelegate> {
+@interface HomeLayer : CCLayer <CCTouchOneByOneDelegate, EditModeAblerDelegate> {
     
     CGSize screenSize;
     EditModeAbler *editModeAbler;

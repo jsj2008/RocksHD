@@ -9,7 +9,7 @@
 #import "cocos2d.h"
 #import "CCSprite.h"
 
-@interface CCImageStack : CCSprite <CCTargetedTouchDelegate> {
+@interface CCImageStack : CCSprite <CCTouchOneByOneDelegate> {
     CGSize screenSize;
     
     CCArray *images;            // array of image file name strings

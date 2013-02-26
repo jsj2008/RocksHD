@@ -41,7 +41,7 @@ typedef enum {
 } IntroLayerTags;
 
 
-@interface IntroLayer : CCLayer <CCTargetedTouchDelegate, MiniGameDelegate, EditModeAblerDelegate> {
+@interface IntroLayer : CCLayer <CCTouchOneByOneDelegate, MiniGameDelegate, EditModeAblerDelegate> {
     
     CGSize screenSize;
     BOOL isGameOn;

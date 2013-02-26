@@ -56,7 +56,7 @@
     }
     
     CGSize maximumLabelSize = CGSizeMake(self.boundingBox.size.width, 9999);
-    CGSize expectedLabelSize = [self.string sizeWithFont:[UIFont fontWithName:fontName_ size:fontSize_]
+    CGSize expectedLabelSize = [self.string sizeWithFont:[UIFont fontWithName:_fontName size:_fontSize]
                                        constrainedToSize:maximumLabelSize lineBreakMode:UILineBreakModeWordWrap];
     float textHeight = expectedLabelSize.height;
     

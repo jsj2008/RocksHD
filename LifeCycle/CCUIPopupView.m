@@ -599,10 +599,10 @@ typedef enum {
 
 -(void) setPosition:(CGPoint)position {
     
-    position_ = position;
+    position = position;
     
-    float x = position.x - contentSize_.width * 0.5;
-    float y = position.y - contentSize_.height * 0.5;
+    float x = position.x - _contentSize.width * 0.5;
+    float y = position.y - _contentSize.height * 0.5;
     
     CGSize size = _frame.size;
     self.frame = CGRectMake(x, y, size.width, size.height);
@@ -610,7 +610,7 @@ typedef enum {
 }
 
 -(void) setContentSize:(CGSize)contentSize {
-    contentSize_ = contentSize;
+    _contentSize = contentSize;
     
     CGPoint o = _frame.origin;
     self.frame = CGRectMake(o.x, o.y, contentSize.width, contentSize.height);

@@ -8,7 +8,7 @@
 
 #import "SLCCMenu.h"
 
-@interface SLCCMenu () <CCTargetedTouchDelegate>
+@interface SLCCMenu () <CCTouchOneByOneDelegate>
 
 @end
 
@@ -76,14 +76,22 @@
 	va_list args;
 	va_start(args,item);
     
+    NSMutableArray *ccitems = [[[NSMutableArray alloc] init] autorelease];
+    for (CCMenuItem *arg = item; arg != nil; arg = va_arg(args, CCMenuItem*))
+    {
+        [ccitems addObject:arg];
+    }
+    va_end(args);
+    
     if (_menu == nil) {        
-        _menu = [[[CCMenu alloc] initWithItems:item vaList:args] autorelease];
+      //  _menu = [[[CCMenu alloc] initWithItems:item vaList:args] autorelease];
 
+        _menu = [[CCMenu alloc] initWithArray: ccitems];
         if (menuItemPadding == 0.0)
             menuItemPadding = 10.0;
 
         // Fix up the boundingBox, it has zero size initially if you don't 
-        contentSize_ = pulloutIndicatorSprite.contentSize;
+        _contentSize = pulloutIndicatorSprite.contentSize;
         
         // Assign the approx contentSize for _menu
         float menu_width = 0.0;

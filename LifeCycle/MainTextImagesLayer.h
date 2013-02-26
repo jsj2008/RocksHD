@@ -38,7 +38,7 @@ typedef enum {
     
 } MainTextImagesLayerTags;
 
-@interface MainTextImagesLayer : CCLayer <CCTargetedTouchDelegate, ScrollableCCLabelTTFDelegate, EditModeAblerDelegate> {
+@interface MainTextImagesLayer : CCLayer <CCTouchOneByOneDelegate, ScrollableCCLabelTTFDelegate, EditModeAblerDelegate> {
 
     NSString *mainText;
     CGSize screenSize;

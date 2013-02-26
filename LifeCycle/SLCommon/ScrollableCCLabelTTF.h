@@ -12,7 +12,7 @@
 
 @protocol ScrollableCCLabelTTFDelegate;
 
-@interface ScrollableCCLabelTTF : CCLabelTTF <CCTargetedTouchDelegate> {
+@interface ScrollableCCLabelTTF : CCLabelTTF <CCTouchOneByOneDelegate> {
     CGPoint startTouchPt;
     CGPoint lastTouchPt;
     

@@ -28,7 +28,7 @@ typedef enum {
     kQuizBackButtonTag=110
 } QuizLayerTags;
 
-@interface QuizLayer : CCLayer <CCTargetedTouchDelegate, EditModeAblerDelegate> {
+@interface QuizLayer : CCLayer <CCTouchOneByOneDelegate, EditModeAblerDelegate> {
     CGSize screenSize;
 
     QuestionItemInfo *questionItemInfo;
