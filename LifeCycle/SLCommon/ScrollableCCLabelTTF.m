@@ -7,6 +7,7 @@
 
 
 #import "ScrollableCCLabelTTF.h"
+#import "AppConfigManager.h"
 
 @implementation ScrollableCCLabelTTF
 
@@ -90,8 +91,16 @@
     }
     
     glEnable(GL_SCISSOR_TEST);
-    glScissor(fixedPosition.x, fixedPosition.y - self.viewPortHeight,
-              self.boundingBox.size.width, self.viewPortHeight);
+
+    AppConfigManager *cfg = [AppConfigManager getInstance];
+    int scale = 1;
+    if ([cfg isRetinaDisplay])
+    {
+        scale = 2;
+    }
+    
+    glScissor(fixedPosition.x * scale, (fixedPosition.y - self.viewPortHeight)* scale,
+              self.boundingBox.size.width* scale, self.viewPortHeight* scale);
     
     
     // CCLOG(@"y=%f", fixedPosition.y - self.viewPortHeight);

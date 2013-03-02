@@ -16,6 +16,7 @@
     NSUserDefaults *defaults;
     bool isLoaded;
     int currentTopic;
+    bool isRetinaDisplay;
 }
 
 + (AppConfigManager *)getInstance;
@@ -24,7 +25,7 @@
 -(NSString*) getDeviceToken;
 -(void) setDeviceToken: (NSString*)key;
 -(void) setLocalProperty : (NSString*) prop withValue :(NSString*) value;
-
+-(bool) isRetinaDisplay;
 
 
 @property (nonatomic,assign) int currentTopic;

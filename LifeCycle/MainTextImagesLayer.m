@@ -932,7 +932,7 @@
         maintextimage_voiceoverslider_initial_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:vslider_path andTag:kMainTextImagesVoiceOverSliderTag];
     
         maintextimage_voiceoverslider_initial_position.x = 265;
-        maintextimage_voiceoverslider_initial_position.y = maintextimage_voiceoverslider_initial_position.y + 20;
+        maintextimage_voiceoverslider_initial_position.y = maintextimage_voiceoverslider_initial_position.y;
     }
     CCLOG(@"Exit: [MainTextImageLayer init]");
 

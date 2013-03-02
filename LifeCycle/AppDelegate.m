@@ -126,8 +126,9 @@
 	// Assume that PVR images have premultiplied alpha
 	[CCTexture2D PVRImagesHavePremultipliedAlpha:YES];
 	
+    AppConfigManager *cfg = [AppConfigManager getInstance];
     
-	// Create a Navigation Controller with the Director
+    // Create a Navigation Controller with the Director
 	navController = [[UINavigationController alloc] initWithRootViewController:director];
 	navController.navigationBarHidden = YES;
 	
@@ -173,7 +174,7 @@
     AppInfo *appInfo = [ModelManager sharedModelManger].appInfo;
     int totalTopics = appInfo.numberOfTopics.intValue;
     
-    GalleryManager *gman = [GalleryManager getInstance];
+   // GalleryManager *gman = [GalleryManager getInstance];
     
     CCLOG(@"Total topics %d", totalTopics);
     
@@ -476,7 +477,7 @@
     
     for (GalleryItemInfo *item in topic.gallery.items) {
         CCLOG(@"gallery item: version = %.0f, uid = %d, title = %@, type=%@", item.version.floatValue, item.uid.intValue, item.title, item.type);
-        CCLOG(@"gallery item: url = %@, attribution = %@", item.url, item.attribution);
+        CCLOG(@"gallery item: url = %@, attribution = %@ descr = %@", item.url, item.attribution, item.description);
     }
     
     // testing questions

@@ -23,6 +23,17 @@ static AppConfigManager *instance = NULL;
 	if (( self=[super init] )) {
 		
 		props = [[Properties alloc] init];
+        
+        if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] &&
+            ([UIScreen mainScreen].scale == 2.0)) {
+            // Retina display
+            isRetinaDisplay = true;
+        } else {
+            // non-Retina display
+                        isRetinaDisplay = false;
+        }
+        
+
 	}
 	return self;
 }
@@ -106,5 +117,8 @@ static AppConfigManager *instance = NULL;
 }
 
 
-
+-(bool) isRetinaDisplay
+{
+    return isRetinaDisplay;
+}
 @end
