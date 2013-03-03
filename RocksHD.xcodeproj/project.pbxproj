@@ -490,7 +490,6 @@
 		1B147A6414B8346F00353E77 /* voiceoverslider.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B147A4014B8346E00353E77 /* voiceoverslider.png */; };
 		1B147A6514B8346F00353E77 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B147A4114B8346E00353E77 /* placeholder.png */; };
 		1B147A6914B83B9200353E77 /* ConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B147A6814B83B9200353E77 /* ConfigManager.m */; };
-		1B147A7014B8FA8C00353E77 /* AllTopics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B147A6F14B8FA8B00353E77 /* AllTopics.plist */; };
 		1B2E82AF151DD06D0017B95F /* InfoLayerExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E82AE151DD06D0017B95F /* InfoLayerExtra.m */; };
 		1B2E82B2151E73540017B95F /* quiz_textbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2E82B1151E73540017B95F /* quiz_textbox.png */; };
 		1B2E82C3151E78430017B95F /* play_bigger.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2E82C1151E78430017B95F /* play_bigger.png */; };
@@ -571,16 +570,6 @@
 		1BFE30FB15E0BB0500513F65 /* CCImageReflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE30FA15E0BB0500513F65 /* CCImageReflector.m */; };
 		1BFE30FE15E0BB0F00513F65 /* CCUITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE30FD15E0BB0F00513F65 /* CCUITextView.m */; };
 		1BFE310115E0BB1A00513F65 /* CCUIActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE310015E0BB1A00513F65 /* CCUIActivityIndicatorView.m */; };
-		E238139315BC5B31008C1ABC /* App.plist in Resources */ = {isa = PBXBuildFile; fileRef = E238138B15BC5B31008C1ABC /* App.plist */; };
-		E238139415BC5B31008C1ABC /* Quiz.plist in Resources */ = {isa = PBXBuildFile; fileRef = E238138C15BC5B31008C1ABC /* Quiz.plist */; };
-		E238139515BC5B31008C1ABC /* Topic1Specifics.plist in Resources */ = {isa = PBXBuildFile; fileRef = E238138D15BC5B31008C1ABC /* Topic1Specifics.plist */; };
-		E238139615BC5B31008C1ABC /* Topic2Specifics.plist in Resources */ = {isa = PBXBuildFile; fileRef = E238138E15BC5B31008C1ABC /* Topic2Specifics.plist */; };
-		E238139715BC5B31008C1ABC /* Topic3Specifics.plist in Resources */ = {isa = PBXBuildFile; fileRef = E238138F15BC5B31008C1ABC /* Topic3Specifics.plist */; };
-		E238139815BC5B31008C1ABC /* Topic4Specifics.plist in Resources */ = {isa = PBXBuildFile; fileRef = E238139015BC5B31008C1ABC /* Topic4Specifics.plist */; };
-		E241DAFC162901A700468184 /* evaporation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241DAFB162901A700468184 /* evaporation.mp3 */; };
-		E241DAFE1629020900468184 /* precipitation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241DAFD1629020900468184 /* precipitation.mp3 */; };
-		E241DB001629021200468184 /* runoff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241DAFF1629021200468184 /* runoff.mp3 */; };
-		E241DB021629022700468184 /* condensation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241DB011629022700468184 /* condensation.mp3 */; };
 		E24D3DDF15BC6583006E87AC /* stage1bgtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24D3DD915BC6583006E87AC /* stage1bgtrack.mp3 */; };
 		E24D3DE015BC6583006E87AC /* stage2bgtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24D3DDA15BC6583006E87AC /* stage2bgtrack.mp3 */; };
 		E24D3DE115BC6583006E87AC /* stage3bgtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24D3DDB15BC6583006E87AC /* stage3bgtrack.mp3 */; };
@@ -1424,7 +1413,6 @@
 		1B147A4114B8346E00353E77 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		1B147A6714B83B9200353E77 /* ConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigManager.h; sourceTree = "<group>"; };
 		1B147A6814B83B9200353E77 /* ConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigManager.m; sourceTree = "<group>"; };
-		1B147A6F14B8FA8B00353E77 /* AllTopics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AllTopics.plist; sourceTree = "<group>"; };
 		1B2E82AD151DD06D0017B95F /* InfoLayerExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoLayerExtra.h; sourceTree = "<group>"; };
 		1B2E82AE151DD06D0017B95F /* InfoLayerExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoLayerExtra.m; sourceTree = "<group>"; };
 		1B2E82B1151E73540017B95F /* quiz_textbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_textbox.png; sourceTree = "<group>"; };
@@ -1556,16 +1544,6 @@
 		1BFE30FD15E0BB0F00513F65 /* CCUITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCUITextView.m; path = SLCommon/CCUITextView.m; sourceTree = "<group>"; };
 		1BFE30FF15E0BB1A00513F65 /* CCUIActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCUIActivityIndicatorView.h; path = SLCommon/CCUIActivityIndicatorView.h; sourceTree = "<group>"; };
 		1BFE310015E0BB1A00513F65 /* CCUIActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCUIActivityIndicatorView.m; path = SLCommon/CCUIActivityIndicatorView.m; sourceTree = "<group>"; };
-		E238138B15BC5B31008C1ABC /* App.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = App.plist; sourceTree = "<group>"; };
-		E238138C15BC5B31008C1ABC /* Quiz.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Quiz.plist; sourceTree = "<group>"; };
-		E238138D15BC5B31008C1ABC /* Topic1Specifics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Topic1Specifics.plist; sourceTree = "<group>"; };
-		E238138E15BC5B31008C1ABC /* Topic2Specifics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Topic2Specifics.plist; sourceTree = "<group>"; };
-		E238138F15BC5B31008C1ABC /* Topic3Specifics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Topic3Specifics.plist; sourceTree = "<group>"; };
-		E238139015BC5B31008C1ABC /* Topic4Specifics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Topic4Specifics.plist; sourceTree = "<group>"; };
-		E241DAFB162901A700468184 /* evaporation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = evaporation.mp3; sourceTree = "<group>"; };
-		E241DAFD1629020900468184 /* precipitation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = precipitation.mp3; sourceTree = "<group>"; };
-		E241DAFF1629021200468184 /* runoff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = runoff.mp3; sourceTree = "<group>"; };
-		E241DB011629022700468184 /* condensation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = condensation.mp3; sourceTree = "<group>"; };
 		E24D3DD915BC6583006E87AC /* stage1bgtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stage1bgtrack.mp3; sourceTree = "<group>"; };
 		E24D3DDA15BC6583006E87AC /* stage2bgtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stage2bgtrack.mp3; sourceTree = "<group>"; };
 		E24D3DDB15BC6583006E87AC /* stage3bgtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stage3bgtrack.mp3; sourceTree = "<group>"; };
@@ -2547,13 +2525,6 @@
 		1B1478FD14B82F9800353E77 /* Plists */ = {
 			isa = PBXGroup;
 			children = (
-				E238138B15BC5B31008C1ABC /* App.plist */,
-				E238138C15BC5B31008C1ABC /* Quiz.plist */,
-				E238138D15BC5B31008C1ABC /* Topic1Specifics.plist */,
-				E238138E15BC5B31008C1ABC /* Topic2Specifics.plist */,
-				E238138F15BC5B31008C1ABC /* Topic3Specifics.plist */,
-				E238139015BC5B31008C1ABC /* Topic4Specifics.plist */,
-				1B147A6F14B8FA8B00353E77 /* AllTopics.plist */,
 				1B14790714B82FB000353E77 /* SoundEffects.plist */,
 				1B2E82D0151EE2000017B95F /* FactorySettings.plist */,
 				047BDC87154CC550004D02CF /* MatchingGame.plist */,
@@ -2605,10 +2576,6 @@
 		1B14792514B8305700353E77 /* Voice Over */ = {
 			isa = PBXGroup;
 			children = (
-				E241DB011629022700468184 /* condensation.mp3 */,
-				E241DAFF1629021200468184 /* runoff.mp3 */,
-				E241DAFD1629020900468184 /* precipitation.mp3 */,
-				E241DAFB162901A700468184 /* evaporation.mp3 */,
 			);
 			name = "Voice Over";
 			sourceTree = "<group>";
@@ -3451,7 +3418,6 @@
 				1B147A5714B8346E00353E77 /* Email.png in Resources */,
 				1B147A6414B8346F00353E77 /* voiceoverslider.png in Resources */,
 				1B147A6514B8346F00353E77 /* placeholder.png in Resources */,
-				1B147A7014B8FA8C00353E77 /* AllTopics.plist in Resources */,
 				1B14620C1518509200A824C8 /* photo.png in Resources */,
 				1B14620E1518509D00A824C8 /* video.png in Resources */,
 				1B8FCBB1151DB1100018AB0D /* edit_exit.png in Resources */,
@@ -3494,12 +3460,6 @@
 				0482511E156985CF0034BA77 /* winner_badge.png in Resources */,
 				047B28C81577DBC700B7D80E /* second_place.png in Resources */,
 				04B382A515A55798005BF7AB /* Music-Matching-Game.mp3 in Resources */,
-				E238139315BC5B31008C1ABC /* App.plist in Resources */,
-				E238139415BC5B31008C1ABC /* Quiz.plist in Resources */,
-				E238139515BC5B31008C1ABC /* Topic1Specifics.plist in Resources */,
-				E238139615BC5B31008C1ABC /* Topic2Specifics.plist in Resources */,
-				E238139715BC5B31008C1ABC /* Topic3Specifics.plist in Resources */,
-				E238139815BC5B31008C1ABC /* Topic4Specifics.plist in Resources */,
 				E261721915BC5BD1009BC407 /* Music - Game.mp3 in Resources */,
 				E261721A15BC5BD1009BC407 /* Music - Menu page.mp3 in Resources */,
 				E24D3DDF15BC6583006E87AC /* stage1bgtrack.mp3 in Resources */,
@@ -3523,10 +3483,6 @@
 				041A8121160C41DA0010C70A /* main_text_arrow_right.png in Resources */,
 				04903B171627F753003FF094 /* 72x72.png in Resources */,
 				04903B191627F757003FF094 /* 144x144.png in Resources */,
-				E241DAFC162901A700468184 /* evaporation.mp3 in Resources */,
-				E241DAFE1629020900468184 /* precipitation.mp3 in Resources */,
-				E241DB001629021200468184 /* runoff.mp3 in Resources */,
-				E241DB021629022700468184 /* condensation.mp3 in Resources */,
 				04F3D60D162BF161001733F6 /* evaporation_icon.png in Resources */,
 				04F3D60E162BF161001733F6 /* evaporation_icon_bigger.png in Resources */,
 				04F3D618162BF248001733F6 /* condensation_icon_bigger.png in Resources */,
