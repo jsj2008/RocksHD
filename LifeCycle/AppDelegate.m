@@ -169,7 +169,7 @@
 	[[FlowAndStateManager sharedFlowAndStateManager] setupAudioEngine];
     
     // Basic plist validation
-    [[PlistValidator sharedPlistValidator] validateQuizDictionary];
+   // [[PlistValidator sharedPlistValidator] validateQuizDictionary];
     
     AppInfo *appInfo = [ModelManager sharedModelManger].appInfo;
     int totalTopics = appInfo.numberOfTopics.intValue;
@@ -206,8 +206,6 @@
                 GalleryItemInfo *item = [gallery.items objectAtIndex:k];
                 item.guid = [NSString stringWithFormat:@"%@-%@",gallery.uid,item.uid];
                 item.filename = [NSString stringWithFormat:@"%@.jpg",item.guid];
-
-                
 
                 
                 [starterImages addObject:item.guid];
