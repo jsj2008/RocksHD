@@ -877,7 +877,7 @@
         
         <hotspotsOnBackground version="1" uid="1">
             <backgroundImage>rockhotspotimage1.png</backgroundImage>
-            <backgroundText>Rock cycle</backgroundText>
+            <backgroundText>Various stages of the rock cycle</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
             <hotspot version="1" uid="1" type="largeContent">
@@ -893,13 +893,13 @@
                 <keyImageTitle>rock</keyImageTitle>
                 <bound>
                     <x>439.0</x>
-                    <y>629.0</y>
+                    <y>659.0</y>
                     <width>108.0</width>
                     <height>87.0</height>
                 </bound>
                 <frame>
                     <x>439.0</x>
-                    <y>629.0</y>
+                    <y>659.0</y>
                     <width>108.0</width>
                     <height>87.0</height>
                 </frame>
@@ -986,14 +986,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>rock</keyImageTitle>
                 <bound>
-                    <x>274</x>
-                    <y>565</y>
+                    <x>234</x>
+                    <y>585</y>
                     <width>108.0</width>
                     <height>87</height>
                 </bound>
                 <frame>
-                    <x>274</x>
-                    <y>565</y>
+                    <x>234</x>
+                    <y>585</y>
                     <width>108</width>
                     <height>87</height>
                 </frame>
@@ -1080,13 +1080,13 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>170</x>
+                    <x>100</x>
                     <y>374</y>
                     <width>108.0</width>
                     <height>87</height>
                 </bound>
                 <frame>
-                    <x>170</x>
+                    <x>100</x>
                     <y>374</y>
                     <width>108</width>
                     <height>87</height>
@@ -1174,14 +1174,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>208</x>
-                    <y>183</y>
+                    <x>148</x>
+                    <y>163</y>
                     <width>108.0</width>
                     <height>87</height>
                 </bound>
                 <frame>
-                    <x>208</x>
-                    <y>183</y>
+                    <x>148</x>
+                    <y>163</y>
                     <width>108</width>
                     <height>87</height>
                 </frame>
@@ -1268,14 +1268,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>354</x>
-                    <y>78</y>
+                    <x>334</x>
+                    <y>38</y>
                     <width>108.0</width>
                     <height>87</height>
                 </bound>
                 <frame>
-                    <x>354</x>
-                    <y>78</y>
+                    <x>334</x>
+                    <y>38</y>
                     <width>108</width>
                     <height>87</height>
                 </frame>
@@ -1362,14 +1362,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>608</x>
-                    <y>90</y>
+                    <x>623</x>
+                    <y>65</y>
                     <width>108.0</width>
                     <height>87</height>
                 </bound>
                 <frame>
-                    <x>608</x>
-                    <y>90</y>
+                    <x>623</x>
+                    <y>65</y>
                     <width>108</width>
                     <height>87</height>
                 </frame>
@@ -1456,14 +1456,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>718</x>
-                    <y>210</y>
+                    <x>788</x>
+                    <y>200</y>
                     <width>108.0</width>
                     <height>87</height>
                 </bound>
                 <frame>
-                    <x>718</x>
-                    <y>210</y>
+                    <x>788</x>
+                    <y>200</y>
                     <width>108</width>
                     <height>87</height>
                 </frame>
@@ -1550,14 +1550,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>739</x>
-                    <y>404</y>
+                    <x>819</x>
+                    <y>414</y>
                     <width>108.0</width>
                     <height>87</height>
                 </bound>
                 <frame>
-                    <x>739</x>
-                    <y>404</y>
+                    <x>819</x>
+                    <y>414</y>
                     <width>108</width>
                     <height>87</height>
                 </frame>
@@ -1644,14 +1644,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>658</x>
-                    <y>547</y>
+                    <x>698</x>
+                    <y>577</y>
                     <width>108.0</width>
                     <height>87</height>
                 </bound>
                 <frame>
-                    <x>658</x>
-                    <y>547</y>
+                    <x>698</x>
+                    <y>577</y>
                     <width>108</width>
                     <height>87</height>
                 </frame>
@@ -1729,7 +1729,7 @@
         
         <hotspotsOnBackground version="1" uid="2">
             <backgroundImage>rockhotspotimage2.png</backgroundImage>
-            <backgroundText>Lava flow into an ocean</backgroundText>
+            <backgroundText>Lava flow reaching an ocean and forming igneous rock</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
 			<hotspot version="1" uid="1" type="largeContent">
@@ -1744,14 +1744,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
+                    <x>400</x>
+                    <y>425</y>
                     <width>140.0</width>
                     <height>112.0</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
+                    <x>400</x>
+                    <y>425</y>
                     <width>140.0</width>
                     <height>112.0</height>
                 </frame>
@@ -1838,14 +1838,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
+                    <x>480</x>
+                    <y>425</y>
                     <width>242.5</width>
                     <height>127.5</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
+                    <x>480</x>
+                    <y>425</y>
                     <width>242.5</width>
                     <height>127.5</height>
                 </frame>
@@ -1923,8 +1923,9 @@
         
         <hotspotsOnBackground version="1" uid="3">
             <backgroundImage>rockhotspotimage3.png</backgroundImage>
-            <backgroundText>Layers of the Earth</backgroundText>
+            <backgroundText>Various layers of the Earth</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
+            
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Oceanic crust</title>
@@ -1937,16 +1938,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>409</x>
+                    <y>679</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>409</x>
+                    <y>679</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -2031,16 +2032,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>310</x>
+                    <y>641</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>310</x>
+                    <y>641</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -2125,16 +2126,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>243</x>
+                    <y>607</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>243</x>
+                    <y>607</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -2219,16 +2220,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>186</x>
+                    <y>572</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>186</x>
+                    <y>572</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -2313,16 +2314,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>120</x>
+                    <y>540</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>120</x>
+                    <y>540</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -2407,16 +2408,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>171</x>
+                    <y>503</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>171</x>
+                    <y>503</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -2501,16 +2502,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>29</x>
+                    <y>433</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>29</x>
+                    <y>433</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -2595,16 +2596,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>75</x>
+                    <y>471</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>75</x>
+                    <y>471</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -2694,16 +2695,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>602</x>
+                    <y>206</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>602</x>
+                    <y>206</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -2788,16 +2789,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>410</x>
+                    <y>401</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>410</x>
+                    <y>401</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -2882,16 +2883,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>828</x>
+                    <y>537</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>828</x>
+                    <y>537</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -2976,16 +2977,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>74</x>
+                    <y>466</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>74</x>
+                    <y>466</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -3070,16 +3071,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>579</x>
+                    <y>434</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>579</x>
+                    <y>434</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -3164,16 +3165,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>265</x>
+                    <y>575</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>265</x>
+                    <y>575</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -3263,16 +3264,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>719</x>
+                    <y>606</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>719</x>
+                    <y>606</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -3357,16 +3358,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>372</x>
+                    <y>346</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>372</x>
+                    <y>346</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -3456,16 +3457,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>563</x>
+                    <y>255</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>563</x>
+                    <y>255</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -3550,16 +3551,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>61</x>
+                    <y>510</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>61</x>
+                    <y>510</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -3650,16 +3651,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>481</x>
+                    <y>364</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>481</x>
+                    <y>364</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -3744,16 +3745,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>928</x>
+                    <y>459</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>928</x>
+                    <y>459</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -3844,16 +3845,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>383</x>
+                    <y>338</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>383</x>
+                    <y>338</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -3938,16 +3939,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>531</x>
+                    <y>107</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>531</x>
+                    <y>107</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -4886,16 +4887,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>87</x>
+                    <y>653</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>87</x>
+                    <y>653</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -4980,16 +4981,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>377</x>
+                    <y>649</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>377</x>
+                    <y>649</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -5074,14 +5075,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>682</x>
+                    <y>648</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
+                    <x>682</x>
+                    <y>648</y>
                     <width>242.5</width>
                     <height>127.5</height>
                 </frame>
@@ -5168,16 +5169,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>902</x>
+                    <y>646</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>902</x>
+                    <y>646</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -5268,16 +5269,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>501</x>
+                    <y>365</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>501</x>
+                    <y>365</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -5362,14 +5363,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
+                    <x>384</x>
+                    <y>612</y>
                     <width>242.5</width>
                     <height>127.5</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
+                    <x>384</x>
+                    <y>612</y>
                     <width>242.5</width>
                     <height>127.5</height>
                 </frame>
@@ -5462,16 +5463,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>469</x>
+                    <y>649</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>469</x>
+                    <y>649</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -5556,16 +5557,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>354</x>
+                    <y>341</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>354</x>
+                    <y>341</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -5656,16 +5657,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>635</x>
+                    <y>273</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>635</x>
+                    <y>273</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -5750,16 +5751,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>401</x>
+                    <y>341</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>401</x>
+                    <y>341</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -5852,14 +5853,14 @@
                 <bound>
                     <x>830.0</x>
                     <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
                     <x>830.0</x>
                     <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -7084,16 +7085,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>483</x>
+                    <y>654</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>483</x>
+                    <y>654</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -7178,14 +7179,14 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>175</x>
+                    <y>496</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
+                    <x>175</x>
+                    <y>496</y>
                     <width>242.5</width>
                     <height>127.5</height>
                 </frame>
@@ -7273,16 +7274,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>175</x>
+                    <y>214</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>175</x>
+                    <y>214</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -7367,16 +7368,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>485</x>
+                    <y>56</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>485</x>
+                    <y>56</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -7461,16 +7462,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>803</x>
+                    <y>215</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>803</x>
+                    <y>215</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -7555,16 +7556,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>794</x>
+                    <y>496</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>794</x>
+                    <y>496</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -7655,16 +7656,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>612</x>
+                    <y>625</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>612</x>
+                    <y>625</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -7749,16 +7750,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>825</x>
+                    <y>550</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>825</x>
+                    <y>550</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -7843,16 +7844,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>464</x>
+                    <y>376</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>464</x>
+                    <y>376</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -7937,204 +7938,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
-                </bound>
-                <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
-                </frame>
-                <largerFrame>
-                    <x>150</x>
+                    <x>689</x>
                     <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>rocks-4.jpg</url>
-                        <description></description>
-                        <attribution>Photo by Tony Kent</attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="2">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>rocks-5.jpg</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="3">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>rocks-6.jpg</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="4">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="5">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="6">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-			
-			<hotspot version="1" uid="5" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>C Horizon</title>
-                <text>C Horizon is also called regolith. This layer beneath the B Horizon and above the R Horizon. It consists of slightly broken-up bedrock. Plant roots do not penetrate into this layer; very little organic material is found in this layer.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Cool Kangaroo</keyImageTitle>
-                <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
-                </frame>
-                <largerFrame>
-                    <x>150</x>
+                    <x>689</x>
                     <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>rocks-4.jpg</url>
-                        <description></description>
-                        <attribution>Photo by Tony Kent</attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="2">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>rocks-5.jpg</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="3">
-                        <title>Desert</title>
-                        <type>photo</type>
-                        <thumbnail></thumbnail>
-                        <url>rocks-6.jpg</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                    <item version="1" uid="4">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/-St-I3qRFQE/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/-St-I3qRFQE</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="5">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/VwADGPfjerI/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/VwADGPfjerI</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                    <item version="1" uid="6">
-                        <title></title>
-                        <type>video</type>
-                        <thumbnail>http://img.youtube.com/vi/7Ifk9IJl0A0/0.jpg</thumbnail>
-                        <url>http://www.youtube.com/embed/7Ifk9IJl0A0</url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-			
-			<hotspot version="1" uid="6" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>R Horizon</title>
-                <text>R Horizon - The unweathered rock (bedrock) layer that is beneath all the other layers.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Cool Kangaroo</keyImageTitle>
-                <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
-                </bound>
-                <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -8225,16 +8038,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>320</x>
+                    <y>491</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>320</x>
+                    <y>491</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -8319,16 +8132,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>643</x>
+                    <y>217</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>643</x>
+                    <y>217</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -8419,16 +8232,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>382</x>
+                    <y>265</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>382</x>
+                    <y>265</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -8513,16 +8326,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>915</x>
+                    <y>284</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>915</x>
+                    <y>284</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -8613,16 +8426,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>642</x>
+                    <y>316</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>642</x>
+                    <y>316</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -8707,16 +8520,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>910</x>
+                    <y>420</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>910</x>
+                    <y>420</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -8807,16 +8620,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>375</x>
+                    <y>121</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>375</x>
+                    <y>121</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -8901,16 +8714,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>93</x>
+                    <y>218</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>93</x>
+                    <y>218</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -8995,16 +8808,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>888</x>
+                    <y>660</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>888</x>
+                    <y>660</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -9095,16 +8908,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>655</x>
+                    <y>304</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>655</x>
+                    <y>304</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -9189,16 +9002,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>590</x>
+                    <y>132</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>590</x>
+                    <y>132</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -9289,16 +9102,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>331</x>
+                    <y>541</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>331</x>
+                    <y>541</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -9383,16 +9196,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>574</x>
+                    <y>309</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>574</x>
+                    <y>309</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -10323,16 +10136,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>393</x>
+                    <y>282</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>393</x>
+                    <y>282</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -10417,16 +10230,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>520</x>
+                    <y>414</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>520</x>
+                    <y>414</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -10518,16 +10331,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>630</x>
+                    <y>456</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>630</x>
+                    <y>456</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -10612,16 +10425,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>306</x>
+                    <y>594</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>306</x>
+                    <y>594</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -10697,7 +10510,7 @@
         
         <hotspotsOnBackground version="1" uid="3">
             <backgroundImage>fossilhotspotimage3.png</backgroundImage>
-            <backgroundText>Petrified wood</backgroundText>
+            <backgroundText>Petrified wood or wood that has been turned to stone</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
 			<hotspot version="1" uid="1" type="largeContent">
@@ -10712,16 +10525,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>357</x>
+                    <y>563</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>357</x>
+                    <y>563</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -10806,16 +10619,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>756</x>
+                    <y>306</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>756</x>
+                    <y>306</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -10906,16 +10719,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>329</x>
+                    <y>446</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>329</x>
+                    <y>446</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -11000,16 +10813,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>515</x>
+                    <y>675</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>515</x>
+                    <y>675</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -11100,16 +10913,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>242</x>
+                    <y>440</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>242</x>
+                    <y>440</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -11194,16 +11007,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>861</x>
+                    <y>241</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>861</x>
+                    <y>241</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -11294,16 +11107,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>415</x>
+                    <y>217</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>415</x>
+                    <y>217</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -11388,16 +11201,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>425</x>
+                    <y>530</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>425</x>
+                    <y>530</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -11488,16 +11301,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>529</x>
+                    <y>627</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>529</x>
+                    <y>627</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -11582,16 +11395,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>456</x>
+                    <y>429</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>456</x>
+                    <y>429</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -11682,16 +11495,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>440</x>
+                    <y>496</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>440</x>
+                    <y>496</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
@@ -11776,16 +11589,16 @@
                 <keyImage>rocks-icon-ipadhd.png</keyImage>
                 <keyImageTitle>Cool Kangaroo</keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>603</x>
+                    <y>315</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>603</x>
+                    <y>315</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>150</x>
