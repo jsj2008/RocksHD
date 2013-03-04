@@ -514,9 +514,9 @@
 }
 
 -(void)addAudioControl {
-    self.audioItemImage = [CCMenuItemImage itemFromNormalImage:@"main_text_audio_on.png"
-                                                         selectedImage:@"main_text_audio_off.png"
-                                                         disabledImage:@"main_text_audio_off.png" 
+    self.audioItemImage = [CCMenuItemImage itemFromNormalImage:@"vol-button-on.png"
+                                                         selectedImage:@"vol-button-off.png"
+                                                         disabledImage:@"vol-button-off.png" 
                                                                 target:self
                                                               selector:@selector(audio:)];
     
