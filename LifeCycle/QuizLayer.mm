@@ -225,9 +225,9 @@
     
     CGPoint audio_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kQuizAudioButtonTag];
     
-    self.audioItemImage = [CCMenuItemImage itemFromNormalImage:@"audio_on.png" 
-                                                         selectedImage:@"audio_off.png"
-                                                         disabledImage:@"audio_off.png" 
+    self.audioItemImage = [CCMenuItemImage itemFromNormalImage:@"vol-button-on.png"
+                                                         selectedImage:@"vol-button-off.png"
+                                                         disabledImage:@"vol-button-off.png"
                                                                 target:self
                                                               selector:@selector(audio:)];
     
