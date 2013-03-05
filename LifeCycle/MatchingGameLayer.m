@@ -418,7 +418,7 @@
         
          srandom(time(NULL));
         GalleryManager *gman = [GalleryManager getInstance];
-        [gman syncAllGalleries];
+       // [gman syncAllGalleries];
         
         self.lastDisplayedPhoto = @"";
         lastDisplayedPhotos = [[NSMutableArray alloc] init];

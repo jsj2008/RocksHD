@@ -8,6 +8,7 @@
 
 #import "SLCCPhotoSlides.h"
 #import "CCImageReflector.h"
+#import "AppConfigManager.h"
 
 @interface SLCCPhotoSlides (Private) 
 @end
@@ -85,7 +86,16 @@
     float height = internal_contentSize.height;
     
     glEnable(GL_SCISSOR_TEST);
-    glScissor(self.position.x - width*0.5, self.position.y - height*0.5, width, height);
+    
+    AppConfigManager *cfg = [AppConfigManager getInstance];
+    int scale = 1;
+    if ([cfg isRetinaDisplay])
+    {
+        scale = 2;
+    }
+   
+    
+    glScissor((self.position.x - width*0.5)*scale, (self.position.y - height*0.5)*scale, width*scale, height*scale);
     [super visit];
     glDisable(GL_SCISSOR_TEST);
 }

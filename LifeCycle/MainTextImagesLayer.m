@@ -785,8 +785,8 @@
     if (self) {
         srandom(time(NULL));
         
-        GalleryManager *gman = [GalleryManager getInstance];
-        [gman syncAllGalleries];
+     //   GalleryManager *gman = [GalleryManager getInstance];
+    // [gman syncAllGalleries];
 
         
         // set background to white 

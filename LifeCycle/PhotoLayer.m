@@ -419,6 +419,7 @@
         debugLog(@"texture is in cache");
         s = [CCSprite spriteWithTexture:t];
         //[plsWaitIndicator stopAnimating];
+
     }
     else {
         

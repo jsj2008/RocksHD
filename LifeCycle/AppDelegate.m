@@ -204,11 +204,17 @@
             // populate starter images
             for (int k=0; k< [gallery.items count]; k++) {
                 GalleryItemInfo *item = [gallery.items objectAtIndex:k];
-                item.guid = [NSString stringWithFormat:@"%@-%@",gallery.uid,item.uid];
-                item.filename = [NSString stringWithFormat:@"%@.jpg",item.guid];
-
                 
-                [starterImages addObject:item.guid];
+                if ([item.type isEqualToString:@"photo"])
+                {
+                    item.guid = [NSString stringWithFormat:@"%@-%@",gallery.uid,item.uid];
+                    item.filename = [NSString stringWithFormat:@"%@.jpg",item.guid];
+                    [starterImages addObject:item.guid];
+                }
+                else
+                {
+                    debugLog(@"skip video");
+                }
             }
             
             
