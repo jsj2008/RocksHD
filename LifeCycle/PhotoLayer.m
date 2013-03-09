@@ -169,7 +169,7 @@
 -(void)addTitle{
     
     NSString *imageNameTemplate =     topicInfo.mainTextTitleImageName;
-
+    
     
     NSString *imageName  = [NSString stringWithFormat:@"%@.png",imageNameTemplate];
     NSString *biggerImageName  = [NSString stringWithFormat:@"%@_bigger.png",imageNameTemplate];
@@ -211,7 +211,7 @@
     }
     
     [slides reset];
-
+    
     [[FlowAndStateManager sharedFlowAndStateManager] runSceneWithID:kTopicInteractiveScene withTranstion:kCCTransitionPageTurnBackward];
     return;
     
@@ -356,8 +356,8 @@
     slides.tag = kPhotoSliderTag;
     slides.dataSource = self;
     slides.delegate = self;
-   slides.position = ccp(screenSize.width*0.5f, screenSize.height*0.5f);
-
+    slides.position = ccp(screenSize.width*0.5f, screenSize.height*0.5f);
+    
     slides.fixedSize = CGSizeMake(640.0, 480.0);
     //slides.fixedSize = CGSizeMake(640.0, 480.0);
     
@@ -419,7 +419,7 @@
         debugLog(@"texture is in cache");
         s = [CCSprite spriteWithTexture:t];
         //[plsWaitIndicator stopAnimating];
-
+        [self resizeTo:s toSize:CGSizeMake(640, 480)];
     }
     else {
         
@@ -433,7 +433,7 @@
             UIImage *image = [UIImage imageWithData:imageData];
             
             debugLog(@"add to CGImage");
-            [[CCTextureCache sharedTextureCache] addCGImage:[image CGImage] forKey:imageName];
+            //            [[CCTextureCache sharedTextureCache] addCGImage:[image CGImage] forKey:imageName];
             debugLog(@"create the sprint from CGImage");
             s = [CCSprite spriteWithCGImage:image.CGImage key:imageName];
             
@@ -470,22 +470,27 @@
 -(void) replaceSpriteTextureForSprite:(CCSprite *) sprite withSavedImageNamed:(NSString *)imageName {
     
     // try to see if there's a cache hit b4 doing disk i/o
-    CCTexture2D *t = [[CCTextureCache sharedTextureCache] textureForKey:imageName];
-    if (t != nil) {
-        [sprite setTexture:t];
-        
-        CGSize size = [self retrieveImageSizeFromDoc:imageName];
-        [sprite setTextureRect:CGRectMake(0, 0, size.width, size.height)];
-    }
-    else {
+    //    CCTexture2D *t = [[CCTextureCache sharedTextureCache] textureForKey:imageName];
+    //    if (t != nil) {
+    //        [sprite setTexture:t];
+    //
+    //        CGSize size = [self retrieveImageSizeFromDoc:imageName];
+    //        [sprite setTextureRect:CGRectMake(0, 0, size.width, size.height)];
+    //        [self resizeTo:sprite toSize:CGSizeMake(640, 480)];
+    //    }
+    //    else
+    {
         NSData *imageData = [self retrieveImageDataFromDoc:imageName];
         
         if (imageData != nil) {
             UIImage *image = [UIImage imageWithData:imageData];
-            [[CCTextureCache sharedTextureCache] addCGImage:[image CGImage] forKey:imageName];
-            [sprite setTexture:[[CCTextureCache sharedTextureCache] textureForKey:imageName]];
-            [sprite setTextureRect:CGRectMake(0, 0, image.size.width, image.size.height)];
+            //            [[CCTextureCache sharedTextureCache] addCGImage:[image CGImage] forKey:imageName];
+            //            [sprite setTexture:[[CCTextureCache sharedTextureCache] textureForKey:imageName]];
+            //            [sprite setTextureRect:CGRectMake(0, 0, image.size.width, image.size.height)];
+            [sprite removeFromParent];
+            sprite = [CCSprite spriteWithCGImage:image.CGImage key:imageName];
             
+            [self resizeTo:sprite toSize:CGSizeMake(640, 480)];
             //[plsWaitIndicator stopAnimating];
         }
         else {
@@ -494,6 +499,7 @@
             //[plsWaitIndicator startAnimating];
         }
     }
+    
 }
 
 -(void) replaceReflectedSpriteTextureForSprite:(CCSprite *)sprite withSavedImageNamed:(NSString *)imageName {
@@ -621,71 +627,72 @@
             CCLOG(@"Image key found %@",filename);
             
             imageVisible = (CCSprite*)[sLCCPhotoSlides dequeueReusableObject];
-            if (imageVisible == nil) {
+            [imageVisible removeFromParentAndCleanup:YES];
+//            if (imageVisible == nil) {
                 
-                debugLog(@"Image not visible");
+  //              debugLog(@"Image not visible");
                 imageVisible = [self makeNewSpriteWithSavedImageNamed:filename];
-            }
-            else {
-                debugLog(@"Image visible, replace");
-                [self replaceSpriteTextureForSprite:imageVisible withSavedImageNamed:filename];
-            }
-        
-        
-        
-        
-        
-    }
-    else {
-        
-        CCLOG(@"Image key noe found, show wait image");
-        imageVisible = (CCSprite*)[sLCCPhotoSlides dequeueReusableObject];
-        if (imageVisible == nil)
-            imageVisible = [self makeNewSpriteWithImageNamed:@"PhotoSlidesPleaseWait.png"];
-        else
-            [self replaceSpriteTextureForSprite:imageVisible withTextureCacheKey:@"PhotoSlidesPleaseWait.png"];
-        
-        //[plsWaitIndicator startAnimating];
-    }
-    
-    
-    
-    
-    
-    return imageVisible;
-}
-else {
-    
-    // For reflection
-    NSString *imageKey = [self.urlArray objectAtIndex:index];
-    NSString *photoId = [photoIdArray objectAtIndex:index];
-    
-    CCSprite *reflectedImageVisible = nil;
-    
-    if (imageKey != nil) {
-        reflectedImageVisible = (CCSprite*) [sLCCPhotoSlides dequeueReusableObject];
-        if (reflectedImageVisible == nil) {
-            reflectedImageVisible = [self makeNewReflectedSpriteWithSavedImageNamed:[NSString stringWithFormat:@"%@.jpg", photoId]];
+    //        }
+      //      else {
+        //        debugLog(@"Image visible, replace");
+          //      [self replaceSpriteTextureForSprite:imageVisible withSavedImageNamed:filename];
+           // }
+            
+            
+            
+            
+            
         }
         else {
-            [self replaceReflectedSpriteTextureForSprite:reflectedImageVisible withSavedImageNamed:[NSString stringWithFormat:@"%@.jpg", photoId]];
+            
+            CCLOG(@"Image key noe found, show wait image");
+            imageVisible = (CCSprite*)[sLCCPhotoSlides dequeueReusableObject];
+            if (imageVisible == nil)
+                imageVisible = [self makeNewSpriteWithImageNamed:@"PhotoSlidesPleaseWait.png"];
+            else
+                [self replaceSpriteTextureForSprite:imageVisible withTextureCacheKey:@"PhotoSlidesPleaseWait.png"];
+            
+            //[plsWaitIndicator startAnimating];
         }
+        
+        
+        
+        
+        
+        return imageVisible;
     }
     else {
-        reflectedImageVisible = (CCSprite *)[sLCCPhotoSlides dequeueReusableObject];
-        if (reflectedImageVisible == nil)
-            reflectedImageVisible = [self makeNewReflectedSpriteWithImageNamed:@"PhotoSlidesPleaseWait.png"];
-        else
-            [self replaceReflectedSpriteTextureForSprite:reflectedImageVisible withTextureCacheKey:@"PhotoSlidesPleaseWait.png"];
+        
+        // For reflection
+        NSString *imageKey = [self.urlArray objectAtIndex:index];
+        NSString *photoId = [photoIdArray objectAtIndex:index];
+        
+        CCSprite *reflectedImageVisible = nil;
+        
+        if (imageKey != nil) {
+            reflectedImageVisible = (CCSprite*) [sLCCPhotoSlides dequeueReusableObject];
+            if (reflectedImageVisible == nil) {
+                reflectedImageVisible = [self makeNewReflectedSpriteWithSavedImageNamed:[NSString stringWithFormat:@"%@.jpg", photoId]];
+            }
+            else {
+                [self replaceReflectedSpriteTextureForSprite:reflectedImageVisible withSavedImageNamed:[NSString stringWithFormat:@"%@.jpg", photoId]];
+            }
+        }
+        else {
+            reflectedImageVisible = (CCSprite *)[sLCCPhotoSlides dequeueReusableObject];
+            if (reflectedImageVisible == nil)
+                reflectedImageVisible = [self makeNewReflectedSpriteWithImageNamed:@"PhotoSlidesPleaseWait.png"];
+            else
+                [self replaceReflectedSpriteTextureForSprite:reflectedImageVisible withTextureCacheKey:@"PhotoSlidesPleaseWait.png"];
+            
+        }
+        
+        return reflectedImageVisible;
         
     }
     
-    return reflectedImageVisible;
     
-}
-
-
-
+    
 }
 
 #pragma mark - SLCCPhotoSlidesDelegate
@@ -812,6 +819,8 @@ else {
 }
 
 -(void) saveImageSizeToDoc:(CGSize)size withImageName:(NSString*)imageName {
+    
+    CCLOG(@"PhotoLayer: saveImageSizeToDoc");
     
     NSString *docDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
     NSString *filePath = [NSString stringWithFormat:@"%@/imageInfo.plist", docDir];
