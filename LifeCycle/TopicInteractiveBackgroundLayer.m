@@ -102,6 +102,7 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
     CCLabelTTF *textLabel = (CCLabelTTF *)[self getChildByTag:kBackgroundTextTag];
     if (textLabel == nil) {
         textLabel = [CCLabelTTF labelWithString:bgInfo.backgroundText fontName:@"Arial" fontSize:25.0];
+        // hotspot popup background text
         textLabel.tag = kBackgroundTextTag;
 //        [self assignPositionFromXMLForNode:textLabel];
                 textLabel.position = CGPointMake(512,25);

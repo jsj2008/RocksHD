@@ -813,8 +813,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Sedimentation</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>439.0</x>
                     <y>659.0</y>
@@ -828,10 +828,10 @@
                     <height>87.0</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
 					<gallery version="1" uid="australia">
@@ -857,8 +857,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Sedimentary rock</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>234</x>
                     <y>585</y>
@@ -872,10 +872,10 @@
                     <height>87</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -901,8 +901,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Metamorphism</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>100</x>
                     <y>374</y>
@@ -916,10 +916,10 @@
                     <height>87</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -945,8 +945,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Metamorphic rock</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>148</x>
                     <y>163</y>
@@ -960,10 +960,10 @@
                     <height>87</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -989,8 +989,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Melting</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>334</x>
                     <y>38</y>
@@ -1004,10 +1004,10 @@
                     <height>87</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1033,8 +1033,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Magma</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>623</x>
                     <y>65</y>
@@ -1048,10 +1048,10 @@
                     <height>87</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1077,8 +1077,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Crystallization</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>788</x>
                     <y>200</y>
@@ -1092,10 +1092,10 @@
                     <height>87</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1121,8 +1121,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Igneous rock</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>819</x>
                     <y>414</y>
@@ -1136,10 +1136,10 @@
                     <height>87</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1165,8 +1165,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Erosion</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>698</x>
                     <y>577</y>
@@ -1180,10 +1180,10 @@
                     <height>87</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1215,8 +1215,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Lava flow</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>400</x>
                     <y>425</y>
@@ -1230,10 +1230,10 @@
                     <height>112.0</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1259,8 +1259,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Igneous rock</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>480</x>
                     <y>425</y>
@@ -1274,10 +1274,10 @@
                     <height>127.5</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1309,8 +1309,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Layers of the Earth</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>409</x>
                     <y>679</y>
@@ -1324,10 +1324,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1353,8 +1353,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Continental crust</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>310</x>
                     <y>641</y>
@@ -1368,10 +1368,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1397,8 +1397,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Lithosphere</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>243</x>
                     <y>607</y>
@@ -1412,10 +1412,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1441,8 +1441,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Asthenosphere</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>186</x>
                     <y>572</y>
@@ -1456,10 +1456,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1485,8 +1485,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Mantle</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>120</x>
                     <y>540</y>
@@ -1500,10 +1500,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1529,8 +1529,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Lower Mantle</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>171</x>
                     <y>503</y>
@@ -1544,10 +1544,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1573,8 +1573,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Inner core</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>29</x>
                     <y>433</y>
@@ -1588,10 +1588,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1617,8 +1617,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Outer core</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>75</x>
                     <y>471</y>
@@ -1632,10 +1632,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1667,8 +1667,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Magmachamber</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>602</x>
                     <y>206</y>
@@ -1682,10 +1682,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1711,8 +1711,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Dike</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>410</x>
                     <y>401</y>
@@ -1726,10 +1726,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1755,8 +1755,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Laccolith</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>828</x>
                     <y>537</y>
@@ -1770,10 +1770,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1799,8 +1799,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Pegmatite</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>74</x>
                     <y>466</y>
@@ -1814,10 +1814,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1843,8 +1843,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Sill</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>579</x>
                     <y>434</y>
@@ -1858,10 +1858,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1887,8 +1887,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Stratovolcano</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>265</x>
                     <y>575</y>
@@ -1902,10 +1902,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1937,8 +1937,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Cape Spencer</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>719</x>
                     <y>606</y>
@@ -1952,10 +1952,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -1981,8 +1981,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Igneous or metamorphic rocks</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>372</x>
                     <y>346</y>
@@ -1996,10 +1996,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -2031,8 +2031,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Travertine</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>563</x>
                     <y>255</y>
@@ -2046,10 +2046,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -2075,8 +2075,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Yellowstone</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>61</x>
                     <y>510</y>
@@ -2090,10 +2090,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -2125,8 +2125,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Grand Canyon</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>481</x>
                     <y>364</y>
@@ -2140,10 +2140,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -2169,8 +2169,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Sedimentary rocks</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>928</x>
                     <y>459</y>
@@ -2184,10 +2184,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -2219,8 +2219,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Granite</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>383</x>
                     <y>338</y>
@@ -2234,10 +2234,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -2263,8 +2263,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Quarry</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>531</x>
                     <y>107</y>
@@ -2278,10 +2278,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3089,8 +3089,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Lazurite</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>87</x>
                     <y>653</y>
@@ -3104,10 +3104,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3133,8 +3133,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Tigers eye</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>377</x>
                     <y>649</y>
@@ -3148,10 +3148,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3177,8 +3177,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Moss agate</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>682</x>
                     <y>648</y>
@@ -3192,10 +3192,10 @@
                     <height>127.5</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3221,8 +3221,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Sodalite</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>902</x>
                     <y>646</y>
@@ -3236,10 +3236,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3271,8 +3271,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Open pit mine</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>501</x>
                     <y>365</y>
@@ -3286,10 +3286,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3315,8 +3315,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Udachnaya pipe</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>384</x>
                     <y>612</y>
@@ -3330,10 +3330,10 @@
                     <height>127.5</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3365,8 +3365,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Kalgoorlie gold mine</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>469</x>
                     <y>649</y>
@@ -3380,10 +3380,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3409,8 +3409,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Gold mines</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>354</x>
                     <y>341</y>
@@ -3424,10 +3424,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3459,8 +3459,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Kittila</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>635</x>
                     <y>273</y>
@@ -3474,10 +3474,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3503,8 +3503,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Gold</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>401</x>
                     <y>341</y>
@@ -3518,10 +3518,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3553,8 +3553,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>830.0</x>
                     <y>353.0</y>
@@ -3568,10 +3568,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3597,8 +3597,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>275.5</x>
                     <y>299.0</y>
@@ -3612,10 +3612,10 @@
                     <height>127.5</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3647,8 +3647,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>830.0</x>
                     <y>353.0</y>
@@ -3662,10 +3662,10 @@
                     <height>112.0</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -3691,8 +3691,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>275.5</x>
                     <y>299.0</y>
@@ -3706,10 +3706,10 @@
                     <height>127.5</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -4510,8 +4510,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Peaty soil</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>483</x>
                     <y>654</y>
@@ -4525,10 +4525,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -4554,8 +4554,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>175</x>
                     <y>496</y>
@@ -4569,10 +4569,10 @@
                     <height>127.5</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -4586,7 +4586,8 @@
                         <status>A</status>
                         <tags>match,gallery</tags>
                     </item>
-                </gallery>            </hotspot>
+                </gallery>
+            </hotspot>
 			
 			<hotspot version="1" uid="3" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -4597,8 +4598,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Sandy Soil</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>175</x>
                     <y>214</y>
@@ -4612,10 +4613,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -4641,8 +4642,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Chalky soil</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>485</x>
                     <y>56</y>
@@ -4656,10 +4657,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -4685,8 +4686,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Loamy soil</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>803</x>
                     <y>215</y>
@@ -4700,10 +4701,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -4729,8 +4730,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Silty soil</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>794</x>
                     <y>496</y>
@@ -4744,10 +4745,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -4779,8 +4780,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>O Horizon</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>612</x>
                     <y>625</y>
@@ -4794,10 +4795,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -4823,8 +4824,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>A Horizon</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>825</x>
                     <y>550</y>
@@ -4838,10 +4839,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -4867,8 +4868,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>E Horizon</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>464</x>
                     <y>376</y>
@@ -4882,10 +4883,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -4911,8 +4912,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Cool Kangaroo</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>689</x>
                     <y>150</y>
@@ -4926,10 +4927,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -4961,8 +4962,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Termites</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>320</x>
                     <y>491</y>
@@ -4976,10 +4977,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5005,8 +5006,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Termites</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>643</x>
                     <y>217</y>
@@ -5020,10 +5021,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5055,8 +5056,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Tufa</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>382</x>
                     <y>265</y>
@@ -5070,10 +5071,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5099,8 +5100,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Mono lake</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>915</x>
                     <y>284</y>
@@ -5114,10 +5115,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5149,8 +5150,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Delicate arch</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>642</x>
                     <y>316</y>
@@ -5164,10 +5165,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5193,8 +5194,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Arches National Park</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>910</x>
                     <y>420</y>
@@ -5208,10 +5209,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5243,8 +5244,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Delicate Arch</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>375</x>
                     <y>121</y>
@@ -5258,10 +5259,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5287,8 +5288,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Courthouse towers</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>93</x>
                     <y>218</y>
@@ -5302,10 +5303,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5331,8 +5332,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Balanced rock</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>888</x>
                     <y>660</y>
@@ -5346,10 +5347,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5381,8 +5382,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Plants</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>655</x>
                     <y>304</y>
@@ -5396,10 +5397,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5425,8 +5426,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Erosion by water</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>590</x>
                     <y>132</y>
@@ -5440,10 +5441,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5475,8 +5476,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Glaciers</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>331</x>
                     <y>541</y>
@@ -5490,10 +5491,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -5519,8 +5520,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Glacial erosion</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>574</x>
                     <y>309</y>
@@ -5534,10 +5535,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6336,8 +6337,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Amber</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>393</x>
                     <y>282</y>
@@ -6351,10 +6352,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6380,8 +6381,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Amber</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>520</x>
                     <y>414</y>
@@ -6395,10 +6396,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6431,8 +6432,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Fossilized fern</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>630</x>
                     <y>456</y>
@@ -6446,10 +6447,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6475,8 +6476,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Coal</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>306</x>
                     <y>594</y>
@@ -6490,10 +6491,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6525,8 +6526,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Petrified wood</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>357</x>
                     <y>563</y>
@@ -6540,10 +6541,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6569,8 +6570,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Petrified wood</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>756</x>
                     <y>306</y>
@@ -6584,10 +6585,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6619,8 +6620,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Katsura</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>329</x>
                     <y>446</y>
@@ -6634,10 +6635,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6663,8 +6664,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Fur formation</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>515</x>
                     <y>675</y>
@@ -6678,10 +6679,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6713,8 +6714,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Dinosaur footprints</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>242</x>
                     <y>440</y>
@@ -6728,10 +6729,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6757,8 +6758,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Trace fossils</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>861</x>
                     <y>241</y>
@@ -6772,10 +6773,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6807,8 +6808,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Dinosaur</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>415</x>
                     <y>217</y>
@@ -6822,10 +6823,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6851,8 +6852,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Fossil teeth</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>425</x>
                     <y>530</y>
@@ -6866,10 +6867,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6901,8 +6902,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Paleontologist</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>529</x>
                     <y>627</y>
@@ -6916,10 +6917,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6945,8 +6946,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Paleontologist tools</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>456</x>
                     <y>429</y>
@@ -6960,10 +6961,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -6995,8 +6996,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Ammonites</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>440</x>
                     <y>496</y>
@@ -7010,10 +7011,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">
@@ -7039,8 +7040,8 @@
                 <textColor>white</textColor>
                 <alpha></alpha>
                 <flippable>NO</flippable>
-                <keyImage>rocks-icon-ipadhd.png</keyImage>
-                <keyImageTitle>Ammonite index fossil</keyImageTitle>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
                 <bound>
                     <x>603</x>
                     <y>315</y>
@@ -7054,10 +7055,10 @@
                     <height>40</height>
                 </frame>
                 <largerFrame>
-                    <x>150</x>
-                    <y>150</y>
-                    <width>724.0</width>
-                    <height>468.0</height>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
                 </largerFrame>
                 
                 <gallery version="1" uid="australia">

@@ -106,7 +106,9 @@ typedef enum {
         uiView.frame = frame;
         uiView.layer.cornerRadius = 10;
         uiView.clipsToBounds = YES;
-        uiView.layer.borderColor = [[UIColor colorWithRed:41.0/255.0 green:219.0/255.0 blue:57.0/255.0 alpha:1] CGColor];
+        
+        //Hotspot popup view border color
+        uiView.layer.borderColor = [[UIColor colorWithRed:10.0/255.0 green:10.0/255.0 blue:185.0/255.0 alpha:1] CGColor];
         uiView.layer.borderWidth = 4.0f;
         
         uiView.layer.masksToBounds = NO;
