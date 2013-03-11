@@ -11,7 +11,8 @@
 #import "PlistManager.h"
 #import "ScrollableCCLabelTTF.h"
 #import "CCImageReflector.h"
-
+#import "AppInfo.h"
+#import "ModelManager.h"
 @implementation InfoLayer
 
 // i m a small change
@@ -31,7 +32,10 @@
     // mainTextPane.anchorPoint = ccp(0.0, 1.0);
     [self addChild:infoPane z:0 tag:kInfoPaneTag];
     
-    NSString *txt = [(NSString *)[[[PlistManager sharedPlistManager] appDictionary] objectForKey:@"infotext"] stringByReplacingOccurrencesOfString:@"\\n" withString:@"\n"];
+    AppInfo *appInfo = [ModelManager sharedModelManger].appInfo;
+    NSString *txt = appInfo.info;
+
+    txt = [txt stringByReplacingOccurrencesOfString:@"\\n" withString:@"\n"];
     
     NSString *text = [txt stringByReplacingOccurrencesOfString:@"\\t" withString:@"\t"];
     
@@ -42,14 +46,13 @@
     // TODO:FIX
     
     
-    ScrollableCCLabelTTF *infoLabel = [[ScrollableCCLabelTTF alloc]
-                                      initWithString:text
-                                      dimensions:CGSizeMake(screenSize.width*0.5,
-                                                            screenSize.height*2.0)
-                                      hAlignment:kCCTextAlignmentLeft
-                                      fontName:@"AmericanTypewriter" 
-                                      fontSize:20];
+    debugLog(@"create the scroll lable");
     
+    ScrollableCCLabelTTF *infoLabel = [[ScrollableCCLabelTTF alloc] initWithString:text fontName:@"AmericanTypewriter"  fontSize:20 dimensions:CGSizeMake(screenSize.width*0.5,
+                                                                                                                                                          screenSize.height*2.0) hAlignment:kCCTextAlignmentLeft];
+    
+
+    debugLog(@"After label created");    
     infoLabel.color = ccc3(1.0, 1.0, 1.0);
     infoLabel.anchorPoint = ccp(0.0, 1.0);
     
@@ -69,9 +72,9 @@
 }
 
 -(void)addMenu {
-    CCMenuItemImage *home = [CCMenuItemImage itemFromNormalImage:@"home.png" 
-                                                   selectedImage:@"home_bigger.png"
-                                                   disabledImage:@"home.png"
+    CCMenuItemImage *home = [CCMenuItemImage itemFromNormalImage:@"home-button.png"
+                                                   selectedImage:@"home-button.png"
+                                                   disabledImage:@"home-button.png"
                                                           target:self selector:@selector(goHome)];
     home.position = ccp(0.0f, 0.0f);
     home.tag = kInfoHomeButtonTag;
