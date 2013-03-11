@@ -2308,10 +2308,9 @@
         <mainText>
             \n What is a mineral? Minerals such as gold, calcium and sodium are the building blocks of rocks. They are inorganic. That is, although rocks may contain matter from plants and animals, minerals do not. Minerals are purely chemical. They are typically solid at room temperature.
             \n Minerals are made of the elements listed on the Periodic Table. Minerals may consist of just one element, such as gold, or they can be combinations of elements. Quartz, for example, is made of silicon and oxygen.
-            \n Plants and animals must adapt to be able to survive the desert’s tough conditions. Desert plants like cactus have thick and fleshy stems to store water. They also have spiny leaves to prevent loss of water through transpiration, which is similar to sweating.
             \n Scientists classify minerals in several ways. Some categories are color, luster, hardness, specific  gravity, and cleavage or how the mineral breaks. 
             \n When you're identifying minerals, color is helpful but not enough. Many minerals are found in multiple colors. Also, minerals may be impure; extra chemicals can change their color. Diamonds are made in every color of the rainbow.
-            \n “Luster” describes how a mineral reflects light. Some terms used to describe luster are brilliant, metallic, silky and dull. 
+            \n "Luster" describes how a mineral reflects light. Some terms used to describe luster are brilliant, metallic, silky and dull.
             \n Hardness is another way to classify a mineral. Hardness is measured by scratching a mineral. Diamonds are the hardest mineral on earth; they can scratch anything.
             \n Specific gravity refers to density. Two mineral chunks of the same size can have different weights. Specific gravity can be measured by comparing a mineral's weight to an equal volume of water.
             \n Cleavage and other characteristics of breakage help people classify minerals. For example, some crystals break with jagged edges. Others break along smooth planes.
@@ -2319,7 +2318,7 @@
         </mainText>
         <mainTextTitleImageName>text-background.png</mainTextTitleImageName>
         <backgroundTrackName>ecosystem_stage2bgtrack.mp3</backgroundTrackName>
-        <voiceoverTrackName>Deserts.mp3</voiceoverTrackName>
+        <voiceoverTrackName>Minerals.mp3</voiceoverTrackName>
         <images>
             <item uid="0">
                 <name>Desert-P1.png</name>
@@ -2397,10 +2396,26 @@
 
         <voiceoverPacings>
             <voiceoverPacingsTime>
-                4,4,4,1,4.2,4.4,4.4,4.2,4.1,3.7,3.7,3.5,3.5,3.6,1.3,4,4,3,3,3.6,3.6,3.6,3.8,3.6,3.4,3.4,3.5,3.0,3
+                4.5,4,4,4,4,1.5,
+                4.5,4.0,4.0,4.0,1,
+                3.7,5.0,3.5,
+                4,4,4,4.5,
+                4,4,2,
+                4,4,4,2,
+                4,4,4,2.5,
+                4,3,3,1,
+                3.5,5,2.2
             </voiceoverPacingsTime>
             <voiceoverPacingsSpace>
-                -40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-40.0,-80.0,-40.0
+                -40.0,-40.0,-40.0,-40.0,-40.0,-80.0,
+                -40.0,-40.0,-40.0,-40.0,-80.0,
+                -40.0,-40.0,-80.0,
+                -40.0,-40.0,-40.0,-40.0,-80.0,
+                -40.0,-40.0,-80.0,
+                -40.0,-40.0,-40.0,-80.0,
+                -40.0,-40.0,-40.0,-80.0,
+                -40.0,-40.0,-40.0,-80.0,
+                -40.0,-40.0
             </voiceoverPacingsSpace>
         </voiceoverPacings>
         
