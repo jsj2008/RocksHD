@@ -3283,14 +3283,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>902</x>
-                    <y>646</y>
+                    <x>350</x>
+                    <y>464</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>902</x>
-                    <y>646</y>
+                    <x>350</x>
+                    <y>464</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -3327,14 +3327,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>902</x>
-                    <y>646</y>
+                    <x>611</x>
+                    <y>461</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>902</x>
-                    <y>646</y>
+                    <x>611</x>
+                    <y>461</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -3371,14 +3371,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>902</x>
-                    <y>646</y>
+                    <x>117</x>
+                    <y>265</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>902</x>
-                    <y>646</y>
+                    <x>117</x>
+                    <y>265</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -3688,7 +3688,7 @@
         
         <hotspotsOnBackground version="1" uid="5">
             <backgroundImage>mineralhotspotimage5.png</backgroundImage>
-            <backgroundText>Diamond and graphite are allotropes or pure forms of carbon but with different crystal structures</backgroundText>
+            <backgroundText>Diamond and graphite are allotropes (pure forms) of carbon with different crystal structures</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
 			<hotspot version="1" uid="1" type="largeContent">
@@ -3703,14 +3703,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
+                    <x>225</x>
+                    <y>173</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
+                    <x>225</x>
+                    <y>173</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -3747,16 +3747,16 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>751</x>
+                    <y>161</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>751</x>
+                    <y>161</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -3791,16 +3791,16 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>708</x>
+                    <y>561</y>
+                    <width>60</width>
+                    <height>400</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>708</x>
+                    <y>561</y>
+                    <width>60</width>
+                    <height>400</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -3835,16 +3835,16 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>245</x>
+                    <y>774</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>245</x>
+                    <y>774</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -3885,16 +3885,16 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>225</x>
+                    <y>570</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>225</x>
+                    <y>570</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -3929,16 +3929,16 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>878</x>
+                    <y>389</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>878</x>
+                    <y>389</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -3964,13 +3964,13 @@
 		
 		<hotspotsOnBackground version="1" uid="7">
             <backgroundImage>mineralhotspotimage7.png</backgroundImage>
-            <backgroundText>Minerals can be identified using fluorescence. \n\nChemicals in the minerals emit visible light when exposed to UV radiation.\n\n Typically, if a mineral is pure and has no contaminants, then it will not fluoresce. </backgroundText>
+            <backgroundText>Minerals can be identified using fluorescence. </backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Fluorescence</title>
-                <text>Chemicals in the minerals can absorb UV radation and emit radiation in the visible wavelengths that we can see.\n\n</text>
+                <text>Chemicals in the minerals can absorb UV radation and emit radiation in the visible wavelengths that we can see.\n\nTypically, if a mineral is pure and has no contaminants, then it will not fluoresce.</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -3981,14 +3981,14 @@
                 <bound>
                     <x>830.0</x>
                     <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
                     <x>830.0</x>
                     <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -4025,14 +4025,14 @@
                 <bound>
                     <x>275.5</x>
                     <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
                     <x>275.5</x>
                     <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
