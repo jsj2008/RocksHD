@@ -834,7 +834,7 @@
                     <height>340.0</height>
                 </largerFrame>
                 
-					<gallery version="1" uid="australia">
+                <gallery version="1" uid="australia">
                     <item version="1" uid="1">
                         <title></title>
                         <type></type>
@@ -939,7 +939,7 @@
             <hotspot version="1" uid="4" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Metamorphic rocks</title>
-                <text>Extreme heat and pressure can cause significant physical and/or chemical changes in a rock.\n\nThe process of metamorphism transforms existing igneous, older metamorphic or sedimentary rocks into metamorphic rocks. \n\nThe original rock is known as the protolith. \n</text>
+                <text>Extreme heat and pressure can cause significant physical and/or chemical changes in a rock.\n\nThe process of metamorphism transforms existing rocks that can be igneous, metamorphic or sedimentary into metamorphic rocks. \n\nThe original rock is known as the protolith. \n</text>
                 <fontSize>45.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1027,7 +1027,7 @@
             <hotspot version="1" uid="6" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Magma</title>
-                <text>Magma is a mixture of molten rock, solids, crystals, gases, and other chemicals that is found beneath the surface of the Earth.\n</text>
+                <text>Magma is a mixture of molten rock, solids, crystals, gases, and other chemicals, that is found beneath the surface of the Earth.\n</text>
                 <fontSize>45.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1115,7 +1115,7 @@
             <hotspot version="1" uid="8" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Igneous rocks</title>
-                <text>Igneous rocks are formed when lava or magma cool and solidify. \n\nIgneous rocks that form from magma are known as intrusive or plutonic rocks while those formed from lava are known as extrusive or volcanic rocks.\n</text>
+                <text>Igneous rocks are formed when lava or magma cool and solidify. \n\nIgneous rocks that are formed from magma are known as intrusive or plutonic rocks while those that are formed from lava are known as extrusive or volcanic rocks.\n</text>
                 <fontSize>45.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1159,7 +1159,7 @@
             <hotspot version="1" uid="9" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Erosion</title>
-                <text>Erosion is the natural process by which wind, water, glaciers, and ice remove soil and rock from the Earth's surface and move and deposit them in a different location.\n</text>
+                <text>Erosion is a natural process by which wind, water, glaciers, and ice remove soil and rock from the Earth's surface and move and deposit them in a different location.\n</text>
                 <fontSize>45.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1209,7 +1209,7 @@
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Lava</title>
-                <text>Lava is molten rock that comes out of a volcano. After it cools and solidifies it forms igneous rock. \n\nLava can be at very high temperatures ranging from 750C-1300C. In this picture, lava flow reaching the ocean is being cooled by the water to form a lava delta. \n\nLava deltas can collapse without warning since they are very unstable. The steam produced when the lava and water react is very hot and can contain particles of volcanic rock.\n</text>
+                <text>Lava is molten rock that comes out of a volcano. After it cools and solidifies it forms igneous rock. \n\nLava can be at very high temperatures ranging from approximately 700C to over 1200C. \n\nIn this picture, lava flow reaching the ocean is being cooled by the water to form a lava delta. Lava deltas can collapse without warning since they are very unstable. \n\nThe steam produced when the lava and water react is very hot and can contain particles of volcanic rock.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1253,7 +1253,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Igneous rock formation</title>
-                <text>Igneous rocks are formed when lava or magma cool and solidify. \n\nIgneous rocks that form from magma are also known as intrusive or plutonic rocks while those formed from lava are known as extrusive or volcanic rocks. \n\nThere are three types of igneous rocks based on their composition: felsic or silicic that is high in silica and aluminum, intermediate or andesitic that is lower in silica and aluminum, and mafic or basaltic that is high in iron and magnesium.\n</text>
+                <text>Igneous rocks are formed when lava or magma cool and solidify. \n\nIgneous rocks that form from magma are also known as intrusive or plutonic rocks while those formed from lava are known as extrusive or volcanic rocks. \n\nThere are three types of igneous rocks based on their composition: \n\n 1. Rocks with high silica and aluminum are known as felsic or silicic. \n\n 2. Rocks with lower amounts of silica and aluminum are known as intermediate or andesitic, and \n\n 3. Rocks that are high in iron and magneisum are  known as mafic or basaltic \n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1297,13 +1297,13 @@
         
         <hotspotsOnBackground version="1" uid="3">
             <backgroundImage>rockhotspotimage3.png</backgroundImage>
-            <backgroundText>The Earth is made of many different layers. Rocks are part of the Earth's crust.</backgroundText>
+            <backgroundText>The Earth is made of many different layers. Rocks are a part of the Earth's crust.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Oceanic crust</title>
-                <text>Oceanic crust is formed when liquid lava cools quickly under the oceans. This is the outermost layer of the Earth's lithosphere.\n</text>
+                <text>Oceanic crust is formed when liquid lava cools quickly under the oceans. \n\nThis is the outermost layer of the Earth's lithosphere.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1391,7 +1391,7 @@
 			<hotspot version="1" uid="3" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Lithosphere</title>
-                <text>Earth's lithosphere comprises the oceanic and continental crust and the outermost solid layer of the mantle. The Lithosphere is made up of the tectonic plates.\n</text>
+                <text>Earth's lithosphere comprises the oceanic and continental crust and the outermost solid layer of the mantle. \n\nThe Lithosphere is made up of the tectonic plates.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1435,7 +1435,7 @@
 			<hotspot version="1" uid="4" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Asthenosphere</title>
-                <text>Asthenosphere is the upper layer of the mantle and is located below the lithosphere.\n\nIt comprises rocks that can be deformed and is typically associated with plate tectonics or large scale movement of the Earth's lithosphere.\n</text>
+                <text>Asthenosphere is the upper layer of the mantle and is located below the lithosphere.\n\nIt has rocks that can be deformed and is typically associated with large scale movement of the Earth's lithosphere or plate tectonics.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1479,7 +1479,7 @@
 			<hotspot version="1" uid="5" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Mantle</title>
-                <text>84% of the Earth's volume is in the mantle. \n\nDid you know that the mantle is a rocky shell? \n\nThe upper mantle starts at the base of the crust and extends to about 250 miles. It is made of magnesium and iron silicates such as olivine and pyroxene. \n\nThe upper mantle is rigid on the top and is made of liquid rock below.\n</text>
+                <text>Over 80% of the Earth's volume is in the mantle. \n\nDid you know that the mantle is a rocky shell? \n\nThe upper mantle starts at the base of the crust and extends to about 250 miles. It is made of magnesium and iron silicates such as olivine and pyroxene. \n\nThe upper mantle is rigid on the top and is made of liquid rock below.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1523,7 +1523,7 @@
 			<hotspot version="1" uid="6" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Lower Mantle</title>
-                <text>The lower mantle contains silicon, magnesium and oxygen and has 50% of the mass of the planet. It is hotter and denser than the upper mantle.\n</text>
+                <text>The lower mantle contains silicon, magnesium and oxygen and has 50% of the mass of the planet. \n\nIt is hotter and denser than the upper mantle.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1567,7 +1567,7 @@
 			<hotspot version="1" uid="7" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Inner core</title>
-                <text>The inner core is 780 miles thick and is very hot (10,000F). Despite the extremely high temperature, the inner core is solid due to very high pressures. \n</text>
+                <text>The inner core is approximately 780 miles thick and is very hot (over 10,000F). \n\nDespite the extremely high temperature, the inner core is solid due to very high pressures. \n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1611,7 +1611,7 @@
 			<hotspot version="1" uid="8" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Outer core</title>
-                <text>The outer core is made of iron, nickel, sulfur, and oxygen. It is cooler than the inner core (7200-9000F) and is liquid.\n</text>
+                <text>The outer core is made of iron, nickel, sulfur, and oxygen. \n\nIt is cooler than the inner core (7200-9000F) and is liquid.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1661,7 +1661,7 @@
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Magmachamber or Batholith</title>
-                <text>This region shows a magmachamber or batholith, which means deep rock. \n\nWhen magma cools deep inside the Earth's crust and transforms into intrusive igneous or plutonic rock in a particular location it forms a batholith. \n\nTypically, batholiths are made of granite or quartz. Sometimes multiple plutons or individual rocks can converge to form a large expanse of granite rock.\n\n The Sierra Nevada Batholith that makes up a vast portion of the Sierra Nevada mountains in California is one such example.\n</text>
+                <text>This region shows a magmachamber or batholith, which means deep rock. \n\nWhen magma cools deep inside the Earth's crust and transforms into intrusive igneous or plutonic rock in a particular location it forms a batholith. \n\nTypically, batholiths are made of granite or quartz. Sometimes multiple individual rocks can converge to form a large mass of granite rock.\n\n The Sierra Nevada Batholith that makes up a vast portion of the Sierra Nevada mountains in California is one such example.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1749,7 +1749,7 @@
 			<hotspot version="1" uid="3" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Laccolith</title>
-                <text>This region shows the formation of a laccolith. \n\nA laccolith is a sheet like formation of intrusive igneous rock between two layers of sedimentary rock. \n\nSince the magma from which the igneous rocks form has high pressure, it can force an upward movement of the existing sedimentary rock thus forming a dome or mushroom shape with a flat base.\n</text>
+                <text>This region shows the formation of a laccolith. \n\nA laccolith is a sheet like formation of intrusive igneous rock between two layers of sedimentary rock. \n\nSince the magma has high pressure, it can force an upward movement of the existing sedimentary rock thus forming a dome or mushroom shape with a flat base.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1931,7 +1931,7 @@
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Cape Spencer</title>
-                <text>This is a picture taken at Cape Spencer at the entrance to the Cross Sound near Juneau in the Glacier Bay National Park in Alaska. This is the northernmost entrance to Alaska's Inland Passage.\n</text>
+                <text>This is a picture taken at Cape Spencer at the entrance to the Cross Sound near Juneau in the Glacier Bay National Park in Alaska. \n\nThis is the northernmost entrance to Alaska's Inland Passage.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -2025,7 +2025,7 @@
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Travertine</title>
-                <text>Travertine is a type of sedimentary rock formed by precipitation of carbonate minerals. \n\nIis a type of natural stone like marble, slate, granite, limestone etc. \n\nIt is typically formed in hot mineral springs and limetone caves and has different color and hardness compared to the other natural stones and\n</text>
+                <text>Travertine is a type of sedimentary rock formed by precipitation of carbonate minerals. \n\nIt is a type of natural stone like marble, slate, granite, limestone etc. \n\nTravertine typically forms in hot mineral springs and limetone caves and has different color and hardness compared to the other natural stones.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -3098,7 +3098,7 @@
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Lazurite</title>
-                <text>Lazurite derives its name from Lazhward meaning blue in Persian. \n\nIt is also known as ultramarine and is a component of Lapis Lazuli, which is a rock made of lazurite, calcite (calcium carbonte) and pyrite (iron sulfide). It is formed in metamorphosed limestone.\n</text>
+                <text>Lazurite derives its name from the Persian word, Lazhward, meaning blue. \n\nIt is also known as ultramarine and is a component of Lapis Lazuli, which is a rock made of lazurite, calcite (calcium carbonte) and pyrite (iron sulfide). \n\nIt is formed in metamorphosed limestone.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -3142,7 +3142,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Tigers Eye</title>
-                <text>Tiger's eye is a metamorphic rock that is golden or red brown in color. It is a type of quartz and exhibits a cat's eye effect because of parallel growth of quartz crystals between limonite. \n</text>
+                <text>Tiger's eye is a metamorphic rock that is golden or red brown in color. \n\nIt is a type of quartz and exhibits a cat's eye effect because of parallel growth of quartz crystals between limonite. \n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -3270,6 +3270,138 @@
                     </item>
                 </gallery>
             </hotspot>
+			
+			<hotspot version="1" uid="5" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Aragonite</title>
+                <text>Aragonite is a form of calcium carbonate.\n\n It is crystalline in nature, but has a different crystal structure compared to calcite.\n\n Since Aragonite is unstable, it converts to calcite over very long periods of time.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>902</x>
+                    <y>646</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>902</x>
+                    <y>646</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+				
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+			
+			<hotspot version="1" uid="6" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Serpentine</title>
+                <text>Serpentine minerals are typically olive green in color and are thus also known as Serpent rock.\n\n These rocks are made of silicates of magnesium and iron that combine in the presence of water to form rock.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>902</x>
+                    <y>646</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>902</x>
+                    <y>646</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+			
+			<hotspot version="1" uid="7" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Unakite</title>
+                <text>A semiprecious granite-based stone that occurs in shades of green and pink, Unakite is used in jewelry and other decorative items.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>902</x>
+                    <y>646</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>902</x>
+                    <y>646</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+				
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
         </hotspotsOnBackground>
         
         <hotspotsOnBackground version="1" uid="2">
@@ -3280,7 +3412,7 @@
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Open pit mine</title>
-                <text>Open pit mines are used to extract rocks and minerals that are found near the surface. \n\nThe mines start small and then keep getting larger until the mineral resource has been completely extracted or it becomes difficult to mine. \n\nWhat happens to the land after the mine has been exhausted?\n\n At the end of it life, an open pit mine is rehabilitated or returned to is former state. Mines are typically covered with soil and vegetation is planted.</text>
+                <text>Open pit mines are used to extract rocks and minerals that are found near the surface. \n\nThe mines start small and then keep getting larger until the mineral resource has been completely extracted or it becomes difficult to mine. \n\nWhat happens to the land after the mine has been exhausted?\n\n At the end of it life, an open pit mine is rehabilitated or returned to is former state. Mines are typically covered with soil and then vegetation is planted.</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -3324,7 +3456,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Udachnaya diamond mine</title>
-                <text>Udachnaya pipe meaning lucky pipe in Russian, is an open pit diamond mine and is part of the Mir pipe. The volcanic rock kimberlite is typically associated with diamond deposits as well as garnets and spinels. Kimberlite pipes are formed as a result of eruption of deep volcanoes and have the shape of a carrot that rises from a dike. \n</text>
+                <text>Udachnaya means lucky in Russian. The Udachnaya pipe is an open pit diamond mine and is a part of the Mir pipe. \n\nThe volcanic rock kimberlite is typically associated with diamond deposits as well as garnets and spinels. \n\nKimberlite pipes are formed as a result of eruption of deep volcanoes and have the shape of a carrot that rises from a dike. \n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -3462,13 +3594,13 @@
         
         <hotspotsOnBackground version="1" uid="4">
             <backgroundImage>mineralhotspotimage4.png</backgroundImage>
-            <backgroundText>The Kittila gold mine is located beneath volcanic and sedimentary rocks.</backgroundText>
+            <backgroundText>The Kittila gold mine in Finland is located beneath volcanic and sedimentary rocks.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Kittila mine</title>
-                <text>Located in the Lapland province of northern Finland, Kittila is an open pit and underground gold mine that is part of the Suurikuusikko gold deposit.\n\n The Kittile mine is one of the largest gold producing mines in Europe and is located beneath volcanic and sedimentary rocks.\n</text>
+                <text>Located in the Lapland province of northern Finland, Kittila is an open pit and underground gold mine that is a part of the Suurikuusikko gold deposit.\n\n The Kittile mine is one of the largest gold producing mines in Europe and is located beneath volcanic and sedimentary rocks.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -3512,7 +3644,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Kittila gold mine</title>
-                <text>Gold is a precious metal that is bright yellow is color and does not get oxidized in air or water. \n\nIt occurs in nature in the form of nuggets or grains since it is less reactive.\n\n Due to its high density, most of the gold is in the core of the Earth.</text>
+                <text>Gold is a precious metal that is bright yellow in color and does not get oxidized in air or water. \n\nIt occurs in nature in the form of nuggets or grains since it is less reactive.\n\n Due to its high density, most of the gold is located in the core of the Earth.</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -3556,13 +3688,13 @@
         
         <hotspotsOnBackground version="1" uid="5">
             <backgroundImage>mineralhotspotimage5.png</backgroundImage>
-            <backgroundText>Mineral collection</backgroundText>
+            <backgroundText>Diamond and graphite are allotropes or pure forms of carbon but with different crystal structures</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
-                <title>Australia, Desert</title>
-                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <title>Diamond</title>
+                <text>In diamond, the carbon atoms are arranged at the corners of a tetrahedron. \n\nEach carbon atom is attached or bonded to four other carbon atoms through covalent bonds. \n\nThis crystal structure gives diamond its hardness. Diamond is the hardest material known.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -3605,8 +3737,96 @@
             
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
-                <title>Australia, Desert</title>
-                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <title>Graphite</title>
+                <text>In graphite, the carbon atoms are arranged as layers of infinite atoms. The atoms are arranged at the corners of a hexagon and are held together by covalent bonds.\n\n The bond between the layers is, however, very weak.\n\nThis layered structure makes graphite smooth and slippery and hence it is used as a lubricant.</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </bound>
+                <frame>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+			
+			<hotspot version="1" uid="3" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Graphite</title>
+                <text>Graphite is an allotrope of carbon.\n\n It is gray or black in color and is a softer, crystalline form of carbon.\n\n It occurs in metamorphic rocks that are rich in carbon.\n\n It can sometimes be found in pegmatites.</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </bound>
+                <frame>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+			
+			<hotspot version="1" uid="4" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Diamond</title>
+                <text>Diamond is an allotrope of carbon and is the hardest known material.\n\n It is typically found in Kimberlite pipes where it is brought to the surface from the mantle where it is formed.\n\nDue to its rigid structure, diamond occurs in a pure form giving it a colorless appearance. </text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -3650,13 +3870,13 @@
 		
 		<hotspotsOnBackground version="1" uid="6">
             <backgroundImage>mineralhotspotimage6.png</backgroundImage>
-            <backgroundText>Rain Forest 1</backgroundText>
+            <backgroundText>Ruby is a precious stone made of Aluminum oxide that is found in marble stone.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
-                <title>Australia, Desert</title>
-                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <title>Ruby</title>
+                <text>Ruby is a precious stone along with diamond, sapphire,and emerald.\n\n It is made of Aluminum oxide. \n\n The pink or blood red color is caused by the presence of Chromium.\n\n Did you know that sapphire is also a form of Aluminum oxide? \n\n. In sapphire, the presence of small amounts of Titanium give the stone, the brilliant blue color.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -3699,8 +3919,196 @@
             
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
-                <title>Australia, Desert</title>
-                <text>Rocks are formed by weathering by wind and water.\n</text>
+                <title>Ruby rock</title>
+                <text>Ruby is found mostly embedded in marble.\n\n First limestone needs to metamorphose into marble.\n\n Subsequently, as molten granite pushes its way into the marble, it removes silica and leaves behind aluminum and oxygen that form the ruby.\n\n Did you know that ruby formation has been associated to the formation of the Himalayas. Most of the world's rubies are found in areas near the Himalayas.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </bound>
+                <frame>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+        </hotspotsOnBackground>
+		
+		<hotspotsOnBackground version="1" uid="7">
+            <backgroundImage>mineralhotspotimage7.png</backgroundImage>
+            <backgroundText>Minerals can be identified using fluorescence. \n\nChemicals in the minerals emit visible light when exposed to UV radiation.\n\n Typically, if a mineral is pure and has no contaminants, then it will not fluoresce. </backgroundText>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
+            
+			<hotspot version="1" uid="1" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Fluorescence</title>
+                <text>Chemicals in the minerals can absorb UV radation and emit radiation in the visible wavelengths that we can see.\n\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>830.0</x>
+                    <y>353.0</y>
+                    <width>140.0</width>
+                    <height>112.0</height>
+                </bound>
+                <frame>
+                    <x>830.0</x>
+                    <y>353.0</y>
+                    <width>140.0</width>
+                    <height>112.0</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            
+            <hotspot version="1" uid="2" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Mineral identification</title>
+                <text>Scientists use many different ways to identify minerals.\n\nColor, hardness, luster, streaks, specific gravity etc are some mineral properties that are used to identify various minerals.\n\n Fluorescence is another technique to identify minerals.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </bound>
+                <frame>
+                    <x>275.5</x>
+                    <y>299.0</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+        </hotspotsOnBackground>
+		
+		<hotspotsOnBackground version="1" uid="8">
+            <backgroundImage>mineralhotspotimage8.png</backgroundImage>
+            <backgroundText>Gemstone pebbles occur in many colors, shapes, and textures.</backgroundText>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
+            
+			<hotspot version="1" uid="1" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Color</title>
+                <text>Minerals have different colors based on the chemical contaminant.\n\n Chromium in Aluminum oxide produces red color, while titanium produces the blue color when present in Aluminum oxide. \n\n </text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>830.0</x>
+                    <y>353.0</y>
+                    <width>140.0</width>
+                    <height>112.0</height>
+                </bound>
+                <frame>
+                    <x>830.0</x>
+                    <y>353.0</y>
+                    <width>140.0</width>
+                    <height>112.0</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            
+            <hotspot version="1" uid="2" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Gems</title>
+                <text>Crystals that have no defects can be cut and polished into gems.\n\n  These semi precious or precious stones can be used to make jewelry and other items.\n\n Certain rocks that are not minerals and some organic materials can also be considered as gemstones.</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -4519,7 +4927,7 @@
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Peaty soil</title>
-                <text>When organic matter decays and accumulates, it forms peaty soil. \n\nDue to how its formed, peaty soil contains more organic matter than most of the soils but has less nutrients. \n\n Peaty soil is generally found in marshy areas.\n</text>
+                <text>Peaty soil is generally found in marshy areas. \n\nSince it is formed by the accumulation and decay of organic matter, peaty soil contains more organic material than most of the soils but has less nutrients. \n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -4563,7 +4971,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Clay soil</title>
-                <text>Clay soil has poor drainage and is prone to water logging. \n\nSince it is formed from the sedimentary deposits from the erosion of rock, it has fine grained material, less air space, and occurs naturally. \n\nA lot of fertilizers need to be added to make clay soil cultivable. \n</text>
+                <text>Clay soil is formed from the accumulation of sedimentary deposits from the erosion of rock.\n\n Clay soil has fine grained material and less air space.\n\n It is thus prone to water logging and has poor drainage.\n\nA lot of fertilizers need to be added to make clay soil cultivable. \n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -4607,7 +5015,7 @@
 			<hotspot version="1" uid="3" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Sandy soil</title>
-                <text>Sandy soil has small rock and mineral particles and is formed from the disintegration of limestone, granite, quartz and other types of rocks.\n\nIf sandy soil has lots of organic material then it can be used for culitvation. \n\nSince it does not retain moisture that can cause root decay, sandy soil is good for plants\n</text>
+                <text>Sandy soil has small rock and mineral particles and is formed from the disintegration of limestone, granite, quartz and other types of rocks.\n\nIf sandy soil has lots of organic material then it can be used for culitvation. \n\nSince it does not retain moisture that can cause root decay, sandy soil is generally good for plants\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -4651,7 +5059,7 @@
 			<hotspot version="1" uid="4" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Chalky soil</title>
-                <text>Chalky soil is alkaline in nature and is prone to dryness. \n\nIt requires more watering and fertlizing than any other type of soil. \n\nSince it also blocks nutrients for the plants, it is often not considered a good soil for plantation.\n</text>
+                <text>Chalky soil is alkaline in nature and is prone to dryness. \n\nIt requires more watering and fertilizing than any other type of soil. \n\nSince it blocks nutrients for the plants, it is often not considered a good soil for plantation.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -4695,7 +5103,7 @@
 			<hotspot version="1" uid="5" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Loamy soil</title>
-                <text>Considered the perfect soil and ideal for culitvation, loamy soil consists of sand, silt and clay. \n\nDue to its texture it can both retain water easily and allow good drainage.\n</text>
+                <text>Considered the perfect soil and ideal for cultivation, loamy soil consists of sand, silt and clay. \n\nDue to its texture, it can retain water easily while allowing good drainage.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -4739,7 +5147,7 @@
 			<hotspot version="1" uid="6" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Silty soil</title>
-                <text>Silty soil is composed of organic materials and minerals like quartz and has more nutrients than sandy soil. \n\nIt is thus considered to be the most fertile soil and is ideal for cultivation since it offers good drainage as well.\n</text>
+                <text>Silty soil is composed of organic material and minerals like quartz. \n\nIt has more nutrients than sandy soil. \n\nSilty soil is considered to be the most fertile soil. It is ideal for cultivation since it offers good drainage.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -4789,7 +5197,7 @@
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Humus</title>
-                <text>The top, organic layer of soil, made up mostly of leaf litter and humus (decomposed organic matter) is known as the O layer or the ogranic horizon.\n</text>
+                <text>The top, organic layer of soil, made up mostly of leaf litter and humus (decomposed organic matter) is known as the O layer or the organic horizon.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -4921,7 +5329,7 @@
 			<hotspot version="1" uid="4" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>B Horizon</title>
-                <text>B Horizon is also called the subsoil. This layer is beneath the E Horizon and above the C Horizon. \n\nIt contains clay and mineral deposits (like iron, aluminum oxides, and calcium carbonate) that it receives from layers above it when mineralized water drips from the soil above.\n</text>
+                <text>B Horizon is also called the subsoil. This layer is beneath the E Horizon and above the C Horizon. \n\nIt contains clay and mineral deposits (iron, aluminum oxides, and calcium carbonate) that it receives from layers above it when mineralized water drips from the soil above.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -4971,7 +5379,7 @@
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Termite mound</title>
-                <text>Termites play a very important role in nutrient cycling of dead plant material by breaking down cellulose and help in soil formation and movement and transportation of soil material.\n</text>
+                <text>Termites play a very important role in nutrient cycling of dead plant material by breaking down cellulose. \n\n They also help in soil formation and movement and transportation of soil material.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -5059,7 +5467,7 @@
 		
 		<hotspotsOnBackground version="1" uid="4">
             <backgroundImage>soilhotspotimage4.png</backgroundImage>
-            <backgroundText>Limestone towers formed from dissolved salts in the runoff water.</backgroundText>
+            <backgroundText>Limestone towers at Mono Lake formed from dissolved salts in the runoff water.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             
             <hotspot version="1" uid="1" type="largeContent">
@@ -5341,7 +5749,7 @@
 			<hotspot version="1" uid="3" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Balanced rock</title>
-                <text>Balanced rock is one of the famous landmarks of the Arches National Park. The top rock is the size of three school buses.\n</text>
+                <text>Balanced rock is one of the famous landmarks of the Arches National Park. \n\nThe top rock is the size of three school buses.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -5391,7 +5799,7 @@
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Plants prevent erosion</title>
-                <text>Plants help prevent erosion by providing a vegetative cover, decreasing runoff, and protecting the soil from wind resulting in lower wind erosion. \n\nFurther, the roots hold the soil together reducing water and wind erosion.\n</text>
+                <text>Plants help prevent erosion by providing vegetative cover, decreasing runoff, and protecting the soil from wind resulting in lower wind erosion. \n\nFurther, the roots hold the soil together reducing water and wind erosion.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -5435,7 +5843,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Erosion by water</title>
-                <text>There are different ways water can erode the landscape. \n\nIn sheet erosion particles loosened by rain splash are transported by flow of water. \n\nIf the erosion happens due to flowing rivulets, it is known as Rill erosion.\n\n ;arge channels can cause Gully erosion.\n\n Rivers and streams and waves can also cause erosion.\n</text>
+                <text>There are different ways water can erode the landscape. \n\nIn sheet erosion particles loosened by rain splash are transported by flow of water. \n\nIf the erosion happens due to flowing rivulets, it is known as Rill erosion.\n\n Large channels of water can cause Gully erosion.\n\n Rivers, streams and waves can also cause erosion.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -5485,7 +5893,7 @@
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Glaciers</title>
-                <text>Glaciers are frozen rivers of ice and sediments that flow downhill. As snow falls it compresses the layers below to form ice. If the ice is formed on a slope, then this massive sheet of ice and snow begins to slowly move downhill. Most glaciers are found near the poles but they also exits on all the continents.\n</text>
+                <text>Glaciers are frozen rivers of ice and sediments that flow downhill. \n\nAs snow falls, it compresses the layers below to form ice. If the ice is formed on a slope, then this massive sheet of ice and snow begins to slowly move downhill. \n\nMost glaciers are found near the poles but they also exits on all the continents.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -5529,7 +5937,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Glacial erosion</title>
-                <text>When glaciers flow over rocks, the ice and sediments in the glacier can act as sandpaper and pulverize the rock below. This process is known as abrasion. This can lead to the formation of deep valleys and mountain slopes. \nGlaciers can also soften and remove blocks of rock. This happens because the water in the glacier can penetrate cracks in the rock. As the water freezes, it expands leading to a fracture in the rock.\n</text>
+                <text>When glaciers flow over rocks, the ice and sediments in the glacier can act as a sandpaper and pulverize the rock below. This process is known as abrasion. \n\n Abrasion can lead to the formation of deep valleys and mountain slopes. \nGlaciers can also soften and remove blocks of rock. This happens because the water in the glacier can penetrate cracks in the rock. As the water freezes, it expands leading to a fracture in the rock.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -6390,7 +6798,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Fossil</title>
-                <text>Fossilized tree resin or Amber can fossilize parts of an organism including small DNA fragments that are otherwise hard to preserve. \n\nThe fossil resins can contain bacteria, fungi, insects, and plants.Some of the oldest ambers recovered are over 130 million years old.\n</text>
+                <text>Fossilized tree resin or Amber can fossilize parts of an organism including small DNA fragments that are otherwise hard to preserve. \n\nThe fossil resins can contain bacteria, fungi, insects, and plants. \n\nSome of the oldest ambers recovered are over 130 million years old.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -6535,7 +6943,7 @@
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Petrified wood</title>
-                <text>Petrified wood means wood turned into rock or stone. \n\nThis picture shows a petrified wood sample where the organic materials in a tree have been replaced by minerals like quartz, while maintaining the original look and shape.\n</text>
+                <text>Petrified wood means wood turned into rock or stone. \n\nThis picture shows a petrified wood sample where the organic materials in the tree have been replaced by minerals like quartz, while maintaining the original look and shape.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -6579,7 +6987,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Formation of petrified wood</title>
-                <text>Petrified wood is unique because it is a three dimensional representation of a fossil. When wood is covered with sediment under the ground in an environment without oxygen, it cannot be decomposed. Water flowing through the sediments can slowly replace the organic materials with minerals. It may take over a 100 years to convert wood to petrified wood.\n</text>
+                <text>Petrified wood is unique because it is a three dimensional representation of a fossil. \n\nWhen wood is covered with sediment under the ground in an environment without oxygen, it cannot be decomposed. Water flowing through the sediments can slowly replace the organic materials with minerals. \n\nIt may take over a 100 years to convert wood to petrified wood.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -6673,7 +7081,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Fur formation</title>
-                <text>The Fur formation in Denmark is a marine geological formation dating back to 55 million years ago. The formation has diatoms (type of algae) and clay covered with volcanic ash and limestone. This formation has lots of fossilized fish, insects, plants, and birds.\n</text>
+                <text>The Fur formation in Denmark is a marine geological formation dating back to 55 million years ago. \n\nThis formation has diatoms (a type of algae) and clay covered with volcanic ash and limestone. Lots of fossilized fish, insects, plants, and birds are seen in the rocks.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -7049,7 +7457,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Ammonite fossil</title>
-                <text>Ammonite fossils make good guide fossils or index fossils.\n\n The rock layers in which Ammonites are found can be linked to various time periods on Earth.</text>
+                <text>Ammonite fossils make good guide fossils or index fossils.\n\n The rock layers in which Ammonites are found can be linked to the various time periods on Earth.</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
