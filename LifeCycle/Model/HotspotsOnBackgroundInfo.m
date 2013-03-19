@@ -18,6 +18,7 @@
 @dynamic backgroundText;
 @dynamic textBackgroundImage;
 @dynamic backgroundTrackName;
+@dynamic attribution;
 
 @dynamic hotspots;
 

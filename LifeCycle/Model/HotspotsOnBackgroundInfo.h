@@ -17,5 +17,5 @@
 @property (nonatomic, retain) NSString *textBackgroundImage;
 @property (nonatomic, retain) NSString *backgroundTrackName;
 @property (nonatomic, retain) NSMutableArray *hotspots;
-
+@property (nonatomic, retain) NSString *attribution;
 @end

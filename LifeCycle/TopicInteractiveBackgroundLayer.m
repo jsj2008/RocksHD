@@ -112,6 +112,22 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
     textLabel.string = bgInfo.backgroundText;
     
     debugLog(@"Bg Text %@",textLabel.string);
+    
+    // add attribution
+
+    NSString *attribution = [NSString stringWithFormat:@"Photo By %@",bgInfo.attribution];
+    CCLabelTTF *textAttributionLabel = (CCLabelTTF *)[self getChildByTag:kBackgroundTextTag + 100];
+    if (textAttributionLabel == nil) {
+        textAttributionLabel = [CCLabelTTF labelWithString:attribution fontName:@"Arial" fontSize:20.0];
+        // hotspot popup background text
+        textAttributionLabel.tag = kBackgroundTextTag + 100;
+        //        [self assignPositionFromXMLForNode:textLabel];
+        textAttributionLabel.position = CGPointMake(512,65);
+        [self addChild:textAttributionLabel z:1000];
+    }
+    
+
+    
 
 }
 
@@ -692,6 +708,21 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
             currentHotspotsFilledBackgroundIndex--;
             HotspotsOnBackgroundInfo *bgInfo = self.info.hotspotsOnBackgrounds[currentHotspotsFilledBackgroundIndex];
             
+            if ([FlowAndStateManager sharedFlowAndStateManager].isMusicON)
+            {
+                [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+                [FlowAndStateManager sharedFlowAndStateManager].isMusicON = NO;
+                debugLog(@"Stop Bg Track");
+                
+                // start based on current hotspot
+                
+                
+                [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
+                [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:bgInfo.backgroundTrackName];
+                
+                
+            }
+            
             [self initializeHotspotsBoundWithInfo:bgInfo];
             [self initializeBackgroundWithInfo:bgInfo];
             [self initializeBackgroundTextWithInfo:bgInfo];
@@ -727,6 +758,21 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
             currentHotspotsFilledBackgroundIndex++;
             HotspotsOnBackgroundInfo *bgInfo = self.info.hotspotsOnBackgrounds[currentHotspotsFilledBackgroundIndex];
             
+            if ([FlowAndStateManager sharedFlowAndStateManager].isMusicON)
+            {
+                [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+                [FlowAndStateManager sharedFlowAndStateManager].isMusicON = NO;
+                debugLog(@"Stop Bg Track");
+                
+                // start based on current hotspot
+               
+                
+                [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
+                [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:bgInfo.backgroundTrackName];
+                
+                
+            }
+
             [self initializeHotspotsBoundWithInfo:bgInfo];
             [self initializeBackgroundWithInfo:bgInfo];
             [self initializeBackgroundTextWithInfo:bgInfo];
