@@ -17,6 +17,7 @@
 @dynamic backgroundImage;
 @dynamic backgroundText;
 @dynamic textBackgroundImage;
+@dynamic backgroundTrackName;
 
 @dynamic hotspots;
 

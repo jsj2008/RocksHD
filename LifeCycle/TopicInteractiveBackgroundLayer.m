@@ -129,9 +129,29 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
 -(void)onEnter {
     [super onEnter];
     
+    
     debugLog(@"Onenter");
     
+    
     NSArray *hotspotsOnBackgrounds = self.info.hotspotsOnBackgrounds;
+    
+    if ([FlowAndStateManager sharedFlowAndStateManager].isMusicON)
+    {
+        [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+        [FlowAndStateManager sharedFlowAndStateManager].isMusicON = NO;
+        debugLog(@"Stop Bg Track");
+        
+        // start based on current hotspot
+        HotspotsOnBackgroundInfo *hotspotsBgInfo = hotspotsOnBackgrounds[currentHotspotsFilledBackgroundIndex];
+        
+        [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:hotspotsBgInfo.backgroundTrackName];
+        
+
+    }
+
+    
+    
     
     if (hotspotsOnBackgrounds != nil && hotspotsOnBackgrounds.count > 0) {
     

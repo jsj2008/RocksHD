@@ -36,6 +36,10 @@
 		043FA50A16F839B400C474E8 /* voiceoverslider-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FA50916F839B400C474E8 /* voiceoverslider-ipad.png */; };
 		043FA50B16F83B4800C474E8 /* readme-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CC404816E4604C00102D05 /* readme-ipad.png */; };
 		043FA50C16F83B4F00C474E8 /* readme-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CC404B16E4604C00102D05 /* readme-ipadhd.png */; };
+		043FA50E16F843F900C474E8 /* hotspot-track1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 043FA50D16F843F900C474E8 /* hotspot-track1.mp3 */; };
+		043FA51216F8448D00C474E8 /* hotspot-track3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 043FA50F16F8448D00C474E8 /* hotspot-track3.mp3 */; };
+		043FA51316F8448D00C474E8 /* hotspot-track4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 043FA51016F8448D00C474E8 /* hotspot-track4.mp3 */; };
+		043FA51416F8448D00C474E8 /* hotspot-track2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 043FA51116F8448D00C474E8 /* hotspot-track2.mp3 */; };
 		0442CB9E16A64E100056DC2E /* vol-button-off-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0442CB9A16A64DF00056DC2E /* vol-button-off-ipad.png */; };
 		0442CB9F16A64E100056DC2E /* vol-button-off-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0442CB9B16A64DF50056DC2E /* vol-button-off-ipadhd.png */; };
 		0442CBA016A64E100056DC2E /* vol-button-on-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0442CB9C16A64DFC0056DC2E /* vol-button-on-ipad.png */; };
@@ -678,6 +682,10 @@
 		043C3FE616BA5E3A00AE3B73 /* rocks-icon-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocks-icon-ipadhd.png"; sourceTree = "<group>"; };
 		043FA50716F8399C00C474E8 /* voiceoverslider-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voiceoverslider-ipadhd.png"; sourceTree = "<group>"; };
 		043FA50916F839B400C474E8 /* voiceoverslider-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voiceoverslider-ipad.png"; sourceTree = "<group>"; };
+		043FA50D16F843F900C474E8 /* hotspot-track1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hotspot-track1.mp3"; sourceTree = "<group>"; };
+		043FA50F16F8448D00C474E8 /* hotspot-track3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hotspot-track3.mp3"; sourceTree = "<group>"; };
+		043FA51016F8448D00C474E8 /* hotspot-track4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hotspot-track4.mp3"; sourceTree = "<group>"; };
+		043FA51116F8448D00C474E8 /* hotspot-track2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hotspot-track2.mp3"; sourceTree = "<group>"; };
 		0442CB9A16A64DF00056DC2E /* vol-button-off-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vol-button-off-ipad.png"; sourceTree = "<group>"; };
 		0442CB9B16A64DF50056DC2E /* vol-button-off-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vol-button-off-ipadhd.png"; sourceTree = "<group>"; };
 		0442CB9C16A64DFC0056DC2E /* vol-button-on-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vol-button-on-ipad.png"; sourceTree = "<group>"; };
@@ -1656,6 +1664,10 @@
 			children = (
 				0A0B6FB116D0951A006F98CD /* Fossils.mp3 */,
 				0A0B6FB216D0951A006F98CD /* Minerals.mp3 */,
+				043FA50F16F8448D00C474E8 /* hotspot-track3.mp3 */,
+				043FA51016F8448D00C474E8 /* hotspot-track4.mp3 */,
+				043FA51116F8448D00C474E8 /* hotspot-track2.mp3 */,
+				043FA50D16F843F900C474E8 /* hotspot-track1.mp3 */,
 				0A0B6FB316D0951A006F98CD /* Rocks.mp3 */,
 				0A0B6FB416D0951A006F98CD /* Soil.mp3 */,
 			);
@@ -3737,6 +3749,10 @@
 				043FA50A16F839B400C474E8 /* voiceoverslider-ipad.png in Resources */,
 				043FA50B16F83B4800C474E8 /* readme-ipad.png in Resources */,
 				043FA50C16F83B4F00C474E8 /* readme-ipadhd.png in Resources */,
+				043FA50E16F843F900C474E8 /* hotspot-track1.mp3 in Resources */,
+				043FA51216F8448D00C474E8 /* hotspot-track3.mp3 in Resources */,
+				043FA51316F8448D00C474E8 /* hotspot-track4.mp3 in Resources */,
+				043FA51416F8448D00C474E8 /* hotspot-track2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
