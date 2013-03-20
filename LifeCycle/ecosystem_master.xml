@@ -8,10 +8,9 @@
     </numberOfTopics>
     <backgroundImage>home_background.png</backgroundImage>
     <info>
-        Sprout Labs - Learning Reimagined!\n\nRocks HD is a multi sensory exploration of rocks, soils, fossils, and minerals that aligns to the common core standards. \n\nWhat is the rock cycle and what role does it play on Earth?\n\n What are the different layers of the Earth? \n\nHow is soil formed and what are the different horizons?\n\nHow are minerals formed and how are they extracted?\n\nWhat is the difference between index fossil and trace fossil?\n\n\n\nThe Rocks HD app has been designed to provide multiple modes of learning that will make learning fun.\n\nHD photo based navigation provides an immersive learning experience.\n\n Additional videos and photos help reinforce the concepts.\n\n The Text section is enhanced with voice over for the beginning reader.\n\nDid You Knows have "WOW" facts related to each topic. \n\n The quiz section based on Bloom's taxonomy has been designed to test not only remembering and understanding but also applying, evaluating, and analyzing the concepts.\n\nFeatures:\n\n- Curated photos and videos with descriptive text and free periodic refresh of photos and videos.\n\n- Did You Know section with WOW facts about each topic.\n\n- Easy, Intermediate and Advanced level questions based on Bloom's Taxonomy to test knowledge about the various topics.\n\n\n*****\n\n For more information on news and updates, like us on Facebook and follow us on Twitter @SproutLabs.\n\n*****\n\nFor feature requests, feedback or support, send email to support@sproutlabs.net
+        Sprout Labs - Learning Reimagined!\n\nRocks HD is a multi sensory exploration of rocks, soils, fossils, and minerals. Designed with content that aligns to the common core standards, the Rocks HD app helps learners answer questions like:\n\n - What is the rock cycle and what role does it play on Earth?\n\n - What are the different layers of the Earth? \n\n - How is soil formed and what are the different horizons?\n\n - How are minerals formed and how are they extracted?\n\n - What is the difference between an index fossil and a trace fossil?\n\n\n\nThe Rocks HD app has been designed to provide multiple modes of learning that will make learning fun.\n\n * HD photo based navigation provides an immersive learning experience.\n\n * Additional videos and photos help reinforce the concepts.\n\n * The Text section is enhanced with voice over for the beginning reader.\n\n * Did You Knows have "WOW" facts related to each topic. \n\n * The quiz section based on Bloom's taxonomy has been designed to test not only remembering and understanding but also applying, evaluating, and analyzing the concepts.\n\nFeatures:\n\n ** Curated photos and videos with descriptive text and free periodic refresh of photos and videos.\n\n ** Did You Know section with WOW facts about each topic.\n\n ** Easy, Intermediate and Advanced level questions based on Bloom's Taxonomy to test knowledge about the various topics.\n\n\n*****\n\n For more information on news and updates, like us on Facebook and follow us on Twitter @SproutLabs.\n\n*****\n\nFor feature requests, feedback or support, send email to support@sproutlabs.net
     </info>
     <curriculum>
-        Ecosystems  App\n\nCorrelation to California State Science Standards\n\nGrade K\n*******\nLife Sciences:\n\t2a ‚Äì The student will describe similarities and differences in the appearance and behavior of insects.\n\t2c ‚Äì The student will identify major structures of common animals.\n\nGrade 1\n*******\nLife Sciences:\n\t2a ‚Äì The student knows plants and animals inhabit different kinds of environments and have external features that help them thrive in different kinds of places.\n\t2b ‚Äì The student knows that animals need food.\n\t2c ‚Äì The student knows animals use plants for food.\n\t2d ‚Äì The student knows how to infer what animals eat from the shape of their teeth.\n\nGrade 2\n*******\nLife Sciences:\n\t2a ‚Äì The student knows organisms reproduce offspring of their own kind and that the offspring resemble the parents and each other.\n\t2b ‚Äì The student knows the sequential stages of life cycle of animals.\n\t2c ‚Äì The student knows many characteristics of organisms are inherited from parents.\n\nGrade 3\n*******\nLife Sciences:\n\t2a ‚Äì The student knows animals have structures that serve different functions in growth, survival, and reproduction.\n\t2d ‚Äì The student knows when the environment changes, some animals survive while others die or move to new locations.\n\n_______\n\nButterfly Life Cycle Common Core Correlations\n\nReading Standards for Informational Text K-5\n\nKey Ideas and Details\n*********************\n\nGrade K ‚Äì Standards 1, 2, and 3\n\nGrade 1 ‚Äì Standards 1, 2, and 3\n\nGrade 2 ‚Äì Standards 1, 2, and 3\n\nGrade 3 ‚Äì Standards 1, 2, and 3\n\nGrade 4 ‚Äì Standards 1, 2, and 3\n\nGrade 5 ‚Äì Standards 1, 2, and 3\n\n*Life Cycle app meets all standards in this area for grades K-5\n\nCraft and Structure\n*****************\n\nGrade K ‚Äì Standard 4\n\nGrade 1 ‚Äì Standards 4, 5, and 6\n\nGrade 2 ‚Äì Standards 4, 5, and 6\n\nGrade 3 ‚Äì Standard 4\n\nGrade 4 ‚Äì no correlation\n\nGrade 5 ‚Äì no correlation\n\nIntegration of Knowledge and Ideas\n******************************\n\nGrade K ‚Äì Standards 7 and 8\n\nGrade 1 ‚Äì Standards 7 and 8\n\nGrade 2 ‚Äì Standards 7 and 8\n\nGrade 3 ‚Äì Standards 7 and 8\n\nGrade 4 ‚Äì Standards 7 and 8\n\nGrade 5 ‚Äì Standard 8\n\nRange of Reading and Level of Text Complexity\n************************************\n\nGrade K ‚Äì Standard 10\n\nGrade 1 ‚Äì Standard 10\n\nGrade 2 ‚Äì Standard 10\n\nGrade 3 ‚Äì Standard 10\n\nGrade 4 ‚Äì no correlation\n\nGrade 5 ‚Äì no correlation\n\n
     </curriculum>
     <introTexts version="1">
         <backgroundImage>info_background_strip.png</backgroundImage>
@@ -41,10 +40,10 @@
             <mainText>
                 \n Do you have a rock collection? If so, you already know how fascinating rocks can be! This lesson explains how rocks are formed, how they change, and how we use them.
                 \n What is a rock?  Rocks are naturally occurring solid combinations of minerals and sometimes other materials too. The common rock granite is made of the minerals quartz, feldspar and biotite. When only one mineral is present, the object is a mineral, not rock.
-                \n Scientists classify rocks into three categories: igneous, sedimentary, and metamorphic. These are all part of the rock cycle.
+                \n Scientists classify rocks into three categories: Igneous, Sedimentary, and Metamorphic. These are all part of the rock cycle.
                 \n Igneous rocks begin deep in the Earth, which contains solid and molten materials such as silicon, magnesium and iron. Magma bursts through the Earth's surface via volcanoes and cracks in the Earth's crust. At the surface it's called lava. Lava hardens to become new crust.
                 \n Rocks are exposed to ocean waves and weather. They slowly break down into pebbles and sand. Sedimentary rocks are made of the resulting sand and mud, material from plants and animals, and minerals left over when liquid evaporates. These all compact and harden to become rock.
-                \n Metamorphic rocks are made when rocks experience new temperature and pressure conditions. For example, contact with magma could cause rock to liquefy and then recrystallize into a different type of rock.
+                \n Metamorphic rocks are made when rocks experience new temperature and pressure conditions. For example, contact with magma could cause rock to liquify and then recrystallize into a different type of rock.
                 \n Scientists believe that humans have been using rocks for about 3.5 million years.  Stone arrowheads were among our first tools. Today we mine rocks for use in roads, statues, buildings, chalkboards, jewelry, cosmetics and many other items.
             </mainText>
         </mainText>
@@ -113,13 +112,13 @@
                 <text>Geodes are ordinary-looking igneous or sedimentary rocks on the outside but contain beautiful crystals on the inside.</text>
             </item>
             <item uid="15">
-                <text>Meteorites, or rocks from outer space, help scientists learn about our solar system</text>
+                <text>Meteorites, or rocks from outer space, help scientists learn about our solar system.</text>
             </item>
             <item uid="16">
-                <text>One of the oldest rocks on Earth was brought from the Moon. Scientists believe it's about 4.5 billion years old.</text>
+                <text>One of the oldest rocks on Earth was brought from the Moon. Scientists believe it is about 4.5 billion years old.</text>
             </item>
             <item uid="17">
-                <text>The Himalayas are among the world‚Äôs youngest mountains. Scientists estimate that they formed 30 million years ago.</text>
+                <text>The Himalayas are among the world'Äôs youngest mountains. Scientists estimate that they formed 30 million years ago.</text>
             </item>
             <item uid="18">
                 <text>To estimate the age of a sedimentary rock, scientists consider its thickness, its mineral layers, and the plant and animal remains it may contain.</text>
@@ -158,7 +157,7 @@
         <gallery version="1" uid="rocks">
             <title>Rocks</title>
             <item version="1" uid="4">
-                <title>Mountains are not eternal. They form when pieces of the Earth's crust collide and bunch up. Mountains will erode away</title>
+                <title>Mountains are not eternal. They form when pieces of the Earth's crust collide and bunch up. Mountains will erode away.</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
                 <url>http://farm1.staticflickr.com/127/408879493_d05ed9846c_z.jpg</url>
@@ -288,11 +287,11 @@
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="17">
-                <title>Magma can create metamorphic rock by causing a rock to melt and reform.</title>
+                <title>Magma can create metamorphic rock by causing a rock to melt and form again.</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
                 <url>http://farm7.staticflickr.com/6086/6110613189_324324e666_z.jpg</url>
-                <description>Magma can create metamorphic rock by causing a rock to melt and reform.</description>
+                <description>Magma can create metamorphic rock by causing a rock to melt and form again.</description>
                 <attribution>Subarctic Mike</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
@@ -338,11 +337,11 @@
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="22">
-                <title>Skyscrapers are constructed of granite, marble and other types of rock.</title>
+                <title>Skyscrapers are constructed of granite, marble, and other types of rock.</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
                 <url>http://farm7.staticflickr.com/6010/5981929015_b3c7f49b10_z.jpg</url>
-                <description>Skyscrapers are constructed of granite, marble and other types of rock.</description>
+                <description>Skyscrapers are constructed of granite, marble, and other types of rock.</description>
                 <attribution>FutUndBeidl</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
@@ -801,12 +800,12 @@
             <backgroundImage>rockhotspotimage1.png</backgroundImage>
             <backgroundText>Various stages of the rock cycle. Touch the glowing spots to learn more.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track1.mp3</backgroundTrackName>
-            <attribution>XYZ</attribution>
+            <backgroundTrackName>rockhotspotimage1-music.mp3</backgroundTrackName>
+            <attribution>Fir0002</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Sedimentation</title>
-                <text>Sedimentation is the deposition of sediments resulting in the formation of sedimentary rock. \n\nThese sediments are broken down by erosion and weathering.\n</text>
+                <text>Sedimentation is the deposition of sediments resulting in the formation of sedimentary rock.\n\nThese sediments are broken down by erosion and weathering.\n</text>
                 <fontSize>45.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -1204,8 +1203,8 @@
             <backgroundImage>rockhotspotimage2.png</backgroundImage>
             <backgroundText>Lava flow cooling and hardening to form extrusive igneous rock or volcanic rock.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-          <backgroundTrackName>hotspot-track1.mp3</backgroundTrackName>
-            <attribution>XYZ</attribution>
+          <backgroundTrackName>rockhotspotimage2-music.mp3</backgroundTrackName>
+            <attribution>© Can Stock Photo Inc. / Claudio_Pics</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Lava</title>
@@ -1299,8 +1298,8 @@
             <backgroundImage>rockhotspotimage3.png</backgroundImage>
             <backgroundText>The Earth is made of many different layers. Rocks are a part of the Earth's crust.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track1.mp3</backgroundTrackName>
-            <attribution>XYZ</attribution>
+            <backgroundTrackName>rockhotspotimage3-music.mp3</backgroundTrackName>
+            <attribution>© piai - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Oceanic crust</title>
@@ -1658,8 +1657,8 @@
             <backgroundImage>rockhotspotimage4.png</backgroundImage>
             <backgroundText>This picture shows the formation of the different types of igneous rock structures.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-          <backgroundTrackName>hotspot-track1.mp3</backgroundTrackName>
-            <attribution>XYZ</attribution>
+          <backgroundTrackName>rockhotspotimage4-music.mp3</backgroundTrackName>
+            <attribution>Woudloper</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Magmachamber or Batholith</title>
@@ -1929,12 +1928,12 @@
             <backgroundImage>rockhotspotimage5.png</backgroundImage>
             <backgroundText>Igneous and metamorphic rocks can occur together as seen in this picture.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-          <backgroundTrackName>hotspot-track1.mp3</backgroundTrackName>
-            <attribution>XYZ</attribution>
+          <backgroundTrackName>rockhotspotimage5-music.mp3</backgroundTrackName>
+            <attribution>NOAA Photo Library</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Cape Spencer</title>
-                <text>This is a picture taken at Cape Spencer at the entrance to the Cross Sound near Juneau in the Glacier Bay National Park in Alaska. \n\nThis is the northernmost entrance to Alaska's Inland Passage.\n</text>
+                <text>This is a picture taken at Cape Spencer at the entrance to the Cross Sound near Juneau in the Glacier Bay National Park in Alaska.\n\nThis is the northernmost entrance to Alaska's Inland Passage.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -2024,8 +2023,8 @@
             <backgroundImage>rockhotspotimage6.png</backgroundImage>
             <backgroundText>Travertine, a sedimentary rock, is formed in mineral springs.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-          <backgroundTrackName>hotspot-track1.mp3</backgroundTrackName>
-            <attribution>XYZ</attribution>
+          <backgroundTrackName>rockhotspotimage6-music.mp3</backgroundTrackName>
+            <attribution>David.Monniaux</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Travertine</title>
@@ -2119,8 +2118,8 @@
             <backgroundImage>rockhotspotimage7.png</backgroundImage>
             <backgroundText>Nearly 40 sedimentary rock layers are exposed in the Grand Canyon.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-          <backgroundTrackName>hotspot-track1.mp3</backgroundTrackName>
-            <attribution>XYZ</attribution>
+          <backgroundTrackName>rockhotspotimage7-music.mp3</backgroundTrackName>
+            <attribution>© atm2003 - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Grand Canyon</title>
@@ -2214,8 +2213,8 @@
             <backgroundImage>rockhotspotimage8.png</backgroundImage>
             <backgroundText>Granite, an abundant igneous rock, is extracted from a quarry. </backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-          <backgroundTrackName>hotspot-track1.mp3</backgroundTrackName>
-            <attribution>XYZ</attribution>
+          <backgroundTrackName>rockhotspotimage8-music.mp3</backgroundTrackName>
+            <attribution>© vallefrias - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Granite</title>
@@ -2315,7 +2314,7 @@
             \n What is a mineral? Minerals such as gold, calcium and sodium are the building blocks of rocks. They are inorganic. That is, although rocks may contain matter from plants and animals, minerals do not. Minerals are purely chemical. They are typically solid at room temperature.
             \n Minerals are made of the elements listed on the Periodic Table. Minerals may consist of just one element, such as gold, or they can be combinations of elements. Quartz, for example, is made of silicon and oxygen.
             \n Scientists classify minerals in several ways. Some categories are color, luster, hardness, specific  gravity, and cleavage or how the mineral breaks. 
-            \n When you're identifying minerals, color is helpful but not enough. Many minerals are found in multiple colors. Also, minerals may be impure; extra chemicals can change their color. Diamonds are made in every color of the rainbow.
+            \n When you are identifying minerals, color is helpful but not enough. Many minerals are found in multiple colors. Also, minerals may be impure; extra chemicals can change their color. Diamonds are made in every color of the rainbow.
             \n "Luster" describes how a mineral reflects light. Some terms used to describe luster are brilliant, metallic, silky and dull.
             \n Hardness is another way to classify a mineral. Hardness is measured by scratching a mineral. Diamonds are the hardest mineral on earth; they can scratch anything.
             \n Specific gravity refers to density. Two mineral chunks of the same size can have different weights. Specific gravity can be measured by comparing a mineral's weight to an equal volume of water.
@@ -2339,7 +2338,7 @@
             <didYouKnowLeftImage>main_text_arrow_left.png</didYouKnowLeftImage>
             <didYouKnowRightImage>main_text_arrow_right.png</didYouKnowRightImage>
             <item uid="0">
-                <text>Because elements can be combined in countless ways, scientists haven't set a limit for how many minerals exist.</text>
+                <text>Because elements can be combined in countless ways, scientists haven't set a limit on how many minerals exist.</text>
             </item>
             <item uid="1">
                 <text>The International Mineralogical Association recognizes approximately 4700 mineral species.</text>
@@ -2372,7 +2371,7 @@
                 <text>Crystals are most likely to form when magma cools slowly and under great pressure.</text>
             </item>
             <item uid="11">
-                <text>When lava cools quickly, it's likely to form glassy rocks, not crystals.</text>
+                <text>When lava cools quickly, it is likely to form glassy rocks, not crystals.</text>
             </item>
             <item uid="12">
                 <text>Most of the Earth's crust is made of silicate minerals, which contain silicon and oxygen.</text>
@@ -2393,10 +2392,10 @@
                 <text>Heavy metal waste from phosphate mining has contaminated drinking water.</text>
             </item>
             <item uid="18">
-                <text>Sulfides, which combine sulfur with other minerals, may smell like rotten eggs. They are especially useful in medicine, art and agriculture.</text>
+                <text>Sulfides, which combine sulfur with other minerals, may smell like rotten eggs. They are especially useful in medicine, art, and agriculture.</text>
             </item>
             <item uid="19">
-                <text>Diamonds and pencil ‚Äúlead‚Äù are made from the same element: carbon. The different look is explained by diamond's crystalline structure.</text>
+                <text>Diamonds and pencil leadÄù are made from the same element: carbon. The look different because of their crystalline structure.</text>
             </item>
         </didYouKnows>
 
@@ -3100,7 +3099,8 @@
             <backgroundImage>mineralhotspotimage1.png</backgroundImage>
             <backgroundText>A collection of various gemstones. Touch the glowing spots to learn more.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>                        <attribution>XYZ</attribution>
+            <backgroundTrackName>mineralhotspotimage1-music.mp3</backgroundTrackName>
+			<attribution>© Tryfonov - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Lazurite</title>
@@ -3414,7 +3414,8 @@
             <backgroundImage>mineralhotspotimage2.png</backgroundImage>
             <backgroundText>Open pit mines are used to extract minerals that are found near the surface.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>                        <attribution>XYZ</attribution>
+            <backgroundTrackName>mineralhotspotimage2-music.mp3</backgroundTrackName>
+			<attribution>Stepanovas</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Open pit mine</title>
@@ -3508,8 +3509,8 @@
             <backgroundImage>mineralhotspotimage3.png</backgroundImage>
             <backgroundText>Kalgoorlie Super pit is Australia's largest open cut gold mine.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>
-                        <attribution>XYZ</attribution>
+            <backgroundTrackName>mineralhotspotimage2-music.mp3</backgroundTrackName>
+            <attribution>© Imagevixen - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Kalgoorlie gold mine</title>
@@ -3603,8 +3604,8 @@
             <backgroundImage>mineralhotspotimage4.png</backgroundImage>
             <backgroundText>The Kittila gold mine in Finland is located beneath volcanic and sedimentary rocks.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>
-                        <attribution>XYZ</attribution>
+            <backgroundTrackName>mineralhotspotimage4-music.mp3</backgroundTrackName>
+            <attribution>Agnico-Eagle Mines Limited</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Kittila mine</title>
@@ -3699,7 +3700,7 @@
             <backgroundText>Diamond and graphite are allotropes (pure forms) of carbon with different crystal structures.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>
-                        <attribution>XYZ</attribution>
+            <attribution>© Alexander Potapov - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Diamond</title>
@@ -3882,7 +3883,7 @@
             <backgroundText>Ruby is a precious stone made of Aluminum oxide that is found in marble stone.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>
-                        <attribution>XYZ</attribution>
+            <attribution>© Alexander Maksimov - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Ruby</title>
@@ -3977,7 +3978,7 @@
             <backgroundText>Minerals can be identified using fluorescence. </backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>
-                        <attribution>XYZ</attribution>
+            <attribution>Hannes Grobe</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Fluorescence</title>
@@ -4072,7 +4073,7 @@
             <backgroundText>Gemstone pebbles occur in many colors, shapes, and textures.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>
-                        <attribution>XYZ</attribution>
+            <attribution>© Vladislav Gajic - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Color</title>
@@ -4169,12 +4170,12 @@
         <topicImageName>soils-icon-ipad.png</topicImageName>
         <topicBiggerImageName>soils-icon-ipad.png</topicBiggerImageName>
         <mainText>
-            \n Soil is like a nutrition bar for plants. It holds all the nutrients that plants need to survive. Soil has developed over hundreds of millions of years. It's created as weather erodes rocks and when plants and animals leave material behind. Minerals mix with organic material and water to become soil.
+            \n Soil is like a nutrition bar for plants. It holds all the nutrients that plants need to survive. Soil has developed over hundreds of millions of years. It is created as weather erodes rocks and when plants and animals leave material behind. Minerals mix with organic material and water to become soil.
             \n Much of soil is alive! Bacteria, algae and fungi in soil break material into useful nutrients. They make it possible for larger life forms to survive.
             \n The Earth's soil is organized into several layers called horizons. The topmost layer contains humus, which is leaf litter and decomposed organic matter. The next layer is topsoil. This is where seeds germinate and roots grow. It has sediment from rocks and contains some humus too.
             \n The next layer down is called the eluviation layer. It is light colored, made mostly of sand and silt. Most minerals and clay drip down to the subsoil below. Subsoil is rich with clay and minerals from water, such as iron and calcium carbonate.
             \n The bottommost layers are rocky. First there is regolith. Regolith is a mix of broken bedrock and dark soil, which is composed of dead organic matter. A solid layer of bedrock lays beneath it all.
-            \n Erosion is the carrying away of rocks and soil. Erosion is caused by wind, precipitation and gravity. Although erosion is a natural process, it's problematic when we lose soil for crops, forests and other habitats. Trees can help fight erosion because their roots stabilize the soil.
+            \n Erosion is the carrying away of rocks and soil. Erosion is caused by wind, precipitation and gravity. Although erosion is a natural process, it is problematic when we lose soil for crops, forests and other habitats. Trees can help fight erosion because their roots stabilize the soil.
         </mainText>
         <mainTextTitleImageName>text-background.png</mainTextTitleImageName>
         <backgroundTrackName>ecosystem_stage3bgtrack.mp3</backgroundTrackName>
@@ -4196,7 +4197,7 @@
                 <text>Soil formation is called pedogenesis.</text>
             </item>
             <item uid="1">
-                <text>Soil is heavily influenced by its environment. Important factors include climate, relief (slope), local organisms, local minerals and time.</text>
+                <text>Soil is heavily influenced by its environment. Important factors include climate, relief (slope), local organisms, local minerals, and time.</text>
             </item>
             <item uid="2">
                 <text>Most of the Earth's soil is younger than 2.5 million years old.</text>
@@ -4211,7 +4212,7 @@
                 <text>Common minerals in soil are quartz, feldspar, calcite and mica.</text>
             </item>
             <item uid="6">
-                <text>From a gardening perspective, ‚Äúgood soil‚Äù contains about 45% minerals (sand, silt and clay), 25% water, and 5% organic material. The rest is air!</text>
+                <text>From a gardening perspective, a good soil contains about 45% minerals (sand, silt and clay), 25% water, and 5% organic material. The rest is air!</text>
             </item>
             <item uid="7">
                 <text>Water is important to the effectiveness of soil. The pH or acidity of soil affects the availability of nutrients to plants.</text>
@@ -4226,7 +4227,7 @@
                 <text>When land is steep, soil is less able to hold minerals; they run off.</text>
             </item>
             <item uid="11">
-                <text>Fall colors are due to plants withdrawing chlorophyll from their leaves during shortening days of fall</text>
+                <text>Fall colors are due to plants withdrawing chlorophyll from their leaves during shortening days of fall.</text>
             </item>
             <item uid="12">
                 <text>Soil may contain more than a million species of microbes per gram!</text>
@@ -4935,8 +4936,8 @@
             <backgroundImage>soilhotspotimage1.png</backgroundImage>
             <backgroundText>There are many different types of soils.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-                     <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
-                                    <attribution>LMN</attribution>
+            <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
+            <attribution>© luna2631 - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Peaty soil</title>
@@ -5207,7 +5208,7 @@
             <backgroundText>Soil is made up of layers parallel to the surface known as horizons.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
-                        <attribution>LMN</attribution>
+            <attribution>HolgerK</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Humus</title>
@@ -5389,8 +5390,8 @@
             <backgroundImage>soilhotspotimage3.png</backgroundImage>
             <backgroundText>Termites play an important role in soil formation and nutrient cycling.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-                     <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
-                                    <attribution>LMN</attribution>
+            <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
+            <attribution>© cstyle - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Termite mound</title>
@@ -5485,7 +5486,7 @@
             <backgroundText>Limestone towers at Mono Lake formed from dissolved salts in the runoff water.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
-                                    <attribution>LMN</attribution>
+            <attribution>Octagon</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Tufa</title>
@@ -5580,7 +5581,7 @@
             <backgroundText>Delicate arch formed by weathering and erosion of sandstone by wind and water.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
-                                    <attribution>LMN</attribution>
+            <attribution>© Can Stock Photo Inc. / sprokop</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Delicate arch</title>
@@ -5675,7 +5676,7 @@
             <backgroundText>Structures formed by the weathering and erosion of rock by wind and water.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
-                                    <attribution>LMN</attribution>
+            <attribution>© atm2003 - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Delicate arch</title>
@@ -5814,7 +5815,7 @@
             <backgroundText>Plants can help prevent erosion by wind and water.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
-                                    <attribution>LMN</attribution>
+            <attribution>© meal_meaw - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Plants prevent erosion</title>
@@ -5909,7 +5910,7 @@
             <backgroundText>Glaciers can erode rocks by abrasion and fracturing.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
-                                    <attribution>LMN</attribution>
+            <attribution>Dirk Beyer</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Glaciers</title>
@@ -6035,7 +6036,7 @@
             <didYouKnowLeftImage>main_text_arrow_left.png</didYouKnowLeftImage>
             <didYouKnowRightImage>main_text_arrow_right.png</didYouKnowRightImage>
             <item uid="0">
-                <text>The word ‚Äúfossil‚Äù comes from the Latin word fossilis, which means "dug up."</text>
+                <text>The word fossilÄù comes from the Latin word fossilis, which means "dug up."</text>
             </item>
             <item uid="1">
                 <text>Paleontology is the study of life from former geologic periods. Paleontologists primarily study fossils.</text>
@@ -6053,7 +6054,7 @@
                 <text>Ammonites are the most widely known fossil. Fossils suggest that spiral-shelled ammonites lived in the oceans until 65 million years ago.</text>
             </item>
             <item uid="6">
-                <text>A few places on Earth are especially known for preserving ancient life. They are called lagerst√§tten.</text>
+                <text>A few places on Earth are especially known for preserving ancient life. They are called lagerstatten.</text>
             </item>
             <item uid="7">
                 <text>The oldest animal fossils come from the Burgess Shale in Canada and the Chengjiang Deposits in China.</text>
@@ -6167,11 +6168,11 @@
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="8">
-                <title>Trilobites are index fossils. Since we know a lot about when they're from, they are clues about nearby fossils.</title>
+                <title>Trilobites are index fossils. Since we know a lot about when they are from, they are clues about nearby fossils.</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
                 <url>http://farm4.staticflickr.com/3290/2948579998_911b883a9b_z.jpg</url>
-                <description>Trilobites are index fossils. Since we know a lot about when they're from, they are clues about nearby fossils.</description>
+                <description>Trilobites are index fossils. Since we know a lot about when they are from, they are clues about nearby fossils.</description>
                 <attribution>Mr. T in DC</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
@@ -6187,11 +6188,11 @@
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="10">
-                <title>So-called whole fossils like these are created when oxygen quickly leaves an environment.</title>
+                <title>So called whole fossils like these are created when oxygen quickly leaves an environment.</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
                 <url>http://farm3.staticflickr.com/2506/4113449962_350824f5b2.jpg</url>
-                <description>So-called whole fossils like these are created when oxygen quickly leaves an environment.</description>
+                <description>So called whole fossils like these are created when oxygen quickly leaves an environment.</description>
                 <attribution>Petrified Forest Ranger</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
@@ -6207,11 +6208,11 @@
                 <tags>match,gallery</tags>
             </item>
             <item version="1" uid="12">
-                <title>Another fossil type is the cast fossil. This australopithecus cast fossil was created when minerals replaced the original material.</title>
+                <title>Another fossil type is the cast fossil. This Australopithecus cast fossil was created when minerals replaced the original material.</title>
                 <type>photo</type>
                 <thumbnail></thumbnail>
                 <url>http://farm5.staticflickr.com/4007/4697690407_02886c6dae_z.jpg</url>
-                <description>Another fossil type is the cast fossil. This australopithecus cast fossil was created when minerals replaced the original material.</description>
+                <description>Another fossil type is the cast fossil. This Australopithecus cast fossil was created when minerals replaced the original material.</description>
                 <attribution>Ryan Somma</attribution>
                 <status>A</status>
                 <tags>match,gallery</tags>
@@ -6771,7 +6772,7 @@
             <backgroundText>Amber is sticky tree sap that can fossilize insects.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
-                                    <attribution>LMN</attribution>
+            <attribution>© Dmitry DG - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Amber</title>
@@ -6867,7 +6868,7 @@
             <backgroundText>Fossilized fern from the Coal Age, over 300-360 millions ago.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
-                                    <attribution>LMN</attribution>
+            <attribution>Woudloper</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Fern</title>
@@ -6962,7 +6963,7 @@
             <backgroundText>Petrified wood or wood that has been turned to stone.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
-                                    <attribution>LMN</attribution>
+            <attribution>Daniel Schwen</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Petrified wood</title>
@@ -7057,7 +7058,7 @@
             <backgroundText>Fossilized seeds of the Katsura tree preserved in volcanic ash and limestone.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
-                                    <attribution>LMN</attribution>
+            <attribution>Rene Sylvestersen</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Seeds of Katsura</title>
@@ -7151,8 +7152,8 @@
             <backgroundImage>fossilhotspotimage5.png</backgroundImage>
             <backgroundText>A trace fossil showing dinosaur footprints</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-         <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
-               <attribution>LMN</attribution>
+			<backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
+            <attribution>© bkpardini - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Trace fossil showing dinosaur footprints.</title>
@@ -7246,8 +7247,8 @@
             <backgroundImage>fossilhotspotimage6.png</backgroundImage>
             <backgroundText>A dinosaur fossil showing well preserved teeth.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-          <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
-               <attribution>LMN</attribution>
+			<backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
+            <attribution>© Ecoview - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Dinosaur dig</title>
@@ -7341,8 +7342,8 @@
             <backgroundImage>fossilhotspotimage7.png</backgroundImage>
             <backgroundText>Paleontologist at work with various tools.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-         <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
-               <attribution>LMN</attribution>
+			<backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
+            <attribution>© awestound - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Paleontology</title>
@@ -7436,8 +7437,8 @@
             <backgroundImage>fossilhotspotimage8.png</backgroundImage>
             <backgroundText>Ammonites are good index fossils to understand various time periods on Earth.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-          <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
-               <attribution>LMN</attribution>
+			<backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
+            <attribution>© marcel - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Ammonites</title>

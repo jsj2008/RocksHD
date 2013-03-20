@@ -507,6 +507,18 @@
 		E24D3DE415BC6583006E87AC /* stage6bgtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24D3DDE15BC6583006E87AC /* stage6bgtrack.mp3 */; };
 		E261721915BC5BD1009BC407 /* Music - Game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E261721715BC5BD1009BC407 /* Music - Game.mp3 */; };
 		E261721A15BC5BD1009BC407 /* Music - Menu page.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E261721815BC5BD1009BC407 /* Music - Menu page.mp3 */; };
+		F41499E316F957DC00E03334 /* ecosystem_master.xml in Resources */ = {isa = PBXBuildFile; fileRef = F41499E216F957DC00E03334 /* ecosystem_master.xml */; };
+		F41499E516F962BF00E03334 /* rockhotspotimage1-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F41499E416F962BF00E03334 /* rockhotspotimage1-music.mp3 */; };
+		F41499E716F962E400E03334 /* rockhotspotimage2-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F41499E616F962E400E03334 /* rockhotspotimage2-music.mp3 */; };
+		F41499ED16F9660500E03334 /* rockhotspotimage3-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F41499EC16F9660500E03334 /* rockhotspotimage3-music.mp3 */; };
+		F41499EF16F967D000E03334 /* rockhotspotimage4-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F41499EE16F967D000E03334 /* rockhotspotimage4-music.mp3 */; };
+		F41499F116F96AAE00E03334 /* rockhotspotimage5-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F41499F016F96AAE00E03334 /* rockhotspotimage5-music.mp3 */; };
+		F41499F316F96C8A00E03334 /* rockhotspotimage6-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F41499F216F96C8A00E03334 /* rockhotspotimage6-music.mp3 */; };
+		F41499F516F96DE300E03334 /* rockhotspotimage7-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F41499F416F96DE200E03334 /* rockhotspotimage7-music.mp3 */; };
+		F41499F716F9774700E03334 /* rockhotspotimage8-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F41499F616F9774700E03334 /* rockhotspotimage8-music.mp3 */; };
+		F41499F916F9781E00E03334 /* mineralhotspotimage1-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F41499F816F9781E00E03334 /* mineralhotspotimage1-music.mp3 */; };
+		F41499FB16F97C0C00E03334 /* mineralhotspotimage2-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F41499FA16F97C0B00E03334 /* mineralhotspotimage2-music.mp3 */; };
+		F41499FD16F97E1900E03334 /* mineralhotspotimage4-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F41499FC16F97E1900E03334 /* mineralhotspotimage4-music.mp3 */; };
 		F42E927516D0450700E37701 /* quizbackground-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F42E926116D044F700E37701 /* quizbackground-ipad.png */; };
 		F42E929E16D0452D00E37701 /* quizbackground-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F42E928A16D0451D00E37701 /* quizbackground-ipadhd.png */; };
 		F43C120616E3F0C300B036D4 /* rocks-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F43C120516E3F0C300B036D4 /* rocks-5.jpg */; };
@@ -580,7 +592,6 @@
 		F4CD649216F1900E0009EBA6 /* mineralhotspotimage8-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CD648E16F1900E0009EBA6 /* mineralhotspotimage8-ipad.png */; };
 		F4D446391533F08C003F2FCB /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D446381533F08C003F2FCB /* correct.png */; };
 		F4D4463D1533F512003F2FCB /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D4463C1533F511003F2FCB /* wrong.png */; };
-		F4D94F1D16E5A6E4002268F0 /* ecosystem_master.xml in Resources */ = {isa = PBXBuildFile; fileRef = F4D94F1C16E5A6E4002268F0 /* ecosystem_master.xml */; };
 		F4E6B76E16E45A8D00C0077A /* rocks-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046716D92BF500B1364C /* rocks-4.jpg */; };
 		F4E6B76F16E45AFA00C0077A /* rocks-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046916D92BF500B1364C /* rocks-6.jpg */; };
 		F4E6B77016E45AFA00C0077A /* rocks-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046A16D92BF500B1364C /* rocks-7.jpg */; };
@@ -1561,6 +1572,18 @@
 		E24D3DDE15BC6583006E87AC /* stage6bgtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stage6bgtrack.mp3; sourceTree = "<group>"; };
 		E261721715BC5BD1009BC407 /* Music - Game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Music - Game.mp3"; sourceTree = "<group>"; };
 		E261721815BC5BD1009BC407 /* Music - Menu page.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Music - Menu page.mp3"; sourceTree = "<group>"; };
+		F41499E216F957DC00E03334 /* ecosystem_master.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ecosystem_master.xml; sourceTree = "<group>"; };
+		F41499E416F962BF00E03334 /* rockhotspotimage1-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rockhotspotimage1-music.mp3"; sourceTree = "<group>"; };
+		F41499E616F962E400E03334 /* rockhotspotimage2-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rockhotspotimage2-music.mp3"; sourceTree = "<group>"; };
+		F41499EC16F9660500E03334 /* rockhotspotimage3-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rockhotspotimage3-music.mp3"; sourceTree = "<group>"; };
+		F41499EE16F967D000E03334 /* rockhotspotimage4-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rockhotspotimage4-music.mp3"; sourceTree = "<group>"; };
+		F41499F016F96AAE00E03334 /* rockhotspotimage5-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rockhotspotimage5-music.mp3"; sourceTree = "<group>"; };
+		F41499F216F96C8A00E03334 /* rockhotspotimage6-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rockhotspotimage6-music.mp3"; sourceTree = "<group>"; };
+		F41499F416F96DE200E03334 /* rockhotspotimage7-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rockhotspotimage7-music.mp3"; sourceTree = "<group>"; };
+		F41499F616F9774700E03334 /* rockhotspotimage8-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rockhotspotimage8-music.mp3"; sourceTree = "<group>"; };
+		F41499F816F9781E00E03334 /* mineralhotspotimage1-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mineralhotspotimage1-music.mp3"; sourceTree = "<group>"; };
+		F41499FA16F97C0B00E03334 /* mineralhotspotimage2-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mineralhotspotimage2-music.mp3"; sourceTree = "<group>"; };
+		F41499FC16F97E1900E03334 /* mineralhotspotimage4-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mineralhotspotimage4-music.mp3"; sourceTree = "<group>"; };
 		F42E926116D044F700E37701 /* quizbackground-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quizbackground-ipad.png"; sourceTree = "<group>"; };
 		F42E928A16D0451D00E37701 /* quizbackground-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quizbackground-ipadhd.png"; sourceTree = "<group>"; };
 		F43C120516E3F0C300B036D4 /* rocks-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-5.jpg"; sourceTree = "<group>"; };
@@ -1634,7 +1657,6 @@
 		F4CD648E16F1900E0009EBA6 /* mineralhotspotimage8-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mineralhotspotimage8-ipad.png"; sourceTree = "<group>"; };
 		F4D446381533F08C003F2FCB /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		F4D4463C1533F511003F2FCB /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
-		F4D94F1C16E5A6E4002268F0 /* ecosystem_master.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ecosystem_master.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1666,7 +1688,18 @@
 				0A0B6FB216D0951A006F98CD /* Minerals.mp3 */,
 				043FA50F16F8448D00C474E8 /* hotspot-track3.mp3 */,
 				043FA51016F8448D00C474E8 /* hotspot-track4.mp3 */,
+				F41499F016F96AAE00E03334 /* rockhotspotimage5-music.mp3 */,
 				043FA51116F8448D00C474E8 /* hotspot-track2.mp3 */,
+				F41499F216F96C8A00E03334 /* rockhotspotimage6-music.mp3 */,
+				F41499F616F9774700E03334 /* rockhotspotimage8-music.mp3 */,
+				F41499FA16F97C0B00E03334 /* mineralhotspotimage2-music.mp3 */,
+				F41499F816F9781E00E03334 /* mineralhotspotimage1-music.mp3 */,
+				F41499E416F962BF00E03334 /* rockhotspotimage1-music.mp3 */,
+				F41499EE16F967D000E03334 /* rockhotspotimage4-music.mp3 */,
+				F41499F416F96DE200E03334 /* rockhotspotimage7-music.mp3 */,
+				F41499E616F962E400E03334 /* rockhotspotimage2-music.mp3 */,
+				F41499EC16F9660500E03334 /* rockhotspotimage3-music.mp3 */,
+				F41499FC16F97E1900E03334 /* mineralhotspotimage4-music.mp3 */,
 				043FA50D16F843F900C474E8 /* hotspot-track1.mp3 */,
 				0A0B6FB316D0951A006F98CD /* Rocks.mp3 */,
 				0A0B6FB416D0951A006F98CD /* Soil.mp3 */,
@@ -3274,7 +3307,7 @@
 				04A587BC169938630066968D /* apps_bigger-ipad.png */,
 				04A587BD169938630066968D /* apps_bigger-ipadhd.png */,
 				04A587BE169938630066968D /* apps-ipad.png */,
-				F4D94F1C16E5A6E4002268F0 /* ecosystem_master.xml */,
+				F41499E216F957DC00E03334 /* ecosystem_master.xml */,
 				04A587BF169938630066968D /* apps-ipadhd.png */,
 				1B9886FF14CEC55400C5BB34 /* Movies */,
 				1B1479D014B833B400353E77 /* Images */,
@@ -3723,7 +3756,6 @@
 				F4E6B7BB16E45B1F00C0077A /* fossils-20.jpg in Resources */,
 				F4E6B7BC16E45B1F00C0077A /* fossils-21.jpg in Resources */,
 				F4E6B7BD16E45B1F00C0077A /* fossils-22.jpg in Resources */,
-				F4D94F1D16E5A6E4002268F0 /* ecosystem_master.xml in Resources */,
 				04275C1216E5DA7000CBDD3F /* stopreadme-ipad.png in Resources */,
 				04275C1316E5DA7E00CBDD3F /* stopreadme-ipadhd.png in Resources */,
 				04275C1416E5DAD500CBDD3F /* back_bigger-ipadhd.png in Resources */,
@@ -3753,6 +3785,18 @@
 				043FA51216F8448D00C474E8 /* hotspot-track3.mp3 in Resources */,
 				043FA51316F8448D00C474E8 /* hotspot-track4.mp3 in Resources */,
 				043FA51416F8448D00C474E8 /* hotspot-track2.mp3 in Resources */,
+				F41499E316F957DC00E03334 /* ecosystem_master.xml in Resources */,
+				F41499E516F962BF00E03334 /* rockhotspotimage1-music.mp3 in Resources */,
+				F41499E716F962E400E03334 /* rockhotspotimage2-music.mp3 in Resources */,
+				F41499ED16F9660500E03334 /* rockhotspotimage3-music.mp3 in Resources */,
+				F41499EF16F967D000E03334 /* rockhotspotimage4-music.mp3 in Resources */,
+				F41499F116F96AAE00E03334 /* rockhotspotimage5-music.mp3 in Resources */,
+				F41499F316F96C8A00E03334 /* rockhotspotimage6-music.mp3 in Resources */,
+				F41499F516F96DE300E03334 /* rockhotspotimage7-music.mp3 in Resources */,
+				F41499F716F9774700E03334 /* rockhotspotimage8-music.mp3 in Resources */,
+				F41499F916F9781E00E03334 /* mineralhotspotimage1-music.mp3 in Resources */,
+				F41499FB16F97C0C00E03334 /* mineralhotspotimage2-music.mp3 in Resources */,
+				F41499FD16F97E1900E03334 /* mineralhotspotimage4-music.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
