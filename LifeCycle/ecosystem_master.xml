@@ -800,7 +800,7 @@
             <backgroundImage>rockhotspotimage1.png</backgroundImage>
             <backgroundText>Various stages of the rock cycle. Touch the glowing spots to learn more.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>rockhotspotimage1-music.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>Fir0002</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -1298,7 +1298,7 @@
             <backgroundImage>rockhotspotimage3.png</backgroundImage>
             <backgroundText>The Earth is made of many different layers. Rocks are a part of the Earth's crust.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>rockhotspotimage3-music.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>© piai - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -1657,7 +1657,7 @@
             <backgroundImage>rockhotspotimage4.png</backgroundImage>
             <backgroundText>This picture shows the formation of the different types of igneous rock structures.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-          <backgroundTrackName>rockhotspotimage4-music.mp3</backgroundTrackName>
+          <backgroundTrackName></backgroundTrackName>
             <attribution>Woudloper</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -3099,7 +3099,7 @@
             <backgroundImage>mineralhotspotimage1.png</backgroundImage>
             <backgroundText>A collection of various gemstones. Touch the glowing spots to learn more.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>mineralhotspotimage1-music.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
 			<attribution>© Tryfonov - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -3414,7 +3414,7 @@
             <backgroundImage>mineralhotspotimage2.png</backgroundImage>
             <backgroundText>Open pit mines are used to extract minerals that are found near the surface.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>mineralhotspotimage2-music.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
 			<attribution>Stepanovas</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -3509,7 +3509,7 @@
             <backgroundImage>mineralhotspotimage3.png</backgroundImage>
             <backgroundText>Kalgoorlie Super pit is Australia's largest open cut gold mine.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>mineralhotspotimage2-music.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>© Imagevixen - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -3699,7 +3699,7 @@
             <backgroundImage>mineralhotspotimage5.png</backgroundImage>
             <backgroundText>Diamond and graphite are allotropes (pure forms) of carbon with different crystal structures.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>© Alexander Potapov - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -3882,7 +3882,7 @@
             <backgroundImage>mineralhotspotimage6.png</backgroundImage>
             <backgroundText>Ruby is a precious stone made of Aluminum oxide that is found in marble stone.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>© Alexander Maksimov - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -3977,7 +3977,7 @@
             <backgroundImage>mineralhotspotimage7.png</backgroundImage>
             <backgroundText>Minerals can be identified using fluorescence. </backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>Hannes Grobe</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -4072,7 +4072,7 @@
             <backgroundImage>mineralhotspotimage8.png</backgroundImage>
             <backgroundText>Gemstone pebbles occur in many colors, shapes, and textures.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track2.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>© Vladislav Gajic - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -4936,7 +4936,7 @@
             <backgroundImage>soilhotspotimage1.png</backgroundImage>
             <backgroundText>There are many different types of soils.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>© luna2631 - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -5207,7 +5207,7 @@
             <backgroundImage>soilhotspotimage2.png</backgroundImage>
             <backgroundText>Soil is made up of layers parallel to the surface known as horizons.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
+            <backgroundTrackName>soilhotspotimage2-music.mp3</backgroundTrackName>
             <attribution>HolgerK</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -5390,7 +5390,7 @@
             <backgroundImage>soilhotspotimage3.png</backgroundImage>
             <backgroundText>Termites play an important role in soil formation and nutrient cycling.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
+            <backgroundTrackName>soilhotspotimage3-music.mp3</backgroundTrackName>
             <attribution>© cstyle - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -5485,7 +5485,7 @@
             <backgroundImage>soilhotspotimage4.png</backgroundImage>
             <backgroundText>Limestone towers at Mono Lake formed from dissolved salts in the runoff water.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
+            <backgroundTrackName>rockhotspotimage5-music.mp3</backgroundTrackName>
             <attribution>Octagon</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -5580,7 +5580,7 @@
             <backgroundImage>soilhotspotimage5.png</backgroundImage>
             <backgroundText>Delicate arch formed by weathering and erosion of sandstone by wind and water.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
+            <backgroundTrackName>rockhotspotimage7-music.mp3</backgroundTrackName>
             <attribution>© Can Stock Photo Inc. / sprokop</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -5675,7 +5675,7 @@
             <backgroundImage>soilhotspotimage6.png</backgroundImage>
             <backgroundText>Structures formed by the weathering and erosion of rock by wind and water.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
+            <backgroundTrackName>rockhotspotimage7-music.mp3</backgroundTrackName>
             <attribution>© atm2003 - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -5814,7 +5814,7 @@
             <backgroundImage>soilhotspotimage7.png</backgroundImage>
             <backgroundText>Plants can help prevent erosion by wind and water.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>© meal_meaw - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -5909,7 +5909,7 @@
             <backgroundImage>soilhotspotimage8.png</backgroundImage>
             <backgroundText>Glaciers can erode rocks by abrasion and fracturing.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track3.mp3</backgroundTrackName>
+            <backgroundTrackName>soilhotspotimage8-music.mp3</backgroundTrackName>
             <attribution>Dirk Beyer</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -6036,7 +6036,7 @@
             <didYouKnowLeftImage>main_text_arrow_left.png</didYouKnowLeftImage>
             <didYouKnowRightImage>main_text_arrow_right.png</didYouKnowRightImage>
             <item uid="0">
-                <text>The word fossilÄù comes from the Latin word fossilis, which means "dug up."</text>
+                <text>The word fossil comes from the Latin word fossilis, which means "dug up."</text>
             </item>
             <item uid="1">
                 <text>Paleontology is the study of life from former geologic periods. Paleontologists primarily study fossils.</text>
@@ -6771,7 +6771,7 @@
             <backgroundImage>fossilhotspotimage1.png</backgroundImage>
             <backgroundText>Amber is sticky tree sap that can fossilize insects.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>© Dmitry DG - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -6867,7 +6867,7 @@
             <backgroundImage>fossilhotspotimage2.png</backgroundImage>
             <backgroundText>Fossilized fern from the Coal Age, over 300-360 millions ago.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>Woudloper</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -6962,7 +6962,7 @@
             <backgroundImage>fossilhotspotimage3.png</backgroundImage>
             <backgroundText>Petrified wood or wood that has been turned to stone.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>Daniel Schwen</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -7057,7 +7057,7 @@
             <backgroundImage>fossilhotspotimage4.png</backgroundImage>
             <backgroundText>Fossilized seeds of the Katsura tree preserved in volcanic ash and limestone.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
+            <backgroundTrackName></backgroundTrackName>
             <attribution>Rene Sylvestersen</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -7152,7 +7152,7 @@
             <backgroundImage>fossilhotspotimage5.png</backgroundImage>
             <backgroundText>A trace fossil showing dinosaur footprints</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-			<backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
+			<backgroundTrackName></backgroundTrackName>
             <attribution>© bkpardini - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -7247,7 +7247,7 @@
             <backgroundImage>fossilhotspotimage6.png</backgroundImage>
             <backgroundText>A dinosaur fossil showing well preserved teeth.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-			<backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
+			<backgroundTrackName></backgroundTrackName>
             <attribution>© Ecoview - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -7342,7 +7342,7 @@
             <backgroundImage>fossilhotspotimage7.png</backgroundImage>
             <backgroundText>Paleontologist at work with various tools.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-			<backgroundTrackName>hotspot-track4.mp3</backgroundTrackName>
+			<backgroundTrackName>fossilhotspotimage7-music</backgroundTrackName>
             <attribution>© awestound - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
