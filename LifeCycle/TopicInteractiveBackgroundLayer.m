@@ -105,7 +105,7 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
         // hotspot popup background text
         textLabel.tag = kBackgroundTextTag;
 //        [self assignPositionFromXMLForNode:textLabel];
-                textLabel.position = CGPointMake(512,25);
+                textLabel.position = CGPointMake(512,30);
         [self addChild:textLabel z:1000];
     }
     
@@ -118,11 +118,11 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
     NSString *attribution = [NSString stringWithFormat:@"Photo By %@",bgInfo.attribution];
     CCLabelTTF *textAttributionLabel = (CCLabelTTF *)[self getChildByTag:kBackgroundTextTag + 100];
     if (textAttributionLabel == nil) {
-        textAttributionLabel = [CCLabelTTF labelWithString:attribution fontName:@"Arial" fontSize:20.0];
+        textAttributionLabel = [CCLabelTTF labelWithString:attribution fontName:@"Arial" fontSize:13.0];
         // hotspot popup background text
         textAttributionLabel.tag = kBackgroundTextTag + 100;
         //        [self assignPositionFromXMLForNode:textLabel];
-        textAttributionLabel.position = CGPointMake(512,65);
+        textAttributionLabel.position = CGPointMake(915,7);
         [self addChild:textAttributionLabel z:1000];
     }
     
