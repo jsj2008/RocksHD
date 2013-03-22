@@ -125,6 +125,10 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
         textAttributionLabel.position = CGPointMake(915,7);
         [self addChild:textAttributionLabel z:1000];
     }
+    else
+    {
+        textAttributionLabel.string = attribution;
+    }
     
 
     
