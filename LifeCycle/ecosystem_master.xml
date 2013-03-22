@@ -2322,7 +2322,7 @@
             \n People identify minerals in many other ways such as acid tests, radioactivity tests, and simply using their taste buds.
         </mainText>
         <mainTextTitleImageName>text-background.png</mainTextTitleImageName>
-        <backgroundTrackName>ecosystem_stage2bgtrack.mp3</backgroundTrackName>
+        <backgroundTrackName>stage2bgtrack.mp3</backgroundTrackName>
         <voiceoverTrackName>Minerals.mp3</voiceoverTrackName>
         <images>
             <item uid="0">
@@ -4178,7 +4178,7 @@
             \n Erosion is the carrying away of rocks and soil. Erosion is caused by wind, precipitation and gravity. Although erosion is a natural process, it is problematic when we lose soil for crops, forests and other habitats. Trees can help fight erosion because their roots stabilize the soil.
         </mainText>
         <mainTextTitleImageName>text-background.png</mainTextTitleImageName>
-        <backgroundTrackName>ecosystem_stage3bgtrack.mp3</backgroundTrackName>
+        <backgroundTrackName>stage3bgtrack.mp3</backgroundTrackName>
         <voiceoverTrackName>Soil.mp3</voiceoverTrackName>
         <images>
             <item uid="0">
