@@ -165,7 +165,7 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
         HotspotsOnBackgroundInfo *hotspotsBgInfo = hotspotsOnBackgrounds[currentHotspotsFilledBackgroundIndex];
         
         [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
-        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:hotspotsBgInfo.backgroundTrackName];
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:hotspotsBgInfo.backgroundTrackName loop:FALSE];
         
 
     }
@@ -501,7 +501,11 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
         
         [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
         
-            [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+//            [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+        
+        HotspotsOnBackgroundInfo *bgInfo = self.info.hotspotsOnBackgrounds[currentHotspotsFilledBackgroundIndex];
+        
+            [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:bgInfo.backgroundTrackName loop:FALSE];
         
     }
 
@@ -722,7 +726,7 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
                 
                 
                 [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
-                [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:bgInfo.backgroundTrackName];
+                [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:bgInfo.backgroundTrackName loop:FALSE];
                 
                 
             }
@@ -772,7 +776,7 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
                
                 
                 [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
-                [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:bgInfo.backgroundTrackName];
+                [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:bgInfo.backgroundTrackName loop:FALSE];
                 
                 
             }
