@@ -24,9 +24,14 @@
             Minerals are elements or compounds that combine to form rocks.
         </item>
         <item uid="3">
-            Fossils are remains of plants, animals and other living organisms that lived a long time ago.
+            Rocks and minerals combine with organic matter to form the top layer of the earth's surface known as soil.
         </item>
         <item uid="4">
+            Micro-organisms in the soil like bacteria and fungi break down plant and animal residues and convert them into nutrients for plants.
+        <item uid="5">
+            Fossils are remains of plants, animals and other living organisms that lived a long time ago.
+        </item>
+        <item uid="6">
             These remains are preserved in rocks and help us understand Earth's history and provide clues about life in the distant past.
         </item>
     </introTexts>
@@ -4738,7 +4743,7 @@
             
             <item uid="7">
                 <question>
-                    According to the narrator, how is soil “alive?”
+                    According to the narrator, how is soil alive?
                 </question>
                 <level>Medium</level>
                 <answers>
