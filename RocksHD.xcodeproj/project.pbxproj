@@ -522,7 +522,6 @@
 		F4B9B89916E2C7E100F98582 /* soilhotspotimage1-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B89116E2C7E000F98582 /* soilhotspotimage1-ipad.png */; };
 		F4B9B89A16E2C7E100F98582 /* soilhotspotimage2-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B89216E2C7E000F98582 /* soilhotspotimage2-ipad.png */; };
 		F4B9B89B16E2C7E100F98582 /* soilhotspotimage3-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B89316E2C7E000F98582 /* soilhotspotimage3-ipad.png */; };
-		F4B9B89C16E2C7E100F98582 /* soilhotspotimage4-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B89416E2C7E000F98582 /* soilhotspotimage4-ipad.png */; };
 		F4B9B89D16E2C7E100F98582 /* soilhotspotimage5-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B89516E2C7E000F98582 /* soilhotspotimage5-ipad.png */; };
 		F4B9B89E16E2C7E100F98582 /* soilhotspotimage6-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B89616E2C7E000F98582 /* soilhotspotimage6-ipad.png */; };
 		F4B9B89F16E2C7E100F98582 /* soilhotspotimage7-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B89716E2C7E000F98582 /* soilhotspotimage7-ipad.png */; };
@@ -549,7 +548,6 @@
 		F4B9B8D716E2C87400F98582 /* soilhotspotimage1-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B8CF16E2C87400F98582 /* soilhotspotimage1-ipadhd.png */; };
 		F4B9B8D816E2C87400F98582 /* soilhotspotimage2-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B8D016E2C87400F98582 /* soilhotspotimage2-ipadhd.png */; };
 		F4B9B8D916E2C87400F98582 /* soilhotspotimage3-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B8D116E2C87400F98582 /* soilhotspotimage3-ipadhd.png */; };
-		F4B9B8DA16E2C87400F98582 /* soilhotspotimage4-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B8D216E2C87400F98582 /* soilhotspotimage4-ipadhd.png */; };
 		F4B9B8DB16E2C87400F98582 /* soilhotspotimage5-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B8D316E2C87400F98582 /* soilhotspotimage5-ipadhd.png */; };
 		F4B9B8DC16E2C87400F98582 /* soilhotspotimage6-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B8D416E2C87400F98582 /* soilhotspotimage6-ipadhd.png */; };
 		F4B9B8DD16E2C87400F98582 /* soilhotspotimage7-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B8D516E2C87400F98582 /* soilhotspotimage7-ipadhd.png */; };
@@ -604,6 +602,8 @@
 		F4DA297416FE1B5800285879 /* stage3bgtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4DA297016FE1B5800285879 /* stage3bgtrack.mp3 */; };
 		F4DA297516FE1B5800285879 /* stage4bgtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4DA297116FE1B5800285879 /* stage4bgtrack.mp3 */; };
 		F4DA297716FE1B6600285879 /* Music - Menu page.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4DA297616FE1B6600285879 /* Music - Menu page.mp3 */; };
+		F4DA297A16FE2D1D00285879 /* soilhotspotimage4-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DA297816FE2D1D00285879 /* soilhotspotimage4-ipad.png */; };
+		F4DA297B16FE2D1D00285879 /* soilhotspotimage4-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DA297916FE2D1D00285879 /* soilhotspotimage4-ipadhd.png */; };
 		F4E6B76E16E45A8D00C0077A /* rocks-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046716D92BF500B1364C /* rocks-4.jpg */; };
 		F4E6B76F16E45AFA00C0077A /* rocks-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046916D92BF500B1364C /* rocks-6.jpg */; };
 		F4E6B77016E45AFA00C0077A /* rocks-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046A16D92BF500B1364C /* rocks-7.jpg */; };
@@ -1599,7 +1599,6 @@
 		F4B9B89116E2C7E000F98582 /* soilhotspotimage1-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage1-ipad.png"; sourceTree = "<group>"; };
 		F4B9B89216E2C7E000F98582 /* soilhotspotimage2-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage2-ipad.png"; sourceTree = "<group>"; };
 		F4B9B89316E2C7E000F98582 /* soilhotspotimage3-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage3-ipad.png"; sourceTree = "<group>"; };
-		F4B9B89416E2C7E000F98582 /* soilhotspotimage4-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage4-ipad.png"; sourceTree = "<group>"; };
 		F4B9B89516E2C7E000F98582 /* soilhotspotimage5-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage5-ipad.png"; sourceTree = "<group>"; };
 		F4B9B89616E2C7E000F98582 /* soilhotspotimage6-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage6-ipad.png"; sourceTree = "<group>"; };
 		F4B9B89716E2C7E000F98582 /* soilhotspotimage7-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage7-ipad.png"; sourceTree = "<group>"; };
@@ -1626,7 +1625,6 @@
 		F4B9B8CF16E2C87400F98582 /* soilhotspotimage1-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage1-ipadhd.png"; sourceTree = "<group>"; };
 		F4B9B8D016E2C87400F98582 /* soilhotspotimage2-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage2-ipadhd.png"; sourceTree = "<group>"; };
 		F4B9B8D116E2C87400F98582 /* soilhotspotimage3-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage3-ipadhd.png"; sourceTree = "<group>"; };
-		F4B9B8D216E2C87400F98582 /* soilhotspotimage4-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage4-ipadhd.png"; sourceTree = "<group>"; };
 		F4B9B8D316E2C87400F98582 /* soilhotspotimage5-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage5-ipadhd.png"; sourceTree = "<group>"; };
 		F4B9B8D416E2C87400F98582 /* soilhotspotimage6-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage6-ipadhd.png"; sourceTree = "<group>"; };
 		F4B9B8D516E2C87400F98582 /* soilhotspotimage7-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage7-ipadhd.png"; sourceTree = "<group>"; };
@@ -1681,6 +1679,8 @@
 		F4DA297016FE1B5800285879 /* stage3bgtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stage3bgtrack.mp3; sourceTree = "<group>"; };
 		F4DA297116FE1B5800285879 /* stage4bgtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stage4bgtrack.mp3; sourceTree = "<group>"; };
 		F4DA297616FE1B6600285879 /* Music - Menu page.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Music - Menu page.mp3"; sourceTree = "<group>"; };
+		F4DA297816FE2D1D00285879 /* soilhotspotimage4-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage4-ipad.png"; sourceTree = "<group>"; };
+		F4DA297916FE2D1D00285879 /* soilhotspotimage4-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soilhotspotimage4-ipadhd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2811,7 +2811,6 @@
 				F4B9B8CF16E2C87400F98582 /* soilhotspotimage1-ipadhd.png */,
 				F4B9B8D016E2C87400F98582 /* soilhotspotimage2-ipadhd.png */,
 				F4B9B8D116E2C87400F98582 /* soilhotspotimage3-ipadhd.png */,
-				F4B9B8D216E2C87400F98582 /* soilhotspotimage4-ipadhd.png */,
 				F4B9B8D316E2C87400F98582 /* soilhotspotimage5-ipadhd.png */,
 				F4B9B8D416E2C87400F98582 /* soilhotspotimage6-ipadhd.png */,
 				F4B9B8D516E2C87400F98582 /* soilhotspotimage7-ipadhd.png */,
@@ -2826,6 +2825,8 @@
 				F4B9B8B116E2C82F00F98582 /* mineralhotspotimage1-ipadhd.png */,
 				F4B9B8B216E2C82F00F98582 /* mineralhotspotimage2-ipadhd.png */,
 				F4B9B8B316E2C82F00F98582 /* mineralhotspotimage3-ipadhd.png */,
+				F4DA297816FE2D1D00285879 /* soilhotspotimage4-ipad.png */,
+				F4DA297916FE2D1D00285879 /* soilhotspotimage4-ipadhd.png */,
 				F4B9B8B416E2C82F00F98582 /* mineralhotspotimage4-ipadhd.png */,
 				F4B9B87316E2C7C800F98582 /* mineralhotspotimage1-ipad.png */,
 				F4B9B88116E2C7D500F98582 /* rockhotspotimage1-ipad.png */,
@@ -2843,7 +2844,6 @@
 				F4B9B89116E2C7E000F98582 /* soilhotspotimage1-ipad.png */,
 				F4B9B89216E2C7E000F98582 /* soilhotspotimage2-ipad.png */,
 				F4B9B89316E2C7E000F98582 /* soilhotspotimage3-ipad.png */,
-				F4B9B89416E2C7E000F98582 /* soilhotspotimage4-ipad.png */,
 				F4B9B89516E2C7E000F98582 /* soilhotspotimage5-ipad.png */,
 				F4B9B89616E2C7E000F98582 /* soilhotspotimage6-ipad.png */,
 				F4B9B89716E2C7E000F98582 /* soilhotspotimage7-ipad.png */,
@@ -3668,7 +3668,6 @@
 				F4B9B89916E2C7E100F98582 /* soilhotspotimage1-ipad.png in Resources */,
 				F4B9B89A16E2C7E100F98582 /* soilhotspotimage2-ipad.png in Resources */,
 				F4B9B89B16E2C7E100F98582 /* soilhotspotimage3-ipad.png in Resources */,
-				F4B9B89C16E2C7E100F98582 /* soilhotspotimage4-ipad.png in Resources */,
 				F4B9B89D16E2C7E100F98582 /* soilhotspotimage5-ipad.png in Resources */,
 				F4B9B89E16E2C7E100F98582 /* soilhotspotimage6-ipad.png in Resources */,
 				F4B9B89F16E2C7E100F98582 /* soilhotspotimage7-ipad.png in Resources */,
@@ -3695,7 +3694,6 @@
 				F4B9B8D716E2C87400F98582 /* soilhotspotimage1-ipadhd.png in Resources */,
 				F4B9B8D816E2C87400F98582 /* soilhotspotimage2-ipadhd.png in Resources */,
 				F4B9B8D916E2C87400F98582 /* soilhotspotimage3-ipadhd.png in Resources */,
-				F4B9B8DA16E2C87400F98582 /* soilhotspotimage4-ipadhd.png in Resources */,
 				F4B9B8DB16E2C87400F98582 /* soilhotspotimage5-ipadhd.png in Resources */,
 				F4B9B8DC16E2C87400F98582 /* soilhotspotimage6-ipadhd.png in Resources */,
 				F4B9B8DD16E2C87400F98582 /* soilhotspotimage7-ipadhd.png in Resources */,
@@ -3845,6 +3843,8 @@
 				F4DA297416FE1B5800285879 /* stage3bgtrack.mp3 in Resources */,
 				F4DA297516FE1B5800285879 /* stage4bgtrack.mp3 in Resources */,
 				F4DA297716FE1B6600285879 /* Music - Menu page.mp3 in Resources */,
+				F4DA297A16FE2D1D00285879 /* soilhotspotimage4-ipad.png in Resources */,
+				F4DA297B16FE2D1D00285879 /* soilhotspotimage4-ipadhd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

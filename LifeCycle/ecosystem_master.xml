@@ -1267,16 +1267,16 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>480</x>
-                    <y>425</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>691</x>
+                    <y>414</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
                     <x>480</x>
                     <y>425</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -2277,14 +2277,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>531</x>
-                    <y>107</y>
+                    <x>655</x>
+                    <y>219</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>531</x>
-                    <y>107</y>
+                    <x>655</x>
+                    <y>219</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -3434,14 +3434,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>501</x>
-                    <y>365</y>
+                    <x>678</x>
+                    <y>368</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>501</x>
-                    <y>365</y>
+                    <x>678</x>
+                    <y>368</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -3478,16 +3478,16 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>384</x>
-                    <y>612</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>447</x>
+                    <y>238</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>384</x>
-                    <y>612</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>447</x>
+                    <y>238</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -3529,14 +3529,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>469</x>
-                    <y>649</y>
+                    <x>124</x>
+                    <y>535</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>469</x>
-                    <y>649</y>
+                    <x>124</x>
+                    <y>535</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -3573,14 +3573,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>354</x>
-                    <y>341</y>
+                    <x>668</x>
+                    <y>235</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>354</x>
-                    <y>341</y>
+                    <x>668</x>
+                    <y>235</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -3624,14 +3624,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>635</x>
-                    <y>273</y>
+                    <x>700</x>
+                    <y>496</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>635</x>
-                    <y>273</y>
+                    <x>700</x>
+                    <y>496</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -3807,16 +3807,16 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>708</x>
-                    <y>561</y>
+                    <x>696</x>
+                    <y>571</y>
                     <width>60</width>
-                    <height>400</height>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>708</x>
-                    <y>561</y>
+                    <x>696</x>
+                    <y>571</y>
                     <width>60</width>
-                    <height>400</height>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -3851,14 +3851,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>245</x>
-                    <y>774</y>
+                    <x>236</x>
+                    <y>573</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>245</x>
-                    <y>774</y>
+                    <x>236</x>
+                    <y>573</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -3902,13 +3902,13 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>225</x>
+                    <x>310</x>
                     <y>570</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>225</x>
+                    <x>310</x>
                     <y>570</y>
                     <width>60</width>
                     <height>40</height>
@@ -3946,14 +3946,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>878</x>
-                    <y>389</y>
+                    <x>862</x>
+                    <y>458</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>878</x>
-                    <y>389</y>
+                    <x>862</x>
+                    <y>458</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -3997,14 +3997,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
+                    <x>697</x>
+                    <y>227</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
+                    <x>697</x>
+                    <y>227</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -4041,14 +4041,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
+                    <x>235</x>
+                    <y>478</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
+                    <x>235</x>
+                    <y>478</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -4092,16 +4092,16 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>243</x>
+                    <y>456</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>830.0</x>
-                    <y>353.0</y>
-                    <width>140.0</width>
-                    <height>112.0</height>
+                    <x>243</x>
+                    <y>456</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -4136,16 +4136,16 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>620</x>
+                    <y>270</y>
+                    <width>60</width>
+                    <height>40</height>
                 </bound>
                 <frame>
-                    <x>275.5</x>
-                    <y>299.0</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <x>620</x>
+                    <y>40</y>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -5013,8 +5013,8 @@
                 <frame>
                     <x>175</x>
                     <y>496</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
+                    <width>60</width>
+                    <height>40</height>
                 </frame>
                 <largerFrame>
                     <x>325</x>
@@ -5510,14 +5510,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>382</x>
-                    <y>265</y>
+                    <x>159</x>
+                    <y>520</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>382</x>
-                    <y>265</y>
+                    <x>159</x>
+                    <y>520</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -5554,14 +5554,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>915</x>
-                    <y>284</y>
+                    <x>534</x>
+                    <y>398</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>915</x>
-                    <y>284</y>
+                    <x>534</x>
+                    <y>398</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -5605,14 +5605,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>642</x>
-                    <y>316</y>
+                    <x>394</x>
+                    <y>620</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>642</x>
-                    <y>316</y>
+                    <x>394</x>
+                    <y>620</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -5934,14 +5934,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>331</x>
-                    <y>541</y>
+                    <x>361</x>
+                    <y>630</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>331</x>
-                    <y>541</y>
+                    <x>361</x>
+                    <y>630</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -5978,14 +5978,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>574</x>
-                    <y>309</y>
+                    <x>172</x>
+                    <y>473</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>574</x>
-                    <y>309</y>
+                    <x>172</x>
+                    <y>473</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -6801,14 +6801,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>393</x>
-                    <y>282</y>
+                    <x>609</x>
+                    <y>219</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>393</x>
-                    <y>282</y>
+                    <x>609</x>
+                    <y>219</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -6845,14 +6845,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>520</x>
-                    <y>414</y>
+                    <x>293</x>
+                    <y>293</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>520</x>
-                    <y>414</y>
+                    <x>293</x>
+                    <y>293</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -7036,14 +7036,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>756</x>
-                    <y>306</y>
+                    <x>96</x>
+                    <y>377</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>756</x>
-                    <y>306</y>
+                    <x>96</x>
+                    <y>377</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -7078,7 +7078,7 @@
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Seeds of Katsura</title>
-                <text>The Katsura is an ornamental tree found in Japan and China. \n\nIt has heart shaped leaves with bright yellow, orange, or red colors. \n\nThis picture shows a fossil of the seeds of a Katsura tree. \n\nFound in Denmark and dating back to 55 million years ago, this fossil was formed during the marine geological formation call the Fur Formation.\n</text>
+                <text>The Katsura is an ornamental tree found in Japan and China.\n\nIt has heart shaped leaves with bright yellow, orange, or red colors.\n\nThis picture shows a fossil of the seeds of a Katsura tree.\n\nFound in Denmark and dating back to 55 million years ago, this fossil was formed during the marine geological formation call the Fur Formation.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -7122,7 +7122,7 @@
             <hotspot version="1" uid="2" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Fur formation</title>
-                <text>The Fur formation in Denmark is a marine geological formation dating back to 55 million years ago. \n\nThis formation has diatoms (a type of algae) and clay covered with volcanic ash and limestone.\n\nLots of fossilized fish, insects, plants, and birds are seen in the rocks.\n</text>
+                <text>The Fur formation in Denmark is a marine geological formation dating back to 55 million years ago.\n\nThis formation has diatoms (a type of algae) and clay covered with volcanic ash and limestone.\n\nLots of fossilized fish, insects, plants, and birds are seen in the rocks.\n</text>
                 <fontSize>15.0</fontSize>
                 <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
                 <textColor>white</textColor>
@@ -7372,14 +7372,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>529</x>
-                    <y>627</y>
+                    <x>419</x>
+                    <y>626</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>529</x>
-                    <y>627</y>
+                    <x>419</x>
+                    <y>626</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -7467,14 +7467,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>440</x>
-                    <y>496</y>
+                    <x>361</x>
+                    <y>486</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>440</x>
-                    <y>496</y>
+                    <x>361</x>
+                    <y>486</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
@@ -7511,14 +7511,14 @@
                 <keyImage></keyImage>
                 <keyImageTitle></keyImageTitle>
                 <bound>
-                    <x>603</x>
-                    <y>315</y>
+                    <x>668</x>
+                    <y>285</y>
                     <width>60</width>
                     <height>40</height>
                 </bound>
                 <frame>
-                    <x>603</x>
-                    <y>315</y>
+                    <x>668</x>
+                    <y>285</y>
                     <width>60</width>
                     <height>40</height>
                 </frame>
