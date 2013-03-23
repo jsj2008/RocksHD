@@ -28,6 +28,7 @@
     
     // Sprite position and anchor pt debugging.
     BOOL uiEditMode;
+    NSString *currentBackgroundTrackName;
 }
 
 @property (readwrite) BOOL isMusicON;
@@ -37,6 +38,7 @@
 @property (nonatomic, retain) NSMutableDictionary *soundEffectsState;
 @property (readonly) SceneTypes currentScene;
 @property (readonly) int numOfTopics;
+@property (nonatomic, retain) NSString  *currentBackgroundTrackName;
 
 +(FlowAndStateManager*)sharedFlowAndStateManager;
 -(void)runSceneWithID:(SceneTypes)sceneID withTranstion:(CCTransitionStyles)transitionStyle;

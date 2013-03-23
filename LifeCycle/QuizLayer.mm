@@ -234,9 +234,18 @@
     self.audioItemImage.position = audio_position;
     self.audioItemImage.tag = kQuizAudioButtonTag;
     
-    if ([[FlowAndStateManager sharedFlowAndStateManager] isMusicON]) 
+    if ([[FlowAndStateManager sharedFlowAndStateManager] isMusicON])
+    {
         [self.audioItemImage unselected];
-    else 
+        
+        if (![[FlowAndStateManager sharedFlowAndStateManager].currentBackgroundTrackName isEqualToString:BACKGROUND_TRACK_MENUPAGE])
+        {
+            [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+            [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+        }
+        
+    }
+    else
         [self.audioItemImage selected];
     
     CGPoint back_position = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kQuizBackButtonTag];
@@ -274,7 +283,8 @@
     else {
         [i unselected];
         [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
-        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
+//        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
+                [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
     }
 }
 

@@ -44,7 +44,7 @@
 @synthesize bigImageURLs = _bigImageURLs;
 @synthesize urlArray = urlArray_;
 @synthesize galleryId;
-
+@synthesize audioItemImage;
 -(void)dealloc {
     CCLOG(@"Deallocating PhotoLayer");
     
@@ -117,17 +117,18 @@
     
     NSString *path = [NSString stringWithFormat:@"%@/CCMenu:%d/CCMenuItemImage", NSStringFromClass([self class]), kPhotoMenuTag];
     
-    CCMenuItemImage *home = [CCMenuItemImage itemFromNormalImage:@"home.png"
-                                                   selectedImage:@"home_bigger.png"
-                                                   disabledImage:@"home.png"
-                                                          target:self selector:@selector(goHome)];
-    
+    self.audioItemImage = [CCMenuItemImage itemFromNormalImage:@"vol-button-on.png"
+                                                 selectedImage:@"vol-button-off.png"
+                                                 disabledImage:@"vol-button-off.png"
+                                                        target:self
+                                                      selector:@selector(audio:)];
+
     CGPoint home_pos = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:path andTag:kPhotoHomeButtonTag];
     
-    home.position = home_pos;
-    home.tag = kPhotoHomeButtonTag;
+    audioItemImage.position = home_pos;
+    audioItemImage.tag = kPhotoHomeButtonTag;
     
-    CCMenu *menu = [CCMenu menuWithItems:home, nil];
+    CCMenu *menu = [CCMenu menuWithItems:audioItemImage, nil];
     
     NSString *menu_path = [NSString stringWithFormat:@"%@/CCMenu", NSStringFromClass([self class])];
     
@@ -135,6 +136,10 @@
     
     //    menu.position = ccp(0.875f * screenSize.width, 0.9375f * screenSize.height);
     menu.position = menu_pos;
+    
+    
+    
+
     
     [menu alignItemsHorizontally];
     
@@ -154,7 +159,7 @@
     
     imageBackSprite.position = back_pos;
     imageBackSprite.tag = kPhotoBackButtonTag;
-    imageBackSprite.scale = 0.75f;
+    //imageBackSprite.scale = 0.75f;
     
     NSString *menu_path = [NSString stringWithFormat:@"%@/CCMenu", NSStringFromClass([self class])];
     CGPoint menu_pos = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:menu_path andTag:kPhotoBackMenuTag];
@@ -254,7 +259,7 @@
     self = [super init];
     if (self) {
         screenSize = [CCDirector sharedDirector].winSize;
-        //        [self addMenu];
+[self addMenu];
         
         numOfImagesKnown = NO;
         numOfImages = 0;
@@ -310,6 +315,14 @@
     
     [[[CCDirector sharedDirector] openGLView] addGestureRecognizer:pinchGestureRecognizer];
     
+    if ([FlowAndStateManager sharedFlowAndStateManager].isMusicON)
+    {
+        [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+        
+        
+    }
+    
 }
 
 -(void)onExit {
@@ -363,12 +376,14 @@
     
     [slides show];
     
-    CGRect glFrame = CGRectMake(0.0, 0.0, 120.0, 15.0);  // the origin is a dummy, the position is the thing thats gonna be set a few lines later.
+   CGRect glFrame = CGRectMake(0.0, 0.0, 120.0, 15.0);  // the origin is a dummy, the position is the thing thats gonna be set a few lines later.
     
+//    CGRect glFrame =  CGRectMake(0,0,screenSize.width*0.5f + 500, screenSize.height*0.5f - 210);
     
     SLCCUIPageControl *pageCtrl = [SLCCUIPageControl slCCUIPageControlWithParentNode:self withGlFrame:glFrame];
     pageCtrl.tag = kPhotoPageControlTag;
     pageCtrl.numberOfPages = numOfImages;
+    pageCtrl.position = CGPointMake(471, 80);
     
     
 }
@@ -1458,6 +1473,21 @@
     sprite.scaleX = newScaleX;
     sprite.scaleY = newScaleY;
     
+}
+
+-(void) audio:(CCMenuItemImage*)i {
+    if ([FlowAndStateManager sharedFlowAndStateManager].isMusicON) {
+        [i selected];
+        [FlowAndStateManager sharedFlowAndStateManager].isMusicON = NO;
+        [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
+        
+    }
+    else {
+        [i unselected];
+        [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
+        //        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+    }
 }
 
 @end

@@ -40,6 +40,7 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
 @synthesize soundEffectsState;
 @synthesize currentScene;
 @synthesize numOfTopics;
+@synthesize currentBackgroundTrackName;
 
 +(FlowAndStateManager*)sharedFlowAndStateManager {
     @synchronized([FlowAndStateManager class]) {
@@ -383,8 +384,10 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
         if ([soundEngine isBackgroundMusicPlaying]) {
             [soundEngine stopBackgroundMusic];
         }
+        
         [soundEngine preloadBackgroundMusic:trackFileName];
         [soundEngine playBackgroundMusic:trackFileName loop:YES];
+        currentBackgroundTrackName = trackFileName;
     }
 }
 
@@ -410,12 +413,14 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
         }
         [soundEngine preloadBackgroundMusic:trackFileName];
         [soundEngine playBackgroundMusic:trackFileName loop:loop];
+        currentBackgroundTrackName = trackFileName;
     }
 }
 
 -(void)stopBackgroundTrack {
     if (managerSoundState == kAudioManagerReady) {
         [soundEngine stopBackgroundMusic];
+        currentBackgroundTrackName = @"";
     }
 }
 

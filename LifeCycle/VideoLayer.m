@@ -101,7 +101,7 @@
     //    imageTitleSprite.anchorPoint = ccp(0.5, 0.5);
     imageBackSprite.position = back_pos;
     imageBackSprite.tag = kVideoBackButtonTag;
-    imageBackSprite.scale = 0.75f;
+   // imageBackSprite.scale = 0.75f;
     
     NSString *menu_path = [NSString stringWithFormat:@"%@/CCMenu", NSStringFromClass([self class])];
     CGPoint menu_pos = [[ConfigManager sharedConfigManager] positionFromDefaultsForNodeHierPath:menu_path andTag:kVideoBackMenuTag];
