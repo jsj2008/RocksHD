@@ -5921,7 +5921,7 @@
             <backgroundText>Glaciers can erode rocks by abrasion and fracturing.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>soilhotspotimage8-music.mp3</backgroundTrackName>
-            <attribution>Arun Ramamoorthy</attribution>
+            <attribution>AR</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Glaciers</title>
