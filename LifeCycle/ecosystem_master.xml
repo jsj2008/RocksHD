@@ -28,6 +28,7 @@
         </item>
         <item uid="4">
             Micro-organisms in the soil like bacteria and fungi break down plant and animal residues and convert them into nutrients for plants.
+        </item>
         <item uid="5">
             Fossils are remains of plants, animals and other living organisms that lived a long time ago.
         </item>
@@ -805,7 +806,7 @@
             <backgroundImage>rockhotspotimage1.png</backgroundImage>
             <backgroundText>Various stages of the rock cycle. Touch the glowing spots to learn more.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>rockhotspotimage1-music.mp3<backgroundTrackName>
+            <backgroundTrackName>rockhotspotimage1-music.mp3</backgroundTrackName>
             <attribution>Fir0002</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -4946,7 +4947,7 @@
             <backgroundImage>soilhotspotimage1.png</backgroundImage>
             <backgroundText>There are many different types of soils.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>soilhotspotimage1-music.mp3    </backgroundTrackName>
+            <backgroundTrackName>soilhotspotimage1-music.mp3</backgroundTrackName>
             <attribution>© luna2631 - Fotolia.com</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
@@ -5920,7 +5921,7 @@
             <backgroundText>Glaciers can erode rocks by abrasion and fracturing.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
             <backgroundTrackName>soilhotspotimage8-music.mp3</backgroundTrackName>
-            <attribution>Dirk Beyer</attribution>
+            <attribution>Arun Ramamoorthy</attribution>
             <hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
                 <title>Glaciers</title>
@@ -7357,7 +7358,7 @@
             <backgroundImage>fossilhotspotimage7.png</backgroundImage>
             <backgroundText>Paleontologist at work with various tools.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-			<backgroundTrackName>fossilhotspotimage7-music</backgroundTrackName>
+			<backgroundTrackName>fossilhotspotimage7-music.mp3</backgroundTrackName>
             <attribution>© awestound - Fotolia.com</attribution>
 			<hotspot version="1" uid="1" type="largeContent">
                 <!-- popup type="largeContent" -->
