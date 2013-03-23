@@ -70,9 +70,11 @@ typedef enum {
     
     NSString *galleryId;
     BOOL         firstDescriptioNotShow ;
+        CCMenuItemImage *audioItemImage;
 }
 
 @property (nonatomic, retain) TopicInfo *topicInfo;
 @property (nonatomic, retain) NSString *galleryId;
+@property (nonatomic, retain) CCMenuItemImage *audioItemImage;
 
 @end
