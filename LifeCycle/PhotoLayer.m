@@ -318,7 +318,8 @@
     if ([FlowAndStateManager sharedFlowAndStateManager].isMusicON)
     {
         [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
-        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+//        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+                [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
         
         
     }
@@ -1485,8 +1486,8 @@
     else {
         [i unselected];
         [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
-        //        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
-        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
+        //[[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
     }
 }
 

@@ -238,10 +238,12 @@
     {
         [self.audioItemImage unselected];
         
-        if (![[FlowAndStateManager sharedFlowAndStateManager].currentBackgroundTrackName isEqualToString:BACKGROUND_TRACK_MENUPAGE])
+        if (![[FlowAndStateManager sharedFlowAndStateManager].currentBackgroundTrackName isEqualToString:BACKGROUND_TRACK_MENUPAGE]
+            && ![[FlowAndStateManager sharedFlowAndStateManager].currentBackgroundTrackName hasPrefix:@"stage"] )
         {
             [[FlowAndStateManager sharedFlowAndStateManager] stopBackgroundTrack];
-            [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+            //[[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+            [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
         }
         
     }
@@ -283,8 +285,8 @@
     else {
         [i unselected];
         [FlowAndStateManager sharedFlowAndStateManager].isMusicON = YES;
-//        [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
-                [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
+   [[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:topicInfo.backgroundTrackName];
+                    //[[FlowAndStateManager sharedFlowAndStateManager] playBackgroundTrack:BACKGROUND_TRACK_MENUPAGE];
     }
 }
 

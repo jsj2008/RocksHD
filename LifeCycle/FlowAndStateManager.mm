@@ -115,6 +115,7 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
         case kQuizScene:
         {
             sceneToRun = [TextAndQuizScene node];
+                        ((TextAndQuizScene*)sceneToRun).topicInfo  = [self loadTopicSpecificsForTopic:[AppConfigManager  getInstance].currentTopic];
             
             int curTopic = [AppConfigManager  getInstance].currentTopic;
             debugLog(@"Current topic %d",curTopic);
@@ -127,8 +128,9 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
             break;
             
         case kPhotoScene:
-            sceneToRun = [PhotoScene node];
         {
+            sceneToRun = [PhotoScene node];
+        
 
             ((PhotoScene*)sceneToRun).topicInfo  = [self loadTopicSpecificsForTopic:[AppConfigManager  getInstance].currentTopic];
 

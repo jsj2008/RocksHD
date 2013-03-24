@@ -202,7 +202,7 @@
     
     TopicInfo *topicInfoForScene = mm.appInfo.topics[topicId -1];
     
-  
+    specificTopicInfo = topicInfoForScene;
 
     // testing questions
     for (QuestionItemInfo *item in topicInfoForScene.questions.items) {
