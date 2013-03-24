@@ -356,19 +356,19 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=53lMdHzvGCQ</url>
+                <url>http://www.youtube.com/watch?v=SRaInMDNyE8</url>
                 <description></description>
-                <attribution>MrParr</attribution>
+                <attribution>NASAeClips</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="1" uid="24">
+            <item version="1" uid="24"> 
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=SRaInMDNyE8</url>
+                <url>http://www.youtube.com/watch?v=pg_jKJFbA2A</url>
                 <description></description>
-                <attribution>NASA</attribution>
+                <attribution>tkent22</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -402,13 +402,13 @@
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="1" uid="28">
+            <item version="1" uid="28"> //delete
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=RMtuTfAqAbo</url>
+                <url>http://www.youtube.com/watch?v=eOuPsJwYu9I</url>
                 <description></description>
-                <attribution>dizzo95</attribution>
+                <attribution>tkent22</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -419,6 +419,36 @@
                 <url>http://www.youtube.com/watch?v=6I0m-kZaLFE</url>
                 <description></description>
                 <attribution>hskellie</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="30">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=e15n7-zq0mA</url>
+                <description></description>
+                <attribution>tkent22</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="31">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=f3K6WLUFS84</url>
+                <description></description>
+                <attribution>GeologyLogic</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="32">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=2M5JQDdardM</url>
+                <description></description>
+                <attribution>WalterBishop</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -2657,9 +2687,9 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=DeNkh4xDKjA</url>
+                <url>http://www.youtube.com/watch?v=rTXSwnkieZc</url>
                 <description></description>
-                <attribution>About.com</attribution>
+                <attribution>tkent22</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -2667,9 +2697,9 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=7piTh8mH9zw</url>
+                <url>http://www.youtube.com/watch?v=-yk1J5EQDeY</url>
                 <description></description>
-                <attribution>About.com</attribution>
+                <attribution>Arizona</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -2677,13 +2707,24 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=3uXyZ3FGTCo</url>
+                <url>http://www.youtube.com/watch?v=2266SkxNPjE</url>
                 <description></description>
-                <attribution>CareerCrate</attribution>
+                <attribution>CrystalSpringsMining</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
             <item version="1" uid="27">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=cjA2-MrWAVU</url>
+                <description></description>
+                <attribution>tkent22</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+
+            <item version="1" uid="28">
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
@@ -2693,7 +2734,7 @@
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="1" uid="28">
+            <item version="1" uid="29">
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
@@ -2703,7 +2744,7 @@
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="1" uid="29">
+            <item version="1" uid="30">
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
@@ -2713,7 +2754,27 @@
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="1" uid="30">
+            <item version="1" uid="31">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=DeNkh4xDKjA</url>
+                <description></description>
+                <attribution>About.com</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="32">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=7piTh8mH9zw</url>
+                <description></description>
+                <attribution>About.com</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="33">
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
@@ -4494,33 +4555,33 @@
                 <status>A</status>
                 <tags>match,gallery</tags>
             </item>
-            <item version="1" uid="24">
+            <item version="1" uid="24"> 
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=3HQwYbwmyaY</url>
+                <url>http://www.youtube.com/watch?v=rPC6cGaJo_E</url>
                 <description></description>
-                <attribution>TheRealBillNye</attribution>
+                <attribution>GrandCanyonNPS</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="1" uid="25">
+            <item version="1" uid="25"> 
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=gx2wVHeiTKE</url>
+                <url>http://www.youtube.com/watch?v=HjVSiuj7Lxk</url>
                 <description></description>
-                <attribution>ParrMr</attribution>
+                <attribution>mrocatgb</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="1" uid="26">
+            <item version="1" uid="26">  
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=sIuphBL_JpA</url>
+                <url>http://www.youtube.com/watch?v=0pS_vpgB1JE</url>
                 <description></description>
-                <attribution>WWCCSoils</attribution>
+                <attribution>utahtravel</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -4558,12 +4619,43 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=B0koKEHRmGY</url>
+                <url>http://www.youtube.com/watch?v=ZUrn_6GjgEw</url>
                 <description></description>
-                <attribution>artmoviemaster</attribution>
+                <attribution>kentrandle</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
+            <item version="1" uid="31"> 
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=bTzslvAD1Es</url>
+                <description></description>
+                <attribution>JPLnews</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="32">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=neUJ5y4hrkE</url>
+                <description></description>
+                <attribution>SoilWebUBC</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="33">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=H3DDft15yEI</url>
+                <description></description>
+                <attribution>SoilWebUBC</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+
         </gallery>
         
         <questions version="1">
@@ -6343,13 +6435,13 @@
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="2" uid="24">
+            <item version="2" uid="24"> 
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=1pcNt2I7j0o</url>
+                <url>http://www.youtube.com/watch?v=3DpfXjo8-gY</url>
                 <description></description>
-                <attribution>kidsknowit</attribution>
+                <attribution>howtoDofloridaTV</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
@@ -6377,29 +6469,59 @@
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=A5i5Qrp6sJU</url>
+                <url>http://www.youtube.com/watch?v=jlypgzoOWm8</url>
                 <description></description>
-                <attribution>factfrog</attribution>
+                <attribution>ZstarTstaR</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="1" uid="28">
+            <item version="1" uid="28"> 
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=q0W-_o8lNlE</url>
+                <url>http://www.youtube.com/watch?v=_8VqWKZIPrM</url>
                 <description></description>
-                <attribution>allthe111</attribution>
+                <attribution>Etheoperatorsmanual</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
-            <item version="1" uid="29">
+            <item version="1" uid="29"> 
                 <title></title>
                 <type>video</type>
                 <thumbnail></thumbnail>
-                <url>http://www.youtube.com/watch?v=N-ycRv16nqo</url>
+                <url>http://www.youtube.com/watch?v=TcZtMFnyj1M</url>
                 <description></description>
-                <attribution>anembocrystals</attribution>
+                <attribution>NASASciFiles</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="30"> 
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=XQRZqG7wCPQ</url>
+                <description></description>
+                <attribution>AMNHorg</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="31">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=GsPuaq76r4M</url>
+                <description></description>
+                <attribution>MartianSanta</attribution>
+                <status>A</status>
+                <tags>gallery</tags>
+            </item>
+            <item version="1" uid="32">
+                <title></title>
+                <type>video</type>
+                <thumbnail></thumbnail>
+                <url>http://www.youtube.com/watch?v=rWdVy-rhmO0</url>
+                <description></description>
+                <attribution>MartianSanta</attribution>
                 <status>A</status>
                 <tags>gallery</tags>
             </item>
