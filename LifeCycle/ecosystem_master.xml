@@ -3161,321 +3161,7 @@
             </item>
             
         </questions>
-        
-        <hotspotsOnBackground version="1" uid="1">
-            <backgroundImage>mineralhotspotimage1.png</backgroundImage>
-            <backgroundText>A collection of various gemstones. Touch the glowing spots to learn more.</backgroundText>
-            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>mineralhotspotimage1-music.mp3</backgroundTrackName>
-			<attribution>© Tryfonov - Fotolia.com</attribution>
-            <hotspot version="1" uid="1" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>Lazurite</title>
-                <text>Lazurite derives its name from the Persian word, Lazhward, meaning blue. \n\nIt is also known as ultramarine and is a component of Lapis Lazuli, which is a rock made of lazurite, calcite (calcium carbonte) and pyrite (iron sulfide). \n\nIt is formed in metamorphosed limestone.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage></keyImage>
-                <keyImageTitle></keyImageTitle>
-                <bound>
-                    <x>87</x>
-                    <y>653</y>
-                    <width>60</width>
-                    <height>40</height>
-                </bound>
-                <frame>
-                    <x>87</x>
-                    <y>653</y>
-                    <width>60</width>
-                    <height>40</height>
-                </frame>
-                <largerFrame>
-                    <x>325</x>
-                    <y>225</y>
-                    <width>400.0</width>
-                    <height>340.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title></title>
-                        <type></type>
-                        <thumbnail></thumbnail>
-                        <url></url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-            
-            <hotspot version="1" uid="2" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>Tigers Eye</title>
-                <text>Tiger's eye is a metamorphic rock that is golden or red brown in color. \n\nIt is a type of quartz and exhibits a cat's eye effect because of parallel growth of quartz crystals between limonite. \n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage></keyImage>
-                <keyImageTitle></keyImageTitle>
-                <bound>
-                    <x>377</x>
-                    <y>649</y>
-                    <width>60</width>
-                    <height>40</height>
-                </bound>
-                <frame>
-                    <x>377</x>
-                    <y>649</y>
-                    <width>60</width>
-                    <height>40</height>
-                </frame>
-                <largerFrame>
-                    <x>325</x>
-                    <y>225</y>
-                    <width>400.0</width>
-                    <height>340.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title></title>
-                        <type></type>
-                        <thumbnail></thumbnail>
-                        <url></url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-			
-			<hotspot version="1" uid="3" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>Moss agate</title>
-                <text>Moss agate is formed from volcanic rocks. It is a semi-precious gemstone also known as mocha stone. \n\nPrimarily made of silicon dioxide, the green filament patterns resemble moss growing on a stone and hence the name.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage></keyImage>
-                <keyImageTitle></keyImageTitle>
-                <bound>
-                    <x>682</x>
-                    <y>648</y>
-                    <width>60</width>
-                    <height>40</height>
-                </bound>
-                <frame>
-                    <x>682</x>
-                    <y>648</y>
-                    <width>242.5</width>
-                    <height>127.5</height>
-                </frame>
-                <largerFrame>
-                    <x>325</x>
-                    <y>225</y>
-                    <width>400.0</width>
-                    <height>340.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title></title>
-                        <type></type>
-                        <thumbnail></thumbnail>
-                        <url></url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-			
-			<hotspot version="1" uid="4" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>Sodalite</title>
-                <text>A royal blue ornamental gemstone, sodalite, has high sodium content and hence the name. \n\nAlthough similar to lazurite and lapis lazuli, it does not contain pyrite. It is found in plutonic igenous rocks.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage></keyImage>
-                <keyImageTitle></keyImageTitle>
-                <bound>
-                    <x>902</x>
-                    <y>646</y>
-                    <width>60</width>
-                    <height>40</height>
-                </bound>
-                <frame>
-                    <x>902</x>
-                    <y>646</y>
-                    <width>60</width>
-                    <height>40</height>
-                </frame>
-                <largerFrame>
-                    <x>325</x>
-                    <y>225</y>
-                    <width>400.0</width>
-                    <height>340.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title></title>
-                        <type></type>
-                        <thumbnail></thumbnail>
-                        <url></url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-			
-			<hotspot version="1" uid="5" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>Aragonite</title>
-                <text>Aragonite is a form of calcium carbonate.\n\nIt is crystalline in nature, but has a different crystal structure compared to calcite.\n\nSince Aragonite is unstable, it converts to calcite over very long periods of time.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage></keyImage>
-                <keyImageTitle></keyImageTitle>
-                <bound>
-                    <x>350</x>
-                    <y>464</y>
-                    <width>60</width>
-                    <height>40</height>
-                </bound>
-                <frame>
-                    <x>350</x>
-                    <y>464</y>
-                    <width>60</width>
-                    <height>40</height>
-                </frame>
-                <largerFrame>
-                    <x>325</x>
-                    <y>225</y>
-                    <width>400.0</width>
-                    <height>340.0</height>
-                </largerFrame>
-				
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title></title>
-                        <type></type>
-                        <thumbnail></thumbnail>
-                        <url></url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-			
-			<hotspot version="1" uid="6" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>Serpentine</title>
-                <text>Serpentine minerals are typically olive green in color and are thus also known as Serpent rock.\n\nThese rocks are made of silicates of magnesium and iron that combine in the presence of water to form rock.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage></keyImage>
-                <keyImageTitle></keyImageTitle>
-                <bound>
-                    <x>611</x>
-                    <y>461</y>
-                    <width>60</width>
-                    <height>40</height>
-                </bound>
-                <frame>
-                    <x>611</x>
-                    <y>461</y>
-                    <width>60</width>
-                    <height>40</height>
-                </frame>
-                <largerFrame>
-                    <x>325</x>
-                    <y>225</y>
-                    <width>400.0</width>
-                    <height>340.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title></title>
-                        <type></type>
-                        <thumbnail></thumbnail>
-                        <url></url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-			
-			<hotspot version="1" uid="7" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>Unakite</title>
-                <text>A semiprecious granite-based stone that occurs in shades of green and pink, Unakite is used to make jewelry and other decorative items.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage></keyImage>
-                <keyImageTitle></keyImageTitle>
-                <bound>
-                    <x>117</x>
-                    <y>265</y>
-                    <width>60</width>
-                    <height>40</height>
-                </bound>
-                <frame>
-                    <x>117</x>
-                    <y>265</y>
-                    <width>60</width>
-                    <height>40</height>
-                </frame>
-                <largerFrame>
-                    <x>325</x>
-                    <y>225</y>
-                    <width>400.0</width>
-                    <height>340.0</height>
-                </largerFrame>
-				
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title></title>
-                        <type></type>
-                        <thumbnail></thumbnail>
-                        <url></url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-        </hotspotsOnBackground>
+       
         
         <hotspotsOnBackground version="1" uid="2">
             <backgroundImage>mineralhotspotimage2.png</backgroundImage>
@@ -4215,6 +3901,321 @@
                     <height>340.0</height>
                 </largerFrame>
                 
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+        </hotspotsOnBackground>
+        
+        <hotspotsOnBackground version="1" uid="20">
+            <backgroundImage>mineralhotspotimage1.png</backgroundImage>
+            <backgroundText>A collection of various gemstones. Touch the glowing spots to learn more.</backgroundText>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
+            <backgroundTrackName>mineralhotspotimage1-music.mp3</backgroundTrackName>
+			<attribution>© Tryfonov - Fotolia.com</attribution>
+            <hotspot version="1" uid="1" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Lazurite</title>
+                <text>Lazurite derives its name from the Persian word, Lazhward, meaning blue. \n\nIt is also known as ultramarine and is a component of Lapis Lazuli, which is a rock made of lazurite, calcite (calcium carbonte) and pyrite (iron sulfide). \n\nIt is formed in metamorphosed limestone.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>87</x>
+                    <y>653</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>87</x>
+                    <y>653</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            
+            <hotspot version="1" uid="2" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Tigers Eye</title>
+                <text>Tiger's eye is a metamorphic rock that is golden or red brown in color. \n\nIt is a type of quartz and exhibits a cat's eye effect because of parallel growth of quartz crystals between limonite. \n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>377</x>
+                    <y>649</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>377</x>
+                    <y>649</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+			
+			<hotspot version="1" uid="3" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Moss agate</title>
+                <text>Moss agate is formed from volcanic rocks. It is a semi-precious gemstone also known as mocha stone. \n\nPrimarily made of silicon dioxide, the green filament patterns resemble moss growing on a stone and hence the name.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>682</x>
+                    <y>648</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>682</x>
+                    <y>648</y>
+                    <width>242.5</width>
+                    <height>127.5</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+			
+			<hotspot version="1" uid="4" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Sodalite</title>
+                <text>A royal blue ornamental gemstone, sodalite, has high sodium content and hence the name. \n\nAlthough similar to lazurite and lapis lazuli, it does not contain pyrite. It is found in plutonic igenous rocks.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>902</x>
+                    <y>646</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>902</x>
+                    <y>646</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+			
+			<hotspot version="1" uid="5" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Aragonite</title>
+                <text>Aragonite is a form of calcium carbonate.\n\nIt is crystalline in nature, but has a different crystal structure compared to calcite.\n\nSince Aragonite is unstable, it converts to calcite over very long periods of time.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>350</x>
+                    <y>464</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>350</x>
+                    <y>464</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+				
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+			
+			<hotspot version="1" uid="6" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Serpentine</title>
+                <text>Serpentine minerals are typically olive green in color and are thus also known as Serpent rock.\n\nThese rocks are made of silicates of magnesium and iron that combine in the presence of water to form rock.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>611</x>
+                    <y>461</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>611</x>
+                    <y>461</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+			
+			<hotspot version="1" uid="7" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Unakite</title>
+                <text>A semiprecious granite-based stone that occurs in shades of green and pink, Unakite is used to make jewelry and other decorative items.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>117</x>
+                    <y>265</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>117</x>
+                    <y>265</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+				
                 <gallery version="1" uid="australia">
                     <item version="1" uid="1">
                         <title></title>
@@ -5035,7 +5036,191 @@
             </item>
         </questions>
         
+                
         <hotspotsOnBackground version="1" uid="1">
+            <backgroundImage>soilhotspotimage2.png</backgroundImage>
+            <backgroundText>Soil is made up of layers parallel to the surface known as horizons.</backgroundText>
+            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
+            <backgroundTrackName>soilhotspotimage2-music.mp3</backgroundTrackName>
+            <attribution>HolgerK</attribution>
+			<hotspot version="1" uid="1" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>Humus</title>
+                <text>The top, organic layer of soil is made up mostly of leaf litter and humus (decomposed organic matter).\n\n It is known as the O layer or the organic horizon.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>612</x>
+                    <y>625</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>612</x>
+                    <y>625</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+            
+            <hotspot version="1" uid="2" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>A Horizon</title>
+                <text>A Horizon is the layer called topsoil. \n\nIt is found below the O horizon and above the E or B horizon.\n\nSeeds germinate and plant roots grow in this dark-colored layer. \n\nIt is made up of humus (decomposed organic matter) mixed with mineral particles.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>825</x>
+                    <y>550</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>825</x>
+                    <y>550</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+			
+			<hotspot version="1" uid="3" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>E Horizon</title>
+                <text>E Horizon derives its name from eluviation or leaching. \n\nThis layer is light in color and is beneath the A Horizon and above the B Horizon. \n\nIt is made up mostly of sand and silt, having lost most of its minerals and clay as water drips through the soil.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>464</x>
+                    <y>376</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>464</x>
+                    <y>376</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+			
+			<hotspot version="1" uid="4" type="largeContent">
+                <!-- popup type="largeContent" -->
+                <title>B Horizon</title>
+                <text>B Horizon is also called the subsoil.\n\nThis layer is beneath the E Horizon and above the C Horizon. \n\nIt contains clay and mineral deposits (iron, aluminum oxides, and calcium carbonate).\n\nIt receives these materials from the layers above it when mineralized water drips from the soil above.\n</text>
+                <fontSize>15.0</fontSize>
+                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
+                <textColor>white</textColor>
+                <alpha></alpha>
+                <flippable>NO</flippable>
+                <keyImage></keyImage>
+                <keyImageTitle></keyImageTitle>
+                <bound>
+                    <x>689</x>
+                    <y>150</y>
+                    <width>60</width>
+                    <height>40</height>
+                </bound>
+                <frame>
+                    <x>689</x>
+                    <y>150</y>
+                    <width>60</width>
+                    <height>40</height>
+                </frame>
+                <largerFrame>
+                    <x>325</x>
+                    <y>225</y>
+                    <width>400.0</width>
+                    <height>340.0</height>
+                </largerFrame>
+                
+                <gallery version="1" uid="australia">
+                    <item version="1" uid="1">
+                        <title></title>
+                        <type></type>
+                        <thumbnail></thumbnail>
+                        <url></url>
+                        <description></description>
+                        <attribution></attribution>
+                        <status>A</status>
+                        <tags>match,gallery</tags>
+                    </item>
+                </gallery>
+            </hotspot>
+        </hotspotsOnBackground>
+        
+        <hotspotsOnBackground version="1" uid="2">
             <backgroundImage>soilhotspotimage1.png</backgroundImage>
             <backgroundText>There are many different types of soils.</backgroundText>
             <textBackgroundImage>text-background-strip.png</textBackgroundImage>
@@ -5305,189 +5490,7 @@
                 </gallery>
             </hotspot>
         </hotspotsOnBackground>
-        
-        <hotspotsOnBackground version="1" uid="2">
-            <backgroundImage>soilhotspotimage2.png</backgroundImage>
-            <backgroundText>Soil is made up of layers parallel to the surface known as horizons.</backgroundText>
-            <textBackgroundImage>text-background-strip.png</textBackgroundImage>
-            <backgroundTrackName>soilhotspotimage2-music.mp3</backgroundTrackName>
-            <attribution>HolgerK</attribution>
-			<hotspot version="1" uid="1" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>Humus</title>
-                <text>The top, organic layer of soil is made up mostly of leaf litter and humus (decomposed organic matter).\n\n It is known as the O layer or the organic horizon.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage></keyImage>
-                <keyImageTitle></keyImageTitle>
-                <bound>
-                    <x>612</x>
-                    <y>625</y>
-                    <width>60</width>
-                    <height>40</height>
-                </bound>
-                <frame>
-                    <x>612</x>
-                    <y>625</y>
-                    <width>60</width>
-                    <height>40</height>
-                </frame>
-                <largerFrame>
-                    <x>325</x>
-                    <y>225</y>
-                    <width>400.0</width>
-                    <height>340.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title></title>
-                        <type></type>
-                        <thumbnail></thumbnail>
-                        <url></url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-            
-            <hotspot version="1" uid="2" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>A Horizon</title>
-                <text>A Horizon is the layer called topsoil. \n\nIt is found below the O horizon and above the E or B horizon.\n\nSeeds germinate and plant roots grow in this dark-colored layer. \n\nIt is made up of humus (decomposed organic matter) mixed with mineral particles.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage></keyImage>
-                <keyImageTitle></keyImageTitle>
-                <bound>
-                    <x>825</x>
-                    <y>550</y>
-                    <width>60</width>
-                    <height>40</height>
-                </bound>
-                <frame>
-                    <x>825</x>
-                    <y>550</y>
-                    <width>60</width>
-                    <height>40</height>
-                </frame>
-                <largerFrame>
-                    <x>325</x>
-                    <y>225</y>
-                    <width>400.0</width>
-                    <height>340.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title></title>
-                        <type></type>
-                        <thumbnail></thumbnail>
-                        <url></url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-			
-			<hotspot version="1" uid="3" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>E Horizon</title>
-                <text>E Horizon derives its name from eluviation or leaching. \n\nThis layer is light in color and is beneath the A Horizon and above the B Horizon. \n\nIt is made up mostly of sand and silt, having lost most of its minerals and clay as water drips through the soil.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage></keyImage>
-                <keyImageTitle></keyImageTitle>
-                <bound>
-                    <x>464</x>
-                    <y>376</y>
-                    <width>60</width>
-                    <height>40</height>
-                </bound>
-                <frame>
-                    <x>464</x>
-                    <y>376</y>
-                    <width>60</width>
-                    <height>40</height>
-                </frame>
-                <largerFrame>
-                    <x>325</x>
-                    <y>225</y>
-                    <width>400.0</width>
-                    <height>340.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title></title>
-                        <type></type>
-                        <thumbnail></thumbnail>
-                        <url></url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-			
-			<hotspot version="1" uid="4" type="largeContent">
-                <!-- popup type="largeContent" -->
-                <title>B Horizon</title>
-                <text>B Horizon is also called the subsoil.\n\nThis layer is beneath the E Horizon and above the C Horizon. \n\nIt contains clay and mineral deposits (iron, aluminum oxides, and calcium carbonate).\n\nIt receives these materials from the layers above it when mineralized water drips from the soil above.\n</text>
-                <fontSize>15.0</fontSize>
-                <backgroundColor>white=0.0, alpha=0.3</backgroundColor>
-                <textColor>white</textColor>
-                <alpha></alpha>
-                <flippable>NO</flippable>
-                <keyImage></keyImage>
-                <keyImageTitle></keyImageTitle>
-                <bound>
-                    <x>689</x>
-                    <y>150</y>
-                    <width>60</width>
-                    <height>40</height>
-                </bound>
-                <frame>
-                    <x>689</x>
-                    <y>150</y>
-                    <width>60</width>
-                    <height>40</height>
-                </frame>
-                <largerFrame>
-                    <x>325</x>
-                    <y>225</y>
-                    <width>400.0</width>
-                    <height>340.0</height>
-                </largerFrame>
-                
-                <gallery version="1" uid="australia">
-                    <item version="1" uid="1">
-                        <title></title>
-                        <type></type>
-                        <thumbnail></thumbnail>
-                        <url></url>
-                        <description></description>
-                        <attribution></attribution>
-                        <status>A</status>
-                        <tags>match,gallery</tags>
-                    </item>
-                </gallery>
-            </hotspot>
-        </hotspotsOnBackground>
+
         
         <hotspotsOnBackground version="1" uid="3">
             <backgroundImage>soilhotspotimage3.png</backgroundImage>
