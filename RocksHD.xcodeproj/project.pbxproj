@@ -4202,7 +4202,7 @@
 					"\"LifeCycle/libs/kazmath/include\"",
 				);
 				INFOPLIST_FILE = LifeCycle/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lxml2",
@@ -4233,7 +4233,7 @@
 					"\"LifeCycle/libs/kazmath/include\"",
 				);
 				INFOPLIST_FILE = LifeCycle/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lxml2",
