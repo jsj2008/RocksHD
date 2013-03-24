@@ -365,6 +365,9 @@
 		04FD5514155713D5003235F6 /* popquiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD5510155713D2003235F6 /* popquiz.png */; };
 		04FD551F155720B5003235F6 /* didyouknow_goright.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD551D155720B3003235F6 /* didyouknow_goright.png */; };
 		04FD5520155720B5003235F6 /* didyouknow_goleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD551E155720B4003235F6 /* didyouknow_goleft.png */; };
+		0A032A4216FEA7A50092A534 /* rocks-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A032A4116FEA7A40092A534 /* rocks-5.jpg */; };
+		0A032A4416FEA9630092A534 /* rocks-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A032A4316FEA9620092A534 /* rocks-15.jpg */; };
+		0A032A4616FEABD20092A534 /* rocks-20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A032A4516FEABD10092A534 /* rocks-20.jpg */; };
 		0A0B6FB516D0951A006F98CD /* Fossils.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A0B6FB116D0951A006F98CD /* Fossils.mp3 */; };
 		0A0B6FB616D0951A006F98CD /* Minerals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A0B6FB216D0951A006F98CD /* Minerals.mp3 */; };
 		0A0B6FB716D0951A006F98CD /* Rocks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A0B6FB316D0951A006F98CD /* Rocks.mp3 */; };
@@ -496,7 +499,6 @@
 		F41499E316F957DC00E03334 /* ecosystem_master.xml in Resources */ = {isa = PBXBuildFile; fileRef = F41499E216F957DC00E03334 /* ecosystem_master.xml */; };
 		F42E927516D0450700E37701 /* quizbackground-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F42E926116D044F700E37701 /* quizbackground-ipad.png */; };
 		F42E929E16D0452D00E37701 /* quizbackground-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F42E928A16D0451D00E37701 /* quizbackground-ipadhd.png */; };
-		F43C120616E3F0C300B036D4 /* rocks-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F43C120516E3F0C300B036D4 /* rocks-5.jpg */; };
 		F4699BAF16D12EDE0064D823 /* text-background-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4699BAE16D12EDE0064D823 /* text-background-ipad.png */; };
 		F4699BB116D12F020064D823 /* text-background-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F4699BB016D12F020064D823 /* text-background-ipadhd.png */; };
 		F4B9B86B16E2C7AD00F98582 /* fossilhotspotimage1-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9B86316E2C7AD00F98582 /* fossilhotspotimage1-ipad.png */; };
@@ -610,21 +612,16 @@
 		F4E6B77116E45AFA00C0077A /* rocks-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046B16D92BF500B1364C /* rocks-8.jpg */; };
 		F4E6B77216E45AFA00C0077A /* rocks-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046C16D92BF500B1364C /* rocks-9.jpg */; };
 		F4E6B77316E45AFA00C0077A /* rocks-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046D16D92BF500B1364C /* rocks-10.jpg */; };
-		F4E6B77416E45AFA00C0077A /* rocks-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046E16D92BF500B1364C /* rocks-11.jpg */; };
-		F4E6B77516E45AFA00C0077A /* rocks-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046F16D92BF500B1364C /* rocks-12.jpg */; };
-		F4E6B77616E45AFA00C0077A /* rocks-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047016D92BF500B1364C /* rocks-13.jpg */; };
-		F4E6B77716E45AFA00C0077A /* rocks-14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047116D92BF500B1364C /* rocks-14.jpg */; };
-		F4E6B77816E45AFA00C0077A /* rocks-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047216D92BF500B1364C /* rocks-15.jpg */; };
-		F4E6B77916E45AFA00C0077A /* rocks-16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047316D92BF500B1364C /* rocks-16.jpg */; };
-		F4E6B77A16E45AFA00C0077A /* rocks-17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047416D92BF500B1364C /* rocks-17.jpg */; };
-		F4E6B77B16E45AFA00C0077A /* rocks-18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047516D92BF500B1364C /* rocks-18.jpg */; };
-		F4E6B77C16E45AFA00C0077A /* rocks-19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047616D92BF500B1364C /* rocks-19.jpg */; };
-		F4E6B77D16E45AFA00C0077A /* rocks-20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047716D92BF500B1364C /* rocks-20.jpg */; };
-		F4E6B77E16E45AFA00C0077A /* rocks-21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047816D92BF500B1364C /* rocks-21.jpg */; };
-		F4E6B77F16E45AFA00C0077A /* rocks-22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047916D92BF500B1364C /* rocks-22.jpg */; };
-		F4E6B78016E45AFA00C0077A /* rocks-23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047A16D92BF500B1364C /* rocks-23.jpg */; };
-		F4E6B78116E45AFA00C0077A /* rocks-24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047B16D92BF500B1364C /* rocks-24.jpg */; };
-		F4E6B78216E45AFA00C0077A /* rocks-25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047C16D92BF500B1364C /* rocks-25.jpg */; };
+		F4E6B77516E45AFA00C0077A /* rocks-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05046F16D92BF500B1364C /* rocks-11.jpg */; };
+		F4E6B77716E45AFA00C0077A /* rocks-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047116D92BF500B1364C /* rocks-12.jpg */; };
+		F4E6B77816E45AFA00C0077A /* rocks-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047216D92BF500B1364C /* rocks-13.jpg */; };
+		F4E6B77916E45AFA00C0077A /* rocks-14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047316D92BF500B1364C /* rocks-14.jpg */; };
+		F4E6B77C16E45AFA00C0077A /* rocks-16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047616D92BF500B1364C /* rocks-16.jpg */; };
+		F4E6B77D16E45AFA00C0077A /* rocks-17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047716D92BF500B1364C /* rocks-17.jpg */; };
+		F4E6B77E16E45AFA00C0077A /* rocks-18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047816D92BF500B1364C /* rocks-18.jpg */; };
+		F4E6B77F16E45AFA00C0077A /* rocks-19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047916D92BF500B1364C /* rocks-19.jpg */; };
+		F4E6B78116E45AFA00C0077A /* rocks-21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047B16D92BF500B1364C /* rocks-21.jpg */; };
+		F4E6B78216E45AFA00C0077A /* rocks-22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05047C16D92BF500B1364C /* rocks-22.jpg */; };
 		F4E6B78316E45B0500C0077A /* minerals-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05049316D92C6000B1364C /* minerals-4.jpg */; };
 		F4E6B78416E45B0500C0077A /* minerals-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05049416D92C6000B1364C /* minerals-5.jpg */; };
 		F4E6B78516E45B0500C0077A /* minerals-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A05049516D92C6000B1364C /* minerals-6.jpg */; };
@@ -674,7 +671,6 @@
 		F4E6B7B116E45B1F00C0077A /* fossils-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0504E916D92CCF00B1364C /* fossils-10.jpg */; };
 		F4E6B7B216E45B1F00C0077A /* fossils-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0504EA16D92CCF00B1364C /* fossils-11.jpg */; };
 		F4E6B7B316E45B1F00C0077A /* fossils-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0504EB16D92CCF00B1364C /* fossils-12.jpg */; };
-		F4E6B7B416E45B1F00C0077A /* fossils-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0504EC16D92CCF00B1364C /* fossils-13.jpg */; };
 		F4E6B7B516E45B1F00C0077A /* fossils-14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0504ED16D92CCF00B1364C /* fossils-14.jpg */; };
 		F4E6B7B616E45B1F00C0077A /* fossils-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0504EE16D92CCF00B1364C /* fossils-15.jpg */; };
 		F4E6B7B716E45B1F00C0077A /* fossils-16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0504EF16D92CCF00B1364C /* fossils-16.jpg */; };
@@ -1281,27 +1277,25 @@
 		04FD5510155713D2003235F6 /* popquiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popquiz.png; sourceTree = "<group>"; };
 		04FD551D155720B3003235F6 /* didyouknow_goright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = didyouknow_goright.png; sourceTree = "<group>"; };
 		04FD551E155720B4003235F6 /* didyouknow_goleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = didyouknow_goleft.png; sourceTree = "<group>"; };
+		0A032A4116FEA7A40092A534 /* rocks-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-5.jpg"; sourceTree = "<group>"; };
+		0A032A4316FEA9620092A534 /* rocks-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-15.jpg"; sourceTree = "<group>"; };
+		0A032A4516FEABD10092A534 /* rocks-20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-20.jpg"; sourceTree = "<group>"; };
 		0A05046716D92BF500B1364C /* rocks-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-4.jpg"; sourceTree = "<group>"; };
 		0A05046916D92BF500B1364C /* rocks-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-6.jpg"; sourceTree = "<group>"; };
 		0A05046A16D92BF500B1364C /* rocks-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-7.jpg"; sourceTree = "<group>"; };
 		0A05046B16D92BF500B1364C /* rocks-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-8.jpg"; sourceTree = "<group>"; };
 		0A05046C16D92BF500B1364C /* rocks-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-9.jpg"; sourceTree = "<group>"; };
 		0A05046D16D92BF500B1364C /* rocks-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-10.jpg"; sourceTree = "<group>"; };
-		0A05046E16D92BF500B1364C /* rocks-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-11.jpg"; sourceTree = "<group>"; };
-		0A05046F16D92BF500B1364C /* rocks-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-12.jpg"; sourceTree = "<group>"; };
-		0A05047016D92BF500B1364C /* rocks-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-13.jpg"; sourceTree = "<group>"; };
-		0A05047116D92BF500B1364C /* rocks-14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-14.jpg"; sourceTree = "<group>"; };
-		0A05047216D92BF500B1364C /* rocks-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-15.jpg"; sourceTree = "<group>"; };
-		0A05047316D92BF500B1364C /* rocks-16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-16.jpg"; sourceTree = "<group>"; };
-		0A05047416D92BF500B1364C /* rocks-17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-17.jpg"; sourceTree = "<group>"; };
-		0A05047516D92BF500B1364C /* rocks-18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-18.jpg"; sourceTree = "<group>"; };
-		0A05047616D92BF500B1364C /* rocks-19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-19.jpg"; sourceTree = "<group>"; };
-		0A05047716D92BF500B1364C /* rocks-20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-20.jpg"; sourceTree = "<group>"; };
-		0A05047816D92BF500B1364C /* rocks-21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-21.jpg"; sourceTree = "<group>"; };
-		0A05047916D92BF500B1364C /* rocks-22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-22.jpg"; sourceTree = "<group>"; };
-		0A05047A16D92BF500B1364C /* rocks-23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-23.jpg"; sourceTree = "<group>"; };
-		0A05047B16D92BF500B1364C /* rocks-24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-24.jpg"; sourceTree = "<group>"; };
-		0A05047C16D92BF500B1364C /* rocks-25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-25.jpg"; sourceTree = "<group>"; };
+		0A05046F16D92BF500B1364C /* rocks-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-11.jpg"; sourceTree = "<group>"; };
+		0A05047116D92BF500B1364C /* rocks-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-12.jpg"; sourceTree = "<group>"; };
+		0A05047216D92BF500B1364C /* rocks-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-13.jpg"; sourceTree = "<group>"; };
+		0A05047316D92BF500B1364C /* rocks-14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-14.jpg"; sourceTree = "<group>"; };
+		0A05047616D92BF500B1364C /* rocks-16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-16.jpg"; sourceTree = "<group>"; };
+		0A05047716D92BF500B1364C /* rocks-17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-17.jpg"; sourceTree = "<group>"; };
+		0A05047816D92BF500B1364C /* rocks-18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-18.jpg"; sourceTree = "<group>"; };
+		0A05047916D92BF500B1364C /* rocks-19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-19.jpg"; sourceTree = "<group>"; };
+		0A05047B16D92BF500B1364C /* rocks-21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-21.jpg"; sourceTree = "<group>"; };
+		0A05047C16D92BF500B1364C /* rocks-22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-22.jpg"; sourceTree = "<group>"; };
 		0A05049316D92C6000B1364C /* minerals-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "minerals-4.jpg"; sourceTree = "<group>"; };
 		0A05049416D92C6000B1364C /* minerals-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "minerals-5.jpg"; sourceTree = "<group>"; };
 		0A05049516D92C6000B1364C /* minerals-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "minerals-6.jpg"; sourceTree = "<group>"; };
@@ -1351,7 +1345,6 @@
 		0A0504E916D92CCF00B1364C /* fossils-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fossils-10.jpg"; sourceTree = "<group>"; };
 		0A0504EA16D92CCF00B1364C /* fossils-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fossils-11.jpg"; sourceTree = "<group>"; };
 		0A0504EB16D92CCF00B1364C /* fossils-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fossils-12.jpg"; sourceTree = "<group>"; };
-		0A0504EC16D92CCF00B1364C /* fossils-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fossils-13.jpg"; sourceTree = "<group>"; };
 		0A0504ED16D92CCF00B1364C /* fossils-14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fossils-14.jpg"; sourceTree = "<group>"; };
 		0A0504EE16D92CCF00B1364C /* fossils-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fossils-15.jpg"; sourceTree = "<group>"; };
 		0A0504EF16D92CCF00B1364C /* fossils-16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fossils-16.jpg"; sourceTree = "<group>"; };
@@ -1573,7 +1566,6 @@
 		F41499E216F957DC00E03334 /* ecosystem_master.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ecosystem_master.xml; sourceTree = "<group>"; };
 		F42E926116D044F700E37701 /* quizbackground-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quizbackground-ipad.png"; sourceTree = "<group>"; };
 		F42E928A16D0451D00E37701 /* quizbackground-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quizbackground-ipadhd.png"; sourceTree = "<group>"; };
-		F43C120516E3F0C300B036D4 /* rocks-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocks-5.jpg"; sourceTree = "<group>"; };
 		F4699BAE16D12EDE0064D823 /* text-background-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-background-ipad.png"; sourceTree = "<group>"; };
 		F4699BB016D12F020064D823 /* text-background-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-background-ipadhd.png"; sourceTree = "<group>"; };
 		F4B9B86316E2C7AD00F98582 /* fossilhotspotimage1-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fossilhotspotimage1-ipad.png"; sourceTree = "<group>"; };
@@ -1751,28 +1743,25 @@
 		041CD4DD157188890066D93D /* starter */ = {
 			isa = PBXGroup;
 			children = (
+				0A032A4516FEABD10092A534 /* rocks-20.jpg */,
+				0A032A4316FEA9620092A534 /* rocks-15.jpg */,
+				0A032A4116FEA7A40092A534 /* rocks-5.jpg */,
 				0A05046716D92BF500B1364C /* rocks-4.jpg */,
 				0A05046916D92BF500B1364C /* rocks-6.jpg */,
-				F43C120516E3F0C300B036D4 /* rocks-5.jpg */,
 				0A05046A16D92BF500B1364C /* rocks-7.jpg */,
 				0A05046B16D92BF500B1364C /* rocks-8.jpg */,
 				0A05046C16D92BF500B1364C /* rocks-9.jpg */,
 				0A05046D16D92BF500B1364C /* rocks-10.jpg */,
-				0A05046E16D92BF500B1364C /* rocks-11.jpg */,
-				0A05046F16D92BF500B1364C /* rocks-12.jpg */,
-				0A05047016D92BF500B1364C /* rocks-13.jpg */,
-				0A05047116D92BF500B1364C /* rocks-14.jpg */,
-				0A05047216D92BF500B1364C /* rocks-15.jpg */,
-				0A05047316D92BF500B1364C /* rocks-16.jpg */,
-				0A05047416D92BF500B1364C /* rocks-17.jpg */,
-				0A05047516D92BF500B1364C /* rocks-18.jpg */,
-				0A05047616D92BF500B1364C /* rocks-19.jpg */,
-				0A05047716D92BF500B1364C /* rocks-20.jpg */,
-				0A05047816D92BF500B1364C /* rocks-21.jpg */,
-				0A05047916D92BF500B1364C /* rocks-22.jpg */,
-				0A05047A16D92BF500B1364C /* rocks-23.jpg */,
-				0A05047B16D92BF500B1364C /* rocks-24.jpg */,
-				0A05047C16D92BF500B1364C /* rocks-25.jpg */,
+				0A05046F16D92BF500B1364C /* rocks-11.jpg */,
+				0A05047116D92BF500B1364C /* rocks-12.jpg */,
+				0A05047216D92BF500B1364C /* rocks-13.jpg */,
+				0A05047316D92BF500B1364C /* rocks-14.jpg */,
+				0A05047616D92BF500B1364C /* rocks-16.jpg */,
+				0A05047716D92BF500B1364C /* rocks-17.jpg */,
+				0A05047816D92BF500B1364C /* rocks-18.jpg */,
+				0A05047916D92BF500B1364C /* rocks-19.jpg */,
+				0A05047B16D92BF500B1364C /* rocks-21.jpg */,
+				0A05047C16D92BF500B1364C /* rocks-22.jpg */,
 			);
 			name = starter;
 			sourceTree = "<group>";
@@ -2438,7 +2427,6 @@
 				0A0504E916D92CCF00B1364C /* fossils-10.jpg */,
 				0A0504EA16D92CCF00B1364C /* fossils-11.jpg */,
 				0A0504EB16D92CCF00B1364C /* fossils-12.jpg */,
-				0A0504EC16D92CCF00B1364C /* fossils-13.jpg */,
 				0A0504ED16D92CCF00B1364C /* fossils-14.jpg */,
 				0A0504EE16D92CCF00B1364C /* fossils-15.jpg */,
 				0A0504EF16D92CCF00B1364C /* fossils-16.jpg */,
@@ -3697,28 +3685,22 @@
 				F4B9B8DB16E2C87400F98582 /* soilhotspotimage5-ipadhd.png in Resources */,
 				F4B9B8DC16E2C87400F98582 /* soilhotspotimage6-ipadhd.png in Resources */,
 				F4B9B8DD16E2C87400F98582 /* soilhotspotimage7-ipadhd.png in Resources */,
-				F43C120616E3F0C300B036D4 /* rocks-5.jpg in Resources */,
 				F4E6B76E16E45A8D00C0077A /* rocks-4.jpg in Resources */,
 				F4E6B76F16E45AFA00C0077A /* rocks-6.jpg in Resources */,
 				F4E6B77016E45AFA00C0077A /* rocks-7.jpg in Resources */,
 				F4E6B77116E45AFA00C0077A /* rocks-8.jpg in Resources */,
 				F4E6B77216E45AFA00C0077A /* rocks-9.jpg in Resources */,
 				F4E6B77316E45AFA00C0077A /* rocks-10.jpg in Resources */,
-				F4E6B77416E45AFA00C0077A /* rocks-11.jpg in Resources */,
-				F4E6B77516E45AFA00C0077A /* rocks-12.jpg in Resources */,
-				F4E6B77616E45AFA00C0077A /* rocks-13.jpg in Resources */,
-				F4E6B77716E45AFA00C0077A /* rocks-14.jpg in Resources */,
-				F4E6B77816E45AFA00C0077A /* rocks-15.jpg in Resources */,
-				F4E6B77916E45AFA00C0077A /* rocks-16.jpg in Resources */,
-				F4E6B77A16E45AFA00C0077A /* rocks-17.jpg in Resources */,
-				F4E6B77B16E45AFA00C0077A /* rocks-18.jpg in Resources */,
-				F4E6B77C16E45AFA00C0077A /* rocks-19.jpg in Resources */,
-				F4E6B77D16E45AFA00C0077A /* rocks-20.jpg in Resources */,
-				F4E6B77E16E45AFA00C0077A /* rocks-21.jpg in Resources */,
-				F4E6B77F16E45AFA00C0077A /* rocks-22.jpg in Resources */,
-				F4E6B78016E45AFA00C0077A /* rocks-23.jpg in Resources */,
-				F4E6B78116E45AFA00C0077A /* rocks-24.jpg in Resources */,
-				F4E6B78216E45AFA00C0077A /* rocks-25.jpg in Resources */,
+				F4E6B77516E45AFA00C0077A /* rocks-11.jpg in Resources */,
+				F4E6B77716E45AFA00C0077A /* rocks-12.jpg in Resources */,
+				F4E6B77816E45AFA00C0077A /* rocks-13.jpg in Resources */,
+				F4E6B77916E45AFA00C0077A /* rocks-14.jpg in Resources */,
+				F4E6B77C16E45AFA00C0077A /* rocks-16.jpg in Resources */,
+				F4E6B77D16E45AFA00C0077A /* rocks-17.jpg in Resources */,
+				F4E6B77E16E45AFA00C0077A /* rocks-18.jpg in Resources */,
+				F4E6B77F16E45AFA00C0077A /* rocks-19.jpg in Resources */,
+				F4E6B78116E45AFA00C0077A /* rocks-21.jpg in Resources */,
+				F4E6B78216E45AFA00C0077A /* rocks-22.jpg in Resources */,
 				F4E6B78316E45B0500C0077A /* minerals-4.jpg in Resources */,
 				F4E6B78416E45B0500C0077A /* minerals-5.jpg in Resources */,
 				F4E6B78516E45B0500C0077A /* minerals-6.jpg in Resources */,
@@ -3768,7 +3750,6 @@
 				F4E6B7B116E45B1F00C0077A /* fossils-10.jpg in Resources */,
 				F4E6B7B216E45B1F00C0077A /* fossils-11.jpg in Resources */,
 				F4E6B7B316E45B1F00C0077A /* fossils-12.jpg in Resources */,
-				F4E6B7B416E45B1F00C0077A /* fossils-13.jpg in Resources */,
 				F4E6B7B516E45B1F00C0077A /* fossils-14.jpg in Resources */,
 				F4E6B7B616E45B1F00C0077A /* fossils-15.jpg in Resources */,
 				F4E6B7B716E45B1F00C0077A /* fossils-16.jpg in Resources */,
@@ -3845,6 +3826,9 @@
 				F4DA297716FE1B6600285879 /* Music - Menu page.mp3 in Resources */,
 				F4DA297A16FE2D1D00285879 /* soilhotspotimage4-ipad.png in Resources */,
 				F4DA297B16FE2D1D00285879 /* soilhotspotimage4-ipadhd.png in Resources */,
+				0A032A4216FEA7A50092A534 /* rocks-5.jpg in Resources */,
+				0A032A4416FEA9630092A534 /* rocks-15.jpg in Resources */,
+				0A032A4616FEABD20092A534 /* rocks-20.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
