@@ -57,8 +57,8 @@
         CCLOG(@"Correct!");
         
         if (!self.audioItemImage.isSelected) {
-            // PLAYSOUNDEFFECT(GREAT_JOB);
-            [(TextAndQuizScene*)self.parent play_great_job];
+           PLAYSOUNDEFFECTNEW(GREAT_JOB);
+            // [(TextAndQuizScene*)self.parent play_great_job];
         }
         
         CCSprite *s = (CCSprite*) [self getChildByTag:kQuizCorrectTag];
@@ -96,10 +96,10 @@
                           [CCEaseElasticOut actionWithAction:
                            [CCMoveTo actionWithDuration:1.5 position:ccp(3.0*coin.boundingBox.size.width/2.0 + currentCorrectCount*20, screenSize.height-coin.boundingBox.size.height/2.0)]
                           ],
-                          [CCCallBlock actionWithBlock:^{ if (!self.audioItemImage.isSelected) [(TextAndQuizScene*)self.parent play_kaching]; }],
+                          [CCCallBlock actionWithBlock:^{ if (!self.audioItemImage.isSelected)            PLAYSOUNDEFFECTNEW(KA_CHING); }],
                           nil],
                          nil];
-            
+                
             [coin runAction:action];
             [self addChild:coin z:0 tag:kQuizCoinTag];
         }
@@ -109,8 +109,8 @@
         CCLOG(@"Wrong!");
         
         if (!self.audioItemImage.isSelected) {
-            // PLAYSOUNDEFFECT(OOPS);
-            [(TextAndQuizScene*)self.parent play_oops];
+             PLAYSOUNDEFFECTNEW(OOPS);
+            //[(TextAndQuizScene*)self.parent play_oops];
         }
         
         CCSprite *s = (CCSprite*) [self getChildByTag:kQuizCorrectTag];

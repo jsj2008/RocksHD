@@ -55,5 +55,5 @@
 -(void)stopBackgroundTrack;
 -(void)muteBackgroundTrack;
 -(void)unMuteBackgroundTrack;
-
+-(void) playSoundEffectNew:(NSString*) sound;
 @end

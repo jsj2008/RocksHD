@@ -101,6 +101,9 @@ typedef enum {
 [[FlowAndStateManager sharedFlowAndStateManager] playSoundEffect:@#__VA_ARGS__ gain:0.3f] 
 #define STOPSOUNDEFFECT(...) \
 [[FlowAndStateManager sharedFlowAndStateManager] stopSoundEffect:__VA_ARGS__]
+#define PLAYSOUNDEFFECTNEW(...) \
+[[FlowAndStateManager sharedFlowAndStateManager] playSoundEffect:@#__VA_ARGS__]
+
 
 // Network related notification
 

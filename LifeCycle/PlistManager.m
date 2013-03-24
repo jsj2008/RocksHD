@@ -170,6 +170,8 @@ static PlistManager* _sharedPlistManager = nil;
 }
 
 -(NSDictionary*)loadSoundEffects {
+    
+    debugLog(@"Load sound effects");
     NSString *fullFileName = @"SoundEffects.plist";
     NSString *plistPath;
     
@@ -185,10 +187,11 @@ static PlistManager* _sharedPlistManager = nil;
     
     // 3: If the plistDictionary was null, the file was not found.
     if (plistDictionary == nil) {
-//        CCLOG(@"Error reading SoundEffects.plist");
+       debugLog(@"Error reading SoundEffects.plist, not found check");
         return nil;                         // No Plist Dictionary or file found
     }
 
+       debugLog(@"sound effects loaded successfully");    
     return plistDictionary;
 }
 

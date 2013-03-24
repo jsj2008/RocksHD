@@ -444,6 +444,31 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
     }
 }
 
+-(void) playSoundEffectNew:(NSString*) sound
+{
+    debugLog(@"preload and play");
+    [soundEngine preloadEffect:sound];
+    [soundEngine playEffect:sound];
+    /*
+    NSString *s = [sound stringByReplacingOccurrencesOfString:@".mp3" withString:@""];
+    
+    NSString *soundFilePath =
+    [[NSBundle mainBundle] pathForResource: s
+                                    ofType: @"mp3"];
+    
+    NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: soundFilePath];
+    
+    AVAudioPlayer *newPlayer =
+    [[AVAudioPlayer alloc] initWithContentsOfURL: fileURL
+                                           error: nil];
+    [fileURL release];
+    
+    [newPlayer play];
+    
+    [newPlayer release];
+*/
+    
+}
 -(ALuint)playSoundEffect:(NSString*)soundEffectKey {
     ALuint soundID = 0;
     if (managerSoundState == kAudioManagerReady) {
@@ -613,7 +638,7 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
     
     NSDictionary *plistDictionary = [[PlistManager sharedPlistManager] soundEffectsDictionary];
     if (plistDictionary == nil) {
-        CCLOG(@"Error reading SoundEffects.plist");
+        CCLOG(@"Error reading SoundEffects.plist z");
         return nil;
     }
     
@@ -626,6 +651,7 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
         CCLOG(@"after");
         for (NSString *sceneSoundDictionary in plistDictionary) {
             [listOfSoundEffectFiles addEntriesFromDictionary:[plistDictionary objectForKey:sceneSoundDictionary]];
+            debugLog(@"sound %@",sceneSoundDictionary);
         }
         CCLOG(@"Number of SFX filenames:%d", 
               [listOfSoundEffectFiles count]);
@@ -671,7 +697,7 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
     NSDictionary *soundEffectsToLoad = 
     [self getSoundEffectsListForSceneWithID:sceneID];
     if (soundEffectsToLoad == nil) { // 2
-        CCLOG(@"Error reading SoundEffects.plist");
+        CCLOG(@"Error reading SoundEffects.plist x");
         return;
     }
     // Get all of the entries and PreLoad // 3
@@ -700,7 +726,7 @@ static FlowAndStateManager* _sharedFlowAndStateManager = nil;
     NSDictionary *soundEffectsToUnload = 
     [self getSoundEffectsListForSceneWithID:sceneID];
     if (soundEffectsToUnload == nil) {
-        CCLOG(@"Error reading SoundEffects.plist");
+        CCLOG(@"Error reading SoundEffects.plist y");
         [pool release];
         return;
     }
