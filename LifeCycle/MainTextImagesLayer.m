@@ -418,9 +418,11 @@
 
 -(void)addTitle:(SceneTypes)sceneType {
 
-    NSString *imageName = topicInfo.topicImageName;
+//    NSString *imageName = topicInfo.topicImageName;
+  //  NSString *biggerImageName  = topicInfo.topicBiggerImageName;
+       NSString *imageName = @"back.png";
+     NSString *biggerImageName  = @"back_bigger.png";
     
-    NSString *biggerImageName  = topicInfo.topicBiggerImageName;
     
     debugLog(@"Adding title %@ %@",imageName,biggerImageName);
     
