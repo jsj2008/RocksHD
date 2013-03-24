@@ -115,7 +115,7 @@ typedef enum TopicInteractiveBackgroundLayerTags : NSInteger {
     
     // add attribution
 
-    NSString *attribution = [NSString stringWithFormat:@"Photo By %@",bgInfo.attribution];
+    NSString *attribution = [NSString stringWithFormat:@"Credit: %@",bgInfo.attribution];
     CCLabelTTF *textAttributionLabel = (CCLabelTTF *)[self getChildByTag:kBackgroundTextTag + 100];
     if (textAttributionLabel == nil) {
         textAttributionLabel = [CCLabelTTF labelWithString:attribution fontName:@"Arial" fontSize:13.0];

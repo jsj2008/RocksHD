@@ -740,7 +740,7 @@
     
     
     CCLabelTTF *attribution = (CCLabelTTF*)[self getChildByTag:kPhotoAttributionTag];
-    attribution.string = [NSString stringWithFormat:@"Photo by %@", username];
+    attribution.string = [NSString stringWithFormat:@"Credit: %@", username];
     attribution.scale = 0.0;
     [attribution runAction:[CCScaleTo actionWithDuration:0.4 scale:1.0]];
     
@@ -1076,7 +1076,7 @@
             CCLOG(@"username = %@", username);
             
             CCLabelTTF *attribution = (CCLabelTTF*)[self getChildByTag:kPhotoAttributionTag];
-            attribution.string = [NSString stringWithFormat:@"Photo by %@", username];
+            attribution.string = [NSString stringWithFormat:@"Credit: %@", username];
             attribution.scale = 0.0;
             [attribution runAction:[CCScaleTo actionWithDuration:0.4 scale:1.0]];
             

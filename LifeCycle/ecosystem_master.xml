@@ -6421,7 +6421,7 @@
                         <truth>Y</truth>
                     </choice>
                     <choice uid="2">
-                        <answer>Lagerstätten</answer>
+                        <answer>Lagerstatten</answer>
                         <truth>N</truth>
                     </choice>
                     <choice uid="3">
